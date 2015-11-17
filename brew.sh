@@ -27,6 +27,7 @@ brew install gnu-sed --with-default-names
 # Note: don’t forget to add `/usr/local/bin/zsh` to `/etc/shells` before
 # running `chsh`.
 brew install zsh
+brew install zsh-syntax-highlighting
 brew tap homebrew/versions
 
 # Install `wget` with IRI support.

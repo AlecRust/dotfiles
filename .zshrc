@@ -80,6 +80,9 @@ eval "$(rbenv init -)"
 # Make Atom the default editor
 export EDITOR='atom';
 
+# zsh-syntax-highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # TODO: Possibly unnecessary
 
 # Add `~/bin` to the `$PATH`
