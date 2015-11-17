@@ -39,7 +39,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(git z brew meteor)
+plugins=(git z meteor)
 
 # User configuration
 export PATH="/Users/alec/.nvm/versions/node/v5.0.0/bin:/Users/alec/.rbenv/shims:/usr/local/sbin:/Users/alec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
