@@ -18,8 +18,8 @@ alias j="jobs"
 # Go to dotfiles and open in Atom, SourceTree
 alias edit-dotfiles="cd ~/projects/personal/dotfiles; atom .; stree"
 
-# Go to .termocil and open in Atom
-alias edit-itermocil="cd ~/Google\ Drive/Apps/iTerm/.termocil; atom ."
+# Go to .teamocil and open in Atom
+alias edit-itermocil="cd ~/Google\ Drive/Apps/iTerm/.teamocil; atom ."
 
 # Open iOS Simulator
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"
