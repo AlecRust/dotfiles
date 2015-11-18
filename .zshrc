@@ -25,7 +25,7 @@ ZSH_THEME="cobalt2"
 # ENABLE_CORRECTION="true"
 
 # Display red dots whilst waiting for completion
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Disable marking untracked files under VCS as dirty.
 # This makes repository status check for large repositories much, much faster.
