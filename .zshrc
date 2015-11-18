@@ -83,6 +83,9 @@ export EDITOR='atom';
 # zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Powerline
+. /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
+
 # TODO: Possibly unnecessary
 
 # Add `~/bin` to the `$PATH`
