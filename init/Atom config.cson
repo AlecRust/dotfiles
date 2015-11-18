@@ -44,7 +44,8 @@
     analytics: false
   "circle-ci":
     apiToken: "101cb306703d9746fd87e90bfa83563e4e56ca03"
-  linter: {}
+  linter:
+    showErrorPanel: false
   "linter-jshint":
     executablePath: "/Users/alec/.nvm/versions/node/v5.0.0/bin/jshint"
     lintInlineJavaScript: true
