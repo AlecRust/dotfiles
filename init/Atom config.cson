@@ -71,3 +71,5 @@
     confirmCompletion: "enter"
   "fuzzy-finder":
     useAlternateScoring: true
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
