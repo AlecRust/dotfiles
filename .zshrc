@@ -3,7 +3,7 @@ export ZSH=/Users/alec/.oh-my-zsh
 
 # Theme to load - https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # Optionally set this to "random"
-ZSH_THEME="cobalt2"
+ZSH_THEME="robbyrussell"
 
 # Use case-sensitive completion
 # CASE_SENSITIVE="true"
