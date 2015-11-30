@@ -2,6 +2,7 @@
 export ZSH=/Users/alec/.oh-my-zsh
 
 # Theme to load - https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+# iTerm colour profile to load is "Dracula" from http://iterm2colorschemes.com/
 # Optionally set this to "random"
 ZSH_THEME="robbyrussell"
 
