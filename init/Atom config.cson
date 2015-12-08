@@ -24,6 +24,10 @@
       "link"
       "language-toml"
     ]
+    themes: [
+      "one-dark-ui"
+      "slime"
+    ]
   editor:
     invisibles:
       eol: " "
