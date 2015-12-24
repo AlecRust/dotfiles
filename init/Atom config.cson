@@ -51,18 +51,18 @@
   linter:
     showErrorPanel: false
   "linter-jshint":
-    executablePath: "/Users/alec/.nvm/versions/node/v5.0.0/bin/jshint"
+    executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/jshint"
     lintInlineJavaScript: true
   "linter-eslint":
-    globalNodePath: "/Users/alec/.nvm/versions/node/v5.0.0"
+    globalNodePath: "/Users/alec/.nvm/versions/node/v5.3.0"
     useGlobalEslint: true
     disableWhenNoEslintrcFileInPath: true
   "linter-scss-lint":
     executablePath: "/Users/alec/.rbenv/shims/scss-lint"
   "linter-stylint":
-    executablePath: "/Users/alec/.nvm/versions/node/v5.0.0/bin/stylint"
+    executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/stylint"
   "linter-htmlhint":
-    executablePath: "/Users/alec/.nvm/versions/node/v5.0.0/bin/htmlhint"
+    executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/htmlhint"
   "linter-php":
     executablePath: "/usr/bin/php"
   "open-recent":
