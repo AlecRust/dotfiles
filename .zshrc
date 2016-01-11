@@ -68,9 +68,6 @@ export LANG=en_GB.UTF-8
 source $HOME/.aliases
 source $HOME/.extra
 
-# iTermocil autocompletion
-compctl -g '~/.teamocil/*(:t:r)' itermocil
-
 # Source NVM upon login - https://github.com/creationix/nvm#manual-install
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm

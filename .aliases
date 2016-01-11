@@ -21,9 +21,6 @@ alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
 # Open dotfiles in Atom, SourceTree
 alias edit-dotfiles="cd ~/projects/personal/dotfiles; atom .; stree"
 
-# Open ~/.teamocil in Atom
-alias edit-itermocil="cd ~/Google\ Drive/Apps/iTerm/.teamocil; atom ."
-
 # Open ~/.tmuxinator in Atom
 alias edit-tmuxinator="cd ~/Google\ Drive/Apps/iTerm/.tmuxinator; atom ."
 
