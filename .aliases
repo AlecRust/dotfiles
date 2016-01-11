@@ -15,6 +15,9 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 
+# Temporary hack to access SourceTree's command line tool
+alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
+
 # Open dotfiles in Atom, SourceTree
 alias edit-dotfiles="cd ~/projects/personal/dotfiles; atom .; stree"
 
