@@ -1,10 +1,12 @@
 "*":
-  "exception-reporting":
-    userId: "31b38f6f-095e-e1da-aa3f-9f34cf2ec590"
-  welcome:
-    showOnStartup: false
+  "atom-beautify":
+    analytics: false
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+    useAlternateScoring: true
+  "circle-ci":
+    apiToken: "101cb306703d9746fd87e90bfa83563e4e56ca03"
   core:
-    projectHome: "/Users/alec/projects"
     disabledPackages: [
       "metrics"
       "language-c"
@@ -24,56 +26,54 @@
       "link"
       "language-toml"
     ]
+    projectHome: "/Users/alec/projects"
     themes: [
       "one-dark-ui"
       "slime"
     ]
   editor:
-    invisibles:
-      eol: " "
     fontFamily: "Hack"
     fontSize: 16
+    invisibles:
+      eol: " "
+    lineHeight: 1.6
+    preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
-    lineHeight: 1.6
-    preferredLineLength: 120
-  pigments: {}
-  minimap: {}
-  react:
-    enabledForAllJavascriptFiles: true
-  "markdown-preview":
-    useGitHubStyle: true
-  "atom-beautify":
-    analytics: false
-  "circle-ci":
-    apiToken: "101cb306703d9746fd87e90bfa83563e4e56ca03"
+  "exception-reporting":
+    userId: "31b38f6f-095e-e1da-aa3f-9f34cf2ec590"
+  "fuzzy-finder":
+    useAlternateScoring: true
+  "git-diff":
+    showIconsInEditorGutter: true
   linter:
     showErrorPanel: false
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+    globalNodePath: "/Users/alec/.nvm/versions/node/v5.3.0"
+    useGlobalEslint: true
+  "linter-htmlhint":
+    executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/htmlhint"
   "linter-jshint":
     executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/jshint"
     lintInlineJavaScript: true
-  "linter-eslint":
-    globalNodePath: "/Users/alec/.nvm/versions/node/v5.3.0"
-    useGlobalEslint: true
-    disableWhenNoEslintrcFileInPath: true
+  "linter-php":
+    executablePath: "/usr/bin/php"
   "linter-scss-lint":
     executablePath: "/Users/alec/.rbenv/shims/scss-lint"
   "linter-stylint":
     executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/stylint"
-  "linter-htmlhint":
-    executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/htmlhint"
-  "linter-php":
-    executablePath: "/usr/bin/php"
+  "markdown-preview":
+    useGitHubStyle: true
+  minimap: {}
   "open-recent":
     maxRecentDirectories: 16
     maxRecentFiles: 4
-  "git-diff":
-    showIconsInEditorGutter: true
-  "autocomplete-plus":
-    useAlternateScoring: true
-    confirmCompletion: "enter"
-  "fuzzy-finder":
-    useAlternateScoring: true
+  pigments: {}
+  react:
+    enabledForAllJavascriptFiles: true
+  welcome:
+    showOnStartup: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
