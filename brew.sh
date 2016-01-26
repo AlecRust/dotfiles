@@ -75,6 +75,7 @@ brew install phantomjs
 brew install rbenv ruby-build
 brew install heroku-toolbelt
 brew install hub
+brew install direnv
 
 # Remove outdated versions from the cellar.
 brew cleanup

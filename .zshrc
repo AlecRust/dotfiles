@@ -84,6 +84,9 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Powerline
 . /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
+# direnv
+eval "$(direnv hook zsh)"
+
 # TODO: Possibly unnecessary
 
 # Add `~/bin` to the `$PATH`
