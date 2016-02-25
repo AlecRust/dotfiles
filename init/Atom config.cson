@@ -27,13 +27,9 @@
       "language-toml"
     ]
     projectHome: "/Users/alec/projects"
-    themes: [
-      "one-dark-ui"
-      "slime"
-    ]
   editor:
-    fontFamily: "Hack"
-    fontSize: 15
+    fontFamily: "Fira Code"
+    fontSize: 16
     invisibles:
       eol: " "
     lineHeight: 1.6
