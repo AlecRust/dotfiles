@@ -44,7 +44,7 @@
   "git-diff":
     showIconsInEditorGutter: true
   linter:
-    showErrorPanel: false
+    errorPanelHeight: 284
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
     globalNodePath: "/Users/alec/.nvm/versions/node/v5.3.0"
@@ -58,8 +58,11 @@
     executablePath: "/usr/bin/php"
   "linter-scss-lint":
     executablePath: "/Users/alec/.rbenv/shims/scss-lint"
+  "linter-stylelint":
+    disableWhenNoConfig: true
   "linter-stylint":
     executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/stylint"
+    onlyRunWhenConfig: true
   "markdown-preview":
     useGitHubStyle: true
   minimap: {}
