@@ -43,9 +43,12 @@
   "git-diff":
     showIconsInEditorGutter: true
   linter:
-    errorPanelHeight: 284
+    errorPanelHeight: 66
+    showErrorPanel: false
   "linter-eslint":
+    disableWhenNoEslintConfig: false
     disableWhenNoEslintrcFileInPath: true
+    eslintrcPath: "/Users/alec/.eslintrc"
     globalNodePath: "/Users/alec/.nvm/versions/node/v5.3.0"
     useGlobalEslint: true
   "linter-htmlhint":
@@ -76,3 +79,9 @@
     showOnStartup: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
+".coffee.jsx.source":
+  editor:
+    preferredLineLength: 120
+".js.jsx.source":
+  editor:
+    preferredLineLength: 120
