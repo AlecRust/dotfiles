@@ -23,7 +23,6 @@
       "language-mustache"
       "language-property-list"
       "package-generator"
-      "link"
       "language-toml"
     ]
     projectHome: "/Users/alec/projects"
@@ -52,6 +51,7 @@
   "linter-htmlhint":
     executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/htmlhint"
   "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
     executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/jshint"
     lintInlineJavaScript: true
   "linter-php":
