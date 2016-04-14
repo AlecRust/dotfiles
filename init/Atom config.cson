@@ -1,6 +1,12 @@
 "*":
   "atom-beautify":
-    analytics: false
+    general:
+      analytics: false
+    json:
+      brace_style: "none"
+      end_with_newline: true
+      jslint_happy: true
+      keep_array_indentation: true
   "autocomplete-plus":
     confirmCompletion: "enter"
     useAlternateScoring: true
@@ -28,7 +34,7 @@
     projectHome: "/Users/alec/projects"
   editor:
     fontFamily: "Fira Code"
-    fontSize: 16
+    fontSize: 15
     invisibles:
       eol: " "
     lineHeight: 1.6
@@ -38,6 +44,8 @@
     showInvisibles: true
   "exception-reporting":
     userId: "31b38f6f-095e-e1da-aa3f-9f34cf2ec590"
+  "find-and-replace":
+    openProjectFindResultsInRightPane: true
   "fuzzy-finder":
     useAlternateScoring: true
   "git-diff":
@@ -75,6 +83,9 @@
   pigments: {}
   react:
     enabledForAllJavascriptFiles: true
+  tabs:
+    alwaysShowTabBar: false
+    enableVcsColoring: true
   welcome:
     showOnStartup: false
   whitespace:
@@ -82,6 +93,18 @@
 ".coffee.jsx.source":
   editor:
     preferredLineLength: 120
+".css.source":
+  editor:
+    preferredLineLength: 120
 ".js.jsx.source":
+  editor:
+    preferredLineLength: 120
+".js.regexp.replacement.source":
+  editor:
+    preferredLineLength: 120
+".js.regexp.source":
+  editor:
+    preferredLineLength: 120
+".js.source":
   editor:
     preferredLineLength: 120
