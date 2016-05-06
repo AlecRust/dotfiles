@@ -5,6 +5,7 @@
     json:
       brace_style: "none"
       end_with_newline: true
+      indent_size: 2
       jslint_happy: true
       keep_array_indentation: true
   "autocomplete-plus":
@@ -44,8 +45,6 @@
     showInvisibles: true
   "exception-reporting":
     userId: "31b38f6f-095e-e1da-aa3f-9f34cf2ec590"
-  "find-and-replace":
-    openProjectFindResultsInRightPane: true
   "fuzzy-finder":
     useAlternateScoring: true
   "git-diff":
@@ -84,7 +83,6 @@
   react:
     enabledForAllJavascriptFiles: true
   tabs:
-    alwaysShowTabBar: false
     enableVcsColoring: true
   welcome:
     showOnStartup: false
