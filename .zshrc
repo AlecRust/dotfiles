@@ -91,3 +91,6 @@ eval "$(direnv hook zsh)"
 
 # Add `~/bin` to the `$PATH`
 # export PATH="$HOME/bin:$PATH";
+
+# Source fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
