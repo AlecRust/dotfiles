@@ -51,6 +51,7 @@ brew install dark-mode
 #brew install exiv2
 brew install git
 brew install git-lfs
+brew install mercurial
 brew install imagemagick --with-webp
 brew install lua
 brew install lynx
@@ -66,7 +67,7 @@ brew install webkit2png
 brew install zopfli
 
 # Personal brews
-#brew install go
+brew install go
 #brew install postgresql
 #brew install hg
 #brew install redis

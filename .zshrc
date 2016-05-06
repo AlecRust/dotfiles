@@ -87,6 +87,12 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # direnv
 eval "$(direnv hook zsh)"
 
+# go
+export GOPATH=$HOME/golang
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+
 # TODO: Possibly unnecessary
 
 # Add `~/bin` to the `$PATH`
