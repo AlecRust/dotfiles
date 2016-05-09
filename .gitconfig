@@ -197,6 +197,14 @@
 [commit]
 	gpgsign = true
 
+[credential]
+	helper = osxkeychain
+
+[user]
+	name = Alec Rust
+	email = me@alecrust.com
+	signingKey = BD449581
+
 # SourceTree specific
 
 [difftool "sourcetree"]
