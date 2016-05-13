@@ -51,6 +51,7 @@ brew install dark-mode
 #brew install exiv2
 brew install git
 brew install git-lfs
+brew install diff-so-fancy
 brew install mercurial
 brew install imagemagick --with-webp
 brew install lua
