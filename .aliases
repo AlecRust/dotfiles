@@ -19,9 +19,6 @@ alias e="exit"
 # Temporary hack to access SourceTree's command line tool
 alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
 
-# Open dotfiles in Atom, SourceTree
-alias edit-dotfiles="cd ~/projects/personal/dotfiles; atom .; stree"
-
 # Open ~/.tmuxinator in Atom
 alias edit-tmuxinator="cd ~/Google\ Drive/Apps/iTerm/.tmuxinator; atom ."
 
