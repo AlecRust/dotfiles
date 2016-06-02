@@ -53,7 +53,6 @@
     errorPanelHeight: 66
     showErrorPanel: false
   "linter-eslint":
-    disableWhenNoEslintConfig: false
     disableWhenNoEslintrcFileInPath: true
     eslintrcPath: "/Users/alec/.eslintrc"
     globalNodePath: "/Users/alec/.nvm/versions/node/v5.3.0"
