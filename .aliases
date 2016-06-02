@@ -15,12 +15,13 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 alias e="exit"
+alias mux="itermocil"
 
 # Temporary hack to access SourceTree's command line tool
 alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
 
-# Open ~/.tmuxinator in Atom
-alias edit-tmuxinator="cd ~/Google\ Drive/Apps/iTerm/.tmuxinator; atom ."
+# Open ~/.itermocil in Atom
+alias edit-itermocil="cd ~/Google\ Drive/Apps/iTerm/.itermocil; atom ."
 
 # Open iOS Simulator
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"
