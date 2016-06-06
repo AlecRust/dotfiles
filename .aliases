@@ -15,13 +15,16 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 alias e="exit"
-alias mux="itermocil"
+
+# Map `itermocil` to something a little quicker
+alias cil="itermocil"
+
+# Simplify the command for opening a new Chrome tabs
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 
 # Temporary hack to access SourceTree's command line tool
+# https://jira.atlassian.com/browse/SRCTREE-3172
 alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
-
-# Open ~/.itermocil in Atom
-alias edit-itermocil="cd ~/Google\ Drive/Apps/iTerm/.itermocil; atom ."
 
 # Open iOS Simulator
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"

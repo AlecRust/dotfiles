@@ -78,7 +78,6 @@ brew install rbenv ruby-build
 brew install heroku-toolbelt
 brew install hub
 brew install direnv
-brew install chrome-cli
 brew install reattach-to-user-namespace
 
 # Remove outdated versions from the cellar.

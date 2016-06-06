@@ -14,8 +14,7 @@ brew cask install evernote 2> /dev/null
 brew cask install firefox 2> /dev/null
 brew cask install flux 2> /dev/null
 brew cask install google-drive 2> /dev/null
-brew cask install google-chrome 2> /dev/null
-brew cask install google-chrome-canary 2> /dev/null
+brew cask install google-chrome-beta 2> /dev/null
 brew cask install google-hangouts 2> /dev/null
 brew cask install imageoptim 2> /dev/null
 brew cask install istat-menus 2> /dev/null
