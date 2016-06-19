@@ -80,6 +80,7 @@ brew install hub
 brew install direnv
 brew install httpie
 brew install keybase
+brew install scmpuff
 brew install reattach-to-user-namespace
 
 # Remove outdated versions from the cellar.

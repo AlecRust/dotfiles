@@ -104,5 +104,9 @@ HOMEBREW_NO_ANALYTICS=1
 # Add `~/bin` to the `$PATH`
 # export PATH="$HOME/bin:$PATH";
 
+# Source scmpuff
+# https://github.com/mroth/scmpuff
+eval "$(scmpuff init -s)"
+
 # Source fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
