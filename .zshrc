@@ -1,10 +1,9 @@
 # Path to oh-my-zsh installation
 export ZSH=/Users/alec/.oh-my-zsh
 
-# Theme to load - https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# iTerm colour profile to load is "Dracula" from http://iterm2colorschemes.com/
-# Optionally set this to "random"
-ZSH_THEME="robbyrussell"
+# Use Honukai zsh and iTerm2 theme
+# https://github.com/oskarkrawczyk/honukai-iterm-zsh
+ZSH_THEME="honukai"
 
 # Use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -80,9 +79,6 @@ export EDITOR='atom';
 
 # zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# Powerline
-. /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
 # direnv
 eval "$(direnv hook zsh)"
