@@ -96,6 +96,9 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 
+# Disable Homebrew analytics
+HOMEBREW_NO_ANALYTICS=1
+
 # TODO: Possibly unnecessary
 
 # Add `~/bin` to the `$PATH`
