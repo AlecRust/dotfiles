@@ -42,7 +42,7 @@ HIST_STAMPS="dd.mm.yyyy"
 plugins=(git z meteor)
 
 # User configuration
-export PATH="/Users/alec/.nvm/versions/node/v5.3.0/bin:/Users/alec/.rbenv/shims:/usr/local/sbin:/Users/alec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+export PATH="/Users/alec/.nvm/versions/node/v6.2.2/bin:/Users/alec/.rbenv/shims:/usr/local/sbin:/Users/alec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh

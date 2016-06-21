@@ -55,13 +55,13 @@
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
     eslintrcPath: "/Users/alec/.eslintrc"
-    globalNodePath: "/Users/alec/.nvm/versions/node/v5.3.0"
+    globalNodePath: "/Users/alec/.nvm/versions/node/v6.2.2"
     useGlobalEslint: true
   "linter-htmlhint":
-    executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/htmlhint"
+    executablePath: "/Users/alec/.nvm/versions/node/v6.2.2/bin/htmlhint"
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
-    executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/jshint"
+    executablePath: "/Users/alec/.nvm/versions/node/v6.2.2/bin/jshint"
     lintInlineJavaScript: true
   "linter-php":
     executablePath: "/usr/bin/php"
@@ -70,7 +70,7 @@
   "linter-stylelint":
     disableWhenNoConfig: true
   "linter-stylint":
-    executablePath: "/Users/alec/.nvm/versions/node/v5.3.0/bin/stylint"
+    executablePath: "/Users/alec/.nvm/versions/node/v6.2.2/bin/stylint"
     onlyRunWhenConfig: true
   "markdown-preview":
     useGitHubStyle: true
