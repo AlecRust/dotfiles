@@ -81,6 +81,7 @@ brew install direnv
 brew install httpie
 brew install keybase
 brew install scmpuff
+brew install thefuck
 brew install reattach-to-user-namespace
 
 # Remove outdated versions from the cellar.
