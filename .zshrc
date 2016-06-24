@@ -104,5 +104,9 @@ HOMEBREW_NO_ANALYTICS=1
 # https://github.com/mroth/scmpuff
 eval "$(scmpuff init -s)"
 
+# Source thefuck
+# https://github.com/nvbn/thefuck
+eval "$(thefuck --alias)"
+
 # Source fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
