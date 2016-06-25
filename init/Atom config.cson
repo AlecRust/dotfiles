@@ -34,11 +34,11 @@
     ]
     projectHome: "/Users/alec/projects"
   editor:
-    fontFamily: "Fira Code"
+    fontFamily: "Source Code Pro"
     fontSize: 15
     invisibles:
       eol: " "
-    lineHeight: 1.6
+    lineHeight: 1.7
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true

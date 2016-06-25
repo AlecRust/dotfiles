@@ -84,5 +84,9 @@ brew install scmpuff
 brew install thefuck
 brew install reattach-to-user-namespace
 
+# Fonts
+brew tap caskroom/fonts
+brew cask install font-source-code-pro
+
 # Remove outdated versions from the cellar.
 brew cleanup
