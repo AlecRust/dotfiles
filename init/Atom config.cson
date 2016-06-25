@@ -50,13 +50,12 @@
   "git-diff":
     showIconsInEditorGutter: true
   linter:
-    errorPanelHeight: 66
-    showErrorPanel: false
+    errorPanelHeight: 50
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
     eslintrcPath: "/Users/alec/.eslintrc"
+    fixOnSave: true
     globalNodePath: "/Users/alec/.nvm/versions/node/v6.2.2"
-    useGlobalEslint: true
   "linter-htmlhint":
     executablePath: "/Users/alec/.nvm/versions/node/v6.2.2/bin/htmlhint"
   "linter-jshint":
