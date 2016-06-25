@@ -45,3 +45,9 @@ You could also install native apps with [`brew cask`](https://github.com/phinze/
 ```sh
 ./cask.sh
 ```
+
+### Install global npm packages
+
+```sh
+./node.sh
+```
