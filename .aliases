@@ -16,6 +16,11 @@ alias h="history"
 alias j="jobs"
 alias e="exit"
 
+# Use normal Atom CLI commands with Atom Beta
+# https://github.com/atom/atom/issues/9361
+alias atom="atom-beta"
+alias apm="apm-beta"
+
 # Map `itermocil` to something a little quicker
 alias cil="itermocil"
 

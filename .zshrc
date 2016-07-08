@@ -75,7 +75,7 @@ export NVM_DIR="$HOME/.nvm"
 eval "$(rbenv init -)"
 
 # Make Atom the default editor
-export EDITOR='atom';
+export EDITOR='atom-beta';
 
 # zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
