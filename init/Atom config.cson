@@ -35,7 +35,6 @@
     projectHome: "/Users/alec/projects"
   editor:
     fontFamily: "Source Code Pro"
-    fontSize: 15
     invisibles:
       eol: " "
     lineHeight: 1.7
