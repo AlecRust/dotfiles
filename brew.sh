@@ -82,6 +82,7 @@ brew install httpie
 brew install keybase
 brew install scmpuff
 brew install thefuck
+brew install trash
 brew install reattach-to-user-namespace
 
 # Fonts
