@@ -68,6 +68,7 @@ brew install diff-so-fancy
 brew install scmpuff
 brew install thefuck
 brew install trash
+brew install wifi-password
 
 # Fonts
 brew tap caskroom/fonts
