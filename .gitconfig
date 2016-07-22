@@ -197,7 +197,7 @@
 	insteadOf = "gist:"
 
 [gpg]
-	program = gpg2
+	program = /Applications/SourceTree.app/Contents/Resources/bin/stgpg.sh
 
 [filter "lfs"]
 	clean = git-lfs clean %f
