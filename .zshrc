@@ -41,8 +41,41 @@ HIST_STAMPS="dd.mm.yyyy"
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 plugins=(git z meteor)
 
-# User configuration
-export PATH="/Users/alec/.nvm/versions/node/v6.2.2/bin:/Users/alec/.rbenv/shims:/usr/local/sbin:/Users/alec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/MacGPG2/bin"
+# Build up $PATH from scratch
+# ---------------------------
+
+# Set default path
+# Start with the original path (see /etc/paths)
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+# Add `~/bin` to beginning
+export PATH="$HOME/bin:$PATH"
+
+# Add `/usr/local/sbin` to beginning, to make
+# scripts that require root priviledges available
+export PATH="/usr/local/sbin:$PATH"
+
+# Add rbenv to beginning
+export PATH="$HOME/.rbenv/shims:$PATH"
+
+# Add NVM Node to beginning
+export PATH="$HOME/.nvm/versions/node/v6.2.2/bin:$PATH"
+
+# Add GNU core utilities to beginning
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+
+# Add X11 (XQuartz) to end
+export PATH="$PATH:/opt/X11/bin"
+
+# Add MacGPG2 to end
+export PATH="$PATH:/usr/local/MacGPG2/bin"
+
+# Set Go path vars and add them to end
+export GOPATH="$HOME/golang"
+export GOROOT="/usr/local/opt/go/libexec"
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -79,19 +112,8 @@ eval "$(direnv hook zsh)"
 # itermocil autocompletion
 compctl -g '~/.itermocil/*(:t:r)' itermocil
 
-# go
-export GOPATH=$HOME/golang
-export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
-
 # Disable Homebrew analytics
 HOMEBREW_NO_ANALYTICS=1
-
-# TODO: Possibly unnecessary
-
-# Add `~/bin` to the `$PATH`
-# export PATH="$HOME/bin:$PATH";
 
 # Source scmpuff
 # https://github.com/mroth/scmpuff
