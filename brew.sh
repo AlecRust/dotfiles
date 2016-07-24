@@ -58,6 +58,7 @@ brew install redis
 brew install Caskroom/cask/xquartz # For fontcustom
 brew install phantomjs
 brew install rbenv ruby-build
+brew install pyenv
 brew install heroku-toolbelt
 brew install hub
 brew install direnv

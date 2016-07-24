@@ -100,6 +100,10 @@ export NVM_DIR="$HOME/.nvm"
 # rbenv - https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x
 eval "$(rbenv init -)"
 
+# pyenv
+# https://github.com/yyuu/pyenv
+eval "$(pyenv init -)"
+
 # Make Atom the default editor
 export EDITOR='atom-beta';
 
