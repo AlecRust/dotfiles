@@ -129,3 +129,7 @@ eval "$(thefuck --alias)"
 
 # Source fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Source iTerm2 Shell Integration
+# https://iterm2.com/documentation-shell-integration.html
+source $HOME/.iterm2_shell_integration.zsh
