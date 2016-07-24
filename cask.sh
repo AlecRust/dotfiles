@@ -36,7 +36,6 @@ brew cask install sourcetree 2> /dev/null
 brew cask install spectacle 2> /dev/null
 brew cask install spotify-notifications 2> /dev/null
 brew cask install spotify 2> /dev/null
-brew cask install sublime-text3 2> /dev/null
 brew cask install the-unarchiver 2> /dev/null
 brew cask install tmate 2> /dev/null
 brew cask install torbrowser 2> /dev/null
