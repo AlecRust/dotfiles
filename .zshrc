@@ -39,7 +39,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(git z meteor)
+plugins=(git z meteor alias-tips)
 
 # Build up $PATH from scratch
 # ---------------------------
