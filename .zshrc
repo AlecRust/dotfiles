@@ -59,7 +59,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.rbenv/shims:$PATH"
 
 # Add NVM Node to beginning
-export PATH="$HOME/.nvm/versions/node/v6.2.2/bin:$PATH"
+export PATH="$HOME/.nvm/versions/node/v6.3.2/bin:$PATH"
 
 # Add GNU core utilities to beginning
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
