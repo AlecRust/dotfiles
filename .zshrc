@@ -105,7 +105,7 @@ eval "$(rbenv init -)"
 eval "$(pyenv init -)"
 
 # Make Atom the default editor
-export EDITOR='atom-beta';
+export EDITOR='atom';
 
 # zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
