@@ -37,6 +37,10 @@ alias mamp-stop="(cd /Applications/MAMP/bin && ./stop.sh)"
 alias redis-start="(redis-server &)"
 alias redis-stop="(redis-cli shutdown)"
 
+# Karma runner
+alias ks="karma start"
+alias kss="karma start --single-run"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
