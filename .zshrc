@@ -1,9 +1,9 @@
 # Path to oh-my-zsh installation
 export ZSH=/Users/alec/.oh-my-zsh
 
-# Use Honukai zsh and iTerm2 theme
-# https://github.com/oskarkrawczyk/honukai-iterm-zsh
-ZSH_THEME="honukai"
+# Oh My Zsh theme. Load iTerm2 themes from:
+# http://iterm2colorschemes.com/
+ZSH_THEME="gallois"
 
 # Use case-sensitive completion
 # CASE_SENSITIVE="true"
