@@ -78,6 +78,10 @@ export PATH=$PATH:$GOROOT/bin
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
+# Disable Oh My Zsh update prompt
+DISABLE_AUTO_UPDATE="true"
+
+# Load Oh My Zsh
 source $ZSH/oh-my-zsh.sh
 
 # Set language environment
