@@ -39,7 +39,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(git z meteor alias-tips)
+plugins=(zsh-nvm git z meteor alias-tips)
 
 # Build up $PATH from scratch
 # ---------------------------
@@ -57,9 +57,6 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Add rbenv to beginning
 export PATH="$HOME/.rbenv/shims:$PATH"
-
-# Add NVM Node to beginning
-export PATH="$HOME/.nvm/versions/node/v7.0.0/bin:$PATH"
 
 # Add GNU core utilities to beginning
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
@@ -96,10 +93,6 @@ export LANG=en_GB.UTF-8
 # Source .aliases and .extra
 source $HOME/.aliases
 source $HOME/.extra
-
-# Source NVM upon login - https://github.com/creationix/nvm#manual-install
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
 # rbenv - https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x
 eval "$(rbenv init -)"
