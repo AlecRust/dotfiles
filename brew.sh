@@ -4,11 +4,10 @@
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade
 
-# Install and symlink GNU core utilities (those that come with macOS are outdated).
+# Install GNU core utilities (those that come with macOS are outdated).
 brew install coreutils
-ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
 # Install some other useful utilities like `sponge`.
 brew install moreutils
@@ -33,42 +32,25 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 # Install other useful binaries.
-brew install ack
-brew install dark-mode
-#brew install exiv2
-brew install git
-brew install git-lfs
-brew install imagemagick --with-webp
-brew install lua
-brew install lynx
-brew install p7zip
-brew install pigz
-brew install pv
-brew install rename
-brew install rhino
 brew install speedtest_cli
-brew install ssh-copy-id
-brew install tree
-brew install webkit2png
-brew install zopfli
-
-# Personal brews
-brew install go
 brew install redis
-brew install Caskroom/cask/xquartz # For fontcustom
-brew install phantomjs
-brew install rbenv ruby-build
-brew install pyenv
-brew install heroku-toolbelt
+brew install heroku
 brew install hub
 brew install direnv
 brew install httpie
 brew install keybase
-brew install diff-so-fancy
-brew install scmpuff
 brew install thefuck
 brew install trash
-brew install wifi-password
+
+# Version managers
+# Install NVM as Oh My Zsh plugin: https://github.com/lukechilds/zsh-nvm
+brew install rbenv ruby-build
+brew install pyenv
+
+# Git
+brew install git
+brew install cdiff
+brew install scmpuff
 
 # Fonts
 brew tap caskroom/fonts
