@@ -51,12 +51,12 @@
     disableWhenNoEslintrcFileInPath: true
     eslintrcPath: "/Users/alec/.eslintrc"
     fixOnSave: true
-    globalNodePath: "/Users/alec/.nvm/versions/node/v7.0.0"
+    globalNodePath: "/Users/alec/.nvm/versions/node/v7.2.0"
   "linter-htmlhint":
-    executablePath: "/Users/alec/.nvm/versions/node/v7.0.0/bin/htmlhint"
+    executablePath: "/Users/alec/.nvm/versions/node/v7.2.0/bin/htmlhint"
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
-    executablePath: "/Users/alec/.nvm/versions/node/v7.0.0/bin/jshint"
+    executablePath: "/Users/alec/.nvm/versions/node/v7.2.0/bin/jshint"
     lintInlineJavaScript: true
   "linter-php":
     executablePath: "/usr/bin/php"
@@ -65,7 +65,7 @@
   "linter-stylelint":
     disableWhenNoConfig: true
   "linter-stylint":
-    executablePath: "/Users/alec/.nvm/versions/node/v7.0.0/bin/stylint"
+    executablePath: "/Users/alec/.nvm/versions/node/v7.2.0/bin/stylint"
     onlyRunWhenConfig: true
   "markdown-preview":
     useGitHubStyle: true
