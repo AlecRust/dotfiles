@@ -12,3 +12,4 @@ npm i -g stylelint
 npm i -g karma-cli
 npm i -g browserify
 npm i -g yo
+npm i -g qo
