@@ -10,6 +10,7 @@ npm i -g resume-cli
 npm i -g stylint
 npm i -g stylelint
 npm i -g karma-cli
+npm i -g retry-cli
 npm i -g browserify
 npm i -g yo
 npm i -g qo
