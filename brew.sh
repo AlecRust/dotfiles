@@ -42,6 +42,7 @@ brew install httpie
 brew install keybase
 brew install thefuck
 brew install trash
+brew cask install ngrok
 
 # Version managers
 # Install NVM as Oh My Zsh plugin: https://github.com/lukechilds/zsh-nvm
