@@ -5,6 +5,7 @@ npm i -g gulp
 npm i -g eslint
 npm i -g jshint
 npm i -g npm-check-updates
+npm i -g npm-check
 npm i -g nodemon
 npm i -g resume-cli
 npm i -g stylint
