@@ -39,7 +39,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(zsh-nvm git z meteor alias-tips)
+plugins=(zsh-nvm git z meteor alias-tips autoenv)
 
 # Build up $PATH from scratch
 # ---------------------------
@@ -106,9 +106,6 @@ export EDITOR='atom';
 
 # zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# direnv
-eval "$(direnv hook zsh)"
 
 # itermocil autocompletion
 compctl -g '~/.itermocil/*(:t:r)' itermocil

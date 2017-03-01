@@ -37,7 +37,7 @@ brew install speedtest_cli
 brew install redis
 brew install heroku
 brew install hub
-brew install direnv
+brew install autoenv
 brew install httpie
 brew install keybase
 brew install thefuck
