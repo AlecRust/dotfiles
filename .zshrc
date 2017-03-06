@@ -39,7 +39,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(zsh-nvm git z meteor alias-tips autoenv)
+plugins=(zsh-nvm git z meteor alias-tips autoenv thefuck)
 
 # Build up $PATH from scratch
 # ---------------------------
@@ -116,10 +116,6 @@ HOMEBREW_NO_ANALYTICS=1
 # Source scmpuff
 # https://github.com/mroth/scmpuff
 eval "$(scmpuff init -s)"
-
-# Source thefuck
-# https://github.com/nvbn/thefuck
-eval "$(thefuck --alias)"
 
 # Source fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
