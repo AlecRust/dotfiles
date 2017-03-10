@@ -39,7 +39,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(zsh-nvm git z meteor alias-tips autoenv thefuck)
+plugins=(zsh-nvm git z meteor alias-tips autoenv thefuck rbenv)
 
 # Build up $PATH from scratch
 # ---------------------------
@@ -54,9 +54,6 @@ export PATH="$HOME/bin:$PATH"
 # Add `/usr/local/sbin` to beginning, to make
 # scripts that require root priviledges available
 export PATH="/usr/local/sbin:$PATH"
-
-# Add rbenv to beginning
-export PATH="$HOME/.rbenv/shims:$PATH"
 
 # Add GNU core utilities to beginning
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
@@ -93,9 +90,6 @@ export LANG=en_GB.UTF-8
 # Source .aliases and .extra
 source $HOME/.aliases
 source $HOME/.extra
-
-# rbenv - https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x
-eval "$(rbenv init -)"
 
 # pyenv
 # https://github.com/yyuu/pyenv
