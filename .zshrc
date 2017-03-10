@@ -3,7 +3,7 @@ export ZSH=/Users/alec/.oh-my-zsh
 
 # Oh My Zsh theme. Load iTerm2 themes from:
 # http://iterm2colorschemes.com/
-ZSH_THEME="gallois"
+ZSH_THEME="af-magic"
 
 # Use case-sensitive completion
 # CASE_SENSITIVE="true"
