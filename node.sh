@@ -16,3 +16,4 @@ npm i -g browserify
 npm i -g serve
 npm i -g yo
 npm i -g qo
+npm i -g changelog
