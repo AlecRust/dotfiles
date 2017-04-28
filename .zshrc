@@ -39,7 +39,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(osx zsh-nvm git z meteor alias-tips autoenv thefuck rbenv yarn pyenv)
+plugins=(osx zsh-nvm zsh-iterm-touchbar git z meteor alias-tips autoenv thefuck rbenv yarn pyenv)
 
 # Build up $PATH from scratch
 # ---------------------------

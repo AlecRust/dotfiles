@@ -18,7 +18,7 @@ brew cask install google-chrome-beta 2> /dev/null
 brew cask install google-hangouts 2> /dev/null
 brew cask install imageoptim 2> /dev/null
 brew cask install istat-menus 2> /dev/null
-brew cask install iterm2 2> /dev/null
+brew cask install iterm2-beta 2> /dev/null
 brew cask install kaleidoscope 2> /dev/null
 brew cask install keepingyouawake 2> /dev/null
 brew cask install mac2imgur 2> /dev/null
