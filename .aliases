@@ -15,8 +15,9 @@ alias h="history"
 alias j="jobs"
 alias e="exit"
 
-# Map `itermocil` to something a little quicker
+# Shorten commonly typed
 alias cil="itermocil"
+alias s="spotify"
 
 # Simplify the command for opening a new Chrome tabs
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
