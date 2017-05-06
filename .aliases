@@ -18,6 +18,7 @@ alias e="exit"
 # Shorten commonly typed
 alias cil="itermocil"
 alias s="spotify"
+alias y="yarn"
 
 # Temporary hack to access SourceTree's command line tool
 # https://jira.atlassian.com/browse/SRCTREE-3172
