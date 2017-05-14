@@ -99,6 +99,7 @@
 	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
 	precomposeunicode = false
 	editor = subl -w
+	pager = diff-so-fancy | less --tabs=4 -RFX
 
 [color]
 
@@ -220,9 +221,7 @@
 [mergetool "sourcetree"]
 	cmd = /usr/local/bin/ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true
-[pager]
-	diff = diff-so-fancy | less --tabs=4 -RFX
-	show = diff-so-fancy | less --tabs=4 -RFX
+
 [color "diff-highlight"]
 	oldNormal = red bold
 	oldHighlight = red bold 52
