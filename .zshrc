@@ -39,7 +39,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(osx zsh-nvm zsh-iterm-touchbar git z meteor alias-tips autoenv thefuck rbenv yarn pyenv)
+plugins=(osx zsh-nvm zsh-iterm-touchbar git z alias-tips autoenv thefuck rbenv yarn pyenv)
 
 # Build up $PATH from scratch
 # ---------------------------
@@ -69,6 +69,9 @@ export GOPATH="$HOME/golang"
 export GOROOT="/usr/local/opt/go/libexec"
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
+
+# Add motivate to end
+export PATH=$PATH:$HOME/.motivate
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
