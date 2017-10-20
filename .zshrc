@@ -70,9 +70,6 @@ export GOROOT="/usr/local/opt/go/libexec"
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 
-# Add motivate to end
-export PATH=$PATH:$HOME/.motivate
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # Disable Oh My Zsh update prompt
