@@ -6,9 +6,24 @@ export ZSH=/Users/alec/.oh-my-zsh
 ZSH_THEME="spaceship"
 
 # Spaceship ZSH
-SPACESHIP_PHP_SHOW=false
+SPACESHIP_PROMPT_ORDER=(
+  user          # Username section
+  dir           # Current directory section
+  host          # Hostname section
+  git           # Git section (git_branch + git_status)
+  node          # Node.js section
+  docker        # Docker section
+  pyenv         # Pyenv section
+  exec_time     # Execution time
+  line_sep      # Line break
+  battery       # Battery level and status
+  vi_mode       # Vi-mode indicator
+  jobs          # Background jobs indicator
+  exit_code     # Exit code section
+  char          # Prompt character
+)
+
 SPACESHIP_GIT_STATUS_STASHED=
-SPACESHIP_PACKAGE_SHOW=false
 SPACESHIP_NODE_DEFAULT_VERSION=v9.4.0
 
 # Use case-sensitive completion
