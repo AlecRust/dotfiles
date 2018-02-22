@@ -3,7 +3,13 @@ export ZSH=/Users/alec/.oh-my-zsh
 
 # Oh My Zsh theme. Load iTerm2 themes from:
 # http://iterm2colorschemes.com/
-ZSH_THEME="af-magic"
+ZSH_THEME="spaceship"
+
+# Spaceship ZSH
+SPACESHIP_PHP_SHOW=false
+SPACESHIP_GIT_STATUS_STASHED=
+SPACESHIP_PACKAGE_SHOW=false
+SPACESHIP_NODE_DEFAULT_VERSION=v9.4.0
 
 # Use case-sensitive completion
 # CASE_SENSITIVE="true"
