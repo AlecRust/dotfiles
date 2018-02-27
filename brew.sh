@@ -53,7 +53,6 @@ brew install pyenv
 # Git
 brew install git
 brew install diff-so-fancy
-brew install scmpuff
 
 # Fonts
 brew tap caskroom/fonts
