@@ -27,10 +27,6 @@ alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
 # Open iOS Simulator
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"
 
-# Start/stop MAMP
-alias mamp-start="(cd /Applications/MAMP/bin && ./start.sh </dev/null &>/dev/null &)"
-alias mamp-stop="(cd /Applications/MAMP/bin && ./stop.sh)"
-
 # Start/stop Redis
 alias redis-start="(redis-server &)"
 alias redis-stop="(redis-cli shutdown)"

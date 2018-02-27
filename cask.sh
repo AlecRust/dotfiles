@@ -23,7 +23,6 @@ brew cask install kaleidoscope 2> /dev/null
 brew cask install keepingyouawake 2> /dev/null
 brew cask install mac2imgur 2> /dev/null
 brew cask install macdrops 2> /dev/null
-brew cask install mamp 2> /dev/null
 brew cask install opera 2> /dev/null
 brew cask install picasa 2> /dev/null
 brew cask install rescuetime 2> /dev/null
