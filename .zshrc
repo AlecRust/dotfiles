@@ -87,10 +87,10 @@ export PATH="$PATH:/opt/X11/bin"
 export PATH="$PATH:/usr/local/MacGPG2/bin"
 
 # Set Go path vars and add them to end
-export GOPATH="$HOME/golang"
-export GOROOT="/usr/local/opt/go/libexec"
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
+# export GOPATH="$HOME/golang"
+# export GOROOT="/usr/local/opt/go/libexec"
+# export PATH=$PATH:$GOPATH/bin
+# export PATH=$PATH:$GOROOT/bin
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
