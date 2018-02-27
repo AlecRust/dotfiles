@@ -61,7 +61,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(npm osx zsh-nvm zsh-iterm-touchbar git z alias-tips autoenv thefuck rbenv yarn pyenv)
+plugins=(npm osx zsh-nvm zsh-iterm-touchbar zsh-syntax-highlighting git z alias-tips autoenv thefuck rbenv yarn pyenv)
 
 # Build up $PATH from scratch
 # ---------------------------
@@ -118,9 +118,6 @@ source $ZSH/oh-my-zsh.sh
 # Source .aliases and .extra
 source $HOME/.aliases
 source $HOME/.extra
-
-# zsh-syntax-highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # itermocil autocompletion
 compctl -g '~/.itermocil/*(:t:r)' itermocil
