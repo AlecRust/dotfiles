@@ -65,7 +65,7 @@ HIST_STAMPS="dd.mm.yyyy"
 export NVM_LAZY_LOAD=true
 
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(npm osx zsh-nvm zsh-iterm-touchbar git z alias-tips autoenv thefuck rbenv yarn pyenv zsh-syntax-highlighting)
+plugins=(zsh-nvm autoenv git npm yarn osx z alias-tips thefuck rbenv pyenv zsh-iterm-touchbar zsh-syntax-highlighting)
 
 # Build up $PATH from scratch
 # ---------------------------
