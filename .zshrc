@@ -129,9 +129,6 @@ HOMEBREW_NO_ANALYTICS=1
 # https://github.com/mroth/scmpuff
 eval "$(scmpuff init -s)"
 
-# Source fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 # Source iTerm2 Shell Integration
 # https://iterm2.com/documentation-shell-integration.html
 source $HOME/.iterm2_shell_integration.zsh
