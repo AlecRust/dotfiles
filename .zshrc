@@ -97,11 +97,14 @@ export PATH="$PATH:/usr/local/MacGPG2/bin"
 # Disable Oh My Zsh update prompt
 DISABLE_AUTO_UPDATE="true"
 
-# Load Oh My Zsh
-source $ZSH/oh-my-zsh.sh
+# Disable Homebrew analytics
+HOMEBREW_NO_ANALYTICS=1
 
 # Set language environment
 export LANG=en_GB.UTF-8
+
+# Make Atom the default editor
+export EDITOR="atom"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -109,21 +112,18 @@ export LANG=en_GB.UTF-8
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+# Load Oh My Zsh
+source $ZSH/oh-my-zsh.sh
+
 # Source .aliases and .extra
 source $HOME/.aliases
 source $HOME/.extra
-
-# Make Atom the default editor
-export EDITOR='atom';
 
 # zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # itermocil autocompletion
 compctl -g '~/.itermocil/*(:t:r)' itermocil
-
-# Disable Homebrew analytics
-HOMEBREW_NO_ANALYTICS=1
 
 # Source iTerm2 Shell Integration
 # https://iterm2.com/documentation-shell-integration.html
