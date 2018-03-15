@@ -60,10 +60,6 @@ HIST_STAMPS="dd.mm.yyyy"
 # Use another custom folder than $ZSH/custom
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Lazy-load nvm
-# https://github.com/lukechilds/zsh-nvm
-export NVM_LAZY_LOAD=true
-
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 plugins=(zsh-nvm zsh-autosuggestions autoenv git npm yarn osx z alias-tips thefuck rbenv pyenv zsh-iterm-touchbar zsh-syntax-highlighting)
 
