@@ -100,8 +100,8 @@ HOMEBREW_NO_ANALYTICS=1
 # Set language environment
 export LANG=en_GB.UTF-8
 
-# Make Atom the default editor
-export EDITOR="atom"
+# Make VSCode the default editor
+export EDITOR="code"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
