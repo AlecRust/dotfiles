@@ -37,7 +37,6 @@ brew cask install spotify-notifications 2> /dev/null
 brew cask install spotify 2> /dev/null
 brew cask install the-unarchiver 2> /dev/null
 brew cask install tmate 2> /dev/null
-brew cask install torbrowser 2> /dev/null
 brew cask install transmission 2> /dev/null
 brew cask install transmit 2> /dev/null
 brew cask install viscosity 2> /dev/null
