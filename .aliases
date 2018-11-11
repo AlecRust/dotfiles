@@ -23,10 +23,6 @@ alias y="yarn"
 # Override yarn plugin to set yo back to Yeoman default
 alias yo="yo"
 
-# Temporary hack to access SourceTree's command line tool
-# https://jira.atlassian.com/browse/SRCTREE-3172
-alias stree='/Applications/SourceTree.app/Contents/Resources/stree'
-
 # Open iOS Simulator
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"
 
