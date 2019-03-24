@@ -18,7 +18,6 @@ alias e="exit"
 # Shorten commonly typed
 alias cil="itermocil"
 alias s="spotify"
-alias y="yarn"
 
 # Override yarn plugin to set yo back to Yeoman default
 alias yo="yo"
