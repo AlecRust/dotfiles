@@ -31,8 +31,8 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 # Install other useful binaries.
-brew install TomAnthony/brews/itermocil
 brew install yarn
+brew install tmux
 brew install speedtest_cli
 brew install redis
 brew install heroku

@@ -116,9 +116,6 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
 source $HOME/.extra
 
-# itermocil autocompletion
-compctl -g '~/.itermocil/*(:t:r)' itermocil
-
 # Source iTerm2 Shell Integration
 # https://iterm2.com/documentation-shell-integration.html
 source $HOME/.iterm2_shell_integration.zsh
