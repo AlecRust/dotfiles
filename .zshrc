@@ -1,7 +1,7 @@
 # Path to oh-my-zsh installation
 export ZSH=/Users/alec/.oh-my-zsh
 
-# Oh My Zsh theme. Load iTerm2 themes from:
+# Spaceship ZSH as Oh My Zsh theme. Load iTerm2 themes from:
 # http://iterm2colorschemes.com/
 ZSH_THEME="spaceship"
 
@@ -12,6 +12,7 @@ SPACESHIP_PROMPT_ORDER=(
   host          # Hostname section
   git           # Git section (git_branch + git_status)
   node          # Node.js section
+  ruby          # Ruby section
   exec_time     # Execution time
   line_sep      # Line break
   vi_mode       # Vi-mode indicator
