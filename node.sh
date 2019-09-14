@@ -9,7 +9,6 @@ npm i -g npm-check
 npm i -g nodemon
 npm i -g resume-cli
 npm i -g stylelint
-npm i -g karma-cli
 npm i -g retry-cli
 npm i -g browserify
 npm i -g serve

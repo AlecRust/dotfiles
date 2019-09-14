@@ -28,10 +28,6 @@ alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Application
 alias redis-start="(redis-server &)"
 alias redis-stop="(redis-cli shutdown)"
 
-# Karma runner
-alias ks="karma start"
-alias kss="karma start --single-run"
-
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
 
