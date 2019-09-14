@@ -13,7 +13,7 @@
 	di = !"d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
 
 	# Pull in remote changes for the current repository and all its submodules
-	p = !"git pull; git submodule foreach git pull origin master"
+	p = git pull --recurse-submodules
 
 	# Clone a repository including all submodules
 	c = clone --recursive
@@ -28,6 +28,9 @@
 	tags = tag -l
 	branches = branch -a
 	remotes = remote -v
+
+	# List aliases
+	aliases = config --get-regexp alias
 
 	# Amend the currently staged files to the latest commit
 	amend = commit --amend --reuse-message=HEAD
@@ -172,7 +175,10 @@
 
 [push]
 
+	# https://git-scm.com/docs/git-config#git-config-pushdefault
 	default = simple
+	# Make `git push` push relevant annotated tags when pushing branches out.
+	followTags = true
 
 # URL shorthands
 
