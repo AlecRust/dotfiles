@@ -61,6 +61,9 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 # Update and cleanup Ruby Gems
 alias update-gems='sgem update --system; sudo gem update; sudo gem cleanup'
 
+# Open coverage report in browser
+alias open-overage='open coverage/index.html'
+
 # Google Chrome
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 
