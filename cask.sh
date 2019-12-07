@@ -32,7 +32,7 @@ brew cask install skype 2> /dev/null
 brew cask install slack 2> /dev/null
 brew cask install sonos 2> /dev/null
 brew cask install sourcetree 2> /dev/null
-brew cask install spectacle 2> /dev/null
+brew cask install rectangle 2> /dev/null
 brew cask install spotify-notifications 2> /dev/null
 brew cask install spotify 2> /dev/null
 brew cask install the-unarchiver 2> /dev/null
