@@ -33,6 +33,7 @@ brew install homebrew/dupes/screen
 # Install other useful binaries.
 brew install yarn
 brew install tmux
+brew install rsync
 brew install speedtest_cli
 brew install redis
 brew install heroku
