@@ -43,6 +43,7 @@ brew install httpie
 brew install keybase
 brew install thefuck
 brew install trash
+brew install qrencode
 brew cask install ngrok
 
 # Version managers
