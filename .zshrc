@@ -1,3 +1,7 @@
+# Prevent bracketed-paste-magic from loading which slows down paste
+# https://github.com/ohmyzsh/ohmyzsh/issues/6338#issuecomment-491504348
+DISABLE_MAGIC_FUNCTIONS=true
+
 # Path to oh-my-zsh installation
 export ZSH=/Users/alec/.oh-my-zsh
 
