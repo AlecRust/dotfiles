@@ -17,6 +17,7 @@ alias e="exit"
 
 # Shorten commonly typed
 alias s="spotify"
+alias ss="spring stop"
 
 # Override yarn plugin to set yo back to Yeoman default
 alias yo="yo"
