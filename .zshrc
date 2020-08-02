@@ -1,9 +1,5 @@
-# Prevent bracketed-paste-magic from loading which slows down paste
-# https://github.com/ohmyzsh/ohmyzsh/issues/6338#issuecomment-491504348
-DISABLE_MAGIC_FUNCTIONS=true
-
 # Path to oh-my-zsh installation
-export ZSH=/Users/alec/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Spaceship ZSH as Oh My Zsh theme. Load iTerm2 themes from:
 # http://iterm2colorschemes.com/
@@ -32,12 +28,22 @@ SPACESHIP_EXEC_TIME_ELAPSED=30
 # Use case-sensitive completion
 # CASE_SENSITIVE="true"
 
-# Use hyphen-insensitive completion. Case sensitive completion must
+# Use hyphen-insensitive completion. Case-sensitive completion must
 # be off. _ and - will be interchangeable
 # HYPHEN_INSENSITIVE="true"
 
+# Disable bi-weekly auto-update checks
+DISABLE_AUTO_UPDATE="true"
+
+# Automatically update without prompting
+# DISABLE_UPDATE_PROMPT="true"
+
 # How often to auto-update (in days)
 # export UPDATE_ZSH_DAYS=13
+
+# Fix pasting URLs and other text being messed up
+# https://github.com/ohmyzsh/ohmyzsh/issues/6338#issuecomment-491504348
+DISABLE_MAGIC_FUNCTIONS="true"
 
 # Disable colors in ls
 # DISABLE_LS_COLORS="true"
@@ -96,23 +102,17 @@ export PATH="$PATH:/usr/local/MacGPG2/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
-# Disable Oh My Zsh update prompt
-DISABLE_AUTO_UPDATE="true"
-
-# Disable Homebrew analytics
-HOMEBREW_NO_ANALYTICS=1
-
 # Set language environment
 export LANG=en_GB.UTF-8
-
-# Make VSCode the default editor
-export EDITOR="code"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
+# Set VSCode as the default editor
+export EDITOR="code"
+
+# Disable Homebrew analytics
+export HOMEBREW_NO_ANALYTICS=1
 
 # Load Oh My Zsh
 source $ZSH/oh-my-zsh.sh
