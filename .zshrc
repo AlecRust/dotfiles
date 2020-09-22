@@ -32,7 +32,7 @@ SPACESHIP_EXEC_TIME_ELAPSED=30
 # be off. _ and - will be interchangeable
 # HYPHEN_INSENSITIVE="true"
 
-# Disable bi-weekly auto-update checks
+# Disable Oh My Zsh bi-weekly auto-update checks
 DISABLE_AUTO_UPDATE="true"
 
 # Automatically update without prompting
