@@ -109,7 +109,7 @@ export LANG=en_GB.UTF-8
 # export ARCHFLAGS="-arch x86_64"
 
 # Set VSCode as the default editor
-export EDITOR="code"
+export EDITOR="code --wait"
 
 # Disable Homebrew analytics
 export HOMEBREW_NO_ANALYTICS=1
