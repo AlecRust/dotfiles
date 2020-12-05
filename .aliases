@@ -1,3 +1,5 @@
+# For a full list of active aliases, run `alias`.
+
 # Shortcuts
 alias d="cd ~/Google\ Drive"
 alias dl="cd ~/Downloads"
