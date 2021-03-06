@@ -53,6 +53,9 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 # Update and cleanup Ruby Gems
 alias update-gems='sudo gem update --system; sudo gem update; sudo gem cleanup; rbenv rehash'
 
+# Brave
+alias brave='/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser'
+
 # Google Chrome
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 
