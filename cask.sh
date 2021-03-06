@@ -6,16 +6,12 @@ brew tap caskroom/versions
 brew cask install 1password 2> /dev/null
 brew cask install alfred 2> /dev/null
 brew cask install appcleaner 2> /dev/null
-brew cask install atom 2> /dev/null
 brew cask install bartender 2> /dev/null
 brew cask install dash 2> /dev/null
 brew cask install eve 2> /dev/null
 brew cask install evernote 2> /dev/null
 brew cask install firefox 2> /dev/null
-brew cask install flux 2> /dev/null
 brew cask install google-drive 2> /dev/null
-brew cask install google-chrome-beta 2> /dev/null
-brew cask install google-hangouts 2> /dev/null
 brew cask install imageoptim 2> /dev/null
 brew cask install istat-menus 2> /dev/null
 brew cask install iterm2-beta 2> /dev/null
@@ -33,7 +29,6 @@ brew cask install slack 2> /dev/null
 brew cask install sonos 2> /dev/null
 brew cask install sourcetree 2> /dev/null
 brew cask install rectangle 2> /dev/null
-brew cask install spotify-notifications 2> /dev/null
 brew cask install spotify 2> /dev/null
 brew cask install the-unarchiver 2> /dev/null
 brew cask install tmate 2> /dev/null
