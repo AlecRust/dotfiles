@@ -4,7 +4,6 @@ brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
 brew cask install 1password 2> /dev/null
-brew cask install alfred 2> /dev/null
 brew cask install appcleaner 2> /dev/null
 brew cask install bartender 2> /dev/null
 brew cask install dash 2> /dev/null
