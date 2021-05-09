@@ -1,53 +1,56 @@
 # Alec’s dotfiles
 
-## Installation
+## Before Format
 
-### Using Git and the bootstrap script
+1. Backup large/untracked files and folders from Home directory
 
-Clone the repository to `~/projects/dotfiles`, with `~/dotfiles` as a symlink.) Alias the various files to your home folder.
+    - `~/Desktop`
+    - `~/Documents`
+    - `~/Downloads`
+    - `~/Google Drive`
+    - `~/projects`
+    - `~/scripts`
+    - `~/.extra`
+    - `~/.zsh_history`
 
-### Specify the `$PATH`
+## After Format
 
-If `~/.path` exists, it will be sourced along with the other files, before any feature testing (such as [detecting which version of `ls` is being used](https://github.com/mathiasbynens/dotfiles/blob/aff769fd75225d8f2e481185a71d5e05b76002dc/.aliases#L21-26)) takes place.
+1. Copy backed up files and folders to Home directory
 
-Here’s an example `~/.path` file that adds `~/utils` to the `$PATH`:
+2. [Install Homebrew](https://brew.sh/)
 
-```sh
-export PATH="$HOME/utils:$PATH"
-```
+3. Run install/setup scripts
 
-### Add custom commands without creating a new fork
+    - `./projects/personal/dotfiles/symlinks.sh`
+    - `./projects/personal/dotfiles/brew.sh`
+    - `./projects/personal/dotfiles/cask.sh`
+    - `./projects/personal/dotfiles/node.sh`
 
-If `~/.extra` exists, it will be sourced along with the other files. You can use this to add a few custom commands without the need to fork this entire repository, or to add commands you don’t want to commit to a public repository.
+5. Install Oh My Zsh and manual plugins/themes
 
-You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/AlecRust/dotfiles/fork) instead though.
+    - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+    - [alias-tips](https://github.com/djui/alias-tips)
+    - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+    - [zsh-nvm](https://github.com/lukechilds/zsh-nvm)
+    - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+    - [spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt)
 
-### Sensible macOS defaults
+4. Change macOS settings
+    ```sh
+    ./projects/personal/dotfiles/.macos
+    ```
 
-When setting up a new Mac, you may want to set some sensible macOS defaults:
+3. Install apps manually
 
-```sh
-./.macos
-```
-
-### Install Homebrew formulae
-
-When setting up a new Mac, you may want to install some common [Homebrew](http://brew.sh/) formulae (after installing Homebrew, of course):
-
-```sh
-./brew.sh
-```
-
-### Install native apps with `brew cask`
-
-You could also install native apps with [`brew cask`](https://github.com/phinze/homebrew-cask):
-
-```sh
-./cask.sh
-```
-
-### Install global npm packages
-
-```sh
-./node.sh
-```
+  - App Store
+    - Affinity Designer
+    - Affinity Photo
+    - Disk Map
+    - Home Assistant
+    - Jira
+    - Lungo
+    - Shazam
+    - Speedtest
+    - Xcode
+  - Other
+    - Sonos
