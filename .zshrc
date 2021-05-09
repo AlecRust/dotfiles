@@ -69,7 +69,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(zsh-nvm zsh-autosuggestions tmux tmuxinator autoenv git npm yarn osx z alias-tips thefuck rbenv ruby rails bundler pyenv zsh-iterm-touchbar zsh-syntax-highlighting)
+plugins=(zsh-nvm zsh-autosuggestions tmux tmuxinator autoenv git npm yarn osx z alias-tips thefuck rbenv ruby rails bundler pyenv zsh-syntax-highlighting)
 
 # Build up $PATH from scratch
 # ---------------------------
