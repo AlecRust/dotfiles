@@ -46,7 +46,7 @@ brew install imagemagick
 
 # Version managers
 # Install NVM as Oh My Zsh plugin: https://github.com/lukechilds/zsh-nvm
-brew install rbenv ruby-build
+brew install rbenv
 brew install pyenv
 
 # Git

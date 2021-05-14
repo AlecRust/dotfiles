@@ -1,7 +1,8 @@
-# Install Ruby via rbenv
+# Setup rbenv in shell
+rbenv init
 
+# Install Ruby
 ruby_version=3.0.1
-
 rbenv install "$ruby_version"
 rbenv global "$ruby_version"
 rbenv shell "$ruby_version"
