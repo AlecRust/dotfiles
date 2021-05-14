@@ -11,10 +11,13 @@ brew install coreutils
 
 # Install some other useful utilities like `sponge`.
 brew install moreutils
+
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
+
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed
+
 # Install zsh.
 brew install zsh
 
@@ -22,7 +25,8 @@ brew install zsh
 brew install wget
 
 # Install Heroku CLI.
-brew tap heroku/brew && brew install heroku
+brew tap heroku/brew
+brew install heroku
 
 # Install more recent versions of some macOS tools.
 brew install vim
