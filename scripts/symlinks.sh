@@ -1,5 +1,6 @@
-# Symlink dotfiles to Home directory
+echo "== Creating symlinks =="
 
+# Symlink dotfiles to Home directory
 ln -s $HOME/projects/personal/dotfiles/dots/.aliases $HOME/.aliases
 ln -s $HOME/projects/personal/dotfiles/dots/.curlrc $HOME/.curlrc
 ln -s $HOME/projects/personal/dotfiles/dots/.editorconfig $HOME/.editorconfig

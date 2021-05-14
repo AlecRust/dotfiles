@@ -19,13 +19,7 @@
 
 2. Open Terminal app and [install Homebrew](https://brew.sh/) which installs Xcode Command Line Tools
 
-3. Run install/setup scripts
-
-    - `./projects/personal/dotfiles/scripts/symlinks.sh`
-    - `./projects/personal/dotfiles/scripts/brew.sh`
-    - `./projects/personal/dotfiles/scripts/ruby.sh`
-    - `./projects/personal/dotfiles/scripts/node.sh`
-    - `./projects/personal/dotfiles/scripts/cask.sh`
+3. Run install script `./projects/personal/dotfiles/install.sh`
 
 5. Install Oh My Zsh and manual plugins/themes
 

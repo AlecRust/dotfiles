@@ -1,6 +1,10 @@
+echo "== Updating npm and installing Yarn =="
+
 # Update npm and install yarn
 npm install --global npm
 npm install --global yarn
+
+echo "== Installing global npm packages =="
 
 # Install global packages
 yarn global add npm-check-updates

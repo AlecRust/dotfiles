@@ -1,4 +1,4 @@
-# Install command-line tools using Homebrew.
+echo "== Installing Homebrew packages =="
 
 # Make sure we’re using the latest Homebrew.
 brew update
