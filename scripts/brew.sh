@@ -41,6 +41,7 @@ brew services start postgresql
 brew install tmux
 brew install rsync
 brew install speedtest_cli
+brew install awscli
 brew install svn
 brew install redis
 brew install gh
