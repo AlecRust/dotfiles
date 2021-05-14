@@ -1,14 +1,15 @@
-ruby_version=3.0.1
+echo "== Installing latest Ruby via rbenv =="
 
-echo "== Installing Ruby $ruby_version via rbenv =="
-
-# Setup rbenv in shell
+# Initialize rbenv to run now
 eval "$(rbenv init -)"
 
-# Install Ruby
-rbenv install "$ruby_version"
-rbenv global "$ruby_version"
-rbenv shell "$ruby_version"
+# Save the latest Ruby version
+latest_version="$(rbenv install -l | grep -v - | tail -1)"
+
+# Install latest Ruby
+rbenv install "$latest_version"
+rbenv global "$latest_version"
+rbenv shell "$latest_version"
 
 # Upgrade RubyGems
 gem update --system
