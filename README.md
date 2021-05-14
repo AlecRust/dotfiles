@@ -21,11 +21,11 @@
 
 3. Run install/setup scripts
 
-    - `./projects/personal/dotfiles/symlinks.sh`
-    - `./projects/personal/dotfiles/brew.sh`
-    - `./projects/personal/dotfiles/ruby.sh`
-    - `./projects/personal/dotfiles/node.sh`
-    - `./projects/personal/dotfiles/cask.sh`
+    - `./projects/personal/dotfiles/scripts/symlinks.sh`
+    - `./projects/personal/dotfiles/scripts/brew.sh`
+    - `./projects/personal/dotfiles/scripts/ruby.sh`
+    - `./projects/personal/dotfiles/scripts/node.sh`
+    - `./projects/personal/dotfiles/scripts/cask.sh`
 
 5. Install Oh My Zsh and manual plugins/themes
 
