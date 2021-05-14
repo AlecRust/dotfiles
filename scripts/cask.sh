@@ -1,3 +1,5 @@
+echo "== Installing apps with Homebrew Cask =="
+
 # General
 brew install --cask 1password
 brew install --cask balenaetcher
