@@ -1,5 +1,5 @@
 # Setup rbenv in shell
-rbenv init
+eval "$(rbenv init -)"
 
 # Install Ruby
 ruby_version=3.0.1
