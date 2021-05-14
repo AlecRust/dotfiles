@@ -21,15 +21,6 @@
 
 3. Run install script `./projects/personal/dotfiles/install.sh`
 
-5. Install Oh My Zsh and manual plugins/themes
-
-    - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-    - [alias-tips](https://github.com/djui/alias-tips)
-    - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-    - [zsh-nvm](https://github.com/lukechilds/zsh-nvm)
-    - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-    - [spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt)
-
 4. Change macOS settings
     ```sh
     ./projects/personal/dotfiles/.macos
