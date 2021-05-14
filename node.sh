@@ -10,6 +10,7 @@ npm i -g nodemon
 npm i -g resume-cli
 npm i -g stylelint
 npm i -g retry-cli
+npm i -g splash-cli
 npm i -g browserify
 npm i -g serve
 npm i -g yo
