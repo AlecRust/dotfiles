@@ -5,7 +5,6 @@ brew update
 brew upgrade
 
 # Install version managers
-# Install NVM as Oh My Zsh plugin: https://github.com/lukechilds/zsh-nvm
 brew install rbenv
 brew install pyenv
 
