@@ -30,7 +30,6 @@ brew install grep
 brew install openssh
 
 # Install other useful binaries.
-brew install yarn
 brew install tmux
 brew install rsync
 brew install speedtest_cli

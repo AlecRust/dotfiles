@@ -1,18 +1,20 @@
-# Install global npm packages
+# Update npm and install yarn
+npm install --global npm
+npm install --global yarn
 
-npm i -g cloudflare-cli
-npm i -g gulp-cli
-npm i -g eslint
-npm i -g jshint
-npm i -g npm-check-updates
-npm i -g npm-check
-npm i -g nodemon
-npm i -g resume-cli
-npm i -g stylelint
-npm i -g retry-cli
-npm i -g splash-cli
-npm i -g browserify
-npm i -g serve
-npm i -g yo
-npm i -g qo
-npm i -g changelog
+# Install global packages
+yarn global add npm-check-updates
+yarn global add npm-check
+yarn global add cloudflare-cli
+yarn global add gulp-cli
+yarn global add eslint
+yarn global add jshint
+yarn global add nodemon
+yarn global add resume-cli
+yarn global add stylelint
+yarn global add retry-cli
+yarn global add splash-cli
+yarn global add browserify
+yarn global add serve
+yarn global add yo
+yarn global add changelog
