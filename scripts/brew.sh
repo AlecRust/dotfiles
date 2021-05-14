@@ -1,69 +1,57 @@
 echo "== Installing Homebrew packages =="
 
-# Make sure we’re using the latest Homebrew.
+# Update Homebrew and any already-installed formulae
 brew update
-
-# Upgrade any already-installed formulae.
 brew upgrade
 
-# Install GNU core utilities (those that come with macOS are outdated).
+# Install newer core macOS utilities
 brew install coreutils
-
-# Install some other useful utilities like `sponge`.
-brew install moreutils
-
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
-
-# Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed
-
-# Install zsh.
 brew install zsh
-
-# Install wget.
 brew install wget
-
-# Install Heroku CLI.
-brew tap heroku/brew
-brew install heroku
-
-# Install more recent versions of some macOS tools.
+brew install rsync
 brew install vim
 brew install grep
 brew install openssh
 
-# Install Postgres and start boot service
-brew install postgresql
-brew services start postgresql
-
-# Install other useful binaries.
+# Install development tools
+brew install autoenv
 brew install tmux
-brew install rsync
-brew install speedtest_cli
 brew install awscli
 brew install svn
 brew install redis
 brew install gh
-brew install autoenv
 brew install httpie
+brew install imagemagick
+brew install vips
+
+# Install other utilities
+brew install speedtest_cli
 brew install thefuck
 brew install trash
 brew install qrencode
-brew install imagemagick
 
-# Version managers
+# Tap and install Heroku CLI
+brew tap heroku/brew
+brew install heroku
+
+# Tap and install Postgres and start boot service
+brew install postgresql
+brew services start postgresql
+
+# Install version managers
 # Install NVM as Oh My Zsh plugin: https://github.com/lukechilds/zsh-nvm
 brew install rbenv
 brew install pyenv
 
-# Git
+# Install Git and tools
 brew install git
 brew install diff-so-fancy
 
-# Fonts
+# Install programming font
 brew tap homebrew/cask-fonts
 brew install font-source-code-pro
 
-# Remove outdated versions from the cellar.
+# Remove outdated Homebrew versions
 brew cleanup
