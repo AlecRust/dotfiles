@@ -15,7 +15,7 @@ gem update --system
 
 echo "== Installing Ruby gems =="
 
-# Install useful gems
+# Install global gems
 gem install bundler
 gem install tmuxinator
 gem install rails

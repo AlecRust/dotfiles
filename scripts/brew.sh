@@ -29,6 +29,10 @@ brew install vim
 brew install grep
 brew install openssh
 
+# Install Postgres and start boot service
+brew install postgresql
+brew services start postgresql
+
 # Install other useful binaries.
 brew install tmux
 brew install rsync
