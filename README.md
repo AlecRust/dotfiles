@@ -17,7 +17,7 @@
 
 1. Copy backed up files and folders to Home directory
 
-2. [Install Homebrew](https://brew.sh/)
+2. Open Terminal app and [install Homebrew](https://brew.sh/) which installs Xcode Command Line Tools
 
 3. Run install/setup scripts
 

@@ -17,16 +17,17 @@ brew install findutils
 brew install gnu-sed --with-default-names
 # Install zsh.
 brew install zsh
-brew tap homebrew/versions
 
-# Install `wget` with IRI support.
-brew install wget --with-iri
+# Install wget.
+brew install wget
+
+# Install Heroku CLI.
+brew tap heroku/brew && brew install heroku
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install vim
+brew install grep
+brew install openssh
 
 # Install other useful binaries.
 brew install yarn
@@ -34,8 +35,7 @@ brew install tmux
 brew install rsync
 brew install speedtest_cli
 brew install redis
-brew install heroku
-brew install hub
+brew install gh
 brew install autoenv
 brew install httpie
 brew install thefuck
