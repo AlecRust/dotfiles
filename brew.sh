@@ -34,6 +34,7 @@ brew install yarn
 brew install tmux
 brew install rsync
 brew install speedtest_cli
+brew install svn
 brew install redis
 brew install gh
 brew install autoenv
@@ -51,6 +52,10 @@ brew install pyenv
 # Git
 brew install git
 brew install diff-so-fancy
+
+# Fonts
+brew tap homebrew/cask-fonts
+brew install font-source-code-pro
 
 # Remove outdated versions from the cellar.
 brew cleanup

@@ -34,7 +34,3 @@ brew install --cask sublime-text
 brew install --cask tableplus
 brew install --cask transmit
 brew install --cask visual-studio-code
-
-# Fonts
-brew tap homebrew/cask-fonts
-brew install --cask homebrew/cask-fonts/font-source-code-pro
