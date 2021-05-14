@@ -11,5 +11,5 @@ ln -s $HOME/projects/personal/dotfiles/dots/.vimrc $HOME/.vimrc
 ln -s $HOME/projects/personal/dotfiles/dots/.wgetrc $HOME/.wgetrc
 ln -s $HOME/projects/personal/dotfiles/dots/.zshrc $HOME/.zshrc
 
-# TODO: Remove from Google Drive
-ln -s $HOME/Google\ Drive/Apps/iTerm/tmuxinator $HOME/.config
+# Symlink tmuxinator directory in Google Drive to Home directory
+ln -s $HOME/Google\ Drive/Apps/iTerm/tmuxinator/ $HOME/.tmuxinator
