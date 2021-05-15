@@ -19,7 +19,7 @@
 
 2. Open Terminal app and [install Homebrew](https://brew.sh/) which installs Xcode Command Line Tools
 
-3. Run install script `./projects/personal/dotfiles/install.sh`
+3. Run setup script `./projects/personal/dotfiles/setup.sh`
 
 4. Change macOS settings
     ```sh

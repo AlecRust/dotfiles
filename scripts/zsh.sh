@@ -14,7 +14,7 @@ echo "== Installing Oh My Zsh =="
 git clone https://github.com/ohmyzsh/ohmyzsh ~/.oh-my-zsh
 
 # Create ~/.zshrc symlink
-ln -s ~/projects/personal/dotfiles/dots/.zshrc ~/.zshrc
+ln -s ~/projects/personal/dotfiles/dotfiles/.zshrc ~/.zshrc
 
 echo "== Installing Zsh plugins =="
 
