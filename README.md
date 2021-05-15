@@ -2,7 +2,7 @@
 
 ## Before Format
 
-1. Backup large/untracked files from Home directory
+1. Backup large/untracked files from home directory
 
     - `~/Desktop`
     - `~/Documents`
@@ -17,7 +17,7 @@
 
 1. Open Terminal and [install Homebrew](https://brew.sh/) (includes Xcode Command Line Tools installation)
 
-2. Copy backed up files to Home directory, dotfiles must be at `./projects/personal/dotfiles`
+2. Copy backed up files to home directory, dotfiles must be at `./projects/personal/dotfiles`
 
 3. Run setup script `./projects/personal/dotfiles/setup.sh`
 

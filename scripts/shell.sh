@@ -1,5 +1,20 @@
 #!/bin/sh
 
+echo "== Creating symlinks =="
+
+# Symlink all files in /dotfiles to home directory
+ln -s ~/projects/personal/dotfiles/dotfiles/.aliases ~/.aliases
+ln -s ~/projects/personal/dotfiles/dotfiles/.curlrc ~/.curlrc
+ln -s ~/projects/personal/dotfiles/dotfiles/.editorconfig ~/.editorconfig
+ln -s ~/projects/personal/dotfiles/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/projects/personal/dotfiles/dotfiles/.gitignore_global ~/.gitignore_global
+ln -s ~/projects/personal/dotfiles/dotfiles/.hushlogin ~/.hushlogin
+ln -s ~/projects/personal/dotfiles/dotfiles/.wgetrc ~/.wgetrc
+ln -s ~/projects/personal/dotfiles/dotfiles/.zshrc ~/.zshrc
+
+# Symlink Google Drive tmuxinator directory to home directory
+ln -s ~/Google\ Drive/Apps/iTerm/tmuxinator/ ~/.tmuxinator
+
 echo "== Setting Homebrew Zsh as default shell =="
 
 # Add Homebrew Zsh to accepted shells if not present
@@ -10,15 +25,10 @@ fi
 # Set Homebrew Zsh as default shell
 chsh -s "$(which zsh)"
 
-echo "== Installing Oh My Zsh =="
+echo "== Installing Oh My Zsh and plugins =="
 
 # Clone Oh My Zsh
 git clone https://github.com/ohmyzsh/ohmyzsh ~/.oh-my-zsh
-
-# Create ~/.zshrc symlink
-ln -s ~/projects/personal/dotfiles/dotfiles/.zshrc ~/.zshrc
-
-echo "== Installing Zsh plugins =="
 
 # Clone plugins to Oh My Zsh
 git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
@@ -28,8 +38,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/cust
 
 # Install iTerm2 shell integration
 curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash
-
-echo "== Installing Spaceship ZSH =="
 
 # Clone Spaceship ZSH
 git clone https://github.com/denysdovhan/spaceship-prompt ~/.oh-my-zsh/custom/themes/spaceship-prompt

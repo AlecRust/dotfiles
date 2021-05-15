@@ -1,7 +1,6 @@
 # Ask for administrator password upfront
 sudo -v
 
-source ~/projects/personal/dotfiles/scripts/symlinks.sh
 source ~/projects/personal/dotfiles/scripts/brew.sh
 source ~/projects/personal/dotfiles/scripts/shell.sh
 source ~/projects/personal/dotfiles/scripts/node.sh
