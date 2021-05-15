@@ -8,6 +8,9 @@ sudo systemsetup -settimezone "Europe/London" > /dev/null
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
+# Disable Guest account
+sudo sysadminctl -guestAccount off
+
 # Set a fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
