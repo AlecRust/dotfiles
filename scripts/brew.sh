@@ -8,6 +8,7 @@ brew upgrade
 
 # Core macOS utilities
 brew install coreutils
+brew install moreutils
 brew install findutils
 brew install python3
 brew install openssh
@@ -41,10 +42,13 @@ brew services start postgresql
 # Other utilities
 brew install z
 brew install jq
+brew install tldr
+brew install htop
 brew install trash
 brew install thefuck
 brew install qrencode
-brew install speedtest_cli
+brew install youtube-dl
+brew install speedtest-cli
 
 # Fonts
 brew tap homebrew/cask-fonts
