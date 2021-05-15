@@ -2,11 +2,11 @@
 
 echo "== Installing Visual Studio Code =="
 
-# Create settings.json symlink
-ln -s ~/projects/personal/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-
 # Install Visual Studio Code
 brew install --cask visual-studio-code
+
+# Create settings.json symlink
+ln -s ~/projects/personal/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 echo "== Installing Visual Studio Code extensions =="
 
