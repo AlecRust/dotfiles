@@ -11,7 +11,7 @@ My macOS setup.
 3. Clone repo (if not restored from backup)
 
     ```sh
-    git clone https://github.com/AlecRust/dotfiles ~/projects/personal
+    git clone https://github.com/AlecRust/dotfiles ~/projects/personal/dotfiles
     ```
 
 3. Run setup script
