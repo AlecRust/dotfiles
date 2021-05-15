@@ -13,8 +13,8 @@ brew install pyenv
 # Core macOS utilities
 brew install coreutils
 brew install findutils
-brew install gnu-sed
 brew install openssh
+brew install gnu-sed
 brew install rsync
 brew install curl
 brew install grep
@@ -23,13 +23,13 @@ brew install vim
 brew install zsh
 
 # Development tools
+brew install gh
 brew install svn
 brew install tmux
-brew install autoenv
-brew install awscli
 brew install redis
-brew install gh
+brew install awscli
 brew install httpie
+brew install autoenv
 brew install imagemagick
 
 brew tap heroku/brew
@@ -39,10 +39,10 @@ brew install postgresql
 brew services start postgresql
 
 # Other utilities
-brew install speedtest_cli
-brew install thefuck
 brew install trash
+brew install thefuck
 brew install qrencode
+brew install speedtest_cli
 
 # Programming font
 brew tap homebrew/cask-fonts
