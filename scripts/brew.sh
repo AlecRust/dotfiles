@@ -14,6 +14,7 @@ brew install findutils
 brew install gnu-sed
 brew install openssh
 brew install rsync
+brew install curl
 brew install grep
 brew install wget
 brew install vim
