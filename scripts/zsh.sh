@@ -28,4 +28,4 @@ git clone https://github.com/denysdovhan/spaceship-prompt ~/.oh-my-zsh/custom/th
 ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme
 
 # Reload shell to install NVM etc.
-reload
+exec ${SHELL} -l

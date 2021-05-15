@@ -19,7 +19,6 @@ echo "== Installing Ruby gems =="
 # Install global gems
 gem install bundler
 gem install tmuxinator
-tmuxinator doctor
 gem install rails
 
 # Install shims for Ruby executables known to rbenv
