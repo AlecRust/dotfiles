@@ -12,9 +12,6 @@ ln -s ~/projects/personal/dotfiles/dotfiles/.hushlogin ~/.hushlogin
 ln -s ~/projects/personal/dotfiles/dotfiles/.wgetrc ~/.wgetrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.zshrc ~/.zshrc
 
-# Symlink Google Drive tmuxinator directory to home directory
-ln -s ~/Google\ Drive/Apps/iTerm/tmuxinator/ ~/.tmuxinator
-
 echo "== Setting Homebrew Zsh as default shell =="
 
 # Add Homebrew Zsh to accepted shells if not present

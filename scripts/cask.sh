@@ -12,7 +12,6 @@ brew install --cask gpg-suite
 brew install --cask hiddenbar
 brew install --cask iina
 brew install --cask istat-menus
-brew install --cask iterm2
 brew install --cask ivpn
 brew install --cask kap
 brew install --cask mac2imgur
