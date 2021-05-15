@@ -46,9 +46,10 @@ brew install thefuck
 brew install qrencode
 brew install speedtest_cli
 
-# Programming font
+# Fonts
 brew tap homebrew/cask-fonts
 brew install font-fira-code
+brew install font-fira-mono-for-powerline
 
 # Tidy up Homebrew versions
 brew cleanup
