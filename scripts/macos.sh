@@ -719,7 +719,7 @@ defaults write ~/Library/Preferences/org.gpgtools.gpgmail SignNewEmailsByDefault
 ###############################################################################
 
 # Install Sublime Text settings
-# Note: Set this up manually via symlink from Google Drive
+# TODO: Set this up manually via symlink from Google Drive
 # cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
 
 ###############################################################################
