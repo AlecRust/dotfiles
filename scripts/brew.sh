@@ -39,6 +39,7 @@ brew install postgresql
 brew services start postgresql
 
 # Other utilities
+brew install z
 brew install jq
 brew install trash
 brew install thefuck
