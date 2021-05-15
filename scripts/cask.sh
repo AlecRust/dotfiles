@@ -37,4 +37,3 @@ brew install --cask sourcetree
 brew install --cask sublime-text
 brew install --cask tableplus
 brew install --cask transmit
-brew install --cask visual-studio-code

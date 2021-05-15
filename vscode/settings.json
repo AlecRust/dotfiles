@@ -1,0 +1,136 @@
+{
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "editor.fontSize": 17,
+  "editor.fontFamily": "'Fira Code', 'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.snippetSuggestions": "top",
+  "editor.rulers": [80,120],
+  "explorer.autoReveal": false,
+  "emmet.showSuggestionsAsSnippets": true,
+  "terminal.integrated.fontSize": 14,
+  "javascript.validate.enable": false,
+  "workbench.colorTheme": "Moonlight II Italic",
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.decorations.badges": true,
+  "files.insertFinalNewline": true,
+  "editor.lineHeight": 28,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.minimap.showSlider": "always",
+  "git.enableSmartCommit": true,
+  "phpfmt.indent_with_space": 2,
+  "eslint.packageManager": "yarn",
+  "npm.packageManager": "yarn",
+  "editor.renderWhitespace": "boundary",
+  "editor.wordWrap": "on",
+  "files.trimFinalNewlines": true,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "window.openFoldersInNewWindow": "on",
+  "window.newWindowDimensions": "inherit",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.currentLine.scrollable": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.blame.highlight.enabled": false,
+  "circleci.apiKey": "40f94f0b0099421d7a25f14d9da04dd8b48c9e60",
+  "workbench.editor.highlightModifiedTabs": true,
+  "gitlens.advanced.telemetry.enabled": false,
+  "githubPullRequests.telemetry.enabled": false,
+  "editor.codeLens": false,
+  "sync.gist": "077c465d090241900eae0861e9932208",
+  "explorer.confirmDelete": false,
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+      "hyperdom"
+  ],
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "atlascode.jira.workingSite": {
+      "baseUrlSuffix": "atlassian.net"
+  },
+  "atlascode.jira.workingProject": {
+      "id": "10112",
+      "name": "Global Project: APIs",
+      "key": "GPA"
+  },
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sync.forceUpload": true,
+  "oneDarkPro.italic": false,
+  "workbench.colorCustomizations": {},
+  "vscode-home-assistant.ignoreCertificates": true,
+  "files.trimTrailingWhitespace": true,
+  "cSpell.enabledLanguageIds": [
+      "asciidoc",
+      "c",
+      "cpp",
+      "csharp",
+      "css",
+      "git-commit",
+      "go",
+      "handlebars",
+      "haskell",
+      "html",
+      "jade",
+      "java",
+      "javascript",
+      "javascriptreact",
+      "json",
+      "jsonc",
+      "latex",
+      "less",
+      "markdown",
+      "php",
+      "plaintext",
+      "pug",
+      "python",
+      "restructuredtext",
+      "rust",
+      "scala",
+      "scss",
+      "text",
+      "typescript",
+      "typescriptreact",
+      "yaml",
+      "yml",
+      "erb"
+  ],
+  "cSpell.language": "en,en-GB",
+  "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.statusBar.visible": true,
+  "ruby.useLanguageServer": true,
+  "ruby.pathToBundler": "/Users/alec/.rbenv/shims/bundle",
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": true,
+      "forceExclusion": true
+    },
+  },
+  "ruby.format": "rubocop",
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.intellisense": "rubyLocate",
+  "docker.showStartPage": false,
+  "ruby.useBundler": true
+}
