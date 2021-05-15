@@ -15,18 +15,13 @@
 
 ## After Format
 
-1. Copy backed up files and folders to Home directory
+1. Open Terminal and [install Homebrew](https://brew.sh/) which installs Xcode Command Line Tools
 
-2. Open Terminal app and [install Homebrew](https://brew.sh/) which installs Xcode Command Line Tools
+2. Copy backed up files and folders to Home directory, dotfiles must be at `./projects/personal/dotfiles`
 
 3. Run setup script `./projects/personal/dotfiles/setup.sh`
 
-4. Change macOS settings
-    ```sh
-    ./projects/personal/dotfiles/.macos
-    ```
-
-3. Install apps manually
+4. Install apps manually
 
   - App Store
     - Affinity Designer
