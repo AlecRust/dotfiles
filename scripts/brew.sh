@@ -24,7 +24,6 @@ brew install zsh
 
 # Development tools
 brew install gh
-brew install svn
 brew install tmux
 brew install redis
 brew install awscli
