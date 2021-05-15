@@ -10,16 +10,19 @@ export NVM_DIR="$HOME/.nvm" && (
   git checkout "$(git describe --abbrev=0 --tags --match "v[0-9]*" "$(git rev-list --tags --max-count=1)")"
 ) && \. "$NVM_DIR/nvm.sh"
 
-echo "== Installing Node and Yarn =="
+echo "== Installing Node =="
 
 # Install latest Node
 nvm install node
 
-# Update npm and install yarn
+# Update npm to latest version
 npm install --global npm
-npm install --global yarn
 
-echo "== Installing global npm packages =="
+echo "== Installing Yarn =="
+
+brew install yarn
+
+echo "== Installing global Node packages =="
 
 # Install global packages
 yarn global add npm-check-updates
