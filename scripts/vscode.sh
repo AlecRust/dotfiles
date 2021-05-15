@@ -1,14 +1,16 @@
 #!/bin/sh
 
-echo "== Installing Visual Studio Code =="
+echo "== 📜 Installing Visual Studio Code =="
 
 # Install Visual Studio Code
 brew install --cask visual-studio-code
 
+echo "== 🔗 Symlinking Visual Studio Code settings =="
+
 # Create settings.json symlink
 ln -s ~/projects/personal/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
-echo "== Installing Visual Studio Code extensions =="
+echo "== 📜 Installing Visual Studio Code extensions =="
 
 # Editor
 code --install-extension christian-kohler.npm-intellisense

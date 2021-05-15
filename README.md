@@ -12,6 +12,7 @@
     - `~/scripts`
     - `~/.extra`
     - `~/.zsh_history`
+    - `~/.gnupg`
     - `.pem` files in `~/.ssh`
 
 ## After Format

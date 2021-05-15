@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "== Installing Homebrew packages =="
+echo "== 📜 Installing Homebrew packages =="
 
 # Update Homebrew and any already-installed formulae
 brew update
