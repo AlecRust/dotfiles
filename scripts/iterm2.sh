@@ -11,7 +11,10 @@ defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "$HOME/proj
 # Load custom preferences into iTerm2
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 
+# Install shell integration
+curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash
+
 echo "== Symlinking .tmuxinator from Google Drive =="
 
 # Create symlink from Google Drive tmuxinator to home directory
-ln -s ~/Google\ Drive/Apps/iTerm/tmuxinator/ ~/.tmuxinator
+ln -s ~/Google\ Drive/Apps/tmuxinator/ ~/.tmuxinator

@@ -38,6 +38,3 @@ git clone https://github.com/denysdovhan/spaceship-prompt ~/.oh-my-zsh/custom/th
 
 # Create theme file symlink
 ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme
-
-# Install iTerm2 shell integration
-curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash
