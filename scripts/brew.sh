@@ -48,7 +48,7 @@ brew install qrencode
 
 # Programming font
 brew tap homebrew/cask-fonts
-brew install font-source-code-pro
+brew install font-fira-code
 
 # Remove outdated Homebrew versions
 brew cleanup
