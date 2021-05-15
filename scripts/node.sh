@@ -1,5 +1,8 @@
 echo "== Updating npm and installing Yarn =="
 
+# Source NVM to make it available immediately
+source ~/.nvm/nvm.sh
+
 # Install latest Node
 nvm install node
 
