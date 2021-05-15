@@ -3,6 +3,8 @@
 # Ask for administrator password upfront
 sudo -v
 
+# Run all setup scripts
+source ~/projects/personal/dotfiles/scripts/ssh.sh
 source ~/projects/personal/dotfiles/scripts/brew.sh
 source ~/projects/personal/dotfiles/scripts/shell.sh
 source ~/projects/personal/dotfiles/scripts/node.sh

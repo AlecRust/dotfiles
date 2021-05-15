@@ -23,8 +23,6 @@ brew install vim
 brew install zsh
 
 # Development tools
-brew install git
-brew install diff-so-fancy
 brew install svn
 brew install tmux
 brew install autoenv
