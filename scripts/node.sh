@@ -1,4 +1,4 @@
-echo "== Updating npm and installing Yarn =="
+echo "== Installing Node and Yarn =="
 
 # Source NVM to run now
 source ~/.nvm/nvm.sh
