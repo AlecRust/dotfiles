@@ -28,6 +28,9 @@ SPACESHIP_EXEC_TIME_ELAPSED=30
 # Use case-sensitive completion
 # CASE_SENSITIVE="true"
 
+# Prevent permission errors
+ZSH_DISABLE_COMPFIX="true"
+
 # Use hyphen-insensitive completion. Case-sensitive completion must
 # be off. _ and - will be interchangeable
 # HYPHEN_INSENSITIVE="true"
