@@ -2,7 +2,6 @@
 
 echo "==> 🔗 Symlinking dotfiles to ~/"
 
-# Symlink dotfiles to home directory
 ln -s ~/projects/personal/dotfiles/dotfiles/.aliases ~/.aliases
 ln -s ~/projects/personal/dotfiles/dotfiles/.curlrc ~/.curlrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.editorconfig ~/.editorconfig
