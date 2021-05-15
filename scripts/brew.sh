@@ -21,16 +21,16 @@ brew install zsh
 brew install git
 
 # Development tools
-brew install gh
-brew install tmux
-brew install rbenv
-brew install redis
-brew install awscli
-brew install httpie
-brew install autoenv
-brew install python3
-brew install imagemagick
 brew install diff-so-fancy
+brew install imagemagick
+brew install python3
+brew install autoenv
+brew install httpie
+brew install awscli
+brew install redis
+brew install rbenv
+brew install tmux
+brew install gh
 
 brew tap heroku/brew
 brew install heroku
