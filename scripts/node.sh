@@ -3,6 +3,7 @@
 echo "== Installing Node Version Manager =="
 
 # Install latest nvm and load it
+# https://github.com/nvm-sh/nvm#manual-install
 export NVM_DIR="$HOME/.nvm" && (
   git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"
   cd "$NVM_DIR"
@@ -24,11 +25,11 @@ echo "== Installing global npm packages =="
 yarn global add npm-check-updates
 yarn global add npm-check
 yarn global add changelog
+yarn global add gulp-cli
 yarn global add retry-cli
 yarn global add splash-cli
-yarn global add gulp-cli
-yarn global add eslint
 yarn global add stylelint
+yarn global add eslint
 yarn global add nodemon
 yarn global add serve
 yarn global add yo
