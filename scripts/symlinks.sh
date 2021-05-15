@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "== Creating symlinks =="
 
 # Symlink dotfiles to Home directory

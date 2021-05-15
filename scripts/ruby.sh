@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "== Installing latest Ruby via rbenv =="
 
 # Initialize rbenv to run now

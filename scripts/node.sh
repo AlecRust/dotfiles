@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "== Installing Node and Yarn =="
 
 # Source NVM to run now

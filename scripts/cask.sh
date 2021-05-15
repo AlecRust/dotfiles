@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "== Installing apps with Homebrew Cask =="
 
 # General

@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "== Changing macOS settings =="
 
 # Close any open System Preferences panes, to prevent them from overriding

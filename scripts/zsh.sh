@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "== Setting Homebrew Zsh as default shell =="
 
 # Add Homebrew Zsh to accepted shells if not present
