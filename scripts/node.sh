@@ -2,11 +2,12 @@
 
 echo "== Installing Node Version Manager =="
 
-# Save latest nvm version
-latest_nvm_version="$(curl --silent "https://api.github.com/repos/nvm-sh/nvm/releases/latest" | jq -r .tag_name)"
-
-# Install latest nvm
-curl -o- "https://raw.githubusercontent.com/nvm-sh/nvm/$latest_nvm_version/install.sh" | bash
+# Install latest nvm and load it
+export NVM_DIR="$HOME/.nvm" && (
+  git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"
+  cd "$NVM_DIR"
+  git checkout "$(git describe --abbrev=0 --tags --match "v[0-9]*" "$(git rev-list --tags --max-count=1)")"
+) && \. "$NVM_DIR/nvm.sh"
 
 echo "== Installing Node and Yarn =="
 

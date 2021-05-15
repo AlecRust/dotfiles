@@ -30,6 +30,7 @@ brew install awscli
 brew install httpie
 brew install autoenv
 brew install imagemagick
+brew install diff-so-fancy
 
 brew tap heroku/brew
 brew install heroku
@@ -38,6 +39,7 @@ brew install postgresql
 brew services start postgresql
 
 # Other utilities
+brew install jq
 brew install trash
 brew install thefuck
 brew install qrencode
