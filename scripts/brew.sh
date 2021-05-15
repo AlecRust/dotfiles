@@ -4,11 +4,11 @@ echo "== Installing Homebrew packages =="
 brew update
 brew upgrade
 
-# Install version managers
+# Version managers
 brew install rbenv
 brew install pyenv
 
-# Install newer core macOS utilities
+# Core macOS utilities
 brew install coreutils
 brew install findutils
 brew install gnu-sed
@@ -20,7 +20,7 @@ brew install wget
 brew install vim
 brew install zsh
 
-# Install development tools
+# Development tools
 brew install git
 brew install diff-so-fancy
 brew install autoenv
@@ -35,17 +35,16 @@ brew install imagemagick
 brew tap heroku/brew
 brew install heroku
 
-# Install Postgres and start boot service
 brew install postgresql
 brew services start postgresql
 
-# Install other utilities
+# Other utilities
 brew install speedtest_cli
 brew install thefuck
 brew install trash
 brew install qrencode
 
-# Install programming font
+# Programming font
 brew tap homebrew/cask-fonts
 brew install font-source-code-pro
 
