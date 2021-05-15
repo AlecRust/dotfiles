@@ -49,13 +49,4 @@ code --install-extension kokororin.vscode-phpfmt
 code --install-extension stylelint.vscode-stylelint
 
 # Themes
-code --install-extension arcticicestudio.nord-visual-studio-code
 code --install-extension atomiks.moonlight
-code --install-extension dracula-theme.theme-dracula
-code --install-extension Equinusocio.vsc-community-material-theme
-code --install-extension Equinusocio.vsc-material-theme
-code --install-extension equinusocio.vsc-material-theme-icons
-code --install-extension GitHub.github-vscode-theme
-code --install-extension kuscamara.electron
-code --install-extension liviuschera.noctis
-code --install-extension zhuangtongfa.material-theme
