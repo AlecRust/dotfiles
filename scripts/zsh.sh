@@ -1,5 +1,10 @@
 echo "== Setting Homebrew Zsh as default shell =="
 
+# Add Homebrew Zsh to accepted shells if not present
+if ! grep -Fxq "$(which zsh)" /etc/shells > /dev/null 2>&1; then
+  sudo sh -c "echo $(which zsh) >> /etc/shells"
+fi
+
 # Set Homebrew Zsh as default shell
 chsh -s "$(which zsh)"
 
@@ -11,9 +16,9 @@ git clone https://github.com/ohmyzsh/ohmyzsh ~/.oh-my-zsh
 # Create ~/.zshrc symlink
 ln -s ~/projects/personal/dotfiles/dots/.zshrc ~/.zshrc
 
-echo "== Installing Oh My Zsh plugins =="
+echo "== Installing Zsh plugins =="
 
-# Clone Oh My Zsh plugins
+# Clone plugins to Oh My Zsh
 git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
 git clone https://github.com/djui/alias-tips ~/.oh-my-zsh/custom/plugins/alias-tips
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
