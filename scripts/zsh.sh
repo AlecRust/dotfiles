@@ -34,8 +34,3 @@ git clone https://github.com/denysdovhan/spaceship-prompt ~/.oh-my-zsh/custom/th
 
 # Create theme file symlink
 ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme
-
-echo "== Reloading shell =="
-
-# Reload shell to install NVM etc.
-source ~/.zshrc
