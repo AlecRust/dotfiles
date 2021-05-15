@@ -2,8 +2,8 @@
 
 echo "== Installing Node and Yarn =="
 
-# Source zsh-nvm to run now
-source ~/.zsh-nvm/zsh-nvm.plugin.zsh
+# Source zsh-nvmto run now
+source ~/.oh-my-zsh/custom/plugins/zsh-nvm/zsh-nvm.plugin.zsh
 
 # Install latest Node
 nvm install node
