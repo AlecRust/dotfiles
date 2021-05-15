@@ -1,6 +1,6 @@
 echo "== Updating npm and installing Yarn =="
 
-# Install latest Node version
+# Install latest Node
 nvm install node
 
 # Update npm and install yarn

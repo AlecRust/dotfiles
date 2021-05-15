@@ -3,7 +3,7 @@ echo "== Installing latest Ruby via rbenv =="
 # Initialize rbenv to run now
 eval "$(rbenv init -)"
 
-# Save the latest Ruby version
+# Save latest Ruby version
 latest_version="$(rbenv install -l | grep -v - | tail -1)"
 
 # Install latest Ruby
