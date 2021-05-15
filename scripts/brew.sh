@@ -18,6 +18,7 @@ brew install grep
 brew install wget
 brew install vim
 brew install zsh
+brew install git
 
 # Development tools
 brew install gh

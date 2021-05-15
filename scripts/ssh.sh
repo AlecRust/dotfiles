@@ -1,9 +1,5 @@
 #!/bin/sh
 
-echo "== Installing Homebrew Git =="
-
-brew install git
-
 echo "== Setting up GitHub SSH key pair =="
 
 # Generate key pair from email
