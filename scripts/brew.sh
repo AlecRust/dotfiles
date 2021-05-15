@@ -6,15 +6,12 @@ echo "== Installing Homebrew packages =="
 brew update
 brew upgrade
 
-# Version managers
-brew install rbenv
-brew install pyenv
-
 # Core macOS utilities
 brew install coreutils
 brew install findutils
 brew install openssh
 brew install gnu-sed
+brew install python
 brew install rsync
 brew install curl
 brew install grep
@@ -25,10 +22,12 @@ brew install zsh
 # Development tools
 brew install gh
 brew install tmux
+brew install rbenv
 brew install redis
 brew install awscli
 brew install httpie
 brew install autoenv
+brew install python3
 brew install imagemagick
 brew install diff-so-fancy
 
