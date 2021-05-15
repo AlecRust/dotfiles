@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "== 📜 Installing apps with Homebrew Cask =="
+echo "==> 📜 Installing apps with Homebrew Cask"
 
 # General
 brew install --cask 1password

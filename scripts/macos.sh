@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "== 📜 Changing macOS settings =="
+echo "==> 📜 Changing macOS settings"
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Europe/London" > /dev/null

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "== 📜 Installing latest Ruby via rbenv =="
+echo "==> 📜 Installing latest Ruby via rbenv"
 
 # Initialize rbenv to run now
 eval "$(rbenv init -)"
@@ -16,7 +16,7 @@ rbenv shell "$latest_ruby_version"
 # Upgrade RubyGems
 gem update --system
 
-echo "== 📜 Installing Ruby gems =="
+echo "==> 📜 Installing Ruby gems"
 
 # Install global gems
 gem install bundler

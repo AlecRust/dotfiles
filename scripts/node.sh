@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "== 📜 Installing Node Version Manager =="
+echo "==> 📜 Installing Node Version Manager"
 
 # Install latest nvm and load it
 # https://github.com/nvm-sh/nvm#manual-install
@@ -10,7 +10,7 @@ export NVM_DIR="$HOME/.nvm" && (
   git checkout "$(git describe --abbrev=0 --tags --match "v[0-9]*" "$(git rev-list --tags --max-count=1)")"
 ) && \. "$NVM_DIR/nvm.sh"
 
-echo "== 📜 Installing Node =="
+echo "==> 📜 Installing Node"
 
 # Install latest Node
 nvm install node
@@ -18,11 +18,11 @@ nvm install node
 # Update npm to latest version
 npm install --global npm
 
-echo "== 📜 Installing Yarn =="
+echo "==> 📜 Installing Yarn"
 
 brew install yarn
 
-echo "== 📜 Installing global Node packages =="
+echo "==> 📜 Installing global Node packages"
 
 # Install global packages
 yarn global add npm-check-updates

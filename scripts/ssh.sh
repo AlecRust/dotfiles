@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "== 📜 Setting up GitHub SSH key pair =="
+echo "==> 📜 Setting up GitHub SSH key pair"
 
 # Generate key pair from email
 echo "Enter GitHub email address:"

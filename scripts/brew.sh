@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "== 📜 Installing Homebrew packages =="
+echo "==> 📜 Installing Homebrew packages"
 
 # Update Homebrew and any already-installed formulae
 brew update
@@ -9,13 +9,14 @@ brew upgrade
 # Core macOS utilities
 brew install coreutils
 brew install findutils
+brew install python3
 brew install openssh
 brew install gnu-sed
 brew install python
 brew install rsync
 brew install curl
-brew install grep
 brew install wget
+brew install grep
 brew install vim
 brew install zsh
 brew install git
@@ -23,7 +24,6 @@ brew install git
 # Development tools
 brew install diff-so-fancy
 brew install imagemagick
-brew install python3
 brew install autoenv
 brew install httpie
 brew install awscli

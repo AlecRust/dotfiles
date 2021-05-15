@@ -1,8 +1,8 @@
 #!/bin/sh
 
-echo "== 🔗 Symlinking dotfiles to ~/ =="
+echo "==> 🔗 Symlinking dotfiles to ~/"
 
-# Symlink all files in /dotfiles to home directory
+# Symlink dotfiles to home directory
 ln -s ~/projects/personal/dotfiles/dotfiles/.aliases ~/.aliases
 ln -s ~/projects/personal/dotfiles/dotfiles/.curlrc ~/.curlrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.editorconfig ~/.editorconfig
@@ -12,7 +12,7 @@ ln -s ~/projects/personal/dotfiles/dotfiles/.hushlogin ~/.hushlogin
 ln -s ~/projects/personal/dotfiles/dotfiles/.wgetrc ~/.wgetrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.zshrc ~/.zshrc
 
-echo "== 📜 Setting Homebrew Zsh as default shell =="
+echo "==> 📜 Setting Homebrew Zsh as default shell"
 
 # Add Homebrew Zsh to accepted shells if not present
 if ! grep -Fxq "$(which zsh)" /etc/shells > /dev/null 2>&1; then
@@ -22,7 +22,7 @@ fi
 # Set Homebrew Zsh as default shell
 chsh -s "$(which zsh)"
 
-echo "== 📜 Installing Oh My Zsh and plugins =="
+echo "==> 📜 Installing Oh My Zsh and plugins"
 
 # Clone Oh My Zsh
 git clone https://github.com/ohmyzsh/ohmyzsh ~/.oh-my-zsh
@@ -36,7 +36,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/cust
 # Clone Spaceship ZSH
 git clone https://github.com/denysdovhan/spaceship-prompt ~/.oh-my-zsh/custom/themes/spaceship-prompt
 
-echo "== 🔗 Symlinking Spaceship ZSH for Oh My Zsh =="
+echo "==> 🔗 Symlinking Spaceship ZSH for Oh My Zsh"
 
 # Create symlink for Oh My Zsh theme file
 ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme
