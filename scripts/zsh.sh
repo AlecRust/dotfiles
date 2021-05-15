@@ -38,4 +38,4 @@ ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-z
 echo "== Reloading shell =="
 
 # Reload shell to install NVM etc.
-exec ${SHELL} -l
+source ~/.zshrc
