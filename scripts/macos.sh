@@ -5,8 +5,8 @@ echo "== Changing macOS settings =="
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Europe/London" > /dev/null
 
-# Disable press-and-hold for keys in favor of key repeat
-defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
 
 # Set a fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
@@ -18,8 +18,8 @@ defaults write NSGlobalDomain AppleLocale -string "en_GB@currency=GBP"
 defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
-# Disable the sound effects on boot
-sudo nvram SystemAudioVolume=" "
+# Disable press-and-hold for keys in favor of key repeat
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
