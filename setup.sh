@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Ask for administrator password upfront
 sudo -v
 
