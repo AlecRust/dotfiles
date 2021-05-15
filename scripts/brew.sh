@@ -48,5 +48,5 @@ brew install speedtest_cli
 brew tap homebrew/cask-fonts
 brew install font-fira-code
 
-# Remove outdated Homebrew versions
+# Tidy up Homebrew versions
 brew cleanup
