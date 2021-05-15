@@ -1,9 +1,14 @@
 #!/bin/sh
 
-echo "== Installing Node and Yarn =="
+echo "== Installing Node Version Manager =="
 
-# Source zsh-nvmto run now
-source ~/.oh-my-zsh/custom/plugins/zsh-nvm/zsh-nvm.plugin.zsh
+# Save latest nvm version
+latest_nvm_version="$(curl --silent "https://api.github.com/repos/nvm-sh/nvm/releases/latest" | jq -r .tag_name)"
+
+# Install latest nvm
+curl -o- "https://raw.githubusercontent.com/nvm-sh/nvm/$latest_nvm_version/install.sh" | bash
+
+echo "== Installing Node and Yarn =="
 
 # Install latest Node
 nvm install node

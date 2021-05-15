@@ -36,11 +36,11 @@ git clone https://github.com/djui/alias-tips ~/.oh-my-zsh/custom/plugins/alias-t
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
-# Install iTerm2 shell integration
-curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash
-
 # Clone Spaceship ZSH
 git clone https://github.com/denysdovhan/spaceship-prompt ~/.oh-my-zsh/custom/themes/spaceship-prompt
 
 # Create theme file symlink
 ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme
+
+# Install iTerm2 shell integration
+curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash
