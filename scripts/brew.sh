@@ -10,7 +10,6 @@ brew upgrade
 brew install coreutils
 brew install moreutils
 brew install findutils
-brew install python3
 brew install openssh
 brew install gnu-sed
 brew install python
