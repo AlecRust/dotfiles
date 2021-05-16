@@ -38,7 +38,7 @@ Things to backup to an external drive if moving from an old machine:
 
 ### Manual Steps
 
-1. In Finder sidebar enable Home directory, disable Tags and add `projects`/`Google Drive` to Favorites
+1. In Finder sidebar enable Home directory, disable Tags and add `projects` to Favorites
 
 2. [Replace Spotlight key for Raycast](https://www.notion.so/Hotkey-56103210375b4fc78b63a7c5e7075fb7)
 
@@ -56,4 +56,5 @@ Things to backup to an external drive if moving from an old machine:
 5. Set up other apps
 
     - Remove "Center Third" and record that shortcut as "Almost Maximize"
+    - Update Sourcetree "Diff" settings to use Kaleidoscope diff tool and Fira Code 12pt font
     - Install Sonos S2 app
