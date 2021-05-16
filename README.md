@@ -43,6 +43,13 @@ Things to backup to an external drive if moving from an old machine:
 
     Enable Home directory, disable Tags and add `projects`/`Google Drive` to Favorites
 
-2. Install apps
+2. [Replace Spotlight key for Raycast](https://www.notion.so/Hotkey-56103210375b4fc78b63a7c5e7075fb7)
+
+2. Link apps with Google Drive
+
+    - Import iStat Menus settings
+    - Set Raycast custom scripts directory
+
+3. Install other apps
 
     - Sonos S2
