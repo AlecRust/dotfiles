@@ -8,11 +8,7 @@ My macOS setup.
 
 2. Install [Homebrew](https://brew.sh/)
 
-3. Clone repo (if not restored from backup)
-
-    ```sh
-    git clone https://github.com/AlecRust/dotfiles ~/projects/personal/dotfiles
-    ```
+3. Clone repo (if not restored from backup) to `~/projects/personal/dotfiles`
 
 3. Run setup script
 
@@ -44,11 +40,7 @@ Things to backup to an external drive if moving from an old machine:
     - Map <kbd>⇪</kbd> key to <kbd>⌃</kbd> at Keyboard > Modifier Keys
     - Disable Spotlight hotkey at Keyboard > Shortcuts > Spotlight
 
-2. Setup GitHub SSH connection
-
-  ```sh
-  gh auth login
-  ```
+2. Setup GitHub SSH connection with `gh auth login`
 
 3. Set up other apps
 
