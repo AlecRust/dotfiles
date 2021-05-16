@@ -56,9 +56,6 @@ alias update-gems='sudo gem update --system; sudo gem update; sudo gem cleanup; 
 # Brave
 alias brave='/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser'
 
-# Google Chrome
-alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
-
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
