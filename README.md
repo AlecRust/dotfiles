@@ -48,6 +48,7 @@ Things to backup to an external drive if moving from an old machine:
 
     - Set Raycast keyboard shortcut to <kbd>⌘</kbd> + <kbd>Space</kbd>
     - Set Raycast custom scripts directory from Google Drive and keyboard shortcut
+    - Set Raycast `txs` alias for "Start Tmuxinator Project" custom script
     - Remove "Center Third" and record that shortcut as "Almost Maximize"
     - Change Sourcetree "Diff" settings to use Kaleidoscope diff tool and Fira Code 12pt font
     - Enable Git force push in Sourcetree advanced settings
