@@ -217,6 +217,10 @@
 [credential]
 	helper = osxkeychain
 
+[user]
+	name = Alec Rust
+	email = me@alecrust.com
+
 # SourceTree specific
 
 [difftool "sourcetree"]
