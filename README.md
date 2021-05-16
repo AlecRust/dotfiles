@@ -34,7 +34,7 @@ Things to backup to an external drive if moving from an old machine:
 - `~/scripts`
 - `~/.extra`
 - `~/.zsh_history`
-- Any SSH/GPG keys you want to keep
+- Any SSH keys from `~/.ssh` you want to keep and GPG keys
 
 ### Manual Steps
 

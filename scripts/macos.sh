@@ -2,10 +2,7 @@
 
 echo "==> 📜 Changing macOS settings"
 
-# Set the timezone; see `sudo systemsetup -listtimezones` for other values
-sudo systemsetup -settimezone "Europe/London" > /dev/null
-
-# Disable the sound effects on boot
+# Disable system startup sound
 sudo nvram SystemAudioVolume=" "
 
 # Set a fast keyboard repeat rate
