@@ -42,7 +42,9 @@ Things to backup to an external drive if moving from an old machine:
 
 2. Setup GitHub SSH connection with `gh auth login`
 
-3. Set up other apps
+3. Create GPG key with `gpg --full-generate-key` and [add to GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
+
+4. Set up other apps
 
     - Set Raycast keyboard shortcut to <kbd>⌘</kbd> + <kbd>Space</kbd>
     - Set Raycast custom scripts directory from Google Drive and keyboard shortcut
