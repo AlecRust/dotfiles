@@ -20,7 +20,7 @@ My macOS setup.
     ~/projects/personal/dotfiles/setup.sh
     ```
 
-4. Install [manual apps](#manual-apps)
+4. Complete [manual steps](#manual-steps)
 
 ### Backup Files
 
@@ -37,8 +37,8 @@ Things to backup to an external drive if moving from an old machine:
 - `~/.gnupg`
 - `.pem` files in `~/.ssh`
 
-### Manual Apps
+### Manual Steps
 
-Apps to install manually:
+1. Install apps
 
-- Sonos S2
+    - Sonos S2

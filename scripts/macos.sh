@@ -268,3 +268,18 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 # Disable signing emails by default
 defaults write ~/Library/Preferences/org.gpgtools.gpgmail SignNewEmailsByDefault -bool false
+
+echo "==> 📜 Removing apps from Dock"
+
+dockutil --remove "Safari"
+dockutil --remove "Mail"
+dockutil --remove "FaceTime"
+dockutil --remove "Maps"
+dockutil --remove "Photos"
+dockutil --remove "Contacts"
+dockutil --remove "Calendar"
+dockutil --remove "Music"
+dockutil --remove "Podcasts"
+dockutil --remove "TV"
+dockutil --remove "News"
+dockutil --remove "App Store"

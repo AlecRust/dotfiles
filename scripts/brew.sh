@@ -49,6 +49,7 @@ brew install htop
 brew install trash
 brew install thefuck
 brew install qrencode
+brew install dockutil
 brew install youtube-dl
 brew install speedtest-cli
 
