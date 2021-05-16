@@ -38,9 +38,7 @@ Things to backup to an external drive if moving from an old machine:
 
 ### Manual Steps
 
-1. Setup Finder sidebar
-
-    Enable Home directory, disable Tags and add `projects`/`Google Drive` to Favorites
+1. In Finder sidebar enable Home directory, disable Tags and add `projects`/`Google Drive` to Favorites
 
 2. [Replace Spotlight key for Raycast](https://www.notion.so/Hotkey-56103210375b4fc78b63a7c5e7075fb7)
 
