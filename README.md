@@ -38,23 +38,23 @@ Things to backup to an external drive if moving from an old machine:
 
 ### Manual Steps
 
-1. In Finder sidebar enable Home directory, disable Tags and add `projects` to Favorites
+1. Modify settings
 
-2. [Replace Spotlight key for Raycast](https://www.notion.so/Hotkey-56103210375b4fc78b63a7c5e7075fb7)
+    - In Finder sidebar enable Home directory, disable Tags and add `projects` to Favorites
+    - Map <kbd>⇪</kbd> key to <kbd>⌃</kbd> at Keyboard > Modifier Keys
+    - Disable Spotlight hotkey at Keyboard > Shortcuts > Spotlight
 
-3. Setup GitHub SSH connection
+2. Setup GitHub SSH connection
 
   ```sh
   gh auth login
   ```
 
-4. Link apps with Google Drive
+3. Set up other apps
 
-    - Set Raycast custom scripts directory
-    - Import iStat Menus settings
-
-5. Set up other apps
-
+    - Set Raycast keyboard shortcut to <kbd>⌘</kbd> + <kbd>Space</kbd>
+    - Set Raycast custom scripts directory from Google Drive and keyboard shortcut
     - Remove "Center Third" and record that shortcut as "Almost Maximize"
     - Update Sourcetree "Diff" settings to use Kaleidoscope diff tool and Fira Code 12pt font
+    - Import iStat Menus settings from Google Drive
     - Install Sonos S2 app
