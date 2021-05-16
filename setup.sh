@@ -12,4 +12,4 @@ source ~/projects/personal/dotfiles/scripts/mas.sh
 source ~/projects/personal/dotfiles/scripts/macos.sh
 source ~/projects/personal/dotfiles/scripts/ssh.sh
 
-echo "✨ Completed setup. Please restart machine."
+echo "✨ Completed setup - please restart machine"
