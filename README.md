@@ -44,8 +44,12 @@ Things to backup to an external drive if moving from an old machine:
 
 2. Link apps with Google Drive
 
-    - Import iStat Menus settings
     - Set Raycast custom scripts directory
+    - Import iStat Menus settings
+
+3. Set up other apps
+
+    - Remove "Center Third" and record that shortcut as "Almost Maximize"
 
 3. Install other apps
 
