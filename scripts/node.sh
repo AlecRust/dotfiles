@@ -10,7 +10,7 @@ export NVM_DIR="$HOME/.nvm" && (
   git checkout "$(git describe --abbrev=0 --tags --match "v[0-9]*" "$(git rev-list --tags --max-count=1)")"
 ) && \. "$NVM_DIR/nvm.sh"
 
-echo "==> 📜 Installing latest Node"
+echo "==> 📜 Installing latest Node via NVM"
 
 # Install latest Node
 nvm install node
