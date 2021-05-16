@@ -18,6 +18,13 @@ defaults write NSGlobalDomain AppleLocale -string "en_GB@currency=GBP"
 defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
+# Create screenshots directory
+mkdir "${HOME}/screenshots"
+
+# Save screenshots to home directory
+# We then upload them to Imgur using: https://github.com/mileswd/mac2imgur
+defaults write com.apple.screencapture location -string "${HOME}/screenshots"
+
 # Disable press-and-hold for keys in favor of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
@@ -71,10 +78,6 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # Require password immediately after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
-
-# Save screenshots to home directory
-# We then upload them to Imgur using: https://github.com/mileswd/mac2imgur
-defaults write com.apple.screencapture location -string "${HOME}/Screenshots"
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "png"
