@@ -39,6 +39,10 @@ Things to backup to an external drive if moving from an old machine:
 
 ### Manual Steps
 
-1. Install apps
+1. Setup Finder sidebar
+
+    Enable Home directory, disable Tags and add `projects`/`Google Drive` to Favorites
+
+2. Install apps
 
     - Sonos S2
