@@ -30,7 +30,6 @@ brew install awscli
 brew install redis
 brew install rbenv
 brew install tmux
-brew install svn
 brew install gh
 
 brew tap heroku/brew
@@ -43,6 +42,7 @@ brew services start postgresql
 brew install z
 brew install jq
 brew install mas
+brew install svn
 brew install tldr
 brew install htop
 brew install trash
