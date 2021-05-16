@@ -4,10 +4,6 @@ echo "==> 📜 Installing Visual Studio Code"
 
 brew install --cask visual-studio-code
 
-echo "==> 🔗 Symlinking Visual Studio Code settings"
-
-ln -s ~/projects/personal/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-
 echo "==> 📜 Installing Visual Studio Code extensions"
 
 # Editor
@@ -50,3 +46,7 @@ code --install-extension stylelint.vscode-stylelint
 
 # Themes
 code --install-extension atomiks.moonlight
+
+echo "==> 🔗 Symlinking Visual Studio Code settings"
+
+ln -s ~/projects/personal/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
