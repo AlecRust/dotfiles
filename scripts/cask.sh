@@ -33,6 +33,5 @@ brew install --cask imageoptim
 brew install --cask kaleidoscope
 brew install --cask sketch
 brew install --cask sourcetree
-brew install --cask sublime-text
 brew install --cask tableplus
 brew install --cask transmit
