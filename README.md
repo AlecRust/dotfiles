@@ -24,7 +24,7 @@ My macOS setup.
 
 ### Backup Files
 
-Things to backup to an external drive if moving from an old machine.
+Things to backup to an external drive if moving from an old machine:
 
 - `~/Desktop`
 - `~/Documents`
@@ -39,15 +39,6 @@ Things to backup to an external drive if moving from an old machine.
 
 ### Manual Apps
 
-Apps to install manually from website or App Store.
+Apps to install manually:
 
-- Affinity Designer
-- Affinity Photo
-- Disk Map
-- Home Assistant
-- Jira
-- Lungo
-- Shazam
-- Speedtest
-- Xcode
-- Sonos
+- Sonos S2

@@ -43,6 +43,7 @@ brew services start postgresql
 # Other utilities
 brew install z
 brew install jq
+brew install mas
 brew install tldr
 brew install htop
 brew install trash
