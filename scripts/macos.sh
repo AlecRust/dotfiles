@@ -19,6 +19,9 @@ defaults write NSGlobalDomain AppleMetricUnits -bool true
 mkdir "${HOME}/screenshots"
 defaults write com.apple.screencapture location -string "${HOME}/screenshots"
 
+# Show default menu bar clock as small icon
+defaults write com.apple.menuextra.clock IsAnalog -bool true
+
 # Show hidden files in Finder by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
