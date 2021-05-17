@@ -40,7 +40,7 @@ Things to backup to an external drive if moving from an old machine:
     - Map <kbd>⇪</kbd> key to <kbd>⌃</kbd> at Keyboard > Modifier Keys
     - Disable Spotlight hotkey at Keyboard > Shortcuts > Spotlight
 
-2. Setup GitHub SSH connection with `gh auth login`
+2. Set up GitHub SSH connection with `gh auth login`
 
 3. Import GPG keys or create with `gpg --full-generate-key` and [add to GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
 
@@ -52,7 +52,7 @@ Things to backup to an external drive if moving from an old machine:
     - Remove Rectangle's "Center Third" and record that shortcut as "Almost Maximize"
     - Disable "Hardware Media Key Handling" in `brave://flags`
     - Import iStat Menus settings from Google Drive
-    - Setup Hidden Bar ([screenshot](https://i.imgur.com/Q1FwwJR.png))
+    - Set up Hidden Bar ([screenshot](https://i.imgur.com/Q1FwwJR.png))
     - Change Sourcetree "Diff" settings to use Kaleidoscope diff tool and Fira Code 12pt font
     - Enable Git force push in Sourcetree advanced settings
     - Change Kaleidoscope settings to use dark background and Fira Code 12pt font
