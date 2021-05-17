@@ -45,6 +45,7 @@ brew install jq
 brew install mas
 brew install svn
 brew install tldr
+brew install duti
 brew install htop
 brew install trash
 brew install thefuck
