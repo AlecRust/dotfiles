@@ -34,10 +34,10 @@ Things to backup to an external drive if moving from an old machine:
 
 ### Manual Steps
 
-1. Modify settings
+1. Modify macOS settings
 
     - In Finder sidebar enable Home directory, disable Tags and add `projects` to Favorites
-    - Map <kbd>⇪</kbd> key to <kbd>⌃</kbd> at Keyboard > Modifier Keys
+    - Map <kbd>⇪</kbd> key to <kbd>Ctrl</kbd> at Keyboard > Modifier Keys
     - Disable Spotlight hotkey at Keyboard > Shortcuts > Spotlight
 
 2. Set up GitHub SSH connection with `gh auth login`
@@ -46,14 +46,18 @@ Things to backup to an external drive if moving from an old machine:
 
 4. Set up other apps
 
-    - Set Raycast keyboard shortcut to <kbd>⌘</kbd> + <kbd>Space</kbd>
-    - Set Raycast custom scripts directory from Google Drive and keyboard shortcut
-    - Set Raycast `txs` alias for "Start Tmuxinator Project" custom script
+    - Raycast
+        - Set keyboard shortcut to <kbd>⌘</kbd> + <kbd>Space</kbd>
+        - Set custom scripts directory from Google Drive
+        - Set `txs` alias for "Start Tmuxinator Project" custom script
+    - Sourcetree
+        - Set diff tool to Kaleidoscope
+        - Set font to Fira Code 12pt
+        - Disable modifying of global `.gitconfig`
     - Remove Rectangle's "Center Third" and record that shortcut as "Almost Maximize"
     - Disable "Hardware Media Key Handling" in `brave://flags`
     - Import iStat Menus settings from Google Drive
     - Set up Hidden Bar ([screenshot](https://i.imgur.com/Q1FwwJR.png))
-    - Change Sourcetree "Diff" settings to use Kaleidoscope diff tool and Fira Code 12pt font
     - Enable Git force push in Sourcetree advanced settings
     - Change Kaleidoscope settings to use dark background and Fira Code 12pt font
     - Install Sonos S2 app

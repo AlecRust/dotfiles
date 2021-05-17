@@ -217,9 +217,12 @@
 [credential]
 	helper = osxkeychain
 
+# This is set in ~/.extra but duplicated here as gets added automatically
+# NOTE: Yes, it's OK that `signingKey` is public
 [user]
 	name = Alec Rust
 	email = me@alecrust.com
+	signingKey = EB374231DBCA5067
 
 # SourceTree specific
 
