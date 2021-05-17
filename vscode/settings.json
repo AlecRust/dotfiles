@@ -41,7 +41,7 @@
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {},
-  "workbench.colorTheme": "Moonlight II Italic",
+  "workbench.colorTheme": "Tokyo Night Storm",
   "workbench.editor.decorations.badges": true,
   "workbench.editor.decorations.colors": true,
   "workbench.editor.enablePreviewFromQuickOpen": false,
