@@ -49,10 +49,11 @@ Things to backup to an external drive if moving from an old machine:
     - Set Raycast keyboard shortcut to <kbd>⌘</kbd> + <kbd>Space</kbd>
     - Set Raycast custom scripts directory from Google Drive and keyboard shortcut
     - Set Raycast `txs` alias for "Start Tmuxinator Project" custom script
+    - Remove Rectangle's "Center Third" and record that shortcut as "Almost Maximize"
     - Disable "Hardware Media Key Handling" in `brave://flags`
-    - Remove "Center Third" and record that shortcut as "Almost Maximize"
+    - Import iStat Menus settings from Google Drive
+    - Setup Hidden Bar ([screenshot](https://i.imgur.com/Q1FwwJR.png))
     - Change Sourcetree "Diff" settings to use Kaleidoscope diff tool and Fira Code 12pt font
     - Enable Git force push in Sourcetree advanced settings
     - Change Kaleidoscope settings to use dark background and Fira Code 12pt font
-    - Import iStat Menus settings from Google Drive
     - Install Sonos S2 app
