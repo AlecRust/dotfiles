@@ -18,20 +18,6 @@ My macOS setup.
 
 4. Complete [manual steps](#manual-steps)
 
-### Backup Files
-
-Things to backup to an external drive if moving from an old machine:
-
-- `~/Desktop`
-- `~/Documents`
-- `~/Downloads`
-- `~/Google Drive`
-- `~/projects`
-- `~/scripts`
-- `~/.extra`
-- `~/.zsh_history`
-- Any keys in `~/.ssh` you want to keep and [exported](https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys#backup-single-key) GPG keys
-
 ### Manual Steps
 
 1. Modify macOS settings
@@ -61,3 +47,18 @@ Things to backup to an external drive if moving from an old machine:
     - Enable Git force push in Sourcetree advanced settings
     - Change Kaleidoscope settings to use dark background and Fira Code 12pt font
     - Install Sonos S2 app
+
+### Backup Files
+
+Things to backup to an external drive if moving from an old machine:
+
+- `~/Desktop`
+- `~/Documents`
+- `~/Downloads`
+- `~/Google Drive`
+- `~/projects`
+- `~/scripts`
+- `~/.extra`
+- `~/.zsh_history`
+- `~/.ssh/config` and any others you want to keep from here such as PEM files
+- [Exported](https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys#backup-single-key) GPG keys
