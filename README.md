@@ -26,7 +26,7 @@ My macOS setup.
     - Map <kbd>⇪</kbd> key to <kbd>Ctrl</kbd> at Keyboard > Modifier Keys
     - Disable Spotlight hotkey at Keyboard > Shortcuts > Spotlight
 
-2. Set up GitHub SSH connection with `gh auth login`
+2. Set up GitHub SSH connection with `gh auth login` and AWS CLI with `aws configure`
 
 3. Import GPG keys or create with `gpg --full-generate-key` and [add to GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
 
