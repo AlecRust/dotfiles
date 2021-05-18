@@ -260,3 +260,9 @@ dockutil --remove "Podcasts"
 dockutil --remove "TV"
 dockutil --remove "News"
 dockutil --remove "App Store"
+
+echo "==> 📜 Setting IINA as default app for media files"
+
+duti -s com.colliderli.iina .mp4 all
+duti -s com.colliderli.iina .avi all
+duti -s com.colliderli.iina .wmv all
