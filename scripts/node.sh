@@ -28,6 +28,7 @@ yarn global add npm-check-updates
 yarn global add npm-check
 yarn global add changelog
 yarn global add splash-cli
+yarn global add lungo-cli
 yarn global add retry-cli
 yarn global add gulp-cli
 yarn global add stylelint
