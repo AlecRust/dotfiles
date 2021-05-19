@@ -9,6 +9,7 @@ sudo nvram SystemAudioVolume=" "
 sudo scutil --set ComputerName "Alec's MacBook"
 sudo scutil --set HostName "alecs-macbook"
 sudo scutil --set LocalHostName "alecs-macbook"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "alecs-macbook"
 
 # Set language and text formats
 defaults write NSGlobalDomain AppleLanguages -array "en"
