@@ -28,11 +28,14 @@ My macOS setup.
     - Map <kbd>⇪</kbd> key to <kbd>Ctrl</kbd> at Keyboard > Modifier Keys
     - Disable Spotlight hotkey at Keyboard > Shortcuts > Spotlight
 
-2. Set up GitHub SSH connection with `gh auth login` and AWS CLI with `aws configure`
+2. Set up remote connections
 
-3. Import GPG keys or create with `gpg --full-generate-key` and [add to GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
+    - Set up new default SSH keys and GitHub connection with `gh auth login`
+    - Import GPG keys or create with `gpg --full-generate-key` and [add to GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
+    - Use `ssh-copy-id` to copy SSH keys from each machine on local network
+    - Set up AWS connection with `aws configure`
 
-4. Set up other apps
+3. Set up other apps
 
     - Raycast
         - Set keyboard shortcut to <kbd>⌘</kbd> + <kbd>Space</kbd>
