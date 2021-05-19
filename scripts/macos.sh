@@ -5,9 +5,10 @@ echo "==> 📜 Changing macOS settings"
 # Disable system startup sound
 sudo nvram SystemAudioVolume=" "
 
-# Set a fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+# Set computer name so alecs-macbook.local is a hostname
+sudo scutil --set ComputerName "Alec's MacBook"
+sudo scutil --set HostName "alecs-macbook"
+sudo scutil --set LocalHostName "alecs-macbook"
 
 # Set language and text formats
 defaults write NSGlobalDomain AppleLanguages -array "en"
@@ -18,6 +19,10 @@ defaults write NSGlobalDomain AppleMetricUnits -bool true
 # Create and set screenshots directory
 mkdir "${HOME}/screenshots"
 defaults write com.apple.screencapture location -string "${HOME}/screenshots"
+
+# Set a fast keyboard repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # Show default menu bar clock as small icon
 defaults write com.apple.menuextra.clock IsAnalog -bool true
