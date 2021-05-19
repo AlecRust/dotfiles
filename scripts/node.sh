@@ -2,7 +2,7 @@
 
 echo "==> 📜 Installing Node Version Manager"
 
-# Install latest nvm and load it
+# Install latest nvm and load it to run now
 # https://github.com/nvm-sh/nvm#manual-install
 export NVM_DIR="$HOME/.nvm" && (
   git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"
@@ -10,7 +10,13 @@ export NVM_DIR="$HOME/.nvm" && (
   git checkout "$(git describe --abbrev=0 --tags --match "v[0-9]*" "$(git rev-list --tags --max-count=1)")"
 ) && \. "$NVM_DIR/nvm.sh"
 
-echo "==> 📜 Installing latest Node via NVM"
+echo "==> 🔗 Symlinking default Node packages list"
+
+# Use NVM's default-packages for global package installation
+# https://github.com/nvm-sh/nvm#default-global-packages-from-file-while-installing
+ln -s ~/projects/personal/dotfiles/dotfiles/default-packages "$NVM_DIR/default-packages"
+
+echo "==> 📜 Installing latest Node and global packages"
 
 # Install latest Node
 nvm install node
@@ -21,18 +27,3 @@ npm install --global npm
 echo "==> 📜 Installing Yarn"
 
 brew install yarn
-
-echo "==> 📜 Installing global Node packages"
-
-yarn global add npm-check-updates
-yarn global add npm-check
-yarn global add changelog
-yarn global add splash-cli
-yarn global add lungo-cli
-yarn global add retry-cli
-yarn global add gulp-cli
-yarn global add stylelint
-yarn global add eslint
-yarn global add nodemon
-yarn global add serve
-yarn global add yo
