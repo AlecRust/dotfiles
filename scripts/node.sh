@@ -23,7 +23,3 @@ nvm install node
 
 # Update npm to latest version
 npm install --global npm
-
-echo "==> 📜 Installing Yarn"
-
-brew install yarn
