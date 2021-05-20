@@ -16,7 +16,6 @@ brew install --cask ivpn
 brew install --cask kap
 brew install --cask mac2imgur
 brew install --cask monitorcontrol
-brew install --cask raycast
 brew install --cask rectangle
 brew install --cask slack
 brew install --cask spotify
@@ -24,6 +23,7 @@ brew install --cask sweet-home3d
 brew install --cask the-unarchiver
 brew install --cask transmission
 brew install --cask zoom
+brew install --cask raycast
 
 # Development
 brew install --cask docker
