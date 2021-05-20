@@ -8,6 +8,7 @@ ln -s ~/projects/personal/dotfiles/dotfiles/.editorconfig ~/.editorconfig
 ln -s ~/projects/personal/dotfiles/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/projects/personal/dotfiles/dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/projects/personal/dotfiles/dotfiles/.hushlogin ~/.hushlogin
+ln -s ~/projects/personal/dotfiles/dotfiles/.huskyrc ~/.huskyrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.wgetrc ~/.wgetrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.zshrc ~/.zshrc
 

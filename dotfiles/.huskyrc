@@ -1,0 +1,5 @@
+# Ensure NVM is loaded and sets correct PATH before calling e.g. `yarn` from Husky
+# https://typicode.github.io/husky/#/?id=command-not-found
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
