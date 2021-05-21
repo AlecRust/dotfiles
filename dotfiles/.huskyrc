@@ -1,9 +1,9 @@
 # Runs before husky hooks
 # https://typicode.github.io/husky/#/?id=command-not-found
 
-# Load rbenv
+# Load rbenv for `bundle` etc.
 eval "$(rbenv init -)"
 
-# Load NVM for `yarn` command etc.
+# Load NVM for `yarn` etc.
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
