@@ -1,5 +1,9 @@
-# Ensure NVM is loaded and sets correct PATH before calling e.g. `yarn` from Husky
+# Runs before husky hooks
 # https://typicode.github.io/husky/#/?id=command-not-found
 
+# Load rbenv
+eval "$(rbenv init -)"
+
+# Load NVM for `yarn` command etc.
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
