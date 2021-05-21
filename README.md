@@ -42,9 +42,10 @@ My macOS setup.
         - Set custom scripts directory from Google Drive
         - Set `txs` alias for "Start Tmuxinator Project" custom script
     - Sourcetree
-        - Set diff tool to Kaleidoscope
-        - Set font to Fira Code 12pt
         - Disable modifying of global `.gitconfig`
+        - Set font to Fira Code 12pt
+        - Set diff tool to Kaleidoscope
+        - Allow `Gemfile.lock` in "Ignore File Patterns"
     - Remove Rectangle's "Center Third" and record that shortcut as "Almost Maximize"
     - Disable "Hardware Media Key Handling" in `brave://flags`
     - Import iStat Menus settings from Google Drive
