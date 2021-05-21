@@ -1,5 +1,5 @@
 {
-  "docker.showStartPage": false,
+  // Editor
   "editor.codeLens": false,
   "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -11,34 +11,15 @@
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "eslint.packageManager": "yarn",
+  // Explorer
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
-  "githubPullRequests.telemetry.enabled": false,
-  "gitlens.advanced.telemetry.enabled": false,
-  "gitlens.blame.highlight.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.currentLine.scrollable": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.validate.enable": false,
-  "npm.packageManager": "yarn",
-  "phpfmt.indent_with_space": 2,
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
-  "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "vscode-home-assistant.ignoreCertificates": true,
+  // Window
   "window.newWindowDimensions": "inherit",
   "window.openFoldersInNewWindow": "on",
   "window.title": "${activeEditorMedium}${separator}${rootName}",
+  // Workbench
   "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {},
   "workbench.colorTheme": "Tokyo Night Storm",
@@ -48,6 +29,37 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.sideBar.location": "left",
   "workbench.statusBar.visible": true,
+  // Integrated terminal
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  // Files
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "eslint.packageManager": "yarn",
+  "npm.packageManager": "yarn",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": false,
+  "phpfmt.indent_with_space": 2,
+  // Disable telemetry
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "redhat.telemetry.enabled": false,
+  "gitlens.advanced.telemetry.enabled": false,
+  "githubPullRequests.telemetry.enabled": false,
+  // Home Assistant extension
+  "vscode-home-assistant.ignoreCertificates": true,
+  // Git Lens extension
+  "gitlens.blame.highlight.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.currentLine.scrollable": false,
+  // Docker extension
+  "docker.showStartPage": false,
+  // Ruby extension
   "ruby.useLanguageServer": true,
   "ruby.pathToBundler": "/Users/alec/.rbenv/shims/bundle",
   "ruby.lint": {
@@ -60,6 +72,7 @@
   "ruby.codeCompletion": "rcodetools",
   "ruby.intellisense": "rubyLocate",
   "ruby.useBundler": true,
+  // Code Spell Checker extension
   "cSpell.language": "en,en-GB",
   "cSpell.enabledLanguageIds": [
     "asciidoc",
@@ -96,6 +109,7 @@
     "yml",
     "erb"
   ],
+  // Prettier extension
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
