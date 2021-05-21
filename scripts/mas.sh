@@ -27,4 +27,4 @@ mas install 897118787
 mas install 1475897096
 
 # Xcode
-# mas install 497799835
+mas install 497799835
