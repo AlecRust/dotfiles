@@ -22,7 +22,7 @@ My macOS setup.
 
 1. Modify macOS settings
 
-    - In Finder sidebar enable Home directory, disable Tags and add `~/projects` to Favorites
+    - In Finder sidebar enable `alec` and `Alec's MacBook`, disable Tags and add `~/projects` to Favorites
     - [Enable Full Disk access](https://support.apple.com/en-us/HT210595) for iTerm2
     - Enable remote login via SSH with `sudo systemsetup -setremotelogin on`
     - Map <kbd>⇪</kbd> key to <kbd>Ctrl</kbd> at Keyboard > Modifier Keys
