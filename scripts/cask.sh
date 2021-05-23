@@ -15,6 +15,8 @@ brew install --cask gpg-suite
 brew install --cask mac2imgur
 brew install --cask hiddenbar
 brew install --cask rectangle
+brew install --cask telegram
+brew install --cask whatsapp
 brew install --cask spotify
 brew install --cask discord
 brew install --cask slack
