@@ -1,7 +1,7 @@
 # Path to oh-my-zsh installation
 export ZSH=$HOME/.oh-my-zsh
 
-# Enable NVM lazy loading
+# Enable nvm lazy loading
 export NVM_LAZY_LOAD=true
 
 # Spaceship ZSH as Oh My Zsh theme. Load iTerm2 themes from:
