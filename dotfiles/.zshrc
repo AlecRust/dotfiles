@@ -114,6 +114,11 @@ export EDITOR="code"
 # Disable Homebrew analytics
 export HOMEBREW_NO_ANALYTICS=1
 
+# HSTR configuration
+setopt histignorespace
+export HSTR_CONFIG=hicolor
+bindkey -s "\C-r" "\C-a hstr -- \C-j"
+
 # Load Oh My Zsh
 source $ZSH/oh-my-zsh.sh
 

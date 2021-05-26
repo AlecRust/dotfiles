@@ -13,6 +13,7 @@ alias e="exit"
 alias s="spotify"
 alias ss="spring stop"
 alias ytd="youtube-dl"
+alias hh="hstr"
 
 # Override yarn plugin to set yo back to Yeoman default
 alias yo="yo"

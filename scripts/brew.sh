@@ -45,6 +45,7 @@ brew install z
 brew install jq
 brew install mas
 brew install svn
+brew install hstr
 brew install tldr
 brew install duti
 brew install htop
