@@ -14,6 +14,7 @@ brew install openssh
 brew install gnu-sed
 brew install python
 brew install rsync
+brew install bash
 brew install nano
 brew install curl
 brew install wget
