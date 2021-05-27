@@ -31,7 +31,7 @@ My macOS setup.
 
     - Set up new default SSH keys and GitHub connection with `gh auth login`
     - Import GPG keys or create with `gpg --full-generate-key` and [add to GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
-    - Use `ssh-copy-id` to copy SSH keys from each machine on local network
+    - Copy SSH keys from each machine on local network with `ssh-copy-id`
     - Set up AWS connection with `aws configure`
 
 3. Set up other apps
@@ -45,11 +45,11 @@ My macOS setup.
         - Set font to Fira Code 12pt
         - Set diff tool to Kaleidoscope
         - Allow `Gemfile.lock` in "Ignore File Patterns"
-    - Remove Rectangle's "Center Third" and record that shortcut as "Almost Maximize"
+        - Enable Git force push in advanced settings
+    - Replace Rectangle's "Center Third" shortcut with "Almost Maximize"
     - Disable "Hardware Media Key Handling" in `brave://flags`
     - Import iStat Menus settings from Google Drive
     - Set up Hidden Bar ([screenshot](https://i.imgur.com/Q1FwwJR.png))
-    - Enable Git force push in Sourcetree advanced settings
     - Change Kaleidoscope settings to use dark background and Fira Code 12pt font
     - Install Sonos S2 app
 
