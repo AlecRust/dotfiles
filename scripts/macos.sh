@@ -11,6 +11,9 @@ sudo scutil --set HostName "alecs-macbook"
 sudo scutil --set LocalHostName "alecs-macbook"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "alecs-macbook"
 
+# Enable remote login via SSH (for calling scripts from Home Assistant)
+sudo systemsetup -setremotelogin on
+
 # Set language and text formats
 defaults write NSGlobalDomain AppleLanguages -array "en"
 defaults write NSGlobalDomain AppleLocale -string "en_GB@currency=GBP"
