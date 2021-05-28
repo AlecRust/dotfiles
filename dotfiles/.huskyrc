@@ -2,7 +2,7 @@
 # https://typicode.github.io/husky/#/?id=command-not-found
 
 # Load rbenv for `bundle` etc.
-eval "$(rbenv init -)"
+eval "$(/usr/local/bin/rbenv init -)"
 
 # Load nvm for `yarn` etc.
 export NVM_DIR="$HOME/.nvm"
