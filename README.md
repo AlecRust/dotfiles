@@ -24,8 +24,9 @@ My macOS setup.
 
     - In Finder sidebar enable `alec` and `Alec's MacBook`, disable Tags and add `~/projects` to Favorites
     - [Enable Full Disk access](https://support.apple.com/en-us/HT210595) for iTerm2
-    - Map <kbd>⇪</kbd> key to <kbd>Ctrl</kbd> at Keyboard > Modifier Keys
-    - Disable Spotlight hotkey at Keyboard > Shortcuts > Spotlight
+    - Map <kbd>⇪</kbd> key to <kbd>Ctrl</kbd> at `Keyboard > Modifier Keys`
+    - Disable double-space period at `Keyboard > Text`
+    - Disable Spotlight hotkey at `Keyboard > Shortcuts > Spotlight`
 
 2. Set up remote connections
 
