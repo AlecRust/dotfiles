@@ -14,6 +14,9 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 # Enable remote login via SSH (for calling scripts from Home Assistant)
 sudo systemsetup -setremotelogin on
 
+# Disable default "cmd + space" Spotlight shortcut
+/usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c "Set AppleSymbolicHotKeys:64:enabled false"
+
 # Set language and text formats
 defaults write NSGlobalDomain AppleLanguages -array "en"
 defaults write NSGlobalDomain AppleLocale -string "en_GB@currency=GBP"
