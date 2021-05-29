@@ -4,18 +4,12 @@
 <dict>
 	<key>AdjustWindowForFontSizeChange</key>
 	<true/>
-	<key>AllowClipboardAccess</key>
-	<false/>
 	<key>AlternateMouseScroll</key>
 	<true/>
-	<key>AnimateDimming</key>
-	<false/>
 	<key>AutoHideTmuxClientSession</key>
 	<true/>
 	<key>CheckTestRelease</key>
 	<true/>
-	<key>ClosingHotkeySwitchesSpaces</key>
-	<false/>
 	<key>ClosingTmuxTabKillsTmuxWindows</key>
 	<true/>
 	<key>ClosingTmuxTabKillsTmuxWindows_selection</key>
@@ -26,16 +20,12 @@
 	<true/>
 	<key>Control</key>
 	<integer>1</integer>
-	<key>CopyLastNewline</key>
-	<false/>
 	<key>CopySelection</key>
 	<true/>
 	<key>Custom Color Presets</key>
 	<dict/>
 	<key>Default Bookmark Guid</key>
 	<string>0683BB18-06E6-4773-BA6D-9F99E70C26D5</string>
-	<key>DimBackgroundWindows</key>
-	<false/>
 	<key>DimInactiveSplitPanes</key>
 	<true/>
 	<key>DimOnlyText</key>
@@ -44,72 +34,30 @@
 	<true/>
 	<key>DisableWindowSizeSnap</key>
 	<true/>
-	<key>EnableDivisionView</key>
-	<false/>
-	<key>EnableRendezvous</key>
-	<false/>
 	<key>FlashTabBarInFullscreen</key>
 	<true/>
-	<key>FocusFollowsMouse</key>
-	<false/>
 	<key>FsTabDelay</key>
 	<real>1</real>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HiddenAFRStrokeThickness</key>
 	<real>0.0</real>
-	<key>HiddenAdvancedFontRendering</key>
-	<false/>
-	<key>HideActivityIndicator</key>
-	<false/>
-	<key>HideMenuBarInFullscreen</key>
-	<false/>
-	<key>HideScrollbar</key>
-	<false/>
 	<key>HideTab</key>
 	<true/>
-	<key>HideTabNumber</key>
-	<false/>
 	<key>HighlightTabLabels</key>
 	<true/>
-	<key>HotKeyBookmark</key>
-	<string>9BECBC8F-90C4-47E7-8059-9D20CD75C8F5</string>
-	<key>HotKeyTogglesWindow</key>
-	<false/>
-	<key>Hotkey</key>
-	<false/>
-	<key>HotkeyChar</key>
-	<integer>0</integer>
-	<key>HotkeyCode</key>
-	<integer>0</integer>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
-	<key>HotkeyModifiers</key>
-	<integer>0</integer>
 	<key>IRMemory</key>
 	<integer>4</integer>
-	<key>JobName</key>
-	<false/>
 	<key>LeftCommand</key>
 	<integer>7</integer>
 	<key>LeftOption</key>
 	<integer>2</integer>
-	<key>MaxVertically</key>
-	<false/>
-	<key>Multiserver</key>
-	<false/>
-	<key>NeverWarnAboutShortLivedSessions_0683BB18-06E6-4773-BA6D-9F99E70C26D5</key>
-	<true/>
-	<key>NeverWarnAboutShortLivedSessions_0683BB18-06E6-4773-BA6D-9F99E70C26D5_selection</key>
-	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
 			<key>ASCII Anti Aliased</key>
-			<true/>
-			<key>Allow Title Reporting</key>
-			<false/>
-			<key>Allow Title Setting</key>
 			<true/>
 			<key>Ambiguous Double Width</key>
 			<false/>
@@ -257,8 +205,6 @@
 				<key>Red Component</key>
 				<real>1</real>
 			</dict>
-			<key>Automatically Log</key>
-			<false/>
 			<key>BM Growl</key>
 			<true/>
 			<key>Background Color</key>
@@ -270,20 +216,12 @@
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
-			<key>Background Image Is Tiled</key>
-			<false/>
 			<key>Background Image Location</key>
 			<string></string>
-			<key>Blend</key>
-			<real>0.30000001192092896</real>
-			<key>Blink Allowed</key>
-			<false/>
 			<key>Blinking Cursor</key>
 			<false/>
 			<key>Blur</key>
 			<false/>
-			<key>Blur Radius</key>
-			<real>2</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -346,14 +284,10 @@
 			</dict>
 			<key>Guid</key>
 			<string>9BECBC8F-90C4-47E7-8059-9D20CD75C8F5</string>
-			<key>Hide After Opening</key>
-			<false/>
 			<key>Horizontal Spacing</key>
 			<real>1</real>
 			<key>Idle Code</key>
 			<integer>0</integer>
-			<key>Initial Text</key>
-			<string></string>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -418,13 +352,6 @@
 					<integer>11</integer>
 					<key>Text</key>
 					<string>0x7f</string>
-				</dict>
-				<key>0x9-0x40000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>9</string>
 				</dict>
 				<key>0xf700-0x220000</key>
 				<dict>
@@ -651,24 +578,20 @@
 					<string>[1;5F</string>
 				</dict>
 			</dict>
-			<key>Log Directory</key>
-			<string></string>
-			<key>Minimum Contrast</key>
-			<real>0.0</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>Menlo-Regular 11</string>
+			<string>Monaco 12</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Menlo-Regular 11</string>
+			<string>Monaco 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
-			<integer>0</integer>
+			<false/>
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
@@ -677,10 +600,6 @@
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
-			<key>Scrollback With Status Bar</key>
-			<false/>
-			<key>Scrollback in Alternate Screen</key>
-			<true/>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -1795,10 +1714,6 @@
 			<true/>
 			<key>Use Bright Bold</key>
 			<true/>
-			<key>Use Canonical Parser</key>
-			<false/>
-			<key>Use Cursor Guide</key>
-			<false/>
 			<key>Use Italic Font</key>
 			<false/>
 			<key>Use Non-ASCII Font</key>
@@ -1806,7 +1721,7 @@
 			<key>Use Tab Color</key>
 			<false/>
 			<key>Vertical Spacing</key>
-			<real>1.0800000000000001</real>
+			<real>1</real>
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
@@ -1815,26 +1730,8 @@
 			<string>/Users/alec</string>
 		</dict>
 	</array>
-	<key>OnlyWhenMoreTabs</key>
-	<false/>
-	<key>OpenArrangementAtStartup</key>
-	<false/>
-	<key>OpenBookmark</key>
-	<false/>
-	<key>OpenNewWindowAtStartup</key>
-	<false/>
-	<key>OpenNoWindowsAtStartup</key>
-	<false/>
-	<key>OpenTmuxDashboardIfHiddenWindows</key>
-	<false/>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>2</integer>
-	<key>PassOnControlClick</key>
-	<false/>
-	<key>PasteFromClipboard</key>
-	<false/>
-	<key>PerPaneBackgroundImage</key>
-	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1874,8 +1771,6 @@
 	<true/>
 	<key>PromptOnClose</key>
 	<true/>
-	<key>PromptOnQuit</key>
-	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
 	<false/>
 	<key>RightCommand</key>
@@ -1932,16 +1827,8 @@
 	<array>
 		<string>Command History</string>
 	</array>
-	<key>TripleClickSelectsFullWrappedLines</key>
-	<false/>
 	<key>URLHandlersByGuid</key>
 	<dict/>
-	<key>UseBorder</key>
-	<false/>
-	<key>UseCompactLabel</key>
-	<false/>
-	<key>UseLionStyleFullscreen</key>
-	<false/>
 	<key>UseMetal</key>
 	<true/>
 	<key>VisualIndicatorForEsc</key>
