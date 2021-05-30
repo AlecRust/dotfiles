@@ -15,8 +15,12 @@ ln -s "$HOME/projects/personal/dotfiles/sublime/Preferences.sublime-settings" "$
 
 ln -s "$HOME/projects/personal/dotfiles/sublime/Default (OSX).sublime-keymap" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
 
-echo "==> 📜 Setting Sublime Text as default app for files with no extension"
+echo "==> 📜 Setting Sublime Text as default app for various extensions"
 
 duti -s com.sublimetext.4 public.plain-text all
 duti -s com.sublimetext.4 public.unix-executable all
 duti -s com.sublimetext.4 public.data all
+
+duti -s com.sublimetext.4 .json all
+duti -s com.sublimetext.4 .yml all
+duti -s com.sublimetext.4 .sql all
