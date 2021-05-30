@@ -41,6 +41,10 @@ echo "==> 🔗 Symlinking Spaceship ZSH for Oh My Zsh"
 # Create symlink for Oh My Zsh theme file
 ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme
 
+echo "==> 🔗 Symlinking Google Drive scripts to ~/"
+
+ln -s ~/Google\ Drive/Apps/scripts/ ~/scripts
+
 # Warn if .extra file is missing
 if [ ! -f ~/.extra ]; then
   echo "==> ⚠️  WARNING: ~/.extra file was not found. Create this when setup completes to prevent notice on shell start"

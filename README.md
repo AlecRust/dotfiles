@@ -62,7 +62,6 @@ Things to backup to an external drive if moving from an old machine:
 - `~/Downloads`
 - `~/Google Drive`
 - `~/projects`
-- `~/scripts`
 - `~/.extra`
 - `~/.zsh_history`
 - `~/.ssh/config` and any others you want to keep from here such as PEM files
