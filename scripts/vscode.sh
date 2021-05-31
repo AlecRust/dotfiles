@@ -13,7 +13,6 @@ code --install-extension EditorConfig.EditorConfig
 code --install-extension GitHub.vscode-pull-request-github
 code --install-extension keesschollaart.vscode-home-assistant
 code --install-extension mikestead.dotenv
-code --install-extension mrmlnc.vscode-postcss-sorting
 code --install-extension ninoseki.vscode-gem-lens
 code --install-extension shyykoserhiy.vscode-spotify
 code --install-extension streetsidesoftware.code-spell-checker
