@@ -23,4 +23,5 @@ duti -s com.sublimetext.4 public.data all
 
 duti -s com.sublimetext.4 .json all
 duti -s com.sublimetext.4 .yml all
+duti -s com.sublimetext.4 .php all
 duti -s com.sublimetext.4 .sql all
