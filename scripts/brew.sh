@@ -32,6 +32,7 @@ brew install awscli
 brew install redis
 brew install rbenv
 brew install tmux
+brew install go
 brew install gh
 
 brew tap heroku/brew
