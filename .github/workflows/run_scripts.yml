@@ -1,0 +1,13 @@
+name: Run Scripts
+
+on: [push]
+
+jobs:
+  run_scripts:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run setup.sh
+        shell: bash
+        run: ./setup.sh
