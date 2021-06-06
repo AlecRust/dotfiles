@@ -31,7 +31,6 @@ brew install autoenv
 brew install httpie
 brew install awscli
 brew install redis
-brew install rbenv
 brew install tmux
 brew install act
 brew install go

@@ -1,5 +1,9 @@
 #!/bin/sh
 
+echo "==> 📜 Installing rbenv"
+
+brew install rbenv
+
 echo "==> 📜 Installing latest Ruby via rbenv"
 
 # Initialize rbenv to run now
