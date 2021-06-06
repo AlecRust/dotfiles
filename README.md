@@ -1,4 +1,4 @@
-# dotfiles
+# dotfiles [![Lint](https://github.com/AlecRust/dotfiles/actions/workflows/lint.yml/badge.svg)](https://github.com/AlecRust/dotfiles/actions/workflows/lint.yml) [![Scripts](https://github.com/AlecRust/dotfiles/actions/workflows/scripts.yml/badge.svg)](https://github.com/AlecRust/dotfiles/actions/workflows/scripts.yml)
 
 My macOS setup.
 
