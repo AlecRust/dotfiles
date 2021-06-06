@@ -47,3 +47,21 @@ jobs:
         uses: actions/checkout@v2
       - name: Run vscode.sh
         run: ./scripts/vscode.sh
+
+  sublime:
+    name: sublime.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run sublime.sh
+        run: ./scripts/sublime.sh
+
+  macos:
+    name: macos.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run macos.sh
+        run: ./scripts/sublime.sh
