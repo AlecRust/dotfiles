@@ -1,15 +1,18 @@
 #!/bin/sh
 
+# Ignore ShellCheck SC1090 error
+# shellcheck source=/dev/null
+
 # Run all setup scripts
-source ~/projects/personal/dotfiles/scripts/brew.sh
-source ~/projects/personal/dotfiles/scripts/shell.sh
-source ~/projects/personal/dotfiles/scripts/node.sh
-source ~/projects/personal/dotfiles/scripts/ruby.sh
-source ~/projects/personal/dotfiles/scripts/iterm2.sh
-source ~/projects/personal/dotfiles/scripts/vscode.sh
-source ~/projects/personal/dotfiles/scripts/sublime.sh
-source ~/projects/personal/dotfiles/scripts/cask.sh
-source ~/projects/personal/dotfiles/scripts/mas.sh
-source ~/projects/personal/dotfiles/scripts/macos.sh
+. ~/projects/personal/dotfiles/scripts/brew.sh
+. ~/projects/personal/dotfiles/scripts/shell.sh
+. ~/projects/personal/dotfiles/scripts/node.sh
+. ~/projects/personal/dotfiles/scripts/ruby.sh
+. ~/projects/personal/dotfiles/scripts/iterm2.sh
+. ~/projects/personal/dotfiles/scripts/vscode.sh
+. ~/projects/personal/dotfiles/scripts/sublime.sh
+. ~/projects/personal/dotfiles/scripts/cask.sh
+. ~/projects/personal/dotfiles/scripts/mas.sh
+. ~/projects/personal/dotfiles/scripts/macos.sh
 
 echo "✨ Completed setup - please restart machine"
