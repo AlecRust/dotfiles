@@ -1,4 +1,4 @@
-name: Run Scripts
+name: Scripts
 
 on: [push]
 
