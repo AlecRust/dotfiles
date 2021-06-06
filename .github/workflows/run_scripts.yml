@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v2
       - name: Run setup.sh
         shell: bash
-        run: setup.sh
+        run: ./setup.sh
