@@ -12,10 +12,15 @@ eval "$(rbenv init -)"
 # Save latest Ruby version
 latest_ruby_version="$(rbenv install -l | grep -v - | tail -1)"
 
-# Install latest Ruby
-rbenv install "$latest_ruby_version"
-rbenv global "$latest_ruby_version"
-rbenv shell "$latest_ruby_version"
+# Skip this slow step in CI
+if [ -z "${CI}" ]; then
+
+  # Install latest Ruby
+  rbenv install "$latest_ruby_version"
+  rbenv global "$latest_ruby_version"
+  rbenv shell "$latest_ruby_version"
+
+fi
 
 # Upgrade RubyGems
 gem update --system
