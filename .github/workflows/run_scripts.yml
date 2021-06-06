@@ -3,11 +3,20 @@ name: Run Scripts
 on: [push]
 
 jobs:
-  run_scripts:
+  shell:
+    name: shell.sh
     runs-on: macos-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Run setup.sh
-        shell: bash
-        run: ./setup.sh
+      - name: Run shell.sh
+        run: ./scripts/shell.sh
+
+  node:
+    name: node.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run node.sh
+        run: ./scripts/node.sh
