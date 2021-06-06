@@ -20,3 +20,21 @@ jobs:
         uses: actions/checkout@v2
       - name: Run node.sh
         run: ./scripts/node.sh
+
+  ruby:
+    name: ruby.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run ruby.sh
+        run: ./scripts/ruby.sh
+
+  iterm2:
+    name: iterm2.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run iterm2.sh
+        run: ./scripts/iterm2.sh
