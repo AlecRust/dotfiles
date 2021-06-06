@@ -4,6 +4,7 @@ echo "==> 📜 Installing Node Version Manager"
 
 # Install latest nvm and load it to run now
 # https://github.com/nvm-sh/nvm#manual-install
+# shellcheck disable=SC1091
 export NVM_DIR="$HOME/.nvm" && (
   git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"
   cd "$NVM_DIR"
