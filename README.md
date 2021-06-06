@@ -42,10 +42,12 @@ My macOS setup.
         - Set `txs` alias for "Start Tmuxinator Project" custom script
     - Sourcetree
         - Disable modifying of global `.gitconfig`
-        - Set font to Fira Code 12pt
         - Set diff tool to Kaleidoscope
-        - Allow `Gemfile.lock` in "Ignore File Patterns"
+        - Set terminal app to iTerm2
+        - Set font to Fira Code 12pt
+        - Enable "Open links on GitHub.com with Sourcetree"
         - Enable Git force push in advanced settings
+        - Allow `Gemfile.lock` in "Ignore File Patterns"
     - Replace Rectangle's "Center Third" shortcut with "Almost Maximize"
     - Disable "Hardware Media Key Handling" in `brave://flags`
     - Import iStat Menus settings from Google Drive
