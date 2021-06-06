@@ -26,6 +26,7 @@ brew install git
 # Development tools
 brew install diff-so-fancy
 brew install imagemagick
+brew install shellcheck
 brew install autoenv
 brew install httpie
 brew install awscli
