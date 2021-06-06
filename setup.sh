@@ -4,15 +4,15 @@
 # shellcheck source=/dev/null
 
 # Run all setup scripts
-. ~/projects/personal/dotfiles/scripts/brew.sh
-. ~/projects/personal/dotfiles/scripts/shell.sh
-. ~/projects/personal/dotfiles/scripts/node.sh
-. ~/projects/personal/dotfiles/scripts/ruby.sh
-. ~/projects/personal/dotfiles/scripts/iterm2.sh
-. ~/projects/personal/dotfiles/scripts/vscode.sh
-. ~/projects/personal/dotfiles/scripts/sublime.sh
-. ~/projects/personal/dotfiles/scripts/cask.sh
-. ~/projects/personal/dotfiles/scripts/mas.sh
-. ~/projects/personal/dotfiles/scripts/macos.sh
+. ./dotfiles/scripts/brew.sh
+. ./dotfiles/scripts/shell.sh
+. ./dotfiles/scripts/node.sh
+. ./dotfiles/scripts/ruby.sh
+. ./dotfiles/scripts/iterm2.sh
+. ./dotfiles/scripts/vscode.sh
+. ./dotfiles/scripts/sublime.sh
+. ./dotfiles/scripts/cask.sh
+. ./dotfiles/scripts/mas.sh
+. ./dotfiles/scripts/macos.sh
 
 echo "✨ Completed setup - please restart machine"
