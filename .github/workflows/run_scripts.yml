@@ -38,3 +38,12 @@ jobs:
         uses: actions/checkout@v2
       - name: Run iterm2.sh
         run: ./scripts/iterm2.sh
+
+  vscode:
+    name: vscode.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run vscode.sh
+        run: ./scripts/vscode.sh
