@@ -55,7 +55,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Run sublime.sh
-        run: ./scripts/sublime.sh
+        run: |
+          brew install duti
+          ./scripts/sublime.sh
 
   macos:
     name: macos.sh
@@ -64,4 +66,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Run macos.sh
-        run: ./scripts/sublime.sh
+        run: ./scripts/macos.sh
