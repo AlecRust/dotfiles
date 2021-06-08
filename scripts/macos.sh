@@ -17,6 +17,9 @@ sudo systemsetup -setremotelogin on
 # Disable default "cmd + space" Spotlight shortcut
 /usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c "Set AppleSymbolicHotKeys:64:enabled false"
 
+# Enable "Debug" menu in Safari for dev tools access to Simulator
+defaults write com.apple.Safari IncludeInternalDebugMenu 1
+
 # Set language and text formats
 defaults write NSGlobalDomain AppleLanguages -array "en"
 defaults write NSGlobalDomain AppleLocale -string "en_GB@currency=GBP"
