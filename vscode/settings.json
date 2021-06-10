@@ -73,6 +73,7 @@
   "ruby.intellisense": "rubyLocate",
   "ruby.useBundler": true,
   // Code Spell Checker extension
+  "cSpell.enabled": true,
   "cSpell.language": "en,en-GB",
   "cSpell.enabledLanguageIds": [
     "asciidoc",
