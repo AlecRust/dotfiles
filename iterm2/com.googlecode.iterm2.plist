@@ -6,10 +6,6 @@
 	<true/>
 	<key>CheckTestRelease</key>
 	<true/>
-	<key>ClosingTmuxTabKillsTmuxWindows</key>
-	<true/>
-	<key>ClosingTmuxTabKillsTmuxWindows_selection</key>
-	<integer>1</integer>
 	<key>Command</key>
 	<string>login-fpqlalec/bin/zsh</string>
 	<key>CommandSelection</key>
@@ -1802,8 +1798,6 @@
 	<integer>4</integer>
 	<key>ThreeFingerEmulates</key>
 	<false/>
-	<key>TmuxDashboardLimit</key>
-	<integer>10</integer>
 	<key>TmuxUsesDedicatedProfile</key>
 	<false/>
 	<key>ToolbeltTools</key>
