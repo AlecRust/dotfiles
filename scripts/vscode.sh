@@ -21,6 +21,7 @@ code --install-extension cschleiden.vscode-github-actions
 code --install-extension vincaslt.highlight-matching-tag
 code --install-extension WakaTime.vscode-wakatime
 code --install-extension wix.vscode-import-cost
+code --install-extension gruntfuggly.todo-tree
 
 # Languages
 code --install-extension bierner.lit-html
