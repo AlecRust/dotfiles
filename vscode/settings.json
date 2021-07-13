@@ -8,9 +8,10 @@
   "editor.minimap.showSlider": "always",
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [80, 120],
-  "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.inlineSuggest.enabled": true,
   // Explorer
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
