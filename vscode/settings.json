@@ -75,40 +75,8 @@
   // Code Spell Checker extension
   "cSpell.enabled": true,
   "cSpell.language": "en,en-GB",
-  "cSpell.enabledLanguageIds": [
-    "asciidoc",
-    "c",
-    "cpp",
-    "csharp",
-    "css",
-    "git-commit",
-    "go",
-    "handlebars",
-    "haskell",
-    "html",
-    "jade",
-    "java",
-    "javascript",
-    "javascriptreact",
-    "json",
-    "jsonc",
-    "latex",
-    "less",
-    "markdown",
-    "php",
-    "plaintext",
-    "pug",
-    "python",
-    "restructuredtext",
-    "rust",
-    "scala",
-    "scss",
-    "text",
-    "typescript",
-    "typescriptreact",
-    "yaml",
-    "yml",
-    "erb"
+  "cSpell.enableFiletypes": [
+    "ruby"
   ],
   // Prettier extension
   "[html]": {
