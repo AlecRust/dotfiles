@@ -33,14 +33,16 @@
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  // Git
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.allowForcePush": true,
   // Files
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "eslint.packageManager": "yarn",
   "npm.packageManager": "yarn",
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
