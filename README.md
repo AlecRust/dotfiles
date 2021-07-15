@@ -50,7 +50,6 @@ My macOS setup.
         - Diff: Allow `Gemfile.lock` in "Ignore File Patterns"
         - Git: Enable "Use rebase instead of merge by default for tracked bracnhes"
         - Advanced: Enable "Allow force push"
-    - Replace Rectangle's "Center Third" shortcut with "Almost Maximize"
     - Disable "Hardware Media Key Handling" in `brave://flags`
     - Import iStat Menus settings from Google Drive
     - Set up Hidden Bar ([screenshot](https://i.imgur.com/Q1FwwJR.png))
