@@ -30,7 +30,6 @@ brew install --cask raycast
 # Development
 brew install --cask docker
 brew install --cask firefox
-brew install --cask gas-mask
 brew install --cask imageoptim
 brew install --cask kaleidoscope
 brew install --cask sketch
