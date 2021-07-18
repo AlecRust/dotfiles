@@ -10,6 +10,7 @@ brew install --cask brave-browser
 brew install --cask transmission
 brew install --cask balenaetcher
 brew install --cask istat-menus
+brew install --cask appcleaner
 brew install --cask 1password
 brew install --cask gpg-suite
 brew install --cask mac2imgur
