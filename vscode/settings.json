@@ -107,5 +107,8 @@
   },
   "[php]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "rebornix.ruby"
   }
 }
