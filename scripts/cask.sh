@@ -3,12 +3,12 @@
 echo "==> 📜 Installing Homebrew Cask apps"
 
 # General
-brew install --cask google-backup-and-sync
 brew install --cask monitorcontrol
 brew install --cask the-unarchiver
 brew install --cask brave-browser
 brew install --cask transmission
 brew install --cask balenaetcher
+brew install --cask google-drive
 brew install --cask istat-menus
 brew install --cask appcleaner
 brew install --cask 1password
