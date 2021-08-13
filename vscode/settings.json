@@ -83,7 +83,7 @@
   "cSpell.enableFiletypes": [
     "ruby"
   ],
-  // Prettier extension
+  // Default formatters
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
