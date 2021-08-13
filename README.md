@@ -34,6 +34,7 @@ My macOS setup.
     - Import GPG keys or create with `gpg --full-generate-key` and [add to GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
     - Copy SSH keys from each machine on local network with `ssh-copy-id`
     - Set up AWS connection with `aws configure`
+    - Set up Heroku connection with `heroku login` and `heroku keys:add`
 
 3. Set up other apps
 
