@@ -30,6 +30,8 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.sideBar.location": "left",
   "workbench.statusBar.visible": true,
+  // Security
+  "security.workspace.trust.untrustedFiles": "open",
   // Integrated terminal
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontSize": 14,
