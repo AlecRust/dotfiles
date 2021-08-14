@@ -84,6 +84,9 @@
     "ruby"
   ],
   // Default formatters
+  "[home-assistant]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
