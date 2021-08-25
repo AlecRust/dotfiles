@@ -38,10 +38,8 @@ My macOS setup.
 
 3. Set up other apps
 
-    - Raycast
-        - Set keyboard shortcut to <kbd>⌘</kbd> + <kbd>Space</kbd>
-        - Set custom scripts directory from Google Drive
-        - Set `txs` alias for "Start Tmuxinator Project" custom script
+    - Import Raycast settings from Google Drive
+    - Import iStat Menus settings from Google Drive
     - Sourcetree
         - General: Disable modifying of global `.gitconfig`
         - General: Set terminal app to iTerm2
@@ -52,7 +50,6 @@ My macOS setup.
         - Git: Enable "Use rebase instead of merge by default for tracked bracnhes"
         - Advanced: Enable "Allow force push"
     - Disable "Hardware Media Key Handling" in `brave://flags`
-    - Import iStat Menus settings from Google Drive
     - Set up Hidden Bar ([screenshot](https://i.imgur.com/Q1FwwJR.png))
     - Change Kaleidoscope settings to use dark background and Fira Code 12pt font
     - Install Sonos S2 app
