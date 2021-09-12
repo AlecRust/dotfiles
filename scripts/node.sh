@@ -5,6 +5,10 @@ echo "==> 📜 Installing Volta"
 # Run Volta install script
 curl https://get.volta.sh | bash
 
+# Set Volta variable and add to PATH
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
 # Source Volta to run now
 # shellcheck disable=SC1091
 . "$HOME/.volta/bin"
