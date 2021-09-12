@@ -15,6 +15,14 @@ alias ss="spring stop"
 alias ytd="youtube-dl"
 alias hh="hstr"
 
+# exa (ls replacement)
+alias ls='exa'
+alias l='exa -lbF --git'
+alias la='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale'
+
+# bat (cat replacement)
+alias cat="bat --theme=\$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo default || echo GitHub)"
+
 # Override yarn plugin to set yo back to Yeoman default
 alias yo="yo"
 
@@ -24,11 +32,6 @@ alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Application
 # Start/stop Redis
 alias redis-start="(redis-server &)"
 alias redis-stop="(redis-cli shutdown)"
-
-# exa (ls replacement)
-alias ls='exa'
-alias l='exa -lbF --git'
-alias la='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale'
 
 # Always enable colored `grep` output
 # Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
