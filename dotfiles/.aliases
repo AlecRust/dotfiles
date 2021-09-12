@@ -49,11 +49,14 @@ alias sudo='sudo '
 # Get week number
 alias week='date +%V'
 
-# Get macOS Software Updates, and update installed Homebrew, npm, and their installed packages as well as Oh My Zsh
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update -g; omz update'
+# Update Node and global packages
+alias update-node='~/projects/personal/dotfiles/scripts/node.sh; omz update'
 
-# Update and cleanup Ruby Gems
-alias update-gems='sudo gem update --system; sudo gem update; sudo gem cleanup; rbenv rehash'
+# Update Homebrew packages
+alias update-brew='brew update; brew upgrade; brew cleanup; omz update'
+
+# Update Ruby Gems
+alias update-gems='sudo gem update --system; sudo gem update; sudo gem cleanup; rbenv rehash; omz update'
 
 # Brave
 alias brave='/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser'

@@ -4,6 +4,6 @@
 # Load rbenv for `bundle` etc.
 eval "$(/usr/local/bin/rbenv init -)"
 
-# Load nvm for `yarn` etc.
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+# Set Volta variable and add to PATH
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"

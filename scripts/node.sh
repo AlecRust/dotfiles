@@ -1,26 +1,31 @@
 #!/bin/sh
 
-echo "==> 📜 Installing Node Version Manager"
+echo "==> 📜 Installing Volta"
 
-# Install latest nvm and load it to run now
-# https://github.com/nvm-sh/nvm#manual-install
+# Run Volta install script
+curl https://get.volta.sh | bash
+
+# Source Volta to run now
 # shellcheck disable=SC1091
-export NVM_DIR="$HOME/.nvm" && (
-  git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"
-  cd "$NVM_DIR"
-  git checkout "$(git describe --abbrev=0 --tags --match "v[0-9]*" "$(git rev-list --tags --max-count=1)")"
-) && \. "$NVM_DIR/nvm.sh"
-
-echo "==> 🔗 Symlinking default Node packages list"
-
-# Use NVM's default-packages for global package installation
-# https://github.com/nvm-sh/nvm#default-global-packages-from-file-while-installing
-ln -s ~/projects/personal/dotfiles/dotfiles/default-packages "$NVM_DIR/default-packages"
+. "$HOME/.volta/bin"
 
 echo "==> 📜 Installing latest Node and global packages"
 
-# Install latest Node
-nvm install node
+# Install latest LTS Node
+volta install node
 
-# Update npm to latest version
-npm install --global npm
+# Install global packages
+volta install yarn
+volta install npm-check-updates
+volta install npm-check
+volta install changelog
+volta install splash-cli
+volta install lungo-cli
+volta install retry-cli
+volta install gulp-cli
+volta install stylelint
+volta install eslint
+volta install nodemon
+volta install serve
+volta install emoj
+volta install yo

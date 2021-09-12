@@ -22,7 +22,7 @@ SPACESHIP_PROMPT_ORDER=(
 )
 
 SPACESHIP_GIT_STATUS_STASHED=
-SPACESHIP_NODE_DEFAULT_VERSION=v16.2.0
+SPACESHIP_NODE_DEFAULT_VERSION=v14.17.6
 SPACESHIP_EXEC_TIME_ELAPSED=30
 
 # Use case-sensitive completion
@@ -72,7 +72,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(zsh-nvm zsh-autosuggestions tmux tmuxinator autoenv git npm yarn osx z alias-tips thefuck rbenv ruby rails bundler pyenv zsh-syntax-highlighting)
+plugins=(zsh-autosuggestions tmux tmuxinator autoenv git yarn osx z alias-tips thefuck rbenv ruby rails bundler pyenv zsh-syntax-highlighting)
 
 # Build up $PATH from scratch
 # ---------------------------
@@ -90,6 +90,10 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Add GNU core utilities to beginning
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+
+# Set Volta variable and add to beginning
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
 
 # Add X11 (XQuartz) to end
 export PATH="$PATH:/opt/X11/bin"
@@ -121,7 +125,7 @@ setopt histignorespace
 export HSTR_CONFIG=hicolor
 bindkey -s "\C-r" "\C-a hstr -- \C-j"
 
-# Load Oh My Zsh
+# Source Oh My Zsh
 source $ZSH/oh-my-zsh.sh
 
 # Source .aliases and .extra
