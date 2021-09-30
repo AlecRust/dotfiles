@@ -55,7 +55,9 @@
   "telemetry.enableCrashReporter": false,
   "redhat.telemetry.enabled": false,
   "gitlens.advanced.telemetry.enabled": false,
+  // GitHub Pull Requests extension
   "githubPullRequests.telemetry.enabled": false,
+  "githubPullRequests.commentExpandState": "collapseAll",
   // Home Assistant extension
   "vscode-home-assistant.ignoreCertificates": true,
   // Git Lens extension
