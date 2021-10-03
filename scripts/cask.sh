@@ -29,6 +29,7 @@ brew install --cask kap
 brew install --cask raycast
 
 # Development
+brew install --cask local
 brew install --cask firefox
 brew install --cask imageoptim
 brew install --cask kaleidoscope
