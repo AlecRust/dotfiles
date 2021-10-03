@@ -64,8 +64,6 @@
   "gitlens.blame.highlight.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.currentLine.scrollable": false,
-  // Docker extension
-  "docker.showStartPage": false,
   // Ruby extension
   "ruby.useLanguageServer": true,
   "ruby.pathToBundler": "/Users/alec/.rbenv/shims/bundle",
