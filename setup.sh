@@ -11,7 +11,6 @@
 . ./scripts/iterm2.sh
 . ./scripts/vscode.sh
 . ./scripts/sublime.sh
-. ./scripts/rectangle.sh
 . ./scripts/cask.sh
 . ./scripts/mas.sh
 . ./scripts/macos.sh
