@@ -25,6 +25,7 @@ volta install npm-check
 volta install changelog
 volta install splash-cli
 volta install lungo-cli
+volta install retry-cli
 volta install gulp-cli
 volta install stylelint
 volta install eslint
