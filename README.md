@@ -10,13 +10,13 @@ My macOS setup.
 
 3. Clone repo (if not restored from backup) to `~/projects/personal/dotfiles`
 
-3. Run setup script
+4. Run setup script
 
     ```sh
     ~/projects/personal/dotfiles/setup.sh
     ```
 
-4. Complete [manual steps](#manual-steps)
+5. Complete [manual steps](#manual-steps)
 
 ### Manual Steps
 
