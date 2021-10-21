@@ -9,7 +9,6 @@ brew install --cask brave-browser
 brew install --cask transmission
 brew install --cask balenaetcher
 brew install --cask google-drive
-brew install --cask istat-menus
 brew install --cask appcleaner
 brew install --cask 1password
 brew install --cask gpg-suite
@@ -23,6 +22,7 @@ brew install --cask slack
 brew install --cask zoom
 brew install --cask iina
 brew install --cask ivpn
+brew install --cask eul
 brew install --cask kap
 
 # Install last so it enables extensions for other apps

@@ -26,6 +26,7 @@ My macOS setup.
     - [Enable Full Disk access](https://support.apple.com/en-us/HT210595) for iTerm2
     - Map <kbd>⇪</kbd> key to <kbd>Ctrl</kbd> at `Keyboard > Modifier Keys`
     - Disable double-space period at `Keyboard > Text`
+    - Enable "Show Percentage" at `Dock & Menu Bar > Battery`
     - Search for and add printer in "Printers & Scanners"
 
 2. Set up remote connections
@@ -39,7 +40,6 @@ My macOS setup.
 3. Set up other apps
 
     - Import Raycast settings from Google Drive
-    - Import iStat Menus settings from Google Drive
     - Sourcetree
         - General: Disable modifying of global `.gitconfig`
         - General: Set terminal app to iTerm2

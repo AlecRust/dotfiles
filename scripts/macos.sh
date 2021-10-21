@@ -34,9 +34,6 @@ defaults write com.apple.screencapture location -string "${HOME}/screenshots"
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
-# Show default menu bar clock as small icon
-defaults write com.apple.menuextra.clock IsAnalog -bool true
-
 # Show hidden files in Finder by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 

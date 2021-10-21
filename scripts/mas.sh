@@ -8,14 +8,17 @@ mas install 824171161
 # Affinity Photo
 mas install 824183456
 
-# Home Assistant
-mas install 1099568401
+# Dato
+mas install 1470584107
 
 # Lungo
 mas install 1263070803
 
 # Disk Map
 mas install 715464874
+
+# Home Assistant
+mas install 1099568401
 
 # Speedtest
 mas install 1153157709
