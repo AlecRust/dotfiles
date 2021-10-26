@@ -14,6 +14,7 @@ brew install --cask 1password
 brew install --cask gpg-suite
 brew install --cask mac2imgur
 brew install --cask hiddenbar
+brew install --cask gas-mask
 brew install --cask telegram
 brew install --cask whatsapp
 brew install --cask spotify
