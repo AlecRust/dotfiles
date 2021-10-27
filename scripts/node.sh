@@ -33,4 +33,5 @@ volta install eslint
 volta install nodemon
 volta install serve
 volta install emoj
+volta install svgo
 volta install yo
