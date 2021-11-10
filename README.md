@@ -65,5 +65,5 @@ Things to backup to an external drive if moving from an old machine:
 - `~/projects`
 - `~/.extra`
 - `~/.zsh_history`
-- `~/.ssh/config` and any others you want to keep from here such as PEM files
+- `~/.ssh`
 - [Exported](https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys#backup-single-key) GPG keys
