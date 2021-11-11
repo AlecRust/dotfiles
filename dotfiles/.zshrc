@@ -84,6 +84,11 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # Add `~/bin` to beginning
 export PATH="$HOME/bin:$PATH"
 
+# Add Homebrew to beginning
+# (patch for Homebrew on M1 Macs)
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
+
 # Add `/usr/local/sbin` to beginning, to make
 # scripts that require root priviledges available
 export PATH="/usr/local/sbin:$PATH"
