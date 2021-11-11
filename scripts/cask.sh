@@ -34,6 +34,7 @@ brew install --cask local
 brew install --cask firefox
 brew install --cask imageoptim
 brew install --cask kaleidoscope
+brew install --cask google-chrome
 brew install --cask sketch
 brew install --cask sourcetree
 brew install --cask tableplus
