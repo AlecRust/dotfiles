@@ -12,6 +12,7 @@ code --install-extension eamodio.gitlens
 code --install-extension mhutchie.git-graph
 code --install-extension EditorConfig.EditorConfig
 code --install-extension GitHub.vscode-pull-request-github
+code --install-extension GitHub.copilot
 code --install-extension keesschollaart.vscode-home-assistant
 code --install-extension mikestead.dotenv
 code --install-extension ninoseki.vscode-gem-lens
