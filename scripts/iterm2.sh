@@ -19,4 +19,4 @@ curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash
 
 echo "==> 🔗 Symlinking Google Drive tmuxinator to ~/"
 
-ln -s ~/Google\ Drive/Apps/tmuxinator/ ~/.tmuxinator
+ln -s ~/My\ Drive/Apps/tmuxinator/ ~/.tmuxinator

@@ -61,7 +61,7 @@ Things to backup to an external drive if moving from an old machine:
 - `~/Desktop`
 - `~/Documents`
 - `~/Downloads`
-- `~/Google Drive`
+- `~/My Drive`
 - `~/projects`
 - `~/.extra`
 - `~/.zsh_history`

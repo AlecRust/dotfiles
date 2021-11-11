@@ -42,7 +42,7 @@ ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-z
 
 echo "==> 🔗 Symlinking Google Drive scripts to ~/"
 
-ln -s ~/Google\ Drive/Apps/scripts/ ~/scripts
+ln -s ~/My\ Drive/Apps/scripts/ ~/scripts
 
 echo "==> 🔗 Creating Go folders in ~/"
 
