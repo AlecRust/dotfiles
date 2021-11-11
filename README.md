@@ -44,8 +44,8 @@ My macOS setup.
         - General: Disable modifying of global `.gitconfig`
         - General: Set terminal app to iTerm2
         - General: Enable "Open links on GitHub.com with Sourcetree"
-        - Diff: Set diff tool to Kaleidoscope
         - Diff: Set font to Fira Code 12pt
+        - Diff: Set diff tool to Kaleidoscope
         - Diff: Allow `Gemfile.lock` in "Ignore File Patterns"
         - Git: Enable "Use rebase instead of merge by default for tracked bracnhes"
         - Advanced: Enable "Allow force push"
