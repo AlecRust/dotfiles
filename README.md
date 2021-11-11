@@ -51,7 +51,7 @@ My macOS setup.
         - Advanced: Enable "Allow force push"
     - Disable "Hardware Media Key Handling" in `brave://flags`
     - Set up Hidden Bar ([screenshot](https://i.imgur.com/Q1FwwJR.png))
-    - Change Kaleidoscope settings to use dark background and Fira Code 12pt font
+    - Change Kaleidoscope settings to use Fira Code 12pt font
     - Install Sonos S2 app
 
 ### Backup Files
