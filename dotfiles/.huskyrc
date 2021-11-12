@@ -1,8 +1,8 @@
 # Runs before husky hooks
 # https://typicode.github.io/husky/#/?id=command-not-found
 
-# Load rbenv for `bundle` etc.
-eval "$(/usr/local/bin/rbenv init -)"
+# Add rbenv to PATH
+export PATH="$HOME/.rbenv/shims:$PATH"
 
 # Set Volta variable and add to PATH
 export VOLTA_HOME="$HOME/.volta"
