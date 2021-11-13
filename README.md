@@ -39,6 +39,7 @@ My macOS setup.
 3. Set up other apps
 
     - Import Raycast settings from Google Drive
+    - Disable "Hardware Media Key Handling" in `brave://flags`
     - Sourcetree
         - General: Disable modifying of global `.gitconfig`
         - General: Set terminal app to iTerm2
@@ -46,10 +47,8 @@ My macOS setup.
         - Diff: Set font to Fira Code 12pt
         - Diff: Set diff tool to Kaleidoscope
         - Diff: Allow `Gemfile.lock` in "Ignore File Patterns"
-        - Git: Enable "Use rebase instead of merge by default for tracked bracnhes"
+        - Git: Enable "Use rebase instead of merge by default for tracked branches"
         - Advanced: Enable "Allow force push"
-    - Disable "Hardware Media Key Handling" in `brave://flags`
-    - Set up Hidden Bar ([screenshot](https://i.imgur.com/Q1FwwJR.png))
     - Change Kaleidoscope settings to use Fira Code 12pt font
     - Install Sonos S2 app
 
