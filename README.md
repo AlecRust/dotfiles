@@ -4,7 +4,7 @@ My macOS setup.
 
 ## Install
 
-1. Restore [backup files](#backup-files) from old machine (optional)
+1. In Finder press <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>.</kbd> to show hidden files then restore [backup files](#backup-files) (optional)
 
 2. Install [Homebrew](https://brew.sh/)
 
