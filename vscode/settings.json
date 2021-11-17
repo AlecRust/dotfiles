@@ -55,8 +55,7 @@
   "javascript.validate.enable": false,
   "phpfmt.indent_with_space": 2,
   // Disable telemetry
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
+  "telemetry.telemetryLevel": "off",
   "redhat.telemetry.enabled": false,
   "gitlens.advanced.telemetry.enabled": false,
   // GitHub Pull Requests extension
