@@ -82,7 +82,6 @@
   "ruby.useBundler": true,
   // Code Spell Checker extension
   "cSpell.enabled": true,
-  "cSpell.language": "en,en-GB",
   "cSpell.enableFiletypes": [
     "erb",
     "ruby"
