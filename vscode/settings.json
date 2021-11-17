@@ -34,7 +34,12 @@
   // Integrated terminal
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "/opt/homebrew/bin/zsh"
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
   // Git
   "git.autofetch": true,
   "git.enableSmartCommit": true,
