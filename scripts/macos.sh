@@ -11,8 +11,8 @@ sudo scutil --set HostName "alecs-macbook"
 sudo scutil --set LocalHostName "alecs-macbook"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "alecs-macbook"
 
-# Enable remote login via SSH (for calling scripts from Home Assistant)
-sudo systemsetup -setremotelogin on
+# Show the /Volumes folder
+sudo chflags nohidden /Volumes
 
 # Disable default "cmd + space" Spotlight shortcut
 /usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c "Set AppleSymbolicHotKeys:64:enabled false"
@@ -153,9 +153,6 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
 # Enable AirDrop over Ethernet and on unsupported Macs running Lion
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
-
-# Show the /Volumes folder
-sudo chflags nohidden /Volumes
 
 # Expand the following File Info panes:
 # “General”, “Open with”, and “Sharing & Permissions”
