@@ -26,7 +26,7 @@ My macOS setup.
     - Map <kbd>⇪</kbd> key to <kbd>Ctrl</kbd> at `Keyboard > Modifier Keys`
     - Disable double-space period at `Keyboard > Text`
     - Enable "Show Percentage" at `Dock & Menu Bar > Battery`
-    - Enable "Remote Login" at `Sharing` for SSH access from NUC
+    - Enable "Remote Login" in `Sharing` for SSH access from NUC
     - Search for and add printer in "Printers & Scanners"
 
 2. Set up remote connections
