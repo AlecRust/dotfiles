@@ -99,9 +99,6 @@ defaults write com.apple.screencapture disable-shadow -bool true
 # Reference: https://github.com/kevinSuttle/macOS-Defaults/issues/17#issuecomment-266633501
 defaults write NSGlobalDomain AppleFontSmoothing -int 1
 
-# Enable HiDPI display modes (requires restart)
-sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
-
 # Finder: disable window animations and Get Info animations
 defaults write com.apple.finder DisableAllAnimations -bool true
 
@@ -276,12 +273,12 @@ dockutil --remove "Podcasts"
 dockutil --remove "Safari"
 dockutil --remove "TV"
 
+echo "==> 📜 Setting dark system appearance"
+
+dark-mode on
+
 echo "==> 📜 Setting IINA as default app for media files"
 
 duti -s com.colliderli.iina .mp4 all
 duti -s com.colliderli.iina .avi all
 duti -s com.colliderli.iina .wmv all
-
-echo "==> 📜 Setting dark system appearance"
-
-dark-mode on
