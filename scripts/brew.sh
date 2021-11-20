@@ -33,6 +33,7 @@ brew install awscli
 brew install redis
 brew install tmux
 brew install act
+brew install php
 brew install go
 brew install gh
 
