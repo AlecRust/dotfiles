@@ -12,6 +12,4 @@ jobs:
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@master
         with:
-          # TODO: Switch to ignore just dotfiles/.zshrc when possible
-          # https://github.com/ludeeus/action-shellcheck/issues/41
-          ignore: dotfiles
+          ignore_names: .zshrc
