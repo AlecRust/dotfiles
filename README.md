@@ -31,11 +31,10 @@ My macOS setup.
 
 2. Set up remote connections
 
-    - Set up new default SSH keys and GitHub connection with `gh auth login`
+    - Set up GitHub connection with `gh auth login`
     - Import GPG keys or create with `gpg --full-generate-key` and [add to GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
-    - Copy SSH keys from each machine on local network with `ssh-copy-id`
-    - Set up AWS connection with `aws configure`
     - Set up Heroku connection with `heroku login` and `heroku keys:add`
+    - Copy SSH keys from each machine on local network with `ssh-copy-id`
 
 3. Set up other apps
 
@@ -62,8 +61,9 @@ Things to backup to an external drive if moving from an old machine:
 - `~/Downloads`
 - `~/My Drive`
 - `~/projects`
+- `~/.aws`
 - `~/.extra`
-- `~/.zsh_history`
 - `~/.ssh`
+- `~/.zsh_history`
 - [Exported](https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys#backup-single-key) GPG keys
 - [Exported](https://localwp.com/help-docs/getting-started/how-to-export-a-wordpress-site-on-local/) Local sites
