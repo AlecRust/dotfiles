@@ -11,6 +11,7 @@ ln -s ~/projects/personal/dotfiles/dotfiles/.hushlogin ~/.hushlogin
 ln -s ~/projects/personal/dotfiles/dotfiles/.huskyrc ~/.huskyrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.wgetrc ~/.wgetrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.zshrc ~/.zshrc
+ln -s ~/projects/personal/dotfiles/dotfiles/starship.toml ~/.config/starship.toml
 
 echo "==> 📜 Setting Homebrew Zsh as default shell"
 
@@ -31,14 +32,6 @@ git clone https://github.com/ohmyzsh/ohmyzsh ~/.oh-my-zsh
 git clone https://github.com/djui/alias-tips ~/.oh-my-zsh/custom/plugins/alias-tips
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-
-# Clone Spaceship ZSH
-git clone https://github.com/denysdovhan/spaceship-prompt ~/.oh-my-zsh/custom/themes/spaceship-prompt
-
-echo "==> 🔗 Symlinking Spaceship ZSH for Oh My Zsh"
-
-# Create symlink for Oh My Zsh theme file
-ln -s ~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme
 
 echo "==> 🔗 Symlinking Google Drive scripts to ~/"
 

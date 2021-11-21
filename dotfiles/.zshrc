@@ -1,29 +1,5 @@
-# Path to oh-my-zsh installation
+# Path to Oh My Zsh installation
 export ZSH=$HOME/.oh-my-zsh
-
-# Spaceship ZSH as Oh My Zsh theme. Load iTerm2 themes from:
-# http://iterm2colorschemes.com/
-ZSH_THEME="spaceship"
-
-# Spaceship ZSH
-SPACESHIP_PROMPT_ORDER=(
-  user          # Username section
-  dir           # Current directory section
-  host          # Hostname section
-  git           # Git section (git_branch + git_status)
-  node          # Node.js section
-  ruby          # Ruby section
-  exec_time     # Execution time
-  line_sep      # Line break
-  vi_mode       # Vi-mode indicator
-  jobs          # Background jobs indicator
-  exit_code     # Exit code section
-  char          # Prompt character
-)
-
-SPACESHIP_GIT_STATUS_STASHED=
-SPACESHIP_NODE_DEFAULT_VERSION=v16.13.0
-SPACESHIP_EXEC_TIME_ELAPSED=30
 
 # Use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -71,7 +47,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Use another custom folder than $ZSH/custom
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
+# Oh My Zsh plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 plugins=(zsh-autosuggestions tmux tmuxinator autoenv git yarn macos z alias-tips thefuck rbenv ruby rails bundler zsh-syntax-highlighting)
 
 # Build up $PATH from scratch
@@ -135,6 +111,9 @@ unsetopt nomatch
 
 # Source Oh My Zsh
 source $ZSH/oh-my-zsh.sh
+
+# Source Starship
+eval "$(starship init zsh)"
 
 # Source .aliases and .extra
 source $HOME/.aliases

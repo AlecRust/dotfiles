@@ -59,6 +59,7 @@ brew install ffmpeg
 brew install thefuck
 brew install qrencode
 brew install dockutil
+brew install starship
 brew install dark-mode
 brew install youtube-dl
 brew install speedtest-cli
@@ -67,7 +68,7 @@ brew install homeassistant-cli
 # Fonts
 brew tap homebrew/cask-fonts
 brew install font-fira-code
-brew install font-fira-mono-for-powerline
+brew install font-fira-code-nerd-font
 
 # Tidy up Homebrew versions
 brew cleanup
