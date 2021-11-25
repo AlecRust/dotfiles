@@ -15,10 +15,9 @@ latest_ruby_version="$(rbenv install -l | grep -v - | tail -1)"
 # Skip this slow step in CI
 if [ -z "${CI}" ]; then
 
-  # Install latest Ruby
+  # Install latest Ruby and set as global
   rbenv install "$latest_ruby_version"
   rbenv global "$latest_ruby_version"
-  rbenv shell "$latest_ruby_version"
 
 fi
 
