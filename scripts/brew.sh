@@ -12,7 +12,6 @@ brew install moreutils
 brew install findutils
 brew install openssh
 brew install gnu-sed
-brew install python
 brew install rsync
 brew install bash
 brew install nano

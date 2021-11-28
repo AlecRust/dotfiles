@@ -30,6 +30,7 @@ git clone https://github.com/ohmyzsh/ohmyzsh ~/.oh-my-zsh
 
 # Clone plugins to Oh My Zsh
 git clone https://github.com/djui/alias-tips ~/.oh-my-zsh/custom/plugins/alias-tips
+git clone https://github.com/mattberther/zsh-pyenv ~/.oh-my-zsh/custom/plugins/zsh-pyenv
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 

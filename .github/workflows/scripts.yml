@@ -21,6 +21,17 @@ jobs:
       - name: Run node.sh
         run: ./scripts/node.sh
 
+  python:
+    name: python.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run python.sh
+        run: |
+          brew install pyenv
+          ./scripts/python.sh
+
   ruby:
     name: ruby.sh
     runs-on: macos-latest
