@@ -12,7 +12,7 @@ eval "$(rbenv init -)"
 # Install xxenv-latest rbenv plugin
 git clone https://github.com/momo-lab/xxenv-latest.git "$(rbenv root)"/plugins/xxenv-latest
 
-# Skip this slow step in CI
+# Skip slow steps in CI
 if [ -z "${CI}" ]; then
 
   # Install latest Ruby and set as global
@@ -31,5 +31,5 @@ gem install bundler
 gem install tmuxinator
 gem install rails
 
-# Install shims for Ruby executables known to rbenv
+# Install shims for Ruby binaries known to rbenv
 rbenv rehash
