@@ -20,7 +20,6 @@ volta install node
 
 echo "==> 📜 Installing global Node packages"
 
-# Install global packages
 volta install yarn
 volta install npm-check-updates
 volta install npm-check
