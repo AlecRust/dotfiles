@@ -13,10 +13,12 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 # shellcheck disable=SC1091
 . "$HOME/.volta/bin"
 
-echo "==> 📜 Installing latest Node and global packages"
+echo "==> 📜 Installing latest Node with Volta"
 
 # Install latest LTS Node
 volta install node
+
+echo "==> 📜 Installing global Node packages"
 
 # Install global packages
 volta install yarn

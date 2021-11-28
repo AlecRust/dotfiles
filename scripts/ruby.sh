@@ -4,7 +4,7 @@ echo "==> 📜 Installing rbenv"
 
 brew install rbenv
 
-echo "==> 📜 Installing latest Ruby via rbenv"
+echo "==> 📜 Installing latest Ruby with rbenv"
 
 # Initialize rbenv to run now
 eval "$(rbenv init -)"
@@ -24,7 +24,7 @@ fi
 # Upgrade RubyGems
 gem update --system
 
-echo "==> 📜 Installing Ruby gems"
+echo "==> 📜 Installing global Ruby gems"
 
 # Install global gems
 gem install bundler
