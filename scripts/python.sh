@@ -17,9 +17,5 @@ if [ -z "${CI}" ]; then
 
 fi
 
-echo "==> 📜 Installing global Python packages"
-
-pip install yamllint
-
 # Install shims for Python binaries known to pyenv
 pyenv rehash
