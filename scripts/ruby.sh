@@ -9,15 +9,15 @@ echo "==> 📜 Installing latest Ruby via rbenv"
 # Initialize rbenv to run now
 eval "$(rbenv init -)"
 
-# Save latest Ruby version
-latest_ruby_version="$(rbenv install -l | grep -v - | tail -1)"
+# Install xxenv-latest rbenv plugin
+git clone https://github.com/momo-lab/xxenv-latest.git "$(rbenv root)"/plugins/xxenv-latest
 
 # Skip this slow step in CI
 if [ -z "${CI}" ]; then
 
   # Install latest Ruby and set as global
-  rbenv install "$latest_ruby_version"
-  rbenv global "$latest_ruby_version"
+  rbenv latest install
+  rbenv latest global
 
 fi
 
