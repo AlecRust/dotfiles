@@ -26,7 +26,6 @@ volta install npm-check
 volta install changelog
 volta install @getflywheel/local-cli
 volta install wallpaper-cli
-volta install lungo-cli
 volta install retry-cli
 volta install gulp-cli
 volta install stylelint
