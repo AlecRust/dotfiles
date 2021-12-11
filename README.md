@@ -26,7 +26,7 @@ My macOS setup.
     - Map <kbd>⇪</kbd> key to <kbd>Ctrl</kbd> at `Keyboard > Modifier Keys`
     - Disable double-space period at `Keyboard > Text`
     - Enable "Show Percentage" at `Dock & Menu Bar > Battery`
-    - Enable "Remote Login" in `Sharing` for SSH access from NUC
+    - Enable "Remote Login" in `Sharing` for SSH access
     - Search for and add printer in "Printers & Scanners"
 
 2. Set up remote connections
@@ -57,7 +57,6 @@ My macOS setup.
 Things to backup to an external drive if moving from an old machine:
 
 - `~/Desktop`
-- `~/Documents`
 - `~/Downloads`
 - `~/My Drive`
 - `~/projects`
