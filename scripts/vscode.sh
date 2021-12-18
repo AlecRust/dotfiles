@@ -31,7 +31,7 @@ code --install-extension digitalstreamio.mjml-syntax
 code --install-extension idleberg.applescript
 code --install-extension rebornix.ruby
 code --install-extension redhat.vscode-yaml
-code --install-extension ricard.postcss
+code --install-extension csstools.postcss
 code --install-extension wingrunr21.vscode-ruby
 
 # Linting
