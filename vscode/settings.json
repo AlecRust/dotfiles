@@ -58,6 +58,13 @@
   "telemetry.telemetryLevel": "off",
   "redhat.telemetry.enabled": false,
   "gitlens.advanced.telemetry.enabled": false,
+  // GitHub Copilot extension
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true
+  },
   // GitHub Pull Requests extension
   "githubPullRequests.telemetry.enabled": false,
   "githubPullRequests.commentExpandState": "collapseAll",
