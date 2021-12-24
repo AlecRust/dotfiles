@@ -27,7 +27,7 @@ brew install diff-so-fancy
 brew install imagemagick
 brew install shellcheck
 brew install yamllint
-brew install autoenv
+brew install direnv
 brew install httpie
 brew install awscli
 brew install redis
