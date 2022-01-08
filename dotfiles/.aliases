@@ -24,9 +24,6 @@ alias la='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale'
 # bat (cat replacement)
 alias cat="bat --theme=\$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo default || echo GitHub)"
 
-# Override yarn plugin to set yo back to Yeoman default
-alias yo="yo"
-
 # Open iOS Simulator
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"
 
