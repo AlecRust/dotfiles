@@ -31,6 +31,7 @@ brew install direnv
 brew install httpie
 brew install awscli
 brew install redis
+brew install vips
 brew install tmux
 brew install act
 brew install php
