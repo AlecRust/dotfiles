@@ -26,8 +26,5 @@ mas install 1153157709
 # Shazam
 mas install 897118787
 
-# Jira
-mas install 1475897096
-
 # Xcode
 mas install 497799835
