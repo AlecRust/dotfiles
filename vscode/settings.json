@@ -11,6 +11,7 @@
   "editor.wordWrap": "on",
   "editor.snippetSuggestions": "top",
   "editor.inlineSuggest.enabled": true,
+  "editor.accessibilitySupport": "off",
   // Explorer
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
