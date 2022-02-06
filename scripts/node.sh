@@ -25,6 +25,7 @@ volta install npm-check-updates
 volta install npm-check
 volta install changelog
 volta install @getflywheel/local-cli
+volta install @cloudflare/wrangler
 volta install wallpaper-cli
 volta install retry-cli
 volta install gulp-cli
