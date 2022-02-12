@@ -23,20 +23,20 @@ brew install zsh
 brew install git
 
 # Development tools
-brew install diff-so-fancy
-brew install imagemagick
-brew install shellcheck
-brew install yamllint
-brew install direnv
-brew install httpie
-brew install awscli
-brew install redis
-brew install vips
-brew install tmux
-brew install act
-brew install php
-brew install go
 brew install gh
+brew install go
+brew install php
+brew install act
+brew install tmux
+brew install vips
+brew install redis
+brew install awscli
+brew install httpie
+brew install direnv
+brew install yamllint
+brew install shellcheck
+brew install imagemagick
+brew install diff-so-fancy
 
 brew tap heroku/brew
 brew install heroku
