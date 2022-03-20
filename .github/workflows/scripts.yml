@@ -8,7 +8,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Run shell.sh
         run: ./scripts/shell.sh
 
@@ -17,7 +17,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Run node.sh
         run: ./scripts/node.sh
 
@@ -26,7 +26,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Run python.sh
         run: |
           brew install pyenv
@@ -37,7 +37,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Run ruby.sh
         run: ./scripts/ruby.sh
 
@@ -46,7 +46,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Run iterm2.sh
         run: ./scripts/iterm2.sh
 
@@ -55,7 +55,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Run vscode.sh
         run: ./scripts/vscode.sh
 
@@ -64,7 +64,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Run sublime.sh
         run: |
           brew install duti
@@ -75,7 +75,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Run macos.sh
         run: |
           brew install dockutil
