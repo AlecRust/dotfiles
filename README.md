@@ -34,6 +34,7 @@ My macOS setup.
     - Set up GitHub connection with `gh auth login`
     - Import GPG keys or create with `gpg --full-generate-key` and [add to GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
     - Set up Heroku connection with `heroku login` and `heroku keys:add`
+    - Set up 1Password connection with `op account add`
     - Copy SSH keys from each machine on local network with `ssh-copy-id`
 
 3. Set up other apps
@@ -60,7 +61,7 @@ Things to backup to an external drive if moving from an old machine:
 - `~/Downloads`
 - `~/My Drive`
 - `~/projects`
-- `~/.aws`
+- `~/.config/op`
 - `~/.extra`
 - `~/.ssh`
 - `~/.zsh_history`

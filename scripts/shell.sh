@@ -11,7 +11,6 @@ ln -s ~/projects/personal/dotfiles/dotfiles/.hushlogin ~/.hushlogin
 ln -s ~/projects/personal/dotfiles/dotfiles/.huskyrc ~/.huskyrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.wgetrc ~/.wgetrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.zshrc ~/.zshrc
-ln -s ~/projects/personal/dotfiles/dotfiles/starship.toml ~/.config/starship.toml
 
 echo "==> 📜 Setting Homebrew Zsh as default shell"
 
