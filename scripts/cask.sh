@@ -11,6 +11,7 @@ brew install --cask balenaetcher
 brew install --cask google-drive
 brew install --cask appcleaner
 brew install --cask 1password
+brew install --cask 1password-cli
 brew install --cask gpg-suite
 brew install --cask mac2imgur
 brew install --cask hiddenbar

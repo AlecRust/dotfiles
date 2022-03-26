@@ -115,6 +115,9 @@ source $ZSH/oh-my-zsh.sh
 # Source Starship
 eval "$(starship init zsh)"
 
+# Source 1Password shell completion
+eval "$(op completion zsh)"; compdef _op op
+
 # Source .aliases and .extra
 source $HOME/.aliases
 source $HOME/.extra
