@@ -26,6 +26,7 @@ brew install git
 brew install gh
 brew install go
 brew install php
+brew install ack
 brew install act
 brew install tmux
 brew install vips
