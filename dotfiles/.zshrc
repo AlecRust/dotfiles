@@ -106,7 +106,7 @@ setopt histignorespace
 export HSTR_CONFIG=hicolor
 bindkey -s "\C-r" "\C-a hstr -- \C-j"
 
-# Allow [ or ] whereever you want i.e. Rake tasks
+# Allow [ or ] wherever you want i.e. Rake tasks
 unsetopt nomatch
 
 # Source Oh My Zsh
