@@ -45,7 +45,26 @@ COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="dd.mm.yyyy"
 
 # Oh My Zsh plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(zsh-autosuggestions tmux tmuxinator direnv git yarn macos 1password z alias-tips thefuck rbenv ruby rails bundler volta zsh-syntax-highlighting zsh-pyenv)
+plugins=(
+  z
+  zsh-autosuggestions
+  tmux
+  tmuxinator
+  direnv
+  git
+  yarn
+  bundler
+  rbenv
+  ruby
+  rails
+  volta
+  zsh-syntax-highlighting
+  zsh-pyenv
+  alias-tips
+  thefuck
+  macos
+  1password
+)
 
 # Build up $PATH from scratch
 # ---------------------------
