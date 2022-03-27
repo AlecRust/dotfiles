@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# NOTE: pyenv is installed via zsh-pyenv Oh My Zsh plugin instead of Homebrew
+# to simplify setup i.e. doesn't require .zshrc, .zprofile and .profile changes
+
 echo "==> 📜 Installing latest Python with pyenv"
 
 # Initialize pyenv to run now
