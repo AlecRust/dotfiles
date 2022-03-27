@@ -66,8 +66,9 @@ export PATH="/opt/homebrew/sbin:$PATH"
 # scripts that require root priviledges available
 export PATH="/usr/local/sbin:$PATH"
 
-# Add GNU core utilities to beginning
-export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+# Add Homebrew GNU core utilities (chmod etc.) to beginning to override system defaults
+# NOTE: This causes "can cause GMP builds to fail" brew doctor warning which is fine
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 
 # Set Volta variable and add to beginning
 export VOLTA_HOME="$HOME/.volta"
