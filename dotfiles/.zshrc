@@ -48,7 +48,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Oh My Zsh plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(zsh-autosuggestions tmux tmuxinator direnv git yarn macos z alias-tips thefuck rbenv ruby rails bundler volta zsh-syntax-highlighting zsh-pyenv)
+plugins=(zsh-autosuggestions tmux tmuxinator direnv git yarn macos 1password z alias-tips thefuck rbenv ruby rails bundler volta zsh-syntax-highlighting zsh-pyenv)
 
 # Build up $PATH from scratch
 # ---------------------------
@@ -114,9 +114,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Source Starship
 eval "$(starship init zsh)"
-
-# Source 1Password shell completion
-eval "$(op completion zsh)"; compdef _op op
 
 # Source .aliases and .extra
 source $HOME/.aliases
