@@ -24,6 +24,10 @@ alias la='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale'
 # bat (cat replacement)
 alias cat="bat --theme=\$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo default || echo GitHub)"
 
+# Fix brew doctor warnings caused by pyenv
+# https://github.com/pyenv/pyenv#homebrew-in-macos
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+
 # Overrides to use 1Password CLI to load env vars
 # https://developer.1password.com/docs/cli/authenticate-clis/
 alias aws="op run --env-file=\$HOME/.config/op/aws.env -- aws"
