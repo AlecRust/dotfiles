@@ -13,5 +13,6 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
-# Exclude any direnv files
+# Exclude any dotenv/direnv files
 .env
+.envrc
