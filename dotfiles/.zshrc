@@ -44,9 +44,6 @@ COMPLETION_WAITING_DOTS="true"
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 HIST_STAMPS="dd.mm.yyyy"
 
-# Use another custom folder than $ZSH/custom
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
 # Oh My Zsh plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 plugins=(zsh-autosuggestions tmux tmuxinator direnv git yarn macos 1password z alias-tips thefuck rbenv ruby rails bundler volta zsh-syntax-highlighting zsh-pyenv)
 
