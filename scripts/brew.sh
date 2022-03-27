@@ -59,6 +59,7 @@ brew install duti
 brew install htop
 brew install trash
 brew install ffmpeg
+brew install rename
 brew install thefuck
 brew install qrencode
 brew install dockutil
