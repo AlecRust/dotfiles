@@ -50,14 +50,17 @@ alias sudo='sudo '
 # Get week number
 alias week='date +%V'
 
-# Update Node and global packages
-alias update-node='~/projects/personal/dotfiles/scripts/node.sh; omz update'
+# Update Oh My Zsh and asdf plugins
+alias update-shell="asdf plugin update --all; omz update"
 
 # Update Homebrew packages
-alias update-brew='brew update; brew upgrade; brew cleanup; omz update'
+alias update-brew='brew update; brew upgrade; brew cleanup; update-shell'
 
-# Update Ruby Gems
-alias update-gems='sudo gem update --system; sudo gem update; sudo gem cleanup; omz update'
+# Update global Node packages
+alias update-node='npm update -g; update-shell'
+
+# Update global Ruby gems
+alias update-gems='sudo gem update --system; sudo gem update; sudo gem cleanup; update-shell'
 
 # Brave
 alias brave='/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser'
