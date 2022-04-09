@@ -1,0 +1,18 @@
+# shellcheck disable=SC1000-SC9999
+
+yarn
+npm-check-updates
+npm-check
+changelog
+@getflywheel/local-cli
+@cloudflare/wrangler
+wallpaper-cli
+retry-cli
+gulp-cli
+stylelint
+eslint
+nodemon
+serve
+emoj
+svgo
+yo

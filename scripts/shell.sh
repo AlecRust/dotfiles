@@ -6,6 +6,7 @@ ln -s ~/projects/personal/dotfiles/dotfiles/.aliases ~/.aliases
 ln -s ~/projects/personal/dotfiles/dotfiles/.asdfrc ~/.asdfrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.curlrc ~/.curlrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.default-gems ~/.default-gems
+ln -s ~/projects/personal/dotfiles/dotfiles/.default-npm-packages ~/.default-npm-packages
 ln -s ~/projects/personal/dotfiles/dotfiles/.editorconfig ~/.editorconfig
 ln -s ~/projects/personal/dotfiles/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/projects/personal/dotfiles/dotfiles/.gitignore_global ~/.gitignore_global

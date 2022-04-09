@@ -57,7 +57,6 @@ plugins=(
   bundler
   ruby
   rails
-  volta
   zsh-syntax-highlighting
   alias-tips
   thefuck
@@ -87,10 +86,6 @@ export PATH="/usr/local/sbin:$PATH"
 # Add Homebrew GNU core utilities (chmod etc.) to beginning to override system defaults
 # NOTE: This causes "can cause GMP builds to fail" brew doctor warning which is fine
 export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
-
-# Set Volta variable and add to beginning
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
 
 # Add X11 (XQuartz) to end
 export PATH="$PATH:/opt/X11/bin"

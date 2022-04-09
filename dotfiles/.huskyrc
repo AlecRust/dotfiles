@@ -3,7 +3,3 @@
 
 # Add asdf shims to PATH
 export PATH="$HOME/.asdf/shims:$PATH"
-
-# Set Volta variable and add to PATH
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"

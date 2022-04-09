@@ -1,38 +1,13 @@
 #!/bin/sh
 
-echo "==> 📜 Installing Volta"
+echo "==> 📜 Installing latest Node with asdf"
 
-# Run Volta install script
-curl https://get.volta.sh | bash
+# Install the Node plugin https://github.com/asdf-vm/asdf-nodejs
+asdf plugin add nodejs
 
-# Set Volta variable and add to PATH
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
+# Install the latest Node version
+asdf install nodejs latest
 
-# Source Volta to run now
-# shellcheck disable=SC1091
-. "$HOME/.volta/bin"
+echo "==> 📜 Setting latest Node as shell default"
 
-echo "==> 📜 Installing latest Node with Volta"
-
-# Install latest LTS Node
-volta install node
-
-echo "==> 📜 Installing global Node packages"
-
-volta install yarn
-volta install npm-check-updates
-volta install npm-check
-volta install changelog
-volta install @getflywheel/local-cli
-volta install @cloudflare/wrangler
-volta install wallpaper-cli
-volta install retry-cli
-volta install gulp-cli
-volta install stylelint
-volta install eslint
-volta install nodemon
-volta install serve
-volta install emoj
-volta install svgo
-volta install yo
+asdf global nodejs latest

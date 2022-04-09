@@ -19,7 +19,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Run node.sh
-        run: ./scripts/node.sh
+        run: |
+          brew install asdf
+          ./scripts/node.sh
 
   ruby:
     name: ruby.sh
