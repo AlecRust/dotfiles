@@ -1,4 +1,2 @@
-# shellcheck disable=SC1000-SC9999
-
 # Enable reading other version managers versions files e.g. .ruby-version
 legacy_version_file = yes
