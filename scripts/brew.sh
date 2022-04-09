@@ -24,10 +24,10 @@ brew install git
 
 # Development tools
 brew install gh
-brew install go
 brew install php
 brew install ack
 brew install act
+brew install asdf
 brew install tmux
 brew install vips
 brew install redis

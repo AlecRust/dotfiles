@@ -37,12 +37,6 @@ echo "==> 🔗 Symlinking Google Drive scripts to ~/"
 
 ln -s ~/My\ Drive/Apps/scripts/ ~/scripts
 
-echo "==> 🔗 Creating Go folders in ~/"
-
-mkdir -p "$HOME/go/bin"
-mkdir -p "$HOME/go/pkg"
-mkdir -p "$HOME/go/src"
-
 # Warn if .extra file is missing
 if [ ! -f ~/.extra ]; then
   echo "==> ⚠️  WARNING: ~/.extra file was not found. Create this when setup completes to prevent notice on shell start"

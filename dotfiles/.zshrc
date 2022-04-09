@@ -46,6 +46,7 @@ HIST_STAMPS="dd.mm.yyyy"
 
 # Oh My Zsh plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 plugins=(
+  asdf
   z
   zsh-autosuggestions
   tmux
@@ -98,11 +99,6 @@ export PATH="$PATH:/opt/X11/bin"
 
 # Add MacGPG2 to end
 export PATH="$PATH:/usr/local/MacGPG2/bin"
-
-# Set Go path vars and add them to end
-export GOPATH=$HOME/go
-export GOROOT="$(brew --prefix golang)/libexec"
-export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

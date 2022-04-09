@@ -9,6 +9,7 @@
 . ./scripts/node.sh
 . ./scripts/python.sh
 . ./scripts/ruby.sh
+. ./scripts/go.sh
 . ./scripts/iterm2.sh
 . ./scripts/vscode.sh
 . ./scripts/sublime.sh

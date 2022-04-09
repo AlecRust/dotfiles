@@ -41,6 +41,17 @@ jobs:
       - name: Run ruby.sh
         run: ./scripts/ruby.sh
 
+  go:
+    name: go.sh
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Run go.sh
+        run: |
+          brew install asdf
+          ./scripts/go.sh
+
   iterm2:
     name: iterm2.sh
     runs-on: macos-latest
