@@ -60,7 +60,6 @@ plugins=(
   rails
   volta
   zsh-syntax-highlighting
-  zsh-pyenv
   alias-tips
   thefuck
   macos
