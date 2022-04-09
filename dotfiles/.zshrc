@@ -55,7 +55,6 @@ plugins=(
   git
   yarn
   bundler
-  rbenv
   ruby
   rails
   volta

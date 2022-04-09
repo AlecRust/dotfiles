@@ -57,7 +57,7 @@ alias update-node='~/projects/personal/dotfiles/scripts/node.sh; omz update'
 alias update-brew='brew update; brew upgrade; brew cleanup; omz update'
 
 # Update Ruby Gems
-alias update-gems='sudo gem update --system; sudo gem update; sudo gem cleanup; rbenv rehash; omz update'
+alias update-gems='sudo gem update --system; sudo gem update; sudo gem cleanup; omz update'
 
 # Brave
 alias brave='/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser'

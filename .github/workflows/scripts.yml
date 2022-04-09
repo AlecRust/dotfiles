@@ -28,7 +28,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Run ruby.sh
-        run: ./scripts/ruby.sh
+        run: |
+          brew install asdf
+          ./scripts/ruby.sh
 
   python:
     name: python.sh

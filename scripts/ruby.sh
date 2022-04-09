@@ -1,34 +1,23 @@
 #!/bin/sh
 
-echo "==> 📜 Installing rbenv"
+echo "==> 📜 Installing latest Ruby with asdf"
 
-brew install rbenv
+# Install the Ruby plugin
+asdf plugin add ruby
 
-echo "==> 📜 Installing latest Ruby with rbenv"
+# Install the latest Ruby version
+asdf install ruby latest
 
-# Initialize rbenv to run now
-eval "$(rbenv init -)"
+echo "==> 📜 Setting latest Ruby as shell default"
 
-# Install xxenv-latest rbenv plugin
-git clone https://github.com/momo-lab/xxenv-latest.git "$(rbenv root)"/plugins/xxenv-latest
-
-# Skip slow steps in CI
-if [ -z "${CI}" ]; then
-
-  # Install latest Ruby and set as global
-  rbenv latest install
-  rbenv latest global
-
-fi
-
-# Upgrade RubyGems
-gem update --system
+asdf global ruby latest
 
 echo "==> 📜 Installing global Ruby gems"
 
+# Upgrade RubyGems version i.e. "gem" command
+gem update --system
+
+# Install global gems
 gem install bundler
 gem install tmuxinator
 gem install rails
-
-# Install shims for Ruby binaries known to rbenv
-rbenv rehash

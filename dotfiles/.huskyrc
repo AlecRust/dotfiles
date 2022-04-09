@@ -1,8 +1,8 @@
 # Runs before husky hooks
 # https://typicode.github.io/husky/#/?id=command-not-found
 
-# Add rbenv to PATH
-export PATH="$HOME/.rbenv/shims:$PATH"
+# Add asdf shims to PATH
+export PATH="$HOME/.asdf/shims:$PATH"
 
 # Set Volta variable and add to PATH
 export VOLTA_HOME="$HOME/.volta"

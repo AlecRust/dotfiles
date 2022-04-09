@@ -78,7 +78,7 @@
   "gitlens.currentLine.scrollable": false,
   // Ruby extension
   "ruby.useLanguageServer": true,
-  "ruby.pathToBundler": "/Users/alec/.rbenv/shims/bundle",
+  "ruby.pathToBundler": "/Users/alec/.asdf/shims/bundle",
   "ruby.lint": {
     "rubocop": {
       "useBundler": true,

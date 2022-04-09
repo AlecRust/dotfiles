@@ -3,6 +3,7 @@
 echo "==> 🔗 Symlinking dotfiles to ~/"
 
 ln -s ~/projects/personal/dotfiles/dotfiles/.aliases ~/.aliases
+ln -s ~/projects/personal/dotfiles/dotfiles/.asdfrc ~/.asdfrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.curlrc ~/.curlrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.editorconfig ~/.editorconfig
 ln -s ~/projects/personal/dotfiles/dotfiles/.gitconfig ~/.gitconfig
