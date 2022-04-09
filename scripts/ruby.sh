@@ -12,12 +12,6 @@ echo "==> 📜 Setting latest Ruby as shell default"
 
 asdf global ruby latest
 
-echo "==> 📜 Installing global Ruby gems"
+echo "==> 📜 Upgrading RubyGems software version"
 
-# Upgrade RubyGems version i.e. "gem" command
 gem update --system
-
-# Install global gems
-gem install bundler
-gem install tmuxinator
-gem install rails
