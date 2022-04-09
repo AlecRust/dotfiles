@@ -14,50 +14,6 @@ jobs:
           brew install asdf
           ./scripts/shell.sh
 
-  node:
-    name: node.sh
-    runs-on: macos-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Run node.sh
-        run: |
-          brew install asdf
-          ./scripts/node.sh
-
-  ruby:
-    name: ruby.sh
-    runs-on: macos-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Run ruby.sh
-        run: |
-          brew install asdf
-          ./scripts/ruby.sh
-
-  python:
-    name: python.sh
-    runs-on: macos-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Run python.sh
-        run: |
-          brew install asdf
-          ./scripts/python.sh
-
-  go:
-    name: go.sh
-    runs-on: macos-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Run go.sh
-        run: |
-          brew install asdf
-          ./scripts/go.sh
-
   iterm2:
     name: iterm2.sh
     runs-on: macos-latest
