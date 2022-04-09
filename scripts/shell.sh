@@ -35,6 +35,17 @@ git clone https://github.com/djui/alias-tips ~/.oh-my-zsh/custom/plugins/alias-t
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
+echo "==> 📜 Installing asdf-direnv"
+
+# Install the direnv plugin https://github.com/asdf-community/asdf-direnv
+asdf plugin add direnv
+
+# Install the latest direnv version
+asdf direnv setup --shell zsh --version latest
+
+# Set the latest direnv as shell default
+asdf global direnv latest
+
 echo "==> 🔗 Symlinking Google Drive scripts to ~/"
 
 ln -s ~/My\ Drive/Apps/scripts/ ~/scripts

@@ -51,7 +51,6 @@ plugins=(
   zsh-autosuggestions
   tmux
   tmuxinator
-  direnv
   git
   yarn
   bundler
@@ -120,6 +119,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Source Starship
 eval "$(starship init zsh)"
+
+# Source asdf-direnv
+source ${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/zshrc
 
 # Source .aliases and .extra
 source $HOME/.aliases
