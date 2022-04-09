@@ -2,7 +2,7 @@
 
 echo "==> 📜 Installing latest Python with asdf"
 
-# Install the Python plugin
+# Install the Python plugin https://github.com/danhper/asdf-python
 asdf plugin add python
 
 # Install the latest Python version

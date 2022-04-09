@@ -2,7 +2,7 @@
 
 echo "==> 📜 Installing latest Ruby with asdf"
 
-# Install the Ruby plugin
+# Install the Ruby plugin https://github.com/asdf-vm/asdf-ruby
 asdf plugin add ruby
 
 # Install the latest Ruby version
