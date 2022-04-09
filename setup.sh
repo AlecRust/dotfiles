@@ -7,8 +7,8 @@
 . ./scripts/brew.sh
 . ./scripts/shell.sh
 . ./scripts/node.sh
-. ./scripts/python.sh
 . ./scripts/ruby.sh
+. ./scripts/python.sh
 . ./scripts/go.sh
 . ./scripts/iterm2.sh
 . ./scripts/vscode.sh
