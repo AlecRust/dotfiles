@@ -33,6 +33,7 @@ brew install vips
 brew install redis
 brew install awscli
 brew install httpie
+brew install direnv
 brew install yamllint
 brew install actionlint
 brew install shellcheck

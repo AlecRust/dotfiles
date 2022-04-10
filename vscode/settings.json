@@ -59,8 +59,6 @@
   "telemetry.telemetryLevel": "off",
   "redhat.telemetry.enabled": false,
   "gitlens.advanced.telemetry.enabled": false,
-  // direnv extension
-  "direnv.path.executable": "/Users/alec/.asdf/shims/direnv",
   // GitHub Copilot extension
   "github.copilot.enable": {
     "*": true,

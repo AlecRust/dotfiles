@@ -40,11 +40,8 @@ echo "==> 📜 Installing asdf-direnv"
 # Install the direnv plugin https://github.com/asdf-community/asdf-direnv
 asdf plugin add direnv
 
-# Install the latest direnv version
-asdf direnv setup --shell zsh --version latest
-
-# Set the latest direnv as shell default
-asdf global direnv latest
+# Setup asdf-direnv with Homebrew-installed direnv
+asdf direnv setup --version system
 
 echo "==> 🔗 Symlinking Google Drive scripts to ~/"
 
