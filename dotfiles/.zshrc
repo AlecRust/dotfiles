@@ -11,14 +11,8 @@ ZSH_DISABLE_COMPFIX="true"
 # be off. _ and - will be interchangeable
 # HYPHEN_INSENSITIVE="true"
 
-# Disable Oh My Zsh bi-weekly auto-update checks
-DISABLE_AUTO_UPDATE="true"
-
-# Automatically update without prompting
-# DISABLE_UPDATE_PROMPT="true"
-
-# How often to auto-update (in days)
-# export UPDATE_ZSH_DAYS=13
+# Disable Oh My Zsh auto-update behavior
+zstyle ':omz:update' mode disabled
 
 # Fix pasting URLs and other text being messed up
 # https://github.com/ohmyzsh/ohmyzsh/issues/6338#issuecomment-491504348
@@ -92,8 +86,6 @@ export PATH="$PATH:/opt/X11/bin"
 # Add MacGPG2 to end
 export PATH="$PATH:/usr/local/MacGPG2/bin"
 
-# export MANPATH="/usr/local/man:$MANPATH"
-
 # Set language environment
 export LANG=en_GB.UTF-8
 
@@ -123,10 +115,9 @@ eval "$(starship init zsh)"
 # Source asdf-direnv
 source ${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/zshrc
 
+# Source iTerm2 Shell Integration
+source $HOME/.iterm2_shell_integration.zsh
+
 # Source .aliases and .extra
 source $HOME/.aliases
 source $HOME/.extra
-
-# Source iTerm2 Shell Integration
-# https://iterm2.com/documentation-shell-integration.html
-source $HOME/.iterm2_shell_integration.zsh
