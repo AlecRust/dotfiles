@@ -10,7 +10,6 @@ alias j="jobs"
 alias e="exit"
 
 # Shorten commonly typed
-alias s="spotify"
 alias bert="bundle exec rails test"
 alias ytd="youtube-dl"
 alias hh="hstr"
@@ -47,8 +46,8 @@ alias egrep='egrep --color=auto'
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
-# Get week number
-alias week='date +%V'
+# Get month number
+alias month='date +%m'
 
 # Update Oh My Zsh and asdf plugins
 alias update-shell="asdf plugin update --all; omz update"
@@ -115,10 +114,6 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 # Open random file in folder
 alias random-file="find . -type f | shuf | head -n1 | xargs -I {} open {}"
 
-# Merge PDF files, preserving hyperlinks
-# Usage: `mergepdf input{1,2,3}.pdf`
-alias mergepdf='gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=_merged.pdf'
-
 # Disable Spotlight
 alias spotoff="sudo mdutil -a -i off"
 # Enable Spotlight
@@ -126,9 +121,6 @@ alias spoton="sudo mdutil -a -i on"
 
 # PlistBuddy alias, because sometimes `defaults` just doesn’t cut it
 alias plistbuddy="/usr/libexec/PlistBuddy"
-
-# Airport CLI alias
-alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport'
 
 # Intuitive map function
 # For example, to list all directories that contain a certain file:
@@ -140,11 +132,11 @@ for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 	alias "${method}"="lwp-request -m '${method}'"
 done
 
-# Lock the screen (when going AFK)
+# Lock the screen
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
-# Reload the shell (i.e. invoke as a login shell)
+# Reload the shell
 alias reload="exec ${SHELL} -l"
 
-# Print each PATH entry on a separate line
+# List all PATH entries
 alias path='echo -e ${PATH//:/\\n}'
