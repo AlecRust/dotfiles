@@ -1,9 +1,6 @@
 # Path to Oh My Zsh installation
 export ZSH=$HOME/.oh-my-zsh
 
-# Use case-sensitive completion
-# CASE_SENSITIVE="true"
-
 # Prevent permission errors
 ZSH_DISABLE_COMPFIX="true"
 
@@ -18,9 +15,6 @@ zstyle ':omz:update' mode disabled
 # https://github.com/ohmyzsh/ohmyzsh/issues/6338#issuecomment-491504348
 DISABLE_MAGIC_FUNCTIONS="true"
 
-# Disable colors in ls
-# DISABLE_LS_COLORS="true"
-
 # Disable auto-setting terminal title
 # DISABLE_AUTO_TITLE="true"
 
@@ -29,10 +23,6 @@ DISABLE_MAGIC_FUNCTIONS="true"
 
 # Display red dots whilst waiting for completion
 COMPLETION_WAITING_DOTS="true"
-
-# Disable marking untracked files under VCS as dirty.
-# This makes repository status check for large repositories much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Change command execution time stamp shown in the history command output
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
