@@ -31,7 +31,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Oh My Zsh plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 plugins=(
   asdf
-  z
+  zoxide
   zsh-autosuggestions
   tmux
   tmuxinator

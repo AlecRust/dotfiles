@@ -46,7 +46,7 @@ alias egrep='egrep --color=auto'
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
-# Get month number
+# Get current month number
 alias month='date +%m'
 
 # Update Oh My Zsh and asdf plugins

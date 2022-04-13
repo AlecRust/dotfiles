@@ -47,7 +47,6 @@ brew install postgresql
 brew services start postgresql
 
 # Other utilities
-brew install z
 brew install jq
 brew install exa
 brew install bat
@@ -60,6 +59,7 @@ brew install htop
 brew install trash
 brew install ffmpeg
 brew install rename
+brew install zoxide
 brew install thefuck
 brew install qrencode
 brew install dockutil
