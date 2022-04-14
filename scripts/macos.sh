@@ -3,7 +3,7 @@
 echo "==> 📜 Changing macOS settings"
 
 # Disable system startup sound
-sudo nvram SystemAudioVolume=" "
+sudo nvram StartupMute=%01
 
 # Set computer name so alecs-macbook.local is a hostname
 sudo scutil --set ComputerName "Alec's MacBook"
