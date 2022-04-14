@@ -33,11 +33,11 @@ brew install --cask raycast
 
 # Development
 brew install --cask local
+brew install --cask sketch
 brew install --cask firefox
+brew install --cask transmit
+brew install --cask tableplus
+brew install --cask sourcetree
 brew install --cask imageoptim
 brew install --cask kaleidoscope
 brew install --cask google-chrome
-brew install --cask sketch
-brew install --cask sourcetree
-brew install --cask tableplus
-brew install --cask transmit
