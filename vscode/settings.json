@@ -63,8 +63,8 @@
   "github.copilot.enable": {
     "*": true,
     "yaml": true,
-    "plaintext": false,
-    "markdown": true
+    "markdown": true,
+    "plaintext": false
   },
   // GitHub Pull Requests extension
   "githubPullRequests.telemetry.enabled": false,

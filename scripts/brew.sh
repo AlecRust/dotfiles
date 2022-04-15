@@ -14,8 +14,8 @@ brew install openssh
 brew install gnu-sed
 brew install rsync
 brew install bash
-brew install nano
 brew install curl
+brew install nano
 brew install wget
 brew install grep
 brew install vim
@@ -24,16 +24,16 @@ brew install git
 
 # Development tools
 brew install gh
-brew install php
 brew install ack
 brew install act
+brew install php
 brew install asdf
 brew install tmux
 brew install vips
 brew install redis
 brew install awscli
-brew install httpie
 brew install direnv
+brew install httpie
 brew install yamllint
 brew install actionlint
 brew install shellcheck
@@ -48,8 +48,8 @@ brew services start postgresql
 
 # Other utilities
 brew install jq
-brew install exa
 brew install bat
+brew install exa
 brew install mas
 brew install svn
 brew install hstr
@@ -61,8 +61,8 @@ brew install ffmpeg
 brew install rename
 brew install zoxide
 brew install thefuck
-brew install qrencode
 brew install dockutil
+brew install qrencode
 brew install starship
 brew install dark-mode
 brew install youtube-dl
