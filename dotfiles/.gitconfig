@@ -102,11 +102,18 @@
 	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
 	precomposeunicode = false
 	editor = subl -w
-	pager = diff-so-fancy | less --tabs=4 -RFX
+	pager = delta
 
 	# Speed up commands involving untracked files such as `git status`.
 	# https://git-scm.com/docs/git-update-index#_untracked_cache
 	untrackedCache = true
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	line-numbers = true
 
 [color]
 
@@ -133,6 +140,12 @@
 	changed = green
 	untracked = cyan
 
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
@@ -148,6 +161,7 @@
 	tool = Kaleidoscope
 	# Detect copies as well as renames
 	renames = copies
+	colorMoved = default
 
 [diff "bin"]
   # Use `hexdump` to diff binary files
@@ -176,6 +190,7 @@
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
 	tool = Kaleidoscope
+	conflictstyle = diff3
 
 [push]
 
@@ -233,9 +248,3 @@
 [mergetool "sourcetree"]
 	cmd = /usr/local/bin/ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true
-
-[color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22

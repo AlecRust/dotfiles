@@ -35,10 +35,10 @@ brew install awscli
 brew install direnv
 brew install httpie
 brew install yamllint
+brew install git-delta
 brew install actionlint
 brew install shellcheck
 brew install imagemagick
-brew install diff-so-fancy
 
 brew tap heroku/brew
 brew install heroku
