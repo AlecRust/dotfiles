@@ -31,8 +31,6 @@ HIST_STAMPS="dd.mm.yyyy"
 # Oh My Zsh plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 plugins=(
   asdf
-  zoxide
-  zsh-autosuggestions
   tmux
   tmuxinator
   git
@@ -40,11 +38,13 @@ plugins=(
   bundler
   ruby
   rails
-  zsh-syntax-highlighting
-  alias-tips
-  thefuck
   macos
   1password
+  thefuck
+  alias-tips
+  zoxide
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 # Build up $PATH from scratch
