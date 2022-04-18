@@ -213,9 +213,6 @@ defaults write com.apple.dock showhidden -bool true
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
 
-# Only use UTF-8 in Terminal.app
-defaults write com.apple.terminal StringEncodings -array 4
-
 # Enable “Do Not Track”
 defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 
@@ -248,9 +245,6 @@ defaults write com.apple.commerce AutoUpdateRestartRequired -bool true
 
 # Prevent Photos from opening automatically when devices are plugged in
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
-
-# Disable signing emails by default
-defaults write ~/Library/Preferences/org.gpgtools.gpgmail SignNewEmailsByDefault -bool false
 
 echo "==> 📜 Removing apps from Dock"
 
