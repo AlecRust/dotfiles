@@ -30,7 +30,6 @@ code --install-extension rebornix.ruby
 code --install-extension KoichiSasada.vscode-rdbg
 code --install-extension bierner.lit-html
 code --install-extension bung87.vscode-gemfile
-code --install-extension digitalstreamio.mjml-syntax
 code --install-extension idleberg.applescript
 code --install-extension redhat.vscode-yaml
 code --install-extension csstools.postcss
