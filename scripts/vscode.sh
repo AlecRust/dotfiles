@@ -25,14 +25,15 @@ code --install-extension wix.vscode-import-cost
 code --install-extension gruntfuggly.todo-tree
 
 # Languages
+code --install-extension wingrunr21.vscode-ruby
+code --install-extension rebornix.ruby
+code --install-extension KoichiSasada.vscode-rdbg
 code --install-extension bierner.lit-html
 code --install-extension bung87.vscode-gemfile
 code --install-extension digitalstreamio.mjml-syntax
 code --install-extension idleberg.applescript
-code --install-extension rebornix.ruby
 code --install-extension redhat.vscode-yaml
 code --install-extension csstools.postcss
-code --install-extension wingrunr21.vscode-ruby
 
 # Linting
 code --install-extension DavidAnson.vscode-markdownlint
