@@ -65,7 +65,7 @@ brew install dockutil
 brew install qrencode
 brew install starship
 brew install dark-mode
-brew install youtube-dl
+brew install yt-dlp/taps/yt-dlp
 brew install speedtest-cli
 brew install homeassistant-cli
 

@@ -8,11 +8,8 @@ alias p="cd ~/projects"
 alias h="history"
 alias j="jobs"
 alias e="exit"
-
-# Shorten commonly typed
-alias bert="bundle exec rails test"
-alias ytd="youtube-dl"
 alias hh="hstr"
+alias ytd="yt-dlp"
 
 # exa (ls replacement)
 alias ls='exa'
@@ -32,6 +29,9 @@ alias aws="op run --env-file=\$HOME/.config/op/aws.env -- aws"
 
 # Open iOS Simulator
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"
+
+# Run Rails tests with bundle exec
+alias bert="bundle exec rails test"
 
 # Start/stop Redis
 alias redis-start="(redis-server &)"
