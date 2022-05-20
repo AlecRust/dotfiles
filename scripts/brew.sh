@@ -59,6 +59,7 @@ brew install htop
 brew install trash
 brew install ffmpeg
 brew install rename
+brew install rclone
 brew install zoxide
 brew install thefuck
 brew install dockutil
