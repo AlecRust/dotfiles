@@ -3,10 +3,10 @@ npm-check-updates
 npm-check
 changelog
 @getflywheel/local-cli
-@cloudflare/wrangler
 wallpaper-cli
 retry-cli
 gulp-cli
+wrangler
 stylelint
 eslint
 nodemon
