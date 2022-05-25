@@ -41,7 +41,6 @@
   },
   "terminal.integrated.defaultProfile.osx": "zsh",
   // Git
-  "git.autofetch": true,
   "git.enableSmartCommit": true,
   "git.allowForcePush": true,
   // Files
