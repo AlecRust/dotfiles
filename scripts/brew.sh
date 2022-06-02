@@ -38,6 +38,7 @@ brew install yamllint
 brew install git-delta
 brew install actionlint
 brew install shellcheck
+brew install tmuxinator
 brew install imagemagick
 
 brew tap heroku/brew
