@@ -4,6 +4,7 @@ npm-check
 changelog
 @getflywheel/local-cli
 wallpaper-cli
+@lhci/cli
 retry-cli
 gulp-cli
 wrangler
