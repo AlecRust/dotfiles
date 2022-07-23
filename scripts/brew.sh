@@ -34,6 +34,7 @@ brew install redis
 brew install awscli
 brew install direnv
 brew install httpie
+brew install composer
 brew install yamllint
 brew install git-delta
 brew install actionlint
