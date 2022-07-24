@@ -63,6 +63,9 @@ export PATH="/opt/homebrew/sbin:$PATH"
 # scripts that require root priviledges available
 export PATH="/usr/local/sbin:$PATH"
 
+# Add Composer binaries to beginning
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+
 # Add Homebrew GNU core utilities (chmod etc.) to beginning to override system defaults
 # NOTE: This causes "can cause GMP builds to fail" brew doctor warning which is fine
 export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
