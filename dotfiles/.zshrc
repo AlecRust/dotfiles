@@ -54,9 +54,6 @@ plugins=(
 # Start with the original path (see /etc/paths)
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
-# Add `~/bin` to beginning
-export PATH="$HOME/bin:$PATH"
-
 # TODO: Remove this, it should not be necessary
 # Adds Homebrew to beginning to patch Homebrew installation on M1 chips
 export PATH="/opt/homebrew/bin:$PATH"
