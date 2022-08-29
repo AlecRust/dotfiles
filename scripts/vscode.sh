@@ -29,6 +29,7 @@ code --install-extension gruntfuggly.todo-tree
 code --install-extension wingrunr21.vscode-ruby
 code --install-extension rebornix.ruby
 code --install-extension KoichiSasada.vscode-rdbg
+code --install-extension MateuszDrewniak.ruby-test-runner
 code --install-extension bierner.lit-html
 code --install-extension bung87.vscode-gemfile
 code --install-extension idleberg.applescript
