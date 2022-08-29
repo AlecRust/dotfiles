@@ -16,13 +16,13 @@ code --install-extension GitHub.copilot
 code --install-extension GitHub.copilot-labs
 code --install-extension keesschollaart.vscode-home-assistant
 code --install-extension mkhl.direnv
-code --install-extension ninoseki.vscode-gem-lens
 code --install-extension shyykoserhiy.vscode-spotify
 code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension ninoseki.vscode-gem-lens
 code --install-extension tgreen7.vs-code-node-require
+code --install-extension wix.vscode-import-cost
 code --install-extension vincaslt.highlight-matching-tag
 code --install-extension WakaTime.vscode-wakatime
-code --install-extension wix.vscode-import-cost
 code --install-extension gruntfuggly.todo-tree
 
 # Languages
