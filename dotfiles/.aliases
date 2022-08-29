@@ -10,6 +10,7 @@ alias j="jobs"
 alias e="exit"
 alias hh="hstr"
 alias ytd="yt-dlp"
+alias mp='multipass'
 
 # exa (ls replacement)
 alias ls='exa'
