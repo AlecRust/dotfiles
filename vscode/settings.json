@@ -67,6 +67,7 @@
   // GitHub Pull Requests extension
   "githubPullRequests.telemetry.enabled": false,
   "githubPullRequests.commentExpandState": "collapseAll",
+  "githubPullRequests.pullBranch": "never",
   // Home Assistant extension
   "vscode-home-assistant.ignoreCertificates": true,
   // Git Lens extension
