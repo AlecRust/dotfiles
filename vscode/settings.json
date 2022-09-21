@@ -93,6 +93,8 @@
     "erb",
     "ruby"
   ],
+  // direnv extension
+  "direnv.path.executable": "/opt/homebrew/bin/direnv",
   // Default formatters
   "[home-assistant]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
