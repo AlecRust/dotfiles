@@ -4,7 +4,6 @@ echo "==> 📜 Installing Homebrew Cask apps"
 
 # General
 brew install --cask monitorcontrol
-brew install --cask the-unarchiver
 brew install --cask brave-browser
 brew install --cask transmission
 brew install --cask balenaetcher
