@@ -57,7 +57,7 @@ alias month='date +%m'
 alias update-shell="asdf plugin update --all; omz update"
 
 # Update Homebrew packages
-alias update-brew='brew update; brew upgrade; brew cleanup; update-shell'
+alias update-brew='brew update; brew upgrade --greedy; brew cleanup; update-shell'
 
 # Update global Node packages
 alias update-node='npm update -g; update-shell'
