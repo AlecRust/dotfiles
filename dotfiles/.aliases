@@ -34,9 +34,6 @@ alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Application
 # Run Rails tests with bundle exec
 alias bert="bundle exec rails test"
 
-# Force puma to quit when ctrl+c doesn't work
-alias kill-puma="pkill -9 -f puma"
-
 # Start/stop Redis
 alias redis-start="(redis-server &)"
 alias redis-stop="(redis-cli shutdown)"
