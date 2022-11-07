@@ -46,6 +46,7 @@ code --install-extension timonwong.shellcheck
 
 # Themes
 code --install-extension enkia.tokyo-night
+code --install-extension PenumbraTheme.penumbra
 
 echo "==> 🔗 Symlinking Visual Studio Code settings"
 
