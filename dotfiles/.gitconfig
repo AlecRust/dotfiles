@@ -130,12 +130,6 @@
 	newNormal = green bold
 	newHighlight = green bold 22
 
-[commit]
-
-	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
-	template = $HOME/.stCommitMsg
-
 [difftool "Kaleidoscope"]
 
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
@@ -205,9 +199,6 @@
 
 	insteadOf = "gist:"
 
-[gpg]
-	program = /Applications/SourceTree.app/Contents/Resources/bin/stgpg.sh
-
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
@@ -222,6 +213,14 @@
 	name = Alec Rust
 	email = me@alecrust.com
 	signingKey = EB374231DBCA5067
+
+[gpg]
+	program = /Applications/SourceTree.app/Contents/Resources/bin/stgpg.sh
+
+[commit]
+	# https://help.github.com/articles/signing-commits-using-gpg/
+	gpgsign = true
+	template = $HOME/.stCommitMsg
 
 # Sourcetree specific
 
