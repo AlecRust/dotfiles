@@ -22,7 +22,6 @@ code --install-extension ninoseki.vscode-gem-lens
 code --install-extension tgreen7.vs-code-node-require
 code --install-extension wix.vscode-import-cost
 code --install-extension vincaslt.highlight-matching-tag
-code --install-extension formulahendry.auto-rename-tag
 code --install-extension WakaTime.vscode-wakatime
 code --install-extension gruntfuggly.todo-tree
 
