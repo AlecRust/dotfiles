@@ -38,6 +38,10 @@ alias bert="bundle exec rails test"
 alias redis-start="(redis-server &)"
 alias redis-stop="(redis-cli shutdown)"
 
+# More memorable Git branch cleanup
+alias git-clean-remote-branches="gfa"
+alias git-clean-local-branches="gbda"
+
 # Always enable colored `grep` output
 # Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
 alias grep='grep --color=auto'
