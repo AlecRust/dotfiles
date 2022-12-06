@@ -3,7 +3,7 @@ npm-check-updates
 npm-check
 changelog
 @getflywheel/local-cli
-markdownlint-cli
+markdownlint-cli2
 wallpaper-cli
 @lhci/cli
 retry-cli

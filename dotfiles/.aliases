@@ -42,6 +42,9 @@ alias redis-stop="(redis-cli shutdown)"
 alias git-clean-remote-branches="gfa"
 alias git-clean-local-branches="gbda"
 
+# More memorable markdownlint-cli2 command
+alias mdlint="markdownlint-cli2"
+
 # Always enable colored `grep` output
 # Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
 alias grep='grep --color=auto'
