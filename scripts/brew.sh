@@ -27,6 +27,7 @@ brew install gh
 brew install ack
 brew install php
 brew install asdf
+brew install glab
 brew install tmux
 brew install vips
 brew install redis
