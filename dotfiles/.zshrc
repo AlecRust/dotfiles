@@ -30,6 +30,7 @@ HIST_STAMPS="dd.mm.yyyy"
 
 # Oh My Zsh plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 plugins=(
+  brew
   asdf
   tmux
   tmuxinator
