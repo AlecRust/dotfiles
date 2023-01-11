@@ -29,6 +29,7 @@ code --install-extension gruntfuggly.todo-tree
 code --install-extension wingrunr21.vscode-ruby
 code --install-extension rebornix.ruby
 code --install-extension KoichiSasada.vscode-rdbg
+code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension bierner.lit-html
 code --install-extension bung87.vscode-gemfile
 code --install-extension idleberg.applescript
@@ -39,9 +40,9 @@ code --install-extension csstools.postcss
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
-code --install-extension kokororin.vscode-phpfmt
 code --install-extension stylelint.vscode-stylelint
 code --install-extension HTMLHint.vscode-htmlhint
+code --install-extension kokororin.vscode-phpfmt
 code --install-extension timonwong.shellcheck
 
 # Themes
