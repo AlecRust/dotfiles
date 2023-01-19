@@ -7,7 +7,6 @@ brew install --cask visual-studio-code
 echo "==> 📜 Installing Visual Studio Code extensions"
 
 # Editor
-code --install-extension christian-kohler.npm-intellisense
 code --install-extension eamodio.gitlens
 code --install-extension mhutchie.git-graph
 code --install-extension EditorConfig.EditorConfig
