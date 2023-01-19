@@ -17,7 +17,6 @@ code --install-extension keesschollaart.vscode-home-assistant
 code --install-extension mkhl.direnv
 code --install-extension shyykoserhiy.vscode-spotify
 code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension ninoseki.vscode-gem-lens
 code --install-extension NuclleaR.vscode-extension-auto-import
 code --install-extension wix.vscode-import-cost
 code --install-extension vincaslt.highlight-matching-tag
@@ -31,6 +30,7 @@ code --install-extension KoichiSasada.vscode-rdbg
 code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension bierner.lit-html
 code --install-extension bung87.vscode-gemfile
+code --install-extension ninoseki.vscode-gem-lens
 code --install-extension idleberg.applescript
 code --install-extension redhat.vscode-yaml
 code --install-extension csstools.postcss
