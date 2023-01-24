@@ -35,6 +35,7 @@ plugins=(
   tmux
   tmuxinator
   git
+  npm
   yarn
   bundler
   ruby
