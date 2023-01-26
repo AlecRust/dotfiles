@@ -41,6 +41,7 @@ My macOS setup.
 
     - Import Raycast settings from Google Drive
     - Disable "Hardware Media Key Handling" in `brave://flags`
+    - Enable Safari Dev Tools at `Safari App > Settings > Advanced`
     - Sourcetree
         - General: Disable modifying of global `.gitconfig`
         - General: Set terminal app to iTerm
