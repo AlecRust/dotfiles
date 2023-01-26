@@ -23,9 +23,9 @@ My macOS setup.
 1. Modify macOS settings
 
     - In Finder sidebar enable `alec` and `Alec's MacBook`, disable Tags and add `~/projects` to Favorites
-    - Map <kbd>⇪</kbd> key to <kbd>Ctrl</kbd> at `Keyboard > Modifier Keys`
-    - Disable double-space period at `Keyboard > Text`
-    - Enable "Show Percentage" at `Dock & Menu Bar > Battery`
+    - Map <kbd>⇪</kbd> key to <kbd>Ctrl</kbd> at `Keyboard > Keyboard Shortcuts > Modifier Keys`
+    - Disable "Add period with double-space" at `Keyboard > Text Input > Input Sources`
+    - Enable "Show Percentage" in `Control Centre` settings
     - Enable "Remote Login" in `Sharing` for SSH access
     - Search for and add printer in "Printers & Scanners"
 
@@ -43,14 +43,17 @@ My macOS setup.
     - Disable "Hardware Media Key Handling" in `brave://flags`
     - Sourcetree
         - General: Disable modifying of global `.gitconfig`
-        - General: Set terminal app to iTerm2
+        - General: Set terminal app to iTerm
         - General: Enable "Open links on GitHub.com with Sourcetree"
         - Diff: Set font to Fira Code 12pt
         - Diff: Set diff tool to Kaleidoscope
-        - Diff: Allow `Gemfile.lock` in "Ignore File Patterns"
+        - Diff: Remove `Gemfile.lock` from "Ignore File Patterns"
+        - Git: Click "Use System Git" and select `/opt/homebrew/bin/git`
         - Git: Enable "Use rebase instead of merge by default for tracked branches"
         - Advanced: Enable "Allow force push"
-    - Change Kaleidoscope settings to use Fira Code 12pt font
+    - Kaleidoscope
+        - Set font to Fira Code 12pt
+        - Set terminal app to iTerm
     - Install Sonos S2 app
 
 ### Backup Files
