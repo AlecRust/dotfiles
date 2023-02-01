@@ -109,7 +109,7 @@ source $ZSH/oh-my-zsh.sh
 eval "$(starship init zsh)"
 
 # Source asdf-direnv
-source ${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/zshrc
+source "${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/zshrc"
 
 # Source iTerm2 Shell Integration
 source $HOME/.iterm2_shell_integration.zsh
