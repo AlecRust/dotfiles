@@ -29,6 +29,7 @@ brew install php
 brew install asdf
 brew install glab
 brew install tmux
+brew install tilt
 brew install vips
 brew install redis
 brew install mysql
