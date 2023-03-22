@@ -53,6 +53,7 @@ brew services start postgresql
 brew install jq
 brew install bat
 brew install exa
+brew install fzf
 brew install mas
 brew install svn
 brew install hstr

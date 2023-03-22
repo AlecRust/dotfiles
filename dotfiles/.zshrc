@@ -34,6 +34,7 @@ plugins=(
   asdf
   tmux
   tmuxinator
+  fzf
   git
   npm
   yarn
