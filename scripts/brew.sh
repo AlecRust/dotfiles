@@ -65,12 +65,12 @@ brew install ffmpeg
 brew install rename
 brew install rclone
 brew install zoxide
+brew install yt-dlp
 brew install thefuck
 brew install dockutil
 brew install qrencode
 brew install starship
 brew install dark-mode
-brew install yt-dlp/taps/yt-dlp
 brew install speedtest-cli
 brew install homeassistant-cli
 
