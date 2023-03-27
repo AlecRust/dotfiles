@@ -34,6 +34,7 @@ code --install-extension ninoseki.vscode-gem-lens
 code --install-extension idleberg.applescript
 code --install-extension redhat.vscode-yaml
 code --install-extension csstools.postcss
+code --install-extension Vue.volar
 
 # Linting
 code --install-extension DavidAnson.vscode-markdownlint
