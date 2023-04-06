@@ -28,9 +28,6 @@ brew install --cask ivpn
 brew install --cask eul
 brew install --cask kap
 
-# Install last so it enables extensions for other apps
-brew install --cask raycast
-
 # Development
 brew install --cask local
 brew install --cask sketch
@@ -42,3 +39,6 @@ brew install --cask sourcetree
 brew install --cask imageoptim
 brew install --cask kaleidoscope
 brew install --cask google-chrome
+
+# Install last so it enables extensions for other apps
+brew install --cask raycast
