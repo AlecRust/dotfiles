@@ -62,6 +62,9 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 
+# Use gnu-tar (gtar) as tar
+export PATH="$HOMEBREW_PREFIX/opt/gnu-tar/libexec/gnubin:$PATH"
+
 # Add `/usr/local/sbin` to beginning, to make
 # scripts that require root priviledges available
 export PATH="/usr/local/sbin:$PATH"

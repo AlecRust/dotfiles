@@ -6,12 +6,15 @@ changelog
 markdownlint-cli2
 wallpaper-cli
 @lhci/cli
+trash-cli
+del-cli
 retry-cli
 gulp-cli
 wrangler
 stylelint
 eslint
 nodemon
+cspell
 serve
 svgo
 yo

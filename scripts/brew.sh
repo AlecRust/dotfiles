@@ -12,6 +12,7 @@ brew install moreutils
 brew install findutils
 brew install openssh
 brew install gnu-sed
+brew install gnu-tar
 brew install rsync
 brew install bash
 brew install curl
@@ -60,7 +61,6 @@ brew install hstr
 brew install tldr
 brew install duti
 brew install htop
-brew install trash
 brew install ffmpeg
 brew install rename
 brew install rclone
