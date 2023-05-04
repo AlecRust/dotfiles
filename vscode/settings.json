@@ -11,6 +11,7 @@
   "editor.snippetSuggestions": "top",
   "editor.inlineSuggest.enabled": true,
   "editor.accessibilitySupport": "off",
+  "editor.defaultColorDecorators": true,
   // Explorer
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
@@ -22,7 +23,6 @@
   // Workbench
   "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {},
-  "workbench.colorTheme": "Penumbra Dark Contrast+",
   "workbench.editor.decorations.badges": true,
   "workbench.editor.decorations.colors": true,
   "workbench.editor.enablePreviewFromQuickOpen": false,
