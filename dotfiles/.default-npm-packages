@@ -13,8 +13,10 @@ gulp-cli
 wrangler
 stylelint
 eslint
+vercel
 nodemon
 cspell
 serve
 svgo
+pnpm
 yo
