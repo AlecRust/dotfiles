@@ -57,6 +57,8 @@
   "telemetry.telemetryLevel": "off",
   "redhat.telemetry.enabled": false,
   "gitlens.advanced.telemetry.enabled": false,
+  // CodeGPT extension
+  "CodeGPT.model": "gpt-4",
   // GitHub Copilot extension
   "github.copilot.enable": {
     "*": true,
