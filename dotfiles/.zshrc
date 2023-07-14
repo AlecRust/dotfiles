@@ -100,7 +100,7 @@ export HSTR_CONFIG=hicolor
 bindkey -s "\C-r" "\C-a hstr -- \C-j"
 
 # Configure 1Password agent socket path
-# https://developer.1password.com/docs/ssh/agent/compatibility#ssh-auth-sock
+# https://developer.1password.com/docs/ssh/agent/compatibility/#ssh-auth-sock
 export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
 
 # Allow [ or ] wherever you want i.e. Rake tasks
@@ -117,6 +117,10 @@ source "${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/zshrc"
 
 # Source iTerm2 Shell Integration
 source $HOME/.iterm2_shell_integration.zsh
+
+# Source 1Password Shell Plugins
+# https://developer.1password.com/docs/cli/shell-plugins/
+source $HOME/.config/op/plugins.sh
 
 # Source .aliases and .extra
 source $HOME/.aliases
