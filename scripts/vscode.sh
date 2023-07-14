@@ -13,6 +13,8 @@ code --install-extension EditorConfig.EditorConfig
 code --install-extension GitHub.vscode-pull-request-github
 code --install-extension GitHub.copilot
 code --install-extension GitHub.copilot-labs
+code --install-extension GitHub.vscode-github-actions
+code --install-extension DanielSanMedium.dscodegpt
 code --install-extension keesschollaart.vscode-home-assistant
 code --install-extension mkhl.direnv
 code --install-extension shyykoserhiy.vscode-spotify
@@ -33,6 +35,8 @@ code --install-extension bung87.vscode-gemfile
 code --install-extension ninoseki.vscode-gem-lens
 code --install-extension idleberg.applescript
 code --install-extension redhat.vscode-yaml
+code --install-extension Prisma.prisma
+code --install-extension bradlc.vscode-tailwindcss
 code --install-extension csstools.postcss
 code --install-extension Vue.volar
 
