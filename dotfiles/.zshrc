@@ -39,6 +39,7 @@ plugins=(
   npm
   yarn
   bundler
+  composer
   ruby
   rails
   macos
@@ -50,43 +51,16 @@ plugins=(
   zsh-syntax-highlighting
 )
 
-# Build up $PATH from scratch
-# ---------------------------
-
-# Set default path
-# Start with the original path (see /etc/paths)
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-
-# TODO: Remove this, it should not be necessary
-# Adds Homebrew to beginning to patch Homebrew installation on M1 chips
-export PATH="/opt/homebrew/bin:$PATH"
-export PATH="/opt/homebrew/sbin:$PATH"
-
-# Use gnu-tar (gtar) as tar
+# Add Homebrew versions of core utilities to start of PATH to override defaults
+# NOTE: This causes "non-prefixed coreutils" 'brew doctor' warning which is fine
+export PATH="$HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin:$PATH"
 export PATH="$HOMEBREW_PREFIX/opt/gnu-tar/libexec/gnubin:$PATH"
 
-# Add `/usr/local/sbin` to beginning, to make
-# scripts that require root priviledges available
-export PATH="/usr/local/sbin:$PATH"
-
-# Add Composer binaries to beginning
-export PATH="$HOME/.composer/vendor/bin:$PATH"
-
-# Add Homebrew GNU core utilities (chmod etc.) to beginning to override system defaults
-# NOTE: This causes "can cause GMP builds to fail" brew doctor warning which is fine
-export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
-
-# Add X11 (XQuartz) to end
+# Add X11 (XQuartz) to end of PATH
 export PATH="$PATH:/opt/X11/bin"
-
-# Add MacGPG2 to end
-export PATH="$PATH:/usr/local/MacGPG2/bin"
 
 # Set language environment
 export LANG=en_GB.UTF-8
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
 
 # Set VSCode as the default editor
 export EDITOR="code"
