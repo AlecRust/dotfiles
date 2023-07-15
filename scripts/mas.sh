@@ -2,11 +2,11 @@
 
 echo "==> 📜 Installing App Store apps"
 
-# Affinity Designer
-mas install 824171161
+# Affinity Photo 2
+mas install 1616822987
 
-# Affinity Photo
-mas install 824183456
+# Affinity Designer 2
+mas install 1616831348
 
 # Dato
 mas install 1470584107
