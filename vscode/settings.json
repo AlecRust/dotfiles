@@ -29,15 +29,10 @@
   "workbench.statusBar.visible": true,
   // Security
   "security.workspace.trust.untrustedFiles": "open",
-  // Integrated terminal
+  // Terminal
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.profiles.osx": {
-    "zsh": {
-      "path": "/opt/homebrew/bin/zsh"
-    }
-  },
-  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.shell.osx": "/opt/homebrew/bin/zsh",
   // Git
   "git.enableSmartCommit": true,
   "git.allowForcePush": true,
