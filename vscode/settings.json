@@ -1,6 +1,6 @@
 {
   // Editor
-  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Fira Code, monospace",
   "editor.fontSize": 17,
   "editor.lineHeight": 28,
   "editor.minimap.showSlider": "always",
@@ -31,7 +31,8 @@
   "security.workspace.trust.untrustedFiles": "open",
   // Terminal
   "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font, monospace",
   "terminal.integrated.shell.osx": "/opt/homebrew/bin/zsh",
   // Git
   "git.enableSmartCommit": true,
