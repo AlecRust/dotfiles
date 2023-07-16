@@ -47,7 +47,7 @@ echo "==> 🔗 Symlinking Google Drive scripts to ~/"
 
 ln -s ~/My\ Drive/Apps/scripts/ ~/scripts
 
-# Warn if .extra file is missing
+# Notify if .extra file is missing
 if [ ! -f ~/.extra ]; then
-  echo "==> ⚠️  WARNING: ~/.extra file was not found. Create this when setup completes to prevent notice on shell start"
+  echo "==> ℹ️ Create ~/.extra file for a non-repository place to store e.g. sensitive environment variables"
 fi

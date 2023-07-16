@@ -86,6 +86,11 @@ source $HOME/.iterm2_shell_integration.zsh
 # https://developer.1password.com/docs/cli/shell-plugins/
 source $HOME/.config/op/plugins.sh
 
-# Source .aliases and .extra
-source $HOME/.aliases
-source $HOME/.extra
+# Source .aliases and .extra if they exist
+if [[ -f $HOME/.aliases ]]; then
+  source $HOME/.aliases
+fi
+
+if [[ -f $HOME/.extra ]]; then
+  source $HOME/.extra
+fi
