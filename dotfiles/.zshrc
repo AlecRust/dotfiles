@@ -4,22 +4,12 @@ export ZSH=$HOME/.oh-my-zsh
 # Prevent permission errors
 ZSH_DISABLE_COMPFIX="true"
 
-# Use hyphen-insensitive completion. Case-sensitive completion must
-# be off. _ and - will be interchangeable
-# HYPHEN_INSENSITIVE="true"
-
 # Disable Oh My Zsh auto-update behavior
 zstyle ':omz:update' mode disabled
 
-# Fix pasting URLs and other text being messed up
+# Improve formatting of pasted URLs and other text
 # https://github.com/ohmyzsh/ohmyzsh/issues/6338#issuecomment-491504348
 DISABLE_MAGIC_FUNCTIONS="true"
-
-# Disable auto-setting terminal title
-# DISABLE_AUTO_TITLE="true"
-
-# Enable command auto-correction
-# ENABLE_CORRECTION="true"
 
 # Display red dots whilst waiting for completion
 COMPLETION_WAITING_DOTS="true"
