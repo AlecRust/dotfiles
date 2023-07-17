@@ -14,4 +14,5 @@ asdf global ruby latest
 
 echo "==> 📜 Upgrading RubyGems software version"
 
+# Install the latest RubyGems version (ones bundled with Ruby are often outdated)
 gem update --system
