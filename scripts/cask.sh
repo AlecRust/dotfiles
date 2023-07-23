@@ -31,6 +31,7 @@ brew install --cask kap
 # Development
 brew install --cask local
 brew install --cask sketch
+brew install --cask docker
 brew install --cask firefox
 brew install --cask transmit
 brew install --cask multipass
