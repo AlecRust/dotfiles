@@ -39,6 +39,7 @@ code --install-extension Prisma.prisma
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension csstools.postcss
 code --install-extension Vue.volar
+code --install-extension tamasfe.even-better-toml
 
 # Linting
 code --install-extension DavidAnson.vscode-markdownlint
