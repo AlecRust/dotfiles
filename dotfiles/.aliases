@@ -57,13 +57,16 @@ alias month='date +%m'
 alias update-shell="omz update; rtx upgrade; rtx prune"
 
 # Update Homebrew packages
-alias update-brew='brew update; brew upgrade; brew cleanup; update-shell'
+alias update-brew='brew update; brew upgrade; brew cleanup'
 
 # Update global Node packages
-alias update-node='npm update -g; update-shell'
+alias update-node='npm update -g'
 
-# Update global Ruby gems
-alias update-gems='sudo gem update --system; sudo gem update; sudo gem cleanup; update-shell'
+# Update most packages
+alias update='update-brew; update-node; update-shell'
+
+# Update global Ruby gems (rarely used)
+alias update-gems='sudo gem update --system; sudo gem update; sudo gem cleanup'
 
 # Brave
 alias brave='/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser'
