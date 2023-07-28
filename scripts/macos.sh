@@ -27,7 +27,7 @@ defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
 # Create and set screenshots directory
-mkdir "${HOME}/screenshots"
+mkdir -p "${HOME}/screenshots"
 defaults write com.apple.screencapture location -string "${HOME}/screenshots"
 
 # Set a fast keyboard repeat rate
