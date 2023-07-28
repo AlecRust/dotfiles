@@ -17,6 +17,9 @@ sudo chflags nohidden /Volumes
 # Disable default "cmd + space" Spotlight shortcut
 /usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c "Set AppleSymbolicHotKeys:64:enabled false"
 
+# Disable Spotlight
+sudo mdutil -a -i off
+
 # Enable "Debug" menu in Safari for dev tools access to Simulator
 defaults write com.apple.Safari IncludeInternalDebugMenu 1
 
