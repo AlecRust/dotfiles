@@ -39,9 +39,12 @@ git clone https://github.com/djui/alias-tips ~/.oh-my-zsh/custom/plugins/alias-t
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
-echo "==> 🔗 Symlinking Google Drive scripts to ~/"
-
-ln -sf ~/My\ Drive/Apps/scripts/ ~/scripts
+# Symlink Google Drive dirs if present
+if [ -d "$HOME/My Drive/Apps/" ]; then
+  echo "==> 🔗 Symlinking Google Drive scripts and tmuxinator to ~/"
+  ln -sf ~/My\ Drive/Apps/scripts/ ~/scripts
+  ln -sf ~/My\ Drive/Apps/tmuxinator/ ~/.tmuxinator
+fi
 
 # Notify if .extra file is missing
 if [ ! -f ~/.extra ]; then

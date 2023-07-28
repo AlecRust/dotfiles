@@ -16,7 +16,3 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 # Install shell integration
 curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash
-
-echo "==> 🔗 Symlinking Google Drive tmuxinator to ~/"
-
-ln -sf ~/My\ Drive/Apps/tmuxinator/ ~/.tmuxinator
