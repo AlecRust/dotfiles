@@ -8,9 +8,13 @@ My macOS setup.
 
 2. Install [Homebrew](https://brew.sh/)
 
-3. Clone repo (if not restored from backup) to `~/projects/personal/dotfiles`
+3. Clone to a suitable location (if not restored from backup):
 
-4. Run the following command from `~/projects/personal/dotfiles`:
+    ```sh
+    git clone https://github.com/AlecRust/dotfiles ~/projects/personal/dotfiles
+    ```
+
+4. Run the setup script:
 
     ```sh
     ~/projects/personal/dotfiles/setup.sh
@@ -59,7 +63,7 @@ My macOS setup.
 
 ### Backup Files
 
-Things to backup to an external drive if moving from an old machine:
+Backup these files/folders from old machine and restore on new machine:
 
 - `~/Desktop`
 - `~/Downloads`

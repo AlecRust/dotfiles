@@ -1,5 +1,7 @@
 #!/bin/sh
 
+REPO_PATH=$(cd "$(dirname "$0")"/.. && pwd)
+
 echo "==> 📜 Installing Visual Studio Code"
 
 brew install --cask visual-studio-code
@@ -55,4 +57,4 @@ code --install-extension PenumbraTheme.penumbra
 
 echo "==> 🔗 Symlinking Visual Studio Code settings"
 
-ln -sf ~/projects/personal/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -sf "$REPO_PATH/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json

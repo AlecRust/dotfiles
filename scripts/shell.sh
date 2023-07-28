@@ -1,23 +1,25 @@
 #!/bin/sh
 
+REPO_PATH=$(cd "$(dirname "$0")"/.. && pwd)
+
 echo "==> 🔗 Symlinking dotfiles to ~/"
 
-ln -sf ~/projects/personal/dotfiles/dotfiles/.aliases ~/.aliases
-ln -sf ~/projects/personal/dotfiles/dotfiles/.curlrc ~/.curlrc
-ln -sf ~/projects/personal/dotfiles/dotfiles/.default-gems ~/.default-gems
-ln -sf ~/projects/personal/dotfiles/dotfiles/.default-npm-packages ~/.default-npm-packages
-ln -sf ~/projects/personal/dotfiles/dotfiles/.editorconfig ~/.editorconfig
-ln -sf ~/projects/personal/dotfiles/dotfiles/.gitconfig ~/.gitconfig
-ln -sf ~/projects/personal/dotfiles/dotfiles/.gitignore_global ~/.gitignore_global
-ln -sf ~/projects/personal/dotfiles/dotfiles/.hushlogin ~/.hushlogin
-ln -sf ~/projects/personal/dotfiles/dotfiles/.huskyrc ~/.huskyrc
-ln -sf ~/projects/personal/dotfiles/dotfiles/.wgetrc ~/.wgetrc
-ln -sf ~/projects/personal/dotfiles/dotfiles/.zprofile ~/.zprofile
-ln -sf ~/projects/personal/dotfiles/dotfiles/.zshrc ~/.zshrc
+ln -sf "$REPO_PATH/dotfiles/.aliases" ~/.aliases
+ln -sf "$REPO_PATH/dotfiles/.curlrc" ~/.curlrc
+ln -sf "$REPO_PATH/dotfiles/.default-gems" ~/.default-gems
+ln -sf "$REPO_PATH/dotfiles/.default-npm-packages" ~/.default-npm-packages
+ln -sf "$REPO_PATH/dotfiles/.editorconfig" ~/.editorconfig
+ln -sf "$REPO_PATH/dotfiles/.gitconfig" ~/.gitconfig
+ln -sf "$REPO_PATH/dotfiles/.gitignore_global" ~/.gitignore_global
+ln -sf "$REPO_PATH/dotfiles/.hushlogin" ~/.hushlogin
+ln -sf "$REPO_PATH/dotfiles/.huskyrc" ~/.huskyrc
+ln -sf "$REPO_PATH/dotfiles/.wgetrc" ~/.wgetrc
+ln -sf "$REPO_PATH/dotfiles/.zprofile" ~/.zprofile
+ln -sf "$REPO_PATH/dotfiles/.zshrc" ~/.zshrc
 
 # Symlink rtx config
 mkdir -p ~/.config/rtx
-ln -sf ~/projects/personal/dotfiles/dotfiles/.rtx.toml ~/.config/rtx/config.toml
+ln -sf "$REPO_PATH/dotfiles/.rtx.toml" ~/.config/rtx/config.toml
 
 echo "==> 📜 Setting Homebrew Zsh as default shell"
 

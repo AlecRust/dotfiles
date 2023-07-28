@@ -1,12 +1,14 @@
 #!/bin/sh
 
+REPO_PATH=$(cd "$(dirname "$0")"/.. && pwd)
+
 echo "==> 📜 Installing iTerm2"
 
 # Install iTerm2
 brew install --cask iterm2
 
 # Specify the preferences directory
-defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "$HOME/projects/personal/dotfiles/iterm2"
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "$REPO_PATH/iterm2"
 
 # Load custom preferences into iTerm2
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
