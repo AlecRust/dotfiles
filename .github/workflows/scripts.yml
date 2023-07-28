@@ -10,9 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Run shell.sh
-        run: |
-          brew install asdf
-          ./scripts/shell.sh
+        run: ./scripts/shell.sh
 
   iterm2:
     name: iterm2.sh

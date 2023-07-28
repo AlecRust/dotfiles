@@ -1,16 +1,12 @@
 #!/bin/sh
 
-echo "==> 📜 Installing latest Ruby with asdf"
+echo "==> 📜 Installing latest Ruby version"
 
-# Install the Ruby plugin https://github.com/asdf-vm/asdf-ruby
-asdf plugin add ruby
-
-# Install the latest Ruby version
-asdf install ruby latest
+rtx install ruby@latest
 
 echo "==> 📜 Setting latest Ruby as shell default"
 
-asdf global ruby latest
+rtx use -g ruby@latest
 
 echo "==> 📜 Upgrading RubyGems software version"
 

@@ -73,7 +73,7 @@
   "gitlens.currentLine.scrollable": false,
   // Ruby extension
   "ruby.useLanguageServer": true,
-  "ruby.pathToBundler": "/Users/alec/.asdf/shims/bundle",
+  "ruby.pathToBundler": "/Users/alec/.local/share/rtx/shims/bundle",
   "ruby.lint": {
     "rubocop": {
       "useBundler": true,
@@ -86,8 +86,6 @@
   "ruby.useBundler": true,
   // Code Spell Checker extension
   "cSpell.enabled": true,
-  // direnv extension
-  "direnv.path.executable": "/opt/homebrew/bin/direnv",
   // Default formatter
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[ruby]": {

@@ -16,7 +16,6 @@ code --install-extension GitHub.copilot-labs
 code --install-extension GitHub.vscode-github-actions
 code --install-extension DanielSanMedium.dscodegpt
 code --install-extension keesschollaart.vscode-home-assistant
-code --install-extension mkhl.direnv
 code --install-extension shyykoserhiy.vscode-spotify
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension NuclleaR.vscode-extension-auto-import

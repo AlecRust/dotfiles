@@ -21,7 +21,6 @@ HIST_STAMPS="dd.mm.yyyy"
 # Oh My Zsh plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 plugins=(
   brew
-  asdf
   tmux
   tmuxinator
   fzf
@@ -76,8 +75,8 @@ source $ZSH/oh-my-zsh.sh
 # Source Starship
 eval "$(starship init zsh)"
 
-# Source asdf-direnv
-source "${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/zshrc"
+# Source rtx
+eval "$(rtx activate zsh)"
 
 # Source iTerm2 Shell Integration
 source $HOME/.iterm2_shell_integration.zsh

@@ -1,13 +1,9 @@
 #!/bin/sh
 
-echo "==> 📜 Installing latest Node with asdf"
+echo "==> 📜 Installing latest Node version"
 
-# Install the Node plugin https://github.com/asdf-vm/asdf-nodejs
-asdf plugin add nodejs
-
-# Install the latest Node version
-asdf install nodejs latest
+rtx install node@latest
 
 echo "==> 📜 Setting latest Node as shell default"
 
-asdf global nodejs latest
+rtx use -g node@latest

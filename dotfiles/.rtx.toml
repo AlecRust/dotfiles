@@ -1,0 +1,12 @@
+[tools]
+go = "latest"
+node = "latest"
+python = "latest"
+ruby = "latest"
+
+[settings]
+experimental = true # Enable experimental core plugins
+verbose = true
+trusted_config_paths = [
+  '~/projects/personal'
+]

@@ -3,7 +3,6 @@
 echo "==> 🔗 Symlinking dotfiles to ~/"
 
 ln -s ~/projects/personal/dotfiles/dotfiles/.aliases ~/.aliases
-ln -s ~/projects/personal/dotfiles/dotfiles/.asdfrc ~/.asdfrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.curlrc ~/.curlrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.default-gems ~/.default-gems
 ln -s ~/projects/personal/dotfiles/dotfiles/.default-npm-packages ~/.default-npm-packages
@@ -13,7 +12,12 @@ ln -s ~/projects/personal/dotfiles/dotfiles/.gitignore_global ~/.gitignore_globa
 ln -s ~/projects/personal/dotfiles/dotfiles/.hushlogin ~/.hushlogin
 ln -s ~/projects/personal/dotfiles/dotfiles/.huskyrc ~/.huskyrc
 ln -s ~/projects/personal/dotfiles/dotfiles/.wgetrc ~/.wgetrc
+ln -s ~/projects/personal/dotfiles/dotfiles/.zprofile ~/.zprofile
 ln -s ~/projects/personal/dotfiles/dotfiles/.zshrc ~/.zshrc
+
+# Symlink rtx config
+mkdir -p ~/.config/rtx
+ln -s ~/projects/personal/dotfiles/dotfiles/.rtx.toml ~/.config/rtx/config.toml
 
 echo "==> 📜 Setting Homebrew Zsh as default shell"
 
@@ -34,14 +38,6 @@ git clone https://github.com/ohmyzsh/ohmyzsh ~/.oh-my-zsh
 git clone https://github.com/djui/alias-tips ~/.oh-my-zsh/custom/plugins/alias-tips
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-
-echo "==> 📜 Installing asdf-direnv"
-
-# Install the direnv plugin https://github.com/asdf-community/asdf-direnv
-asdf plugin add direnv
-
-# Setup asdf-direnv with Homebrew-installed direnv
-asdf direnv setup --version system
 
 echo "==> 🔗 Symlinking Google Drive scripts to ~/"
 

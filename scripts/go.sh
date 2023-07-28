@@ -1,13 +1,9 @@
 #!/bin/sh
 
-echo "==> 📜 Installing latest Go with asdf"
+echo "==> 📜 Installing latest Go version"
 
-# Install the Go plugin https://github.com/kennyp/asdf-golang
-asdf plugin add golang
-
-# Install the latest Go version
-asdf install golang latest
+rtx install go@latest
 
 echo "==> 📜 Setting latest Go as shell default"
 
-asdf global golang latest
+rtx use -g go@latest

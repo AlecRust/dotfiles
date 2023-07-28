@@ -20,10 +20,6 @@ alias la='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale'
 # bat (cat replacement)
 alias cat="bat --theme=\$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo default || echo GitHub)"
 
-# Fix brew doctor warnings caused by pyenv (used under the hood by asdf)
-# https://github.com/pyenv/pyenv#homebrew-in-macos
-alias brew='env PATH="${PATH//$HOME/.asdf\/shims:/}" brew'
-
 # Overrides to use 1Password CLI to load env vars
 # https://developer.1password.com/docs/cli/authenticate-clis/
 alias aws="op run --env-file=\$HOME/.config/op/aws.env -- aws"
@@ -57,8 +53,8 @@ alias sudo='sudo '
 # Get current month number
 alias month='date +%m'
 
-# Update Oh My Zsh and asdf plugins
-alias update-shell="asdf plugin update --all; omz update"
+# Update Oh My Zsh and rtx versions
+alias update-shell="omz update; rtx upgrade; rtx prune"
 
 # Update Homebrew packages
 alias update-brew='brew update; brew upgrade; brew cleanup; update-shell'

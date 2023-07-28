@@ -17,4 +17,7 @@
 . ./scripts/mas.sh
 . ./scripts/macos.sh
 
+echo "==> ℹ️ Language versions installed:"
+rtx current
+
 echo "✨ Completed setup - please restart machine"

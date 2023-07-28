@@ -27,14 +27,13 @@ brew install git
 brew install gh
 brew install ack
 brew install php
-brew install asdf
+brew install rtx
 brew install tmux
 brew install tilt
 brew install vips
 brew install redis
 brew install mysql
 brew install awscli
-brew install direnv
 brew install httpie
 brew install composer
 brew install yamllint
