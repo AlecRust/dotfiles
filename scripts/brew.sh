@@ -29,7 +29,6 @@ brew install ack
 brew install php
 brew install rtx
 brew install tmux
-brew install tilt
 brew install vips
 brew install redis
 brew install mysql
