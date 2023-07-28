@@ -55,4 +55,4 @@ code --install-extension PenumbraTheme.penumbra
 
 echo "==> 🔗 Symlinking Visual Studio Code settings"
 
-ln -s ~/projects/personal/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -sf ~/projects/personal/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
