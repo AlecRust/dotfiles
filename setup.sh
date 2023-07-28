@@ -5,7 +5,7 @@
 
 REPO_PATH=$(cd "$(dirname "$0")" && pwd)
 
-Run all setup scripts
+# Run all setup scripts
 "$REPO_PATH/scripts/brew.sh"
 "$REPO_PATH/scripts/shell.sh"
 "$REPO_PATH/scripts/node.sh"
