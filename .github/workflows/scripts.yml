@@ -12,15 +12,6 @@ jobs:
       - name: Run shell.sh
         run: ./scripts/shell.sh
 
-  iterm2:
-    name: iterm2.sh
-    runs-on: macos-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Run iterm2.sh
-        run: ./scripts/iterm2.sh
-
   vscode:
     name: vscode.sh
     runs-on: macos-latest

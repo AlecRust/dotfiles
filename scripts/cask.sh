@@ -22,6 +22,7 @@ brew install --cask spotify
 brew install --cask discord
 brew install --cask signal
 brew install --cask slack
+brew install --cask warp
 brew install --cask zoom
 brew install --cask iina
 brew install --cask ivpn

@@ -20,24 +20,19 @@ HIST_STAMPS="dd.mm.yyyy"
 
 # Oh My Zsh plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 plugins=(
-  brew
-  tmux
-  tmuxinator
-  fzf
   git
   npm
   yarn
-  bundler
-  composer
+  brew
   ruby
   rails
   macos
-  1password
-  thefuck
-  alias-tips
   zoxide
-  zsh-autosuggestions
-  zsh-syntax-highlighting
+  thefuck
+  bundler
+  composer
+  1password
+  alias-tips
 )
 
 # Add Homebrew versions of core utilities to start of PATH to override defaults
@@ -54,6 +49,10 @@ export LANG=en_GB.UTF-8
 # Set VSCode as the default editor
 export EDITOR="code"
 
+# Set 1Password agent socket path
+# https://developer.1password.com/docs/ssh/agent/compatibility/#ssh-auth-sock
+export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
+
 # Disable Homebrew analytics
 export HOMEBREW_NO_ANALYTICS=1
 
@@ -61,10 +60,6 @@ export HOMEBREW_NO_ANALYTICS=1
 setopt histignorespace
 export HSTR_CONFIG=hicolor
 bindkey -s "\C-r" "\C-a hstr -- \C-j"
-
-# Configure 1Password agent socket path
-# https://developer.1password.com/docs/ssh/agent/compatibility/#ssh-auth-sock
-export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
 
 # Allow [ or ] wherever you want i.e. Rake tasks
 unsetopt nomatch
@@ -77,9 +72,6 @@ eval "$(starship init zsh)"
 
 # Source rtx
 eval "$(rtx activate zsh)"
-
-# Source iTerm2 Shell Integration
-source $HOME/.iterm2_shell_integration.zsh
 
 # Source 1Password Shell Plugins
 # https://developer.1password.com/docs/cli/shell-plugins/

@@ -28,7 +28,6 @@ brew install gh
 brew install ack
 brew install php
 brew install rtx
-brew install tmux
 brew install vips
 brew install redis
 brew install mysql
@@ -51,7 +50,6 @@ brew services start postgresql
 brew install jq
 brew install bat
 brew install exa
-brew install fzf
 brew install mas
 brew install svn
 brew install hstr

@@ -30,7 +30,7 @@
   // Security
   "security.workspace.trust.untrustedFiles": "open",
   // Terminal
-  "terminal.external.osxExec": "iTerm.app",
+  "terminal.external.osxExec": "Warp.app",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontFamily": "FiraCode Nerd Font, monospace",
   "terminal.integrated.shell.osx": "/opt/homebrew/bin/zsh",

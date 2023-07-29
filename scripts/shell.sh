@@ -11,14 +11,16 @@ for file in "$REPO_PATH"/dotfiles/.*; do
   fi
 done
 
-# Symlink rtx config
+# Symlink rtx and Starship configs
 mkdir -p "$HOME/.config/rtx"
 ln -sf "$REPO_PATH/rtx/config.toml" "$HOME/.config/rtx/config.toml"
+ln -sf "$REPO_PATH/starship/starship.toml" "$HOME/.config/starship.toml"
 
 # Symlink Google Drive dirs if present
 if [ -d "$HOME/My Drive/Apps/" ]; then
   ln -sf "$HOME/My Drive/Apps/scripts/" "$HOME/scripts"
-  ln -sf "$HOME/My Drive/Apps/tmuxinator/" "$HOME/.tmuxinator"
+  mkdir -p "$HOME/.warp"
+  ln -sf "$HOME/My Drive/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
 else
   echo "==> ℹ️ Google Drive folder not found - skipping symlinks"
 fi
@@ -44,7 +46,7 @@ else
   git -C "$HOME/.oh-my-zsh" pull
 fi
 
-# Clone or update Oh My Zsh plugins
+# Clone or update custom Zsh plugin
 clone_or_update_plugin() {
   PLUGIN_REPO=$1
   PLUGIN_DIR="$HOME/.oh-my-zsh/custom/plugins/$(basename -s .git "$PLUGIN_REPO")"
@@ -57,8 +59,6 @@ clone_or_update_plugin() {
 }
 
 clone_or_update_plugin https://github.com/djui/alias-tips
-clone_or_update_plugin https://github.com/zsh-users/zsh-autosuggestions
-clone_or_update_plugin https://github.com/zsh-users/zsh-syntax-highlighting
 
 # Install latest language versions with rtx
 if [ -z "$CI" ]; then

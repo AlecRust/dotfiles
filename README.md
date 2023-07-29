@@ -48,7 +48,7 @@ My macOS setup.
     - Enable Safari Dev Tools at `Safari App > Settings > Advanced`
     - Sourcetree
         - General: Disable modifying of global `.gitconfig`
-        - General: Set terminal app to iTerm
+        - General: Set terminal app to Warp
         - General: Enable "Open links on GitHub.com with Sourcetree"
         - Diff: Set font to Fira Code 12pt
         - Diff: Set diff tool to Kaleidoscope
@@ -58,7 +58,7 @@ My macOS setup.
         - Advanced: Enable "Allow force push"
     - Kaleidoscope
         - Set font to Fira Code 12pt
-        - Set terminal app to iTerm
+        - Set terminal app to Warp
     - Install Sonos S2 app
 
 ### Backup Files
