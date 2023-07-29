@@ -24,7 +24,7 @@ ln -sf "$REPO_PATH/dotfiles/.rtx.toml" ~/.config/rtx/config.toml
 echo "==> 📜 Setting Homebrew Zsh as default shell"
 
 # Add Homebrew Zsh to accepted shells if not present
-if ! grep -Fxq "$(which zsh)" /etc/shells > /dev/null 2>&1; then
+if ! grep -Fxq "$(which zsh)" /etc/shells >/dev/null 2>&1; then
   sudo sh -c "echo $(which zsh) >> /etc/shells"
 fi
 
