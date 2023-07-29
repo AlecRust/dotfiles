@@ -6,6 +6,10 @@ echo "==> 📜 Installing Visual Studio Code"
 
 brew install --cask visual-studio-code
 
+echo "==> 🔗 Symlinking Visual Studio Code settings"
+
+ln -sf "$REPO_PATH/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json
+
 echo "==> 📜 Installing Visual Studio Code extensions"
 
 # Editor
@@ -54,7 +58,3 @@ code --install-extension timonwong.shellcheck
 # Themes
 code --install-extension enkia.tokyo-night
 code --install-extension PenumbraTheme.penumbra
-
-echo "==> 🔗 Symlinking Visual Studio Code settings"
-
-ln -sf "$REPO_PATH/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json
