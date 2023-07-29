@@ -24,6 +24,9 @@ alias cat="bat --theme=\$(defaults read -globalDomain AppleInterfaceStyle &> /de
 # https://developer.1password.com/docs/cli/authenticate-clis/
 alias aws="op run --env-file=\$HOME/.config/op/aws.env -- aws"
 
+# Reload the shell
+alias reload="omz reload"
+
 # Open iOS Simulator
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"
 
@@ -138,9 +141,6 @@ alias map="xargs -n1"
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 	alias "${method}"="lwp-request -m '${method}'"
 done
-
-# Reload the shell
-alias reload="exec ${SHELL} -l"
 
 # List all PATH entries
 alias path='echo -e ${PATH//:/\\n}'
