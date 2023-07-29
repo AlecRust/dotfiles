@@ -7,19 +7,20 @@ echo "==> 🔗 Symlinking dotfiles/configs/scripts to ~/"
 # Symlink dotfiles e.g. dotfiles/.aliases to ~/.aliases
 for file in "$REPO_PATH"/dotfiles/.*; do
   if [ -f "$file" ]; then
-    ln -sf "$file" ~/
+    ln -sf "$file" "$HOME"
   fi
 done
 
 # Symlink rtx config
-mkdir -p ~/.config/rtx
-ln -sf "$REPO_PATH/rtx/config.toml" ~/.config/rtx/config.toml
+mkdir -p "$HOME/.config/rtx"
+ln -sf "$REPO_PATH/rtx/config.toml" "$HOME/.config/rtx/config.toml"
 
 # Symlink Google Drive dirs if present
 if [ -d "$HOME/My Drive/Apps/" ]; then
-  echo "==> 🔗 Symlinking Google Drive scripts and tmuxinator to ~/"
-  ln -sf ~/My\ Drive/Apps/scripts/ ~/scripts
-  ln -sf ~/My\ Drive/Apps/tmuxinator/ ~/.tmuxinator
+  ln -sf "$HOME/My Drive/Apps/scripts/" "$HOME/scripts"
+  ln -sf "$HOME/My Drive/Apps/tmuxinator/" "$HOME/.tmuxinator"
+else
+  echo "==> ℹ️ Google Drive folder not found - skipping symlinks"
 fi
 
 echo "==> 📜 Setting Homebrew Zsh as default shell"
@@ -37,17 +38,12 @@ fi
 echo "==> 📜 Installing Oh My Zsh and plugins"
 
 # Clone Oh My Zsh
-git clone https://github.com/ohmyzsh/ohmyzsh ~/.oh-my-zsh
+git clone https://github.com/ohmyzsh/ohmyzsh "$HOME/.oh-my-zsh"
 
 # Clone Oh My Zsh plugins
-git clone https://github.com/djui/alias-tips ~/.oh-my-zsh/custom/plugins/alias-tips
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-
-# Notify if .extra file is missing
-if [ ! -f ~/.extra ]; then
-  echo "==> ℹ️ Create ~/.extra file for a non-repository place to store e.g. sensitive environment variables"
-fi
+git clone https://github.com/djui/alias-tips "$HOME/.oh-my-zsh/custom/plugins/alias-tips"
+git clone https://github.com/zsh-users/zsh-autosuggestions "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions"
+git clone https://github.com/zsh-users/zsh-syntax-highlighting "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting"
 
 # Install latest language versions with rtx
 if [ -z "$CI" ]; then
@@ -61,4 +57,9 @@ if [ -z "$CI" ]; then
   echo "==> ℹ️ Language versions installed:"
 
   rtx current
+fi
+
+# Notify if .extra file is missing
+if [ ! -f "$HOME/.extra" ]; then
+  echo "==> ℹ️ Optionally create ~/.extra file to store e.g. non-repo environment variables"
 fi
