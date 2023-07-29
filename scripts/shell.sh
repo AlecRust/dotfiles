@@ -2,24 +2,25 @@
 
 REPO_PATH=$(cd "$(dirname "$0")"/.. && pwd)
 
-echo "==> 🔗 Symlinking dotfiles to ~/"
+echo "==> 🔗 Symlinking dotfiles/configs/scripts to ~/"
 
-ln -sf "$REPO_PATH/dotfiles/.aliases" ~/.aliases
-ln -sf "$REPO_PATH/dotfiles/.curlrc" ~/.curlrc
-ln -sf "$REPO_PATH/dotfiles/.default-gems" ~/.default-gems
-ln -sf "$REPO_PATH/dotfiles/.default-npm-packages" ~/.default-npm-packages
-ln -sf "$REPO_PATH/dotfiles/.editorconfig" ~/.editorconfig
-ln -sf "$REPO_PATH/dotfiles/.gitconfig" ~/.gitconfig
-ln -sf "$REPO_PATH/dotfiles/.gitignore_global" ~/.gitignore_global
-ln -sf "$REPO_PATH/dotfiles/.hushlogin" ~/.hushlogin
-ln -sf "$REPO_PATH/dotfiles/.huskyrc" ~/.huskyrc
-ln -sf "$REPO_PATH/dotfiles/.wgetrc" ~/.wgetrc
-ln -sf "$REPO_PATH/dotfiles/.zprofile" ~/.zprofile
-ln -sf "$REPO_PATH/dotfiles/.zshrc" ~/.zshrc
+# Symlink dotfiles e.g. dotfiles/.aliases to ~/.aliases
+for file in $REPO_PATH/dotfiles/.*; do
+  if [ -f "$file" ]; then
+    ln -sf "$file" ~/
+  fi
+done
 
 # Symlink rtx config
 mkdir -p ~/.config/rtx
-ln -sf "$REPO_PATH/dotfiles/.rtx.toml" ~/.config/rtx/config.toml
+ln -sf "$REPO_PATH/rtx/config.toml" ~/.config/rtx/config.toml
+
+# Symlink Google Drive dirs if present
+if [ -d "$HOME/My Drive/Apps/" ]; then
+  echo "==> 🔗 Symlinking Google Drive scripts and tmuxinator to ~/"
+  ln -sf ~/My\ Drive/Apps/scripts/ ~/scripts
+  ln -sf ~/My\ Drive/Apps/tmuxinator/ ~/.tmuxinator
+fi
 
 echo "==> 📜 Setting Homebrew Zsh as default shell"
 
@@ -41,18 +42,12 @@ git clone https://github.com/djui/alias-tips ~/.oh-my-zsh/custom/plugins/alias-t
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
-# Symlink Google Drive dirs if present
-if [ -d "$HOME/My Drive/Apps/" ]; then
-  echo "==> 🔗 Symlinking Google Drive scripts and tmuxinator to ~/"
-  ln -sf ~/My\ Drive/Apps/scripts/ ~/scripts
-  ln -sf ~/My\ Drive/Apps/tmuxinator/ ~/.tmuxinator
-fi
-
 # Notify if .extra file is missing
 if [ ! -f ~/.extra ]; then
   echo "==> ℹ️ Create ~/.extra file for a non-repository place to store e.g. sensitive environment variables"
 fi
 
+# Install latest language versions with rtx
 if [ -z "$CI" ]; then
   echo "==> 📜 Installing latest Go, Node, Python and Ruby"
 
