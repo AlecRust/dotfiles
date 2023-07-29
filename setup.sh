@@ -20,6 +20,7 @@ REPO_PATH=$(cd "$(dirname "$0")" && pwd)
 "$REPO_PATH/scripts/macos.sh"
 
 echo "==> ℹ️ Language versions installed:"
+
 rtx current
 
 echo "✨ Setup complete - please restart machine"
