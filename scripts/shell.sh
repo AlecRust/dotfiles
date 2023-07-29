@@ -5,7 +5,7 @@ REPO_PATH=$(cd "$(dirname "$0")"/.. && pwd)
 echo "==> 🔗 Symlinking dotfiles/configs/scripts to ~/"
 
 # Symlink dotfiles e.g. dotfiles/.aliases to ~/.aliases
-for file in $REPO_PATH/dotfiles/.*; do
+for file in "$REPO_PATH"/dotfiles/.*; do
   if [ -f "$file" ]; then
     ln -sf "$file" ~/
   fi
@@ -29,8 +29,10 @@ if ! grep -Fxq "$(which zsh)" /etc/shells >/dev/null 2>&1; then
   sudo sh -c "echo $(which zsh) >> /etc/shells"
 fi
 
-# Set Homebrew Zsh as default shell
-chsh -s "$(which zsh)"
+# Set Homebrew Zsh as default shell if not already set
+if [ "$SHELL" != "$(which zsh)" ]; then
+  chsh -s "$(which zsh)"
+fi
 
 echo "==> 📜 Installing Oh My Zsh and plugins"
 
