@@ -37,13 +37,28 @@ fi
 
 echo "==> 📜 Installing Oh My Zsh and plugins"
 
-# Clone Oh My Zsh
-git clone https://github.com/ohmyzsh/ohmyzsh "$HOME/.oh-my-zsh"
+# Clone Oh My Zsh if not present, otherwise update it
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+  git clone https://github.com/ohmyzsh/ohmyzsh "$HOME/.oh-my-zsh"
+else
+  git -C "$HOME/.oh-my-zsh" pull
+fi
 
-# Clone Oh My Zsh plugins
-git clone https://github.com/djui/alias-tips "$HOME/.oh-my-zsh/custom/plugins/alias-tips"
-git clone https://github.com/zsh-users/zsh-autosuggestions "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions"
-git clone https://github.com/zsh-users/zsh-syntax-highlighting "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting"
+# Clone or update Oh My Zsh plugins
+clone_or_update_plugin() {
+  PLUGIN_REPO=$1
+  PLUGIN_DIR="$HOME/.oh-my-zsh/custom/plugins/$(basename -s .git "$PLUGIN_REPO")"
+
+  if [ ! -d "$PLUGIN_DIR" ]; then
+    git clone "$PLUGIN_REPO" "$PLUGIN_DIR"
+  else
+    git -C "$PLUGIN_DIR" pull
+  fi
+}
+
+clone_or_update_plugin https://github.com/djui/alias-tips
+clone_or_update_plugin https://github.com/zsh-users/zsh-autosuggestions
+clone_or_update_plugin https://github.com/zsh-users/zsh-syntax-highlighting
 
 # Install latest language versions with rtx
 if [ -z "$CI" ]; then
