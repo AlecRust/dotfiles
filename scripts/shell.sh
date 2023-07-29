@@ -52,3 +52,16 @@ fi
 if [ ! -f ~/.extra ]; then
   echo "==> ℹ️ Create ~/.extra file for a non-repository place to store e.g. sensitive environment variables"
 fi
+
+if [ -z "$CI" ]; then
+  echo "==> 📜 Installing latest Go, Node, Python and Ruby"
+
+  rtx use -g go@latest
+  rtx use -g node@latest
+  rtx use -g python@latest
+  rtx use -g ruby@latest
+
+  echo "==> ℹ️ Language versions installed:"
+
+  rtx current
+fi
