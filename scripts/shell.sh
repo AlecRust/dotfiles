@@ -46,7 +46,7 @@ if [ -z "$CI" ]; then
   rtx use -g python@latest
   rtx use -g ruby@latest
 
-  echo "==> ℹ️ Language versions installed:"
+  echo "==> ℹ️ Runtimes installed via rtx:"
 
   rtx current
 fi

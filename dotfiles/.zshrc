@@ -27,15 +27,12 @@ unsetopt nomatch
 
 # 1. Add Homebrew versions of core utilities to start of PATH to override defaults
 # 2. Add X11 (XQuartz) to end of PATH
-# NOTE: Homebrew-related changes cause 'non-prefixed coreutils' 'brew doctor' warning which is fine
+# NOTE: Homebrew GNU paths cause coreutils 'brew doctor' warnings which is fine
 export PATH="$HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin:$PATH"
 export PATH="$HOMEBREW_PREFIX/opt/gnu-tar/libexec/gnubin:$PATH"
 export PATH="$PATH:/opt/X11/bin"
 
 # ==================== SOURCING SCRIPTS ==================== #
-
-# Source Starship
-eval "$(starship init zsh)"
 
 # Source Antidote
 source "$HOMEBREW_PREFIX/opt/antidote/share/antidote/antidote.zsh"
@@ -49,12 +46,15 @@ export ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/oh-my-zsh"
 # Load Antidote plugins
 antidote load
 
-# Source rtx
-eval "$(rtx activate zsh)"
-
 # Source 1Password Shell Plugins
 # https://developer.1password.com/docs/cli/shell-plugins/
 source "$HOME/.config/op/plugins.sh"
+
+# Source rtx
+eval "$(rtx activate zsh)"
+
+# Source Starship
+eval "$(starship init zsh)"
 
 # Source .aliases and .extra if they exist
 [[ -f $HOME/.aliases ]] && source "$HOME/.aliases"
