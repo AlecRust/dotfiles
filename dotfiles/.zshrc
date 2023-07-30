@@ -34,6 +34,14 @@ export PATH="$PATH:/opt/X11/bin"
 
 # ==================== SOURCING SCRIPTS ==================== #
 
+# Source .aliases and .extra if they exist
+[[ -f $HOME/.aliases ]] && source "$HOME/.aliases"
+[[ -f $HOME/.extra ]] && source "$HOME/.extra"
+
+# Source 1Password Shell Plugins
+# https://developer.1password.com/docs/cli/shell-plugins/
+source "$HOME/.config/op/plugins.sh"
+
 # Source Antidote
 source "$HOMEBREW_PREFIX/opt/antidote/share/antidote/antidote.zsh"
 
@@ -43,19 +51,11 @@ export ZSH
 export ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/oh-my-zsh"
 [[ -d $ZSH_CACHE_DIR ]] || mkdir -p "$ZSH_CACHE_DIR"
 
-# Load Antidote plugins
+# Load Zsh plugins with Antidote
 antidote load
-
-# Source 1Password Shell Plugins
-# https://developer.1password.com/docs/cli/shell-plugins/
-source "$HOME/.config/op/plugins.sh"
 
 # Source rtx
 eval "$(rtx activate zsh)"
 
 # Source Starship
 eval "$(starship init zsh)"
-
-# Source .aliases and .extra if they exist
-[[ -f $HOME/.aliases ]] && source "$HOME/.aliases"
-[[ -f $HOME/.extra ]] && source "$HOME/.extra"
