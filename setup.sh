@@ -1,7 +1,6 @@
 #!/bin/sh
 
-# Ignore ShellCheck SC1090 error
-# shellcheck source=/dev/null
+# shellcheck disable=SC1090
 
 REPO_PATH=$(cd "$(dirname "$0")" && pwd)
 
