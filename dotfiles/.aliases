@@ -25,7 +25,7 @@ alias cat="bat --theme=\$(defaults read -globalDomain AppleInterfaceStyle &> /de
 alias aws="op run --env-file=\$HOME/.config/op/aws.env -- aws"
 
 # Reload the shell
-alias reload="omz reload"
+alias reload="exec ${SHELL} -l"
 
 # Open iOS Simulator
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"
@@ -56,8 +56,8 @@ alias sudo='sudo '
 # Get current month number
 alias month='date +%m'
 
-# Update Oh My Zsh and rtx versions
-alias update-shell="omz update; rtx upgrade; rtx prune"
+# Update Zsh plugins and rtx versions
+alias update-shell="antidote update; rtx upgrade; rtx prune"
 
 # Update Homebrew packages
 alias update-brew='brew update; brew upgrade; brew cleanup'

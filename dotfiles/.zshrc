@@ -1,39 +1,6 @@
-# Path to Oh My Zsh installation
-export ZSH=$HOME/.oh-my-zsh
-
-# Prevent permission errors
-ZSH_DISABLE_COMPFIX="true"
-
-# Disable Oh My Zsh auto-update behavior
-zstyle ':omz:update' mode disabled
-
-# Improve formatting of pasted URLs and other text
-# https://github.com/ohmyzsh/ohmyzsh/issues/6338#issuecomment-491504348
-DISABLE_MAGIC_FUNCTIONS="true"
-
-# Display red dots whilst waiting for completion
-COMPLETION_WAITING_DOTS="true"
-
 # Change command execution time stamp shown in the history command output
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 HIST_STAMPS="dd.mm.yyyy"
-
-# Oh My Zsh plugins - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(
-  git
-  npm
-  yarn
-  brew
-  ruby
-  rails
-  macos
-  zoxide
-  thefuck
-  bundler
-  composer
-  1password
-  alias-tips
-)
 
 # Add Homebrew versions of core utilities to start of PATH to override defaults
 # NOTE: This causes "non-prefixed coreutils" 'brew doctor' warning which is fine
@@ -64,11 +31,19 @@ bindkey -s "\C-r" "\C-a hstr -- \C-j"
 # Allow [ or ] wherever you want i.e. Rake tasks
 unsetopt nomatch
 
-# Source Oh My Zsh
-source $ZSH/oh-my-zsh.sh
-
 # Source Starship
 eval "$(starship init zsh)"
+
+# Source Antidote
+source $HOMEBREW_PREFIX/opt/antidote/share/antidote/antidote.zsh
+
+# Set variables required by Oh My Zsh plugins
+ZSH=$(antidote path ohmyzsh/ohmyzsh)
+ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/oh-my-zsh"
+[[ -d $ZSH_CACHE_DIR ]] || mkdir -p $ZSH_CACHE_DIR
+
+# Load Antidote
+antidote load
 
 # Source rtx
 eval "$(rtx activate zsh)"

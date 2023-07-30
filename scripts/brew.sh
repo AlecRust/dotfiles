@@ -62,6 +62,7 @@ brew install rclone
 brew install zoxide
 brew install yt-dlp
 brew install thefuck
+brew install antidote
 brew install dockutil
 brew install qrencode
 brew install starship
