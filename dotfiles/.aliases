@@ -1,5 +1,8 @@
 # For a full list of active aliases, run `alias`.
 
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
+
 # Shortcuts
 alias d="cd ~/My\ Drive"
 alias dl="cd ~/Downloads"
@@ -18,7 +21,7 @@ alias l='exa -lbF --git'
 alias la='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale'
 
 # bat (cat replacement)
-alias cat="bat --theme=\$(defaults read -globalDomain AppleInterfaceStyle &> /dev/null && echo default || echo GitHub)"
+alias cat="bat --paging=never"
 
 # Overrides to use 1Password CLI to load env vars
 # https://developer.1password.com/docs/cli/authenticate-clis/
@@ -49,9 +52,6 @@ alias mdlint="markdownlint-cli2"
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-
-# Enable aliases to be sudo’ed
-alias sudo='sudo '
 
 # Get current month number
 alias month='date +%m'
