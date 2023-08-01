@@ -59,6 +59,7 @@ brew install htop
 brew install ffmpeg
 brew install rename
 brew install rclone
+brew install bottom
 brew install zoxide
 brew install yt-dlp
 brew install thefuck

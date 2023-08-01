@@ -23,6 +23,9 @@ alias la='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale'
 # bat (cat replacement)
 alias cat="bat --paging=never"
 
+# bottom (top replacement)
+alias top="btm"
+
 # Overrides to use 1Password CLI to load env vars
 # https://developer.1password.com/docs/cli/authenticate-clis/
 alias aws="op run --env-file=\$HOME/.config/op/aws.env -- aws"
