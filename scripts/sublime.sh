@@ -31,5 +31,6 @@ duti -s com.sublimetext.4 .php all
 duti -s com.sublimetext.4 .csv all
 duti -s com.sublimetext.4 .svg all
 duti -s com.sublimetext.4 .sql all
+duti -s com.sublimetext.4 .md all
 duti -s com.sublimetext.4 .sh all
 duti -s com.sublimetext.4 .rb all
