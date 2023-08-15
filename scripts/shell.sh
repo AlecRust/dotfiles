@@ -17,10 +17,14 @@ ln -sf "$REPO_PATH/rtx/config.toml" "$HOME/.config/rtx/config.toml"
 ln -sf "$REPO_PATH/starship/starship.toml" "$HOME/.config/starship.toml"
 
 # Symlink Google Drive dirs if present
+# NOTE: Must delete existing dirs before symlinking to avoid recursive symlink
 if [ -d "$HOME/My Drive/Apps/" ]; then
-  ln -sf "$HOME/My Drive/Apps/scripts/" "$HOME/scripts"
+  rm -f "$HOME/scripts"
+  ln -s "$HOME/My Drive/Apps/scripts/" "$HOME/scripts"
+
   mkdir -p "$HOME/.warp"
-  ln -sf "$HOME/My Drive/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
+  rm -f "$HOME/.warp/launch_configurations"
+  ln -s "$HOME/My Drive/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
 else
   echo "==> ℹ️ Google Drive folder not found - skipping symlinks"
 fi
