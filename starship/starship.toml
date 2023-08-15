@@ -5,3 +5,6 @@
 
 [character]
 disabled = true
+
+[gcloud]
+disabled = true
