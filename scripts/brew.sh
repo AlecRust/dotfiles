@@ -39,6 +39,7 @@ brew install git-delta
 brew install actionlint
 brew install shellcheck
 brew install imagemagick
+brew install stripe/stripe-cli/stripe
 
 brew tap heroku/brew
 brew install heroku
