@@ -6,6 +6,7 @@ changelog
 @getflywheel/local-cli
 markdownlint-cli2
 wallpaper-cli
+@sentry/cli
 @lhci/cli
 trash-cli
 del-cli
