@@ -15,10 +15,10 @@ alias hh="hstr"
 alias ytd="yt-dlp"
 alias mp='multipass'
 
-# exa (ls replacement)
-alias ls='exa'
-alias l='exa -lbF --git'
-alias la='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale'
+# eza (ls replacement)
+alias ls='eza'
+alias l='eza -lbF --git'
+alias la='eza -lbhHigUmuSa --time-style=long-iso --git --color-scale'
 
 # bat (cat replacement)
 alias cat="bat --paging=never"
