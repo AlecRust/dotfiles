@@ -43,6 +43,8 @@ code --install-extension Prisma.prisma
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension csstools.postcss
 code --install-extension Vue.volar
+code --install-extension Vue.vscode-typescript-vue-plugin
+code --install-extension Tobermory.es6-string-html
 code --install-extension tamasfe.even-better-toml
 
 # Linting
