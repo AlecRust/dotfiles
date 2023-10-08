@@ -4,8 +4,10 @@ zshzoo/completion
 # Standard plugins
 djui/alias-tips
 
-# Oh My Zsh plugins (lib required first)
+# Oh My Zsh lib (required first)
 ohmyzsh/ohmyzsh path:lib
+
+# Oh My Zsh plugins
 ohmyzsh/ohmyzsh path:plugins/git
 ohmyzsh/ohmyzsh path:plugins/bun
 ohmyzsh/ohmyzsh path:plugins/npm
@@ -14,10 +16,11 @@ ohmyzsh/ohmyzsh path:plugins/brew
 ohmyzsh/ohmyzsh path:plugins/ruby
 ohmyzsh/ohmyzsh path:plugins/macos
 ohmyzsh/ohmyzsh path:plugins/zoxide
-ohmyzsh/ohmyzsh path:plugins/thefuck
 ohmyzsh/ohmyzsh path:plugins/gcloud
+ohmyzsh/ohmyzsh path:plugins/thefuck
 ohmyzsh/ohmyzsh path:plugins/bundler
 ohmyzsh/ohmyzsh path:plugins/composer
+ohmyzsh/ohmyzsh path:plugins/starship
 ohmyzsh/ohmyzsh path:plugins/1password
 
 # Rails OMZ plugin disabled for now

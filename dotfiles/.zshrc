@@ -56,6 +56,3 @@ antidote load
 
 # Source rtx
 eval "$(rtx activate zsh)"
-
-# Source Starship
-eval "$(starship init zsh)"
