@@ -1,6 +1,11 @@
 # shellcheck disable=SC2148,SC1091
 
-# ==================== ENVIRONMENT SETTINGS ==================== #
+# Change command execution time stamp shown with the 'history' command
+export HIST_STAMPS="dd.mm.yyyy"
+
+# HSTR configuration
+setopt histignorespace
+export HSTR_CONFIG=hicolor
 
 # Set VSCode as the default editor
 export EDITOR="code"
@@ -12,27 +17,13 @@ export HOMEBREW_NO_ANALYTICS=1
 # https://developer.1password.com/docs/ssh/agent/compatibility/#ssh-auth-sock
 export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
 
-# Change command execution time stamp shown with the 'history' command
-# Three optional formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-export HIST_STAMPS="dd.mm.yyyy"
-
-# HSTR configuration
-setopt histignorespace
-export HSTR_CONFIG=hicolor
-
-# Allow [ or ] wherever you want i.e. Rake tasks
-unsetopt nomatch
-
-# ==================== PATH CONFIGURATION ==================== #
-
+# Extend PATH
 # 1. Add Homebrew versions of core utilities to start of PATH to override defaults
 # 2. Add X11 (XQuartz) to end of PATH
 # NOTE: Homebrew GNU paths cause coreutils 'brew doctor' warnings which is fine
 export PATH="$HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin:$PATH"
 export PATH="$HOMEBREW_PREFIX/opt/gnu-tar/libexec/gnubin:$PATH"
 export PATH="$PATH:/opt/X11/bin"
-
-# ==================== SOURCING SCRIPTS ==================== #
 
 # Source .aliases and .extra if they exist
 [[ -f $HOME/.aliases ]] && source "$HOME/.aliases"
