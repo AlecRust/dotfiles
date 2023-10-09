@@ -53,6 +53,3 @@ export ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/oh-my-zsh"
 
 # Load Zsh plugins with Antidote
 antidote load
-
-# Source rtx
-eval "$(rtx activate zsh)"
