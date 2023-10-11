@@ -30,13 +30,10 @@ code --install-extension WakaTime.vscode-wakatime
 code --install-extension gruntfuggly.todo-tree
 
 # Languages
-code --install-extension wingrunr21.vscode-ruby
-code --install-extension rebornix.ruby
+code --install-extension Shopify.ruby-lsp
 code --install-extension KoichiSasada.vscode-rdbg
 code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension bierner.lit-html
-code --install-extension bung87.vscode-gemfile
-code --install-extension ninoseki.vscode-gem-lens
 code --install-extension idleberg.applescript
 code --install-extension redhat.vscode-yaml
 code --install-extension Prisma.prisma

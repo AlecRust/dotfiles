@@ -71,24 +71,8 @@
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.currentLine.scrollable": false,
-  // Ruby extension
-  "ruby.useLanguageServer": true,
-  "ruby.pathToBundler": "/Users/alec/.local/share/rtx/shims/bundle",
-  "ruby.lint": {
-    "rubocop": {
-      "useBundler": true,
-      "forceExclusion": true
-    }
-  },
-  "ruby.format": "rubocop",
-  "ruby.codeCompletion": "rcodetools",
-  "ruby.intellisense": "rubyLocate",
-  "ruby.useBundler": true,
   // Code Spell Checker extension
   "cSpell.enabled": true,
   // Default formatter
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[ruby]": {
-    "editor.defaultFormatter": "rebornix.ruby"
-  }
 }
