@@ -25,10 +25,6 @@ export PATH="$HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin:$PATH"
 export PATH="$HOMEBREW_PREFIX/opt/gnu-tar/libexec/gnubin:$PATH"
 export PATH="$PATH:/opt/X11/bin"
 
-# Source .aliases and .extra if they exist
-[[ -f $HOME/.aliases ]] && source "$HOME/.aliases"
-[[ -f $HOME/.extra ]] && source "$HOME/.extra"
-
 # Source 1Password Shell Plugins
 # https://developer.1password.com/docs/cli/shell-plugins/
 source "$HOME/.config/op/plugins.sh"
@@ -44,3 +40,7 @@ export ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/oh-my-zsh"
 
 # Load Zsh plugins with Antidote
 antidote load
+
+# Source additional files last to override any plugins
+[[ -f $HOME/.aliases ]] && source "$HOME/.aliases"
+[[ -f $HOME/.extra ]] && source "$HOME/.extra"
