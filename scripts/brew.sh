@@ -26,8 +26,8 @@ brew install git
 # Development tools
 brew install gh
 brew install ack
-brew install php
 brew install rtx
+brew install php
 brew install vips
 brew install redis
 brew install mysql
@@ -69,7 +69,6 @@ brew install yt-dlp
 brew install thefuck
 brew install antidote
 brew install dockutil
-brew install qrencode
 brew install starship
 brew install dark-mode
 brew install speedtest-cli
