@@ -4,7 +4,6 @@
 alias sudo='sudo '
 
 # Shortcuts
-alias d="cd ~/My\ Drive"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"

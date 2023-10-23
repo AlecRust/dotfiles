@@ -8,8 +8,8 @@ brew install --cask monitorcontrol
 brew install --cask brave-browser
 brew install --cask transmission
 brew install --cask balenaetcher
-brew install --cask google-drive
 brew install --cask appcleaner
+brew install --cask nextcloud
 brew install --cask tailscale
 brew install --cask 1password
 brew install --cask 1password-cli

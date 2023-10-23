@@ -43,7 +43,7 @@ My macOS setup.
 
 3. Set up other apps
 
-    - Import Raycast settings from Google Drive
+    - Import Raycast settings from Nextcloud
     - Disable "Hardware Media Key Handling" in `brave://flags`
     - Enable Safari Dev Tools at `Safari App > Settings > Advanced`
     - Sourcetree
@@ -67,7 +67,7 @@ Backup these files/folders from old machine and restore on new machine:
 
 - `~/Desktop`
 - `~/Downloads`
-- `~/My Drive`
+- `~/Nextcloud`
 - `~/projects`
 - `~/.config/op`
 - `~/.extra`

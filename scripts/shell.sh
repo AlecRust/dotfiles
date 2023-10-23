@@ -16,17 +16,17 @@ mkdir -p "$HOME/.config/rtx"
 ln -sf "$REPO_PATH/rtx/config.toml" "$HOME/.config/rtx/config.toml"
 ln -sf "$REPO_PATH/starship/starship.toml" "$HOME/.config/starship.toml"
 
-# Symlink Google Drive dirs if present
+# Symlink Nextcloud dirs if present
 # NOTE: Must delete existing dirs before symlinking to avoid recursive symlink
-if [ -d "$HOME/My Drive/Apps/" ]; then
+if [ -d "$HOME/Nextcloud/Apps/" ]; then
   rm -f "$HOME/scripts"
-  ln -s "$HOME/My Drive/Apps/scripts/" "$HOME/scripts"
+  ln -s "$HOME/Nextcloud/Apps/macbook-scripts/" "$HOME/scripts"
 
   mkdir -p "$HOME/.warp"
   rm -f "$HOME/.warp/launch_configurations"
-  ln -s "$HOME/My Drive/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
+  ln -s "$HOME/Nextcloud/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
 else
-  echo "==> ℹ️ Google Drive folder not found - skipping symlinks"
+  echo "==> ℹ️ Nextcloud folder not found - skipping symlinks"
 fi
 
 echo "==> 📜 Setting Homebrew Zsh as default shell"
