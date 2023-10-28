@@ -69,6 +69,7 @@ brew install yt-dlp
 brew install thefuck
 brew install antidote
 brew install dockutil
+brew install exiftool
 brew install starship
 brew install dark-mode
 brew install speedtest-cli
