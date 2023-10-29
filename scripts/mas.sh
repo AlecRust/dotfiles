@@ -17,8 +17,8 @@ mas install 1263070803
 # Disk Map
 mas install 715464874
 
-# Duplicate Detective
-mas install 686428787
+# Duplicate Detective 2
+mas install 1442103050
 
 # Home Assistant
 mas install 1099568401
