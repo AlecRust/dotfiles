@@ -69,7 +69,7 @@ Backup these files/folders from old machine and restore on new machine:
 - `~/Downloads`
 - `~/Nextcloud`
 - `~/projects`
-- `~/.config/op`
+- `~/.config`
 - `~/.extra`
 - `~/.ssh`
 - `~/.zsh_history`
