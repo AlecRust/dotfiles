@@ -2,7 +2,6 @@ node-gyp
 yarn
 npm-check-updates
 npm-check
-changelog
 @getflywheel/local-cli
 markdownlint-cli2
 wallpaper-cli
