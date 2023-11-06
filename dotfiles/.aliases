@@ -13,10 +13,12 @@ alias e="exit"
 alias hh="hstr"
 alias ytd="yt-dlp"
 
-# eza (ls replacement)
-alias ls='eza'
-alias l='eza -lbF --git'
-alias la='eza -lbhHigUmuSa --time-style=long-iso --git --color-scale'
+# lsd (ls replacement)
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
 
 # bat (cat replacement)
 alias cat="bat --paging=never"
