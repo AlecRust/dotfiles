@@ -41,8 +41,6 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "eslint.packageManager": "yarn",
-  "npm.packageManager": "yarn",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
