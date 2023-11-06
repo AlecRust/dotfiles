@@ -4,6 +4,7 @@ echo "==> 📜 Installing Homebrew Cask apps"
 
 # General
 brew install --cask gpg-suite-no-mail
+brew install --cask logitech-g-hub
 brew install --cask monitorcontrol
 brew install --cask brave-browser
 brew install --cask transmission
