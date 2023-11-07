@@ -55,7 +55,6 @@ brew install jq
 brew install bat
 brew install lsd
 brew install mas
-brew install svn
 brew install hstr
 brew install tldr
 brew install duti
@@ -72,6 +71,7 @@ brew install dockutil
 brew install exiftool
 brew install starship
 brew install dark-mode
+brew install subversion
 brew install speedtest-cli
 brew install homeassistant-cli
 
