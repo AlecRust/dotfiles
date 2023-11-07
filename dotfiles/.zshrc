@@ -10,13 +10,6 @@ export HSTR_CONFIG=hicolor
 # Set VSCode as the default editor
 export EDITOR="code"
 
-# Disable Homebrew analytics
-export HOMEBREW_NO_ANALYTICS=1
-
-# Set 1Password agent socket path
-# https://developer.1password.com/docs/ssh/agent/compatibility/#ssh-auth-sock
-export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
-
 # Extend PATH
 # 1. Add Homebrew versions of core utilities to start of PATH to override defaults
 # 2. Add X11 (XQuartz) to end of PATH
@@ -24,10 +17,6 @@ export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agen
 export PATH="$HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin:$PATH"
 export PATH="$HOMEBREW_PREFIX/opt/gnu-tar/libexec/gnubin:$PATH"
 export PATH="$PATH:/opt/X11/bin"
-
-# Source 1Password Shell Plugins
-# https://developer.1password.com/docs/cli/shell-plugins/
-source "$HOME/.config/op/plugins.sh"
 
 # Source Antidote
 source "$HOMEBREW_PREFIX/opt/antidote/share/antidote/antidote.zsh"
