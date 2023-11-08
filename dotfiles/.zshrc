@@ -1,11 +1,10 @@
 # shellcheck disable=SC2148,SC1091
 
-# Change command execution time stamp shown with the 'history' command
+# Add timestamp display to `history` command
 export HIST_STAMPS="dd.mm.yyyy"
 
-# HSTR configuration
+# Exclude commands from history that start with space
 setopt histignorespace
-export HSTR_CONFIG=hicolor
 
 # Set VSCode as the default editor
 export EDITOR="code"

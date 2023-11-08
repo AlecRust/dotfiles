@@ -11,4 +11,4 @@ sh "$REPO_PATH/scripts/cask.sh"
 sh "$REPO_PATH/scripts/mas.sh"
 sh "$REPO_PATH/scripts/macos.sh"
 
-echo "✨ Setup complete - please restart machine"
+echo "✨ Setup complete - restart machine"
