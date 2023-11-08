@@ -13,8 +13,8 @@ git clone https://github.com/Yabatadesign/afterglow-theme/ "$HOME/Library/Applic
 
 echo "==> 🔗 Symlinking Sublime Text settings and keybindings"
 
-ln -sf "$REPO_PATH/sublime/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
-ln -sf "$REPO_PATH/sublime/Default (OSX).sublime-keymap" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+ln -sf "$REPO_PATH/configs/sublime/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+ln -sf "$REPO_PATH/configs/sublime/Default (OSX).sublime-keymap" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
 
 echo "==> 📜 Setting Sublime Text as default app for various extensions"
 

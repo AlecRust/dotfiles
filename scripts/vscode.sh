@@ -8,7 +8,7 @@ brew install --cask visual-studio-code
 
 echo "==> 🔗 Symlinking Visual Studio Code settings"
 
-ln -sf "$REPO_PATH/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
+ln -sf "$REPO_PATH/configs/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
 
 echo "==> 📜 Installing Visual Studio Code extensions"
 

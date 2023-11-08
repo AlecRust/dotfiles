@@ -13,8 +13,8 @@ done
 
 # Symlink rtx and Starship configs
 mkdir -p "$HOME/.config/rtx"
-ln -sf "$REPO_PATH/rtx/config.toml" "$HOME/.config/rtx/config.toml"
-ln -sf "$REPO_PATH/starship/starship.toml" "$HOME/.config/starship.toml"
+ln -sf "$REPO_PATH/configs/rtx/config.toml" "$HOME/.config/rtx/config.toml"
+ln -sf "$REPO_PATH/configs/starship/starship.toml" "$HOME/.config/starship.toml"
 
 # Symlink Nextcloud dirs if present
 # NOTE: Must delete existing dirs before symlinking to avoid recursive symlink
