@@ -26,9 +26,9 @@ My macOS setup.
 
 1. Modify macOS settings
 
-    - In Finder sidebar enable `alec` and `Alec's MacBook`, disable Tags and add `~/projects` to Favorites
+    - In Finder sidebar enable home directory and device name item, disable Tags and add `~/projects` to Favorites
     - Map <kbd>⇪</kbd> key to <kbd>Ctrl</kbd> at `Keyboard > Keyboard Shortcuts > Modifier Keys`
-    - Disable "Add period with double-space" at `Keyboard > Text Input > Input Sources`
+    - Disable "Add full stop with double-space" at `Keyboard > Text Input > Input Sources`
     - Enable "Show Percentage" in `Control Centre` settings
     - Enable "Remote Login" in `Sharing` for SSH access
     - Search for and add printer in "Printers & Scanners"
@@ -45,7 +45,7 @@ My macOS setup.
 
     - Import Raycast settings from Nextcloud
     - Disable "Hardware Media Key Handling" in `brave://flags`
-    - Enable Safari Dev Tools at `Safari App > Settings > Advanced`
+    - Enable "Show features for web developers" at `Safari > Settings > Advanced`
     - Sourcetree
         - General: Disable modifying of global `.gitconfig`
         - General: Set terminal app to Warp
