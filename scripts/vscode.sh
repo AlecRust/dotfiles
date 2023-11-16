@@ -26,7 +26,6 @@ code --install-extension NuclleaR.vscode-extension-auto-import
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension wix.vscode-import-cost
 code --install-extension vincaslt.highlight-matching-tag
-code --install-extension formulahendry.auto-rename-tag
 code --install-extension WakaTime.vscode-wakatime
 code --install-extension gruntfuggly.todo-tree
 
