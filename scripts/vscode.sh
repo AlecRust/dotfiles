@@ -22,7 +22,6 @@ code --install-extension GitHub.vscode-github-actions
 code --install-extension DanielSanMedium.dscodegpt
 code --install-extension keesschollaart.vscode-home-assistant
 code --install-extension shyykoserhiy.vscode-spotify
-code --install-extension NuclleaR.vscode-extension-auto-import
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension wix.vscode-import-cost
 code --install-extension vincaslt.highlight-matching-tag
