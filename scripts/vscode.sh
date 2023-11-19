@@ -27,6 +27,7 @@ code --install-extension wix.vscode-import-cost
 code --install-extension vincaslt.highlight-matching-tag
 code --install-extension WakaTime.vscode-wakatime
 code --install-extension gruntfuggly.todo-tree
+code --install-extension ms-azuretools.vscode-docker
 
 # Languages
 code --install-extension Shopify.ruby-lsp
