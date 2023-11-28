@@ -221,7 +221,6 @@
 	program = /Applications/SourceTree.app/Contents/Resources/bin/stgpg.sh
 
 [commit]
-	# https://help.github.com/articles/signing-commits-using-gpg/
 	gpgsign = true
 	template = $HOME/.stCommitMsg
 
