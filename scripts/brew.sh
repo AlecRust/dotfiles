@@ -28,7 +28,6 @@ brew install gh
 brew install ack
 brew install rtx
 brew install php
-brew install vips
 brew install redis
 brew install mysql
 brew install awscli
