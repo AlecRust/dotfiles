@@ -48,9 +48,10 @@
 	"status_bar_brighter": true,
 	"tab_size": 2,
 	"tabs_medium": true,
-	"theme": "Afterglow-orange.sublime-theme",
+	"theme": "Afterglow.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true,
 	"update_check": true,
+	"index_files": true,
 }
