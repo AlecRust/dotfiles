@@ -22,6 +22,7 @@
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   // Security
   "security.workspace.trust.untrustedFiles": "open",
+  "security.promptForLocalFileProtocolHandling": false,
   // Terminal
   "terminal.external.osxExec": "Warp.app",
   "terminal.integrated.fontSize": 15,
