@@ -17,7 +17,6 @@ code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
 code --install-extension GitHub.vscode-pull-request-github
 code --install-extension GitHub.copilot
-code --install-extension GitHub.copilot-labs
 code --install-extension GitHub.vscode-github-actions
 code --install-extension DanielSanMedium.dscodegpt
 code --install-extension keesschollaart.vscode-home-assistant
