@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 REPO_PATH=$(cd "$(dirname "$0")" && pwd)
 
