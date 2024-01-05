@@ -11,9 +11,9 @@ for file in "$REPO_PATH"/dotfiles/.*; do
   fi
 done
 
-# Symlink rtx and Starship configs
-mkdir -p "$HOME/.config/rtx"
-ln -sf "$REPO_PATH/configs/rtx/config.toml" "$HOME/.config/rtx/config.toml"
+# Symlink mise and Starship configs
+mkdir -p "$HOME/.config/mise"
+ln -sf "$REPO_PATH/configs/mise/config.toml" "$HOME/.config/mise/config.toml"
 ln -sf "$REPO_PATH/configs/starship/starship.toml" "$HOME/.config/starship.toml"
 
 # Symlink Nextcloud dirs if present
@@ -41,18 +41,18 @@ if [ "$SHELL" != "$(which zsh)" ]; then
   chsh -s "$(which zsh)"
 fi
 
-# Install latest language versions with rtx
+# Install latest language versions with mise
 if [ -z "$CI" ]; then
   echo "==> 📜 Installing latest Go, Node, Python and Ruby"
 
-  rtx use -g go@latest
-  rtx use -g node@latest
-  rtx use -g python@latest
-  rtx use -g ruby@latest
+  mise use -g go@latest
+  mise use -g node@latest
+  mise use -g python@latest
+  mise use -g ruby@latest
 
-  echo "==> ℹ️ Runtimes installed via rtx:"
+  echo "==> ℹ️ Runtimes installed via mise:"
 
-  rtx current
+  mise current
 fi
 
 # Notify if .extra file is missing

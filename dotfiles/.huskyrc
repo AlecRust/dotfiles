@@ -1,7 +1,7 @@
 # Runs before husky hooks, in non-interative shell environments like Sourcetree
 # https://typicode.github.io/husky/troubleshooting.html#command-not-found
 
-# Load rtx and update PATH using hook-env
-# https://github.com/jdxcode/rtx#rtx-isnt-working-when-calling-from-tmux-or-another-shell-initialization-script
-eval "$(rtx activate bash)"
-eval "$(rtx hook-env)"
+# Load mise and update PATH using hook-env
+# https://mise.jdx.dev/faq.html#mise-isn-t-working-when-calling-from-tmux-or-another-shell-initialization-script
+eval "$(mise activate bash)"
+eval "$(mise hook-env)"
