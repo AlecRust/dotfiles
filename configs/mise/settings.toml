@@ -1,0 +1,5 @@
+trusted_config_paths = [
+  '~/projects/personal'
+]
+
+experimental = true
