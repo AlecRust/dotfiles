@@ -26,8 +26,6 @@ if [ -d "$HOME/Nextcloud/Apps/" ]; then
   mkdir -p "$HOME/.warp"
   rm -f "$HOME/.warp/launch_configurations"
   ln -s "$HOME/Nextcloud/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
-else
-  echo "==> ℹ️ Nextcloud folder not found - skipping symlinks"
 fi
 
 echo "==> 📜 Setting Homebrew Zsh as default shell"
