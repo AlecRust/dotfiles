@@ -55,7 +55,7 @@ alias egrep='egrep --color=auto'
 # Get current month number
 alias month='date +%m'
 
-# Update Zsh plugins and mise versions
+# Update Zsh plugins and mise runtimes
 alias update-shell="antidote update; mise upgrade; mise prune"
 
 # Update Homebrew packages
