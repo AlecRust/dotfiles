@@ -43,9 +43,6 @@ brew install stripe/stripe-cli/stripe
 brew tap heroku/brew
 brew install heroku
 
-brew tap oven-sh/bun
-brew install bun
-
 brew install postgresql
 brew services start postgresql
 
