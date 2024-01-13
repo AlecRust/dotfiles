@@ -49,5 +49,4 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
 code --install-extension stylelint.vscode-stylelint
 code --install-extension HTMLHint.vscode-htmlhint
-code --install-extension kokororin.vscode-phpfmt
 code --install-extension timonwong.shellcheck

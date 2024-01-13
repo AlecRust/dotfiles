@@ -49,8 +49,6 @@
   // GitHub Pull Requests extension
   "githubPullRequests.commentExpandState": "collapseAll",
   "githubPullRequests.pullBranch": "never",
-  // phpfmt extension
-  "phpfmt.indent_with_space": 2,
   // Home Assistant extension
   "vscode-home-assistant.ignoreCertificates": true,
   // GitLens extension
