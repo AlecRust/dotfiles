@@ -43,9 +43,6 @@ brew install stripe/stripe-cli/stripe
 brew tap heroku/brew
 brew install heroku
 
-brew install postgresql
-brew services start postgresql
-
 # Other utilities
 brew install jq
 brew install bat
