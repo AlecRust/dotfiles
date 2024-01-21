@@ -28,8 +28,6 @@ brew install gh
 brew install ack
 brew install php
 brew install mise
-brew install redis
-brew install mysql
 brew install awscli
 brew install httpie
 brew install composer
