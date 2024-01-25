@@ -21,12 +21,10 @@ brew install --cask eul
 brew install --cask kap
 
 # Development
-brew install --cask local
 brew install --cask sketch
 brew install --cask docker
 brew install --cask firefox
 brew install --cask transmit
-brew install --cask multipass
 brew install --cask tableplus
 brew install --cask sourcetree
 brew install --cask imageoptim
@@ -40,10 +38,12 @@ brew install --cask tailscale
 brew install --cask 1password
 brew install --cask 1password-cli
 brew install --cask mac2imgur
+brew install --cask multipass
 brew install --cask telegram
 brew install --cask whatsapp
 brew install --cask discord
 brew install --cask signal
+brew install --cask local
 brew install --cask ivpn
 
 # NOTE: Install Raycast last so it enables extensions for other apps
