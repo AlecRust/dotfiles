@@ -8,8 +8,8 @@ brew upgrade
 
 # Core macOS utilities
 brew install coreutils
-brew install moreutils
 brew install findutils
+brew install moreutils
 brew install openssh
 brew install gnu-sed
 brew install gnu-tar
