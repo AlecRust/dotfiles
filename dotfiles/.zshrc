@@ -10,11 +10,14 @@ setopt histignorespace
 export EDITOR="code"
 
 # Extend PATH
-# 1. Add Homebrew versions of core utilities to start of PATH to override defaults
+# 1. Add GNU versions of core utilities to start of PATH to override defaults
 # 2. Add X11 (XQuartz) to end of PATH
-# NOTE: Homebrew GNU paths cause coreutils 'brew doctor' warnings which is fine
+# NOTE: Overriding core utils with GNU equivalents causes 'brew doctor' warnings
 export PATH="$HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="$HOMEBREW_PREFIX/opt/findutils/libexec/gnubin:$PATH"
+export PATH="$HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin:$PATH"
 export PATH="$HOMEBREW_PREFIX/opt/gnu-tar/libexec/gnubin:$PATH"
+export PATH="$HOMEBREW_PREFIX/opt/grep/libexec/gnubin:$PATH"
 export PATH="$PATH:/opt/X11/bin"
 
 # Source Antidote
