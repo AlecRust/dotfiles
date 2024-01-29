@@ -42,10 +42,10 @@ fi
 
 # Install latest language versions with mise
 if [ -z "$CI" ]; then
-  echo "==> 📜 Installing latest Go, Node, Python and Ruby"
+  echo "==> 📜 Installing Go, Node, Python and Ruby runtimes"
 
   mise use -g go@latest
-  mise use -g node@latest
+  mise use -g node@lts
   mise use -g python@latest
   mise use -g ruby@latest
 
