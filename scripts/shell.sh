@@ -12,6 +12,8 @@ for file in "$REPO_PATH"/dotfiles/.*; do
 done
 
 # Symlink mise and Starship configs
+mkdir -p "$HOME/.config/husky"
+ln -sf "$REPO_PATH/configs/husky/init.sh" "$HOME/.config/husky/init.sh"
 mkdir -p "$HOME/.config/mise"
 ln -sf "$REPO_PATH/configs/mise/config.toml" "$HOME/.config/mise/config.toml"
 ln -sf "$REPO_PATH/configs/mise/settings.toml" "$HOME/.config/mise/settings.toml"

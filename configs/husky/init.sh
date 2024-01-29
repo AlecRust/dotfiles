@@ -1,5 +1,5 @@
 # Runs before husky hooks, in non-interative shell environments like Sourcetree
-# TODO: Remove this file when all your projects are using husky v9
+# https://typicode.github.io/husky/how-to.html#node-version-managers-and-guis
 
 # Add mise shims to PATH
 export PATH="$HOME/.local/share/mise/shims:$PATH"
