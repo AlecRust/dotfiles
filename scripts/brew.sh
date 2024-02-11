@@ -30,6 +30,7 @@ brew install php
 brew install mise
 brew install awscli
 brew install httpie
+brew install wp-cli
 brew install composer
 brew install yamllint
 brew install git-delta
