@@ -10,8 +10,9 @@ trash-cli
 del-cli
 retry-cli
 gulp-cli
-wrangler
 stylelint
+renovate
+wrangler
 eslint
 vercel
 nodemon
