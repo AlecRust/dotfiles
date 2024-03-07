@@ -34,6 +34,7 @@ brew install wp-cli
 brew install composer
 brew install yamllint
 brew install git-delta
+brew install hyperfine
 brew install actionlint
 brew install shellcheck
 brew install imagemagick
