@@ -40,7 +40,6 @@
   "telemetry.telemetryLevel": "off",
   "redhat.telemetry.enabled": false,
   "gitlens.telemetry.enabled": false,
-  "githubPullRequests.telemetry.enabled": false,
   // GitHub Copilot extension
   "github.copilot.enable": {
     "plaintext": true,
@@ -49,8 +48,6 @@
   // GitHub Pull Requests extension
   "githubPullRequests.commentExpandState": "collapseAll",
   "githubPullRequests.pullBranch": "never",
-  // Home Assistant extension
-  "vscode-home-assistant.ignoreCertificates": true,
   // GitLens extension
   "gitlens.blame.highlight.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
