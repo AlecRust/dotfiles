@@ -21,6 +21,7 @@ brew install --cask eul
 brew install --cask kap
 
 # Development
+brew install --cask gitify
 brew install --cask sketch
 brew install --cask docker
 brew install --cask firefox
