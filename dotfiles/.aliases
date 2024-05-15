@@ -58,6 +58,10 @@ alias bert="bundle exec rails test"
 alias git-clean-remote-branches="gfa"
 alias git-clean-local-branches="gbda"
 
+# Output current branch lines added/removed
+alias git-lines="git diff --shortstat main...HEAD"
+alias branch-size="git-lines"
+
 # More memorable markdownlint-cli2 command
 alias mdlint="markdownlint-cli2"
 
