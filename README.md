@@ -44,7 +44,7 @@ My macOS setup.
 3. Set up other apps
 
     - Import Raycast settings from Nextcloud
-    - Disable "Hardware Media Key Handling" in `brave://flags`
+    - Disable "Hardware Media Key Handling" at `brave://flags`
     - Enable "Show features for web developers" at `Safari > Settings > Advanced`
     - Sourcetree
         - General: Disable modifying of global `.gitconfig`
