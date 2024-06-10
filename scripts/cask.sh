@@ -5,11 +5,11 @@ echo "==> 📜 Installing Homebrew Cask apps"
 # General
 brew install --cask gpg-suite-no-mail
 brew install --cask keepingyouawake
+brew install --cask jordanbaird-ice
 brew install --cask logitech-g-hub
 brew install --cask monitorcontrol
 brew install --cask brave-browser
 brew install --cask nextcloud
-brew install --cask hiddenbar
 brew install --cask gas-mask
 brew install --cask notunes
 brew install --cask spotify
