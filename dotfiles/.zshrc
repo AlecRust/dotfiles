@@ -20,16 +20,8 @@ export PATH="$HOMEBREW_PREFIX/opt/gnu-tar/libexec/gnubin:$PATH"
 export PATH="$HOMEBREW_PREFIX/opt/grep/libexec/gnubin:$PATH"
 export PATH="$PATH:/opt/X11/bin"
 
-# Source Antidote
+# Load Antidote and plugins
 source "$HOMEBREW_PREFIX/opt/antidote/share/antidote/antidote.zsh"
-
-# Set variables required by Oh My Zsh plugins
-ZSH=$(antidote path ohmyzsh/ohmyzsh)
-export ZSH
-export ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/oh-my-zsh"
-[[ -d $ZSH_CACHE_DIR ]] || mkdir -p "$ZSH_CACHE_DIR"
-
-# Load Zsh plugins with Antidote
 antidote load
 
 # Source additional files last to override any plugins

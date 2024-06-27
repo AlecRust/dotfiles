@@ -1,5 +1,5 @@
-# Initialize Zsh completions (must be first)
-zshzoo/completion
+# Antidote's OMZ compatibility plugin
+getantidote/use-omz
 
 # Standard plugins
 djui/alias-tips
