@@ -18,6 +18,7 @@ code --install-extension EditorConfig.EditorConfig
 code --install-extension GitHub.vscode-pull-request-github
 code --install-extension GitHub.copilot
 code --install-extension GitHub.vscode-github-actions
+code --install-extension me-dutour-mathieu.vscode-github-actions
 code --install-extension keesschollaart.vscode-home-assistant
 code --install-extension shyykoserhiy.vscode-spotify
 code --install-extension christian-kohler.npm-intellisense
