@@ -1,19 +1,13 @@
-# Antidote's OMZ compatibility plugin
+# OMZ compatibility and plugins
 getantidote/use-omz
-
-# Standard plugins
-djui/alias-tips
-
-# Oh My Zsh lib (required first)
 ohmyzsh/ohmyzsh path:lib
-
-# Oh My Zsh plugins
 ohmyzsh/ohmyzsh path:plugins/mise
 ohmyzsh/ohmyzsh path:plugins/git
 ohmyzsh/ohmyzsh path:plugins/npm
 ohmyzsh/ohmyzsh path:plugins/yarn
 ohmyzsh/ohmyzsh path:plugins/brew
 ohmyzsh/ohmyzsh path:plugins/ruby
+ohmyzsh/ohmyzsh path:plugins/rails
 ohmyzsh/ohmyzsh path:plugins/macos
 ohmyzsh/ohmyzsh path:plugins/zoxide
 ohmyzsh/ohmyzsh path:plugins/gcloud
@@ -24,6 +18,5 @@ ohmyzsh/ohmyzsh path:plugins/starship
 ohmyzsh/ohmyzsh path:plugins/multipass
 ohmyzsh/ohmyzsh path:plugins/1password
 
-# Rails OMZ plugin disabled for now
-# https://github.com/mattmc3/antidote/issues/144
-# ohmyzsh/ohmyzsh path:plugins/rails
+# Standard Zsh plugins
+djui/alias-tips
