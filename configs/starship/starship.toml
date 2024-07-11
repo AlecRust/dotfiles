@@ -1,5 +1,3 @@
-# Starship Prompt Configuration
-
 [gcloud]
 disabled = true
 
