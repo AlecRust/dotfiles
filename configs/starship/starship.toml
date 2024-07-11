@@ -1,11 +1,5 @@
 # Starship Prompt Configuration
 
-# Inserts a blank line between shell prompts
-# add_newline = false
-
-[character]
-disabled = true
-
 [gcloud]
 disabled = true
 
