@@ -65,13 +65,14 @@ My macOS setup.
 
 Backup these files/folders from old machine and restore on new machine:
 
-- `~/Desktop`
-- `~/Downloads`
-- `~/Nextcloud`
-- `~/projects`
 - `~/.config`
 - `~/.extra`
 - `~/.ssh`
 - `~/.zsh_history`
+- `~/docker`
+- `~/Downloads`
+- `~/Desktop`
+- `~/Nextcloud`
+- `~/projects`
 - [Exported](https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys#backup-single-key) GPG keys
 - [Exported](https://localwp.com/help-docs/getting-started/how-to-export-a-wordpress-site-on-local/) Local sites
