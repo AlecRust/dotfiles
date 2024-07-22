@@ -34,6 +34,7 @@ brew install httpie
 brew install wp-cli
 brew install composer
 brew install yamllint
+brew install watchman
 brew install git-cliff
 brew install git-delta
 brew install hyperfine

@@ -9,6 +9,7 @@ trash-cli
 del-cli
 retry-cli
 gulp-cli
+eas-cli
 stylelint
 renovate
 wrangler
