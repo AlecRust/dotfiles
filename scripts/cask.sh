@@ -32,6 +32,7 @@ brew install --cask sourcetree
 brew install --cask imageoptim
 brew install --cask kaleidoscope
 brew install --cask google-chrome
+brew install --cask google-cloud-sdk
 
 # App development
 brew install --cask zulu@17
