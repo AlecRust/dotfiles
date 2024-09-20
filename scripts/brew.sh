@@ -26,7 +26,6 @@ brew install git
 # Development tools
 brew install gh
 brew install ack
-brew install act
 brew install php
 brew install mise
 brew install awscli
