@@ -3,9 +3,6 @@
 # Add timestamp display to `history` command
 export HIST_STAMPS="dd.mm.yyyy"
 
-# Exclude commands from history that start with space
-setopt histignorespace
-
 # Set VSCode as the default editor
 export EDITOR="code"
 
