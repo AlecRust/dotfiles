@@ -2,32 +2,42 @@
 
 REPO_PATH="$(cd "$(dirname "$0")/.." && pwd)"
 
-echo "==> 🔗 Symlinking dotfiles/configs/scripts to ~/"
+symlink() {
+  source="$1"
+  target="$2"
+  filename="$(basename "$source")"
+  if [ -L "$target" ]; then
+    echo "⚠️ Skipping symlink $filename -> $target because it already exists" >&2
+  elif [ -e "$target" ]; then
+    echo "❌ Cannot symlink $filename -> $target because $target already exists and is not a symlink" >&2
+  else
+    ln -s "$source" "$target"
+    echo "✅ Created symlink $filename -> $target"
+  fi
+}
+
+echo "==> 🔗 Symlinking dotfiles, configs and scripts to ~/"
 
 # Symlink dotfiles e.g. dotfiles/.aliases to ~/.aliases
 for file in "$REPO_PATH"/dotfiles/.*; do
   if [ -f "$file" ]; then
-    ln -sf "$file" "$HOME"
+    symlink "$file" "$HOME/$(basename "$file")"
   fi
 done
 
 # Symlink mise and Starship configs
 mkdir -p "$HOME/.config/husky"
-ln -sf "$REPO_PATH/configs/husky/init.sh" "$HOME/.config/husky/init.sh"
+symlink "$REPO_PATH/configs/husky/init.sh" "$HOME/.config/husky/init.sh"
 mkdir -p "$HOME/.config/mise"
-ln -sf "$REPO_PATH/configs/mise/config.toml" "$HOME/.config/mise/config.toml"
-ln -sf "$REPO_PATH/configs/mise/settings.toml" "$HOME/.config/mise/settings.toml"
-ln -sf "$REPO_PATH/configs/starship/starship.toml" "$HOME/.config/starship.toml"
+symlink "$REPO_PATH/configs/mise/config.toml" "$HOME/.config/mise/config.toml"
+symlink "$REPO_PATH/configs/mise/settings.toml" "$HOME/.config/mise/settings.toml"
+symlink "$REPO_PATH/configs/starship/starship.toml" "$HOME/.config/starship.toml"
 
 # Symlink Nextcloud dirs if present
-# NOTE: Must delete existing dirs before symlinking to avoid recursive symlink
 if [ -d "$HOME/Nextcloud/Apps/" ]; then
-  rm -f "$HOME/scripts"
-  ln -s "$HOME/Nextcloud/Apps/macbook-scripts/" "$HOME/scripts"
-
+  symlink "$HOME/Nextcloud/Apps/macbook-scripts" "$HOME/scripts"
   mkdir -p "$HOME/.warp"
-  rm -f "$HOME/.warp/launch_configurations"
-  ln -s "$HOME/Nextcloud/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
+  symlink "$HOME/Nextcloud/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
 fi
 
 echo "==> 📜 Setting Homebrew Zsh as default shell"
