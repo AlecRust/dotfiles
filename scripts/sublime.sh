@@ -1,6 +1,6 @@
 #!/bin/sh
 
-REPO_PATH=$(cd "$(dirname "$0")"/.. && pwd)
+REPO_PATH="$(cd "$(dirname "$0")/.." && pwd)"
 
 echo "==> 📜 Installing Sublime Text"
 
