@@ -6,6 +6,9 @@ export HIST_STAMPS="dd.mm.yyyy"
 # Set VSCode as the default editor
 export EDITOR="code"
 
+# Use zoxide for cd command
+export ZOXIDE_CMD_OVERRIDE=cd
+
 # Set vars for React Native development
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 export ANDROID_HOME=$HOME/Library/Android/sdk
