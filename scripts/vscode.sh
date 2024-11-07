@@ -28,9 +28,12 @@ code --install-extension WakaTime.vscode-wakatime
 code --install-extension gruntfuggly.todo-tree
 code --install-extension ms-azuretools.vscode-docker
 
+# Testing
+code --install-extension ms-playwright.playwright
+code --install-extension Orta.vscode-jest
+code --install-extension vitest.explorer
+
 # Languages
-code --install-extension Shopify.ruby-lsp
-code --install-extension KoichiSasada.vscode-rdbg
 code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension bierner.lit-html
 code --install-extension idleberg.applescript
