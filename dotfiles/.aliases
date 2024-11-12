@@ -33,6 +33,9 @@ alias top="btm"
 # Reload the shell
 alias reload="source ~/.zshrc"
 
+# Kill all Node.js processes
+alias killnode='killall node'
+
 # List all PATH entries
 alias path='echo -e ${PATH//:/\\n}'
 
