@@ -27,6 +27,7 @@ code --install-extension vincaslt.highlight-matching-tag
 code --install-extension WakaTime.vscode-wakatime
 code --install-extension gruntfuggly.todo-tree
 code --install-extension ms-azuretools.vscode-docker
+code --install-extension yoavbls.pretty-ts-errors
 
 # Testing
 code --install-extension ms-playwright.playwright
