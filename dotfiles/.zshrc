@@ -1,5 +1,8 @@
 # shellcheck disable=SC2148,SC1091
 
+# https://consoledonottrack.com/
+export DO_NOT_TRACK=1
+
 # Add timestamp display to `history` command
 export HIST_STAMPS="dd.mm.yyyy"
 
