@@ -103,12 +103,6 @@
 	line-numbers = true
 	light = false
 
-[color]
-
-	# Use colors in Git commands that are capable of colored output when
-	# outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
-	ui = auto
-
 [color "branch"]
 
 	current = yellow reverse
@@ -174,10 +168,13 @@
 	tool = Kaleidoscope
 	conflictstyle = diff3
 
+[pull]
+
+	# Rebase the current branch on top of the upstream branch after fetching
+	rebase = true
+
 [push]
 
-	# https://git-scm.com/docs/git-config#git-config-pushdefault
-	default = simple
 	# Make `git push` push relevant annotated tags when pushing branches out.
 	followTags = true
 
