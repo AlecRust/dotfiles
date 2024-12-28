@@ -54,7 +54,7 @@ brew install mas
 brew install hstr
 brew install tldr
 brew install duti
-brew install htop
+brew install btop
 brew install ffmpeg
 brew install rename
 brew install rclone
