@@ -13,6 +13,7 @@ brew install --cask nextcloud
 brew install --cask gas-mask
 brew install --cask notunes
 brew install --cask spotify
+brew install --cask claude
 brew install --cask joplin
 brew install --cask slack
 brew install --cask warp
