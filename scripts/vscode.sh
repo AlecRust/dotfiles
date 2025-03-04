@@ -53,3 +53,4 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension stylelint.vscode-stylelint
 code --install-extension HTMLHint.vscode-htmlhint
 code --install-extension timonwong.shellcheck
+code --install-extension biomejs.biome
