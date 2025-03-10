@@ -32,6 +32,7 @@ brew install deno
 brew install awscli
 brew install httpie
 brew install wp-cli
+brew install ripgrep
 brew install composer
 brew install yamllint
 brew install watchman
