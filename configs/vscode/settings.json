@@ -41,7 +41,6 @@
   "redhat.telemetry.enabled": false,
   "gitlens.telemetry.enabled": false,
   // GitHub Copilot extension
-  "github.copilot.editor.enableAutoCompletions": true,
   "github.copilot.enable": {
     "plaintext": true,
     "markdown": true
