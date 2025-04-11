@@ -45,6 +45,7 @@
     "plaintext": true,
     "markdown": true
   },
+  "chat.agent.enabled": true,
   // GitHub Pull Requests extension
   "githubPullRequests.commentExpandState": "collapseAll",
   "githubPullRequests.pullBranch": "never",
