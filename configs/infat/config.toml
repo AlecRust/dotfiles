@@ -1,0 +1,22 @@
+[files]
+mp4 = "IINA"
+avi = "IINA"
+mov = "IINA"
+wmv = "IINA"
+
+json = "Sublime Text"
+lock = "Sublime Text"
+env  = "Sublime Text"
+yml  = "Sublime Text"
+css  = "Sublime Text"
+php  = "Sublime Text"
+csv  = "Sublime Text"
+svg  = "Sublime Text"
+sql  = "Sublime Text"
+zsh  = "Sublime Text"
+md   = "Sublime Text"
+sh   = "Sublime Text"
+rb   = "Sublime Text"
+
+[schemes]
+web = "Brave Browser"

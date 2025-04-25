@@ -25,11 +25,13 @@ for file in "$REPO_PATH"/dotfiles/.*; do
   fi
 done
 
-# Symlink mise and Starship configs
+# Symlink tool configs
 mkdir -p "$HOME/.config/mise"
 symlink "$REPO_PATH/configs/mise/config.toml" "$HOME/.config/mise/config.toml"
 symlink "$REPO_PATH/configs/mise/settings.toml" "$HOME/.config/mise/settings.toml"
 symlink "$REPO_PATH/configs/starship/starship.toml" "$HOME/.config/starship.toml"
+mkdir -p "$HOME/.config/infat"
+symlink "$REPO_PATH/configs/infat/config.toml" "$HOME/.config/infat/config.toml"
 
 # Symlink Nextcloud dirs if present
 if [ -d "$HOME/Nextcloud/Apps/" ]; then

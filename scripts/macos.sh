@@ -244,13 +244,10 @@ dockutil --remove "Podcasts"
 dockutil --remove "Safari"
 dockutil --remove "TV"
 
+echo "==> 📜 Setting default file extension associations"
+
+infat --config ~/.config/infat/config.toml
+
 echo "==> 📜 Setting dark system appearance"
 
 dark-mode on
-
-echo "==> 📜 Setting IINA as default app for media files"
-
-duti -s com.colliderli.iina .mp4 all
-duti -s com.colliderli.iina .avi all
-duti -s com.colliderli.iina .mov all
-duti -s com.colliderli.iina .wmv all

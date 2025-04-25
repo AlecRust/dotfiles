@@ -54,7 +54,6 @@ brew install lsd
 brew install mas
 brew install hstr
 brew install tldr
-brew install duti
 brew install btop
 brew install ffmpeg
 brew install rename
@@ -71,6 +70,7 @@ brew install dark-mode
 brew install subversion
 brew install speedtest-cli
 brew install homeassistant-cli
+brew install philocalyst/tap/infat
 
 # Fonts
 brew tap homebrew/cask-fonts
