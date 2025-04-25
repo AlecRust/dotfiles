@@ -4,6 +4,7 @@ npm-check
 @anthropic-ai/claude-code
 @getflywheel/local-cli
 markdownlint-cli2
+@openai/codex
 @sentry/cli
 @lhci/cli
 trash-cli
