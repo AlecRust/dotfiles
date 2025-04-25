@@ -13,5 +13,7 @@ git clone https://github.com/Yabatadesign/afterglow-theme/ "$HOME/Library/Applic
 
 echo "==> 🔗 Symlinking Sublime Text settings and keybindings"
 
-ln -sf "$REPO_PATH/configs/sublime/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
-ln -sf "$REPO_PATH/configs/sublime/Default (OSX).sublime-keymap" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+if [ -z "$CI" ]; then
+  ln -sf "$REPO_PATH/configs/sublime/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+  ln -sf "$REPO_PATH/configs/sublime/Default (OSX).sublime-keymap" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+fi
