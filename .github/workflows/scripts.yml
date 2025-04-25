@@ -28,9 +28,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Run sublime.sh
-        run: |
-          brew install duti
-          ./scripts/sublime.sh
+        run: ./scripts/sublime.sh
 
   macos:
     name: macos.sh
@@ -42,5 +40,5 @@ jobs:
         run: |
           brew install dockutil
           brew install dark-mode
-          brew install duti
+          brew install philocalyst/tap/infat
           ./scripts/macos.sh
