@@ -1,4 +1,9 @@
-[files]
+[types]
+plain-text      = "Sublime Text"
+unix-executable = "Sublime Text"
+data            = "Sublime Text"
+
+[extensions]
 mp4 = "IINA"
 avi = "IINA"
 mov = "IINA"
