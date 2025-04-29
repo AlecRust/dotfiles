@@ -28,6 +28,7 @@ code --install-extension WakaTime.vscode-wakatime
 code --install-extension gruntfuggly.todo-tree
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension yoavbls.pretty-ts-errors
+code --install-extension Fralle.copy-code-context
 
 # Testing
 code --install-extension ms-playwright.playwright
