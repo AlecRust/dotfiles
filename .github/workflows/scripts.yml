@@ -38,7 +38,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Run macos.sh
         run: |
+          brew install infat
           brew install dockutil
           brew install dark-mode
-          brew install philocalyst/tap/infat
           ./scripts/macos.sh
