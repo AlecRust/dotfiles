@@ -246,7 +246,7 @@ dockutil --remove "TV"
 
 echo "==> 📜 Setting default file extension associations"
 
-infat --config ~/.config/infat/config.toml
+infat
 
 echo "==> 📜 Setting dark system appearance"
 
