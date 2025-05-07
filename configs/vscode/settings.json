@@ -30,6 +30,8 @@
   // Git
   "git.enableSmartCommit": true,
   "git.allowForcePush": true,
+  "git.blame.editorDecoration.enabled": true,
+  "git.blame.editorDecoration.template": "${authorName}, ${authorDateAgo} • ${subject}",
   // Files
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -39,21 +41,16 @@
   // Disable telemetry
   "telemetry.telemetryLevel": "off",
   "redhat.telemetry.enabled": false,
-  "gitlens.telemetry.enabled": false,
   // GitHub Copilot extension
   "github.copilot.enable": {
     "plaintext": true,
     "markdown": true
   },
   "chat.agent.enabled": true,
+  "chat.editing.confirmEditRequestRetry": false,
   // GitHub Pull Requests extension
   "githubPullRequests.commentExpandState": "collapseAll",
   "githubPullRequests.pullBranch": "never",
-  // GitLens extension
-  "gitlens.blame.highlight.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.currentLine.scrollable": false,
   // Language specific
   "[typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"

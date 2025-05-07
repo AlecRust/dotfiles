@@ -13,8 +13,8 @@ ln -sf "$REPO_PATH/configs/vscode/settings.json" "$HOME/Library/Application Supp
 echo "==> 📜 Installing Visual Studio Code extensions"
 
 # Editor
-code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
+code --install-extension mattlott.copy-github-url
 code --install-extension GitHub.vscode-pull-request-github
 code --install-extension GitHub.copilot
 code --install-extension GitHub.vscode-github-actions
