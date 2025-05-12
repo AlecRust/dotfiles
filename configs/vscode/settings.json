@@ -47,6 +47,7 @@
     "markdown": true
   },
   "chat.agent.enabled": true,
+  "chat.tools.autoApprove": true,
   "chat.editing.confirmEditRequestRetry": false,
   // GitHub Pull Requests extension
   "githubPullRequests.commentExpandState": "collapseAll",
