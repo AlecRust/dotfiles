@@ -9,6 +9,9 @@ export HIST_STAMPS="dd.mm.yyyy"
 # Set VSCode as the default editor
 export EDITOR="code"
 
+# Change lsd "overly permissive permissions" indicator to be more readable
+export LS_COLORS="$LS_COLORS:ow=30;101:"
+
 # Set vars for React Native development
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 export ANDROID_HOME=$HOME/Library/Android/sdk
