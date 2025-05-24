@@ -8,7 +8,7 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.linkedEditing": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "biomejs.biome",
   "editor.minimap.showSlider": "always",
   // Explorer
   "explorer.autoReveal": false,
@@ -51,9 +51,5 @@
   "chat.editing.confirmEditRequestRetry": false,
   // GitHub Pull Requests extension
   "githubPullRequests.commentExpandState": "collapseAll",
-  "githubPullRequests.pullBranch": "never",
-  // Language specific
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
+  "githubPullRequests.pullBranch": "never"
 }

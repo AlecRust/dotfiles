@@ -29,6 +29,7 @@ brew install ack
 brew install php
 brew install mise
 brew install deno
+brew install biome
 brew install awscli
 brew install httpie
 brew install wp-cli
