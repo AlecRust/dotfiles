@@ -74,7 +74,6 @@ brew install speedtest-cli
 brew install homeassistant-cli
 
 # Fonts
-brew tap homebrew/cask-fonts
 brew install font-fira-code
 brew install font-fira-code-nerd-font
 
