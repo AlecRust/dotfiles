@@ -80,6 +80,9 @@ alias update-gems='gem update --system; gem update; gem cleanup'
 # Brave
 alias brave='/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser'
 
+# Codex
+alias codex="codex --full-auto"
+
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 
