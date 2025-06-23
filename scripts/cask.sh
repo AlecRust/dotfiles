@@ -25,7 +25,6 @@ brew install --cask kap
 # Development
 brew install --cask gitify
 brew install --cask sketch
-brew install --cask docker
 brew install --cask firefox
 brew install --cask transmit
 brew install --cask tableplus
@@ -33,6 +32,7 @@ brew install --cask sourcetree
 brew install --cask imageoptim
 brew install --cask kaleidoscope
 brew install --cask google-chrome
+brew install --cask docker-desktop
 brew install --cask google-cloud-sdk
 
 # App development
