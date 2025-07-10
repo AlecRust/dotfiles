@@ -3,6 +3,7 @@ npm-check-updates
 npm-check
 @anthropic-ai/claude-code
 @getflywheel/local-cli
+@google/gemini-cli
 markdownlint-cli2
 @openai/codex
 @sentry/cli
