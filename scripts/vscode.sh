@@ -26,6 +26,8 @@ code --install-extension wix.vscode-import-cost
 code --install-extension vincaslt.highlight-matching-tag
 code --install-extension WakaTime.vscode-wakatime
 code --install-extension gruntfuggly.todo-tree
+code --install-extension hverlin.mise-vscode
+code --install-extension codeandstuff.package-json-upgrade
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension yoavbls.pretty-ts-errors
 code --install-extension Fralle.copy-code-context

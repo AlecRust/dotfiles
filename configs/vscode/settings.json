@@ -41,10 +41,11 @@
   // Disable telemetry
   "telemetry.telemetryLevel": "off",
   "redhat.telemetry.enabled": false,
+  // mise extension
+  "mise.checkForNewMiseVersion": false,
   // GitHub Copilot extension
   "github.copilot.enable": {
-    "plaintext": true,
-    "markdown": true
+    "*": true
   },
   "chat.agent.enabled": true,
   "chat.tools.autoApprove": true,
