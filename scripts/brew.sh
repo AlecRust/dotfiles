@@ -45,9 +45,6 @@ brew install shellcheck
 brew install imagemagick
 brew install stripe/stripe-cli/stripe
 
-brew tap heroku/brew
-brew install heroku
-
 # Other utilities
 brew install jq
 brew install bat
