@@ -81,7 +81,7 @@ alias update-gems='gem update --system; gem update; gem cleanup'
 alias brave='/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser'
 
 # Codex
-alias codex="codex --full-auto"
+alias codex="codex --ask-for-approval never --sandbox danger-full-access"
 
 # Claude
 alias claude="claude --dangerously-skip-permissions"
