@@ -1,10 +1,11 @@
 node-gyp
 npm-check-updates
 npm-check
+branchpilot
+markdownlint-cli2
 @anthropic-ai/claude-code
 @getflywheel/local-cli
 @google/gemini-cli
-markdownlint-cli2
 @openai/codex
 @sentry/cli
 @lhci/cli
