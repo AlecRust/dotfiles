@@ -45,7 +45,9 @@
   "mise.checkForNewMiseVersion": false,
   // GitHub Copilot extension
   "github.copilot.enable": {
-    "*": true
+    "*": true,
+    "plaintext": true,
+    "markdown": true
   },
   "chat.agent.enabled": true,
   "chat.tools.autoApprove": true,
