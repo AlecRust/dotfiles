@@ -27,6 +27,7 @@ done
 
 # Symlink tool configs
 symlink "$REPO_PATH/configs/biome/biome.json" "$HOME/biome.json"
+symlink "$REPO_PATH/configs/branchpilot/branchpilot.toml" "$HOME/.config/branchpilot.toml"
 mkdir -p "$HOME/.config/infat"
 symlink "$REPO_PATH/configs/infat/config.toml" "$HOME/.config/infat/config.toml"
 mkdir -p "$HOME/.config/mise"
