@@ -46,7 +46,6 @@ brew install --cask balenaetcher
 brew install --cask tailscale
 brew install --cask 1password
 brew install --cask 1password-cli
-brew install --cask mac2imgur
 brew install --cask multipass
 brew install --cask telegram
 brew install --cask whatsapp
