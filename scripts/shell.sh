@@ -60,6 +60,8 @@ if [ -z "$CI" ]; then
 
   mise use -g go@latest
   mise use -g node@lts
+  mise use -g bun@latest
+  mise use -g deno@latest
   mise use -g python@latest
   mise use -g ruby@latest
 
