@@ -31,6 +31,7 @@ code --install-extension codeandstuff.package-json-upgrade
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension yoavbls.pretty-ts-errors
 code --install-extension Fralle.copy-code-context
+code --install-extension openai.chatgpt
 
 # Testing
 code --install-extension ms-playwright.playwright
