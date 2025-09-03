@@ -11,16 +11,12 @@ markdownlint-cli2
 @lhci/cli
 trash-cli
 retry-cli
-gulp-cli
 del-cli
 eas-cli
 stylelint
 wrangler
 renovate
 vercel
-nodemon
 cspell
 serve
 svgo
-pnpm
-yo
