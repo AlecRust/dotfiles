@@ -13,6 +13,7 @@ trash-cli
 retry-cli
 del-cli
 eas-cli
+neonctl
 stylelint
 wrangler
 renovate
