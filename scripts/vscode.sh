@@ -46,7 +46,6 @@ code --install-extension redhat.vscode-yaml
 code --install-extension tamasfe.even-better-toml
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension Vue.volar
-code --install-extension Prisma.prisma
 code --install-extension Tobermory.es6-string-html
 
 # Linting
