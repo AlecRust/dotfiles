@@ -30,6 +30,7 @@ brew install php
 brew install pnpm
 brew install mise
 brew install biome
+brew install libpq
 brew install awscli
 brew install httpie
 brew install wp-cli
