@@ -43,6 +43,7 @@ code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension bierner.lit-html
 code --install-extension idleberg.applescript
 code --install-extension redhat.vscode-yaml
+code --install-extension oven.bun-vscode
 code --install-extension tamasfe.even-better-toml
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension Vue.volar
