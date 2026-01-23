@@ -10,6 +10,7 @@ brew install --cask logitech-g-hub
 brew install --cask monitorcontrol
 brew install --cask helium-browser
 brew install --cask brave-browser
+brew install --cask claude-code
 brew install --cask nextcloud
 brew install --cask gas-mask
 brew install --cask notunes

@@ -3,7 +3,6 @@ npm-check-updates
 npm-check
 branchpilot
 markdownlint-cli2
-@anthropic-ai/claude-code
 @getflywheel/local-cli
 @google/gemini-cli
 @openai/codex

@@ -32,6 +32,7 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension yoavbls.pretty-ts-errors
 code --install-extension Fralle.copy-code-context
 code --install-extension openai.chatgpt
+code --install-extension anthropic.claude-code
 
 # Testing
 code --install-extension ms-playwright.playwright
