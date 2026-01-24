@@ -44,6 +44,7 @@ brew install hyperfine
 brew install actionlint
 brew install shellcheck
 brew install imagemagick
+brew install copilot-cli
 brew install stripe/stripe-cli/stripe
 
 # Other utilities
