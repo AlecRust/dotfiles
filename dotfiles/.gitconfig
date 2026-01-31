@@ -215,11 +215,12 @@
 	email = me@alecrust.com
 	signingKey = EB374231DBCA5067
 
-[gpg]
-	program = /Applications/SourceTree.app/Contents/Resources/bin/stgpg.sh
+# Note: leave gpg.program unset by default. If you want GPG signing,
+# configure it explicitly (e.g. gpg.program=/usr/local/bin/gpg) or use -S.
 
 [commit]
-	gpgsign = true
+	# Default to unsigned commits (you can still sign per-commit with -S)
+	gpgsign = false
 	template = $HOME/.stCommitMsg
 
 # Sourcetree specific
