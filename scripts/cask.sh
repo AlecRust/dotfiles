@@ -11,7 +11,9 @@ brew install --cask monitorcontrol
 brew install --cask helium-browser
 brew install --cask brave-browser
 brew install --cask claude-code
+brew install --cask wispr-flow
 brew install --cask nextcloud
+brew install --cask openclaw
 brew install --cask gas-mask
 brew install --cask notunes
 brew install --cask spotify
