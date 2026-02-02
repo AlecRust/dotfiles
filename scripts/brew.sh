@@ -33,6 +33,7 @@ brew install biome
 brew install libpq
 brew install awscli
 brew install httpie
+brew install flyctl
 brew install wp-cli
 brew install ripgrep
 brew install composer
