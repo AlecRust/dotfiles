@@ -183,22 +183,14 @@
 [url "git@github.com:"]
 
 	insteadOf = "gh:"
-	pushInsteadOf = "github:"
-	pushInsteadOf = "git://github.com/"
-
-[url "git://github.com/"]
-
 	insteadOf = "github:"
+	pushInsteadOf = "git://github.com/"
 
 [url "git@gist.github.com:"]
 
 	insteadOf = "gst:"
-	pushInsteadOf = "gist:"
-	pushInsteadOf = "git://gist.github.com/"
-
-[url "git://gist.github.com/"]
-
 	insteadOf = "gist:"
+	pushInsteadOf = "git://gist.github.com/"
 
 [filter "lfs"]
 	clean = git-lfs clean %f
@@ -206,7 +198,11 @@
 	required = true
 
 [credential]
+	helper =
 	helper = osxkeychain
+
+[credential "https://github.com"]
+	username = x-access-token
 
 # This is set in ~/.extra but duplicated here as gets added automatically
 # NOTE: Yes, it's OK that `signingKey` is public
