@@ -10,8 +10,8 @@ brew install --cask logitech-g-hub
 brew install --cask monitorcontrol
 brew install --cask helium-browser
 brew install --cask brave-browser
+brew install --cask superwhisper
 brew install --cask claude-code
-brew install --cask wispr-flow
 brew install --cask nextcloud
 brew install --cask openclaw
 brew install --cask gas-mask
@@ -24,7 +24,7 @@ brew install --cask warp
 brew install --cask zoom
 brew install --cask iina
 brew install --cask eul
-brew install --cask kap
+brew install --cask cap
 
 # Development
 brew install --cask gitify
