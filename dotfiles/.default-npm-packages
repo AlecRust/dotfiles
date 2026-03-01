@@ -6,6 +6,7 @@ markdownlint-cli2
 @getflywheel/local-cli
 @google/gemini-cli
 @openai/codex
+@posthog/cli
 @sentry/cli
 @lhci/cli
 trash-cli
