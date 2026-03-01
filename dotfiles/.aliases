@@ -77,9 +77,6 @@ alias update='update-brew; update-node; update-shell'
 # Update global Ruby gems (rarely used)
 alias update-gems='gem update --system; gem update; gem cleanup'
 
-# Brave
-alias brave='/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser'
-
 # Codex
 alias codex="codex --yolo"
 

@@ -9,7 +9,6 @@ brew install --cask jordanbaird-ice
 brew install --cask logitech-g-hub
 brew install --cask monitorcontrol
 brew install --cask helium-browser
-brew install --cask brave-browser
 brew install --cask superwhisper
 brew install --cask claude-code
 brew install --cask nextcloud
