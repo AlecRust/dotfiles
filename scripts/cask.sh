@@ -38,11 +38,6 @@ brew install --cask google-chrome
 brew install --cask docker-desktop
 brew install --cask google-cloud-sdk
 
-# App development
-brew install --cask zulu@17
-brew install --cask expo-orbit
-brew install --cask android-studio
-
 # Personal machine only
 brew install --cask transmission
 brew install --cask balenaetcher
