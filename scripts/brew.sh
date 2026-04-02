@@ -43,9 +43,11 @@ brew install git-cliff
 brew install git-delta
 brew install hyperfine
 brew install actionlint
+brew install swiftlint
 brew install shellcheck
 brew install imagemagick
 brew install copilot-cli
+brew install swift-format
 brew install openclaw-cli
 brew install stripe/stripe-cli/stripe
 
