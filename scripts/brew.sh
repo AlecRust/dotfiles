@@ -39,6 +39,7 @@ brew install ripgrep
 brew install composer
 brew install yamllint
 brew install watchman
+brew install xcodegen
 brew install git-cliff
 brew install git-delta
 brew install hyperfine
