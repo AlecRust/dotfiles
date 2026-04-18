@@ -26,6 +26,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Package Control",
 		"Vintage",
 	],
 	"index_exclude_patterns":
@@ -53,5 +54,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true,
 	"update_check": true,
-	"index_files": true,
+	"index_files": false,
 }
