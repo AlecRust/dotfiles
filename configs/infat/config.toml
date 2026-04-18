@@ -1,27 +1,19 @@
 [types]
 plain-text      = "Sublime Text"
 unix-executable = "Sublime Text"
-data            = "Sublime Text"
+sourcecode      = "Sublime Text"
+yaml            = "Sublime Text"
+markdown        = "Sublime Text"
+shell           = "Sublime Text"
+svg             = "Sublime Text"
+quicktime-movie = "IINA"
+movie           = "IINA"
 
 [extensions]
-mp4 = "IINA"
-avi = "IINA"
-mov = "IINA"
-wmv = "IINA"
-
+mp4  = "IINA"
+avi  = "IINA"
 json = "Sublime Text"
-lock = "Sublime Text"
-env  = "Sublime Text"
-yml  = "Sublime Text"
-css  = "Sublime Text"
-php  = "Sublime Text"
 csv  = "Sublime Text"
-svg  = "Sublime Text"
-sql  = "Sublime Text"
-zsh  = "Sublime Text"
-md   = "Sublime Text"
-sh   = "Sublime Text"
-rb   = "Sublime Text"
 
 [schemes]
 web = "Helium"
