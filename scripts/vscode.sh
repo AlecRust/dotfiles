@@ -18,7 +18,6 @@ code --install-extension mattlott.copy-github-url
 code --install-extension GitHub.vscode-pull-request-github
 code --install-extension GitHub.copilot
 code --install-extension GitHub.vscode-github-actions
-code --install-extension me-dutour-mathieu.vscode-github-actions
 code --install-extension keesschollaart.vscode-home-assistant
 code --install-extension shyykoserhiy.vscode-spotify
 code --install-extension christian-kohler.npm-intellisense
@@ -28,7 +27,7 @@ code --install-extension WakaTime.vscode-wakatime
 code --install-extension gruntfuggly.todo-tree
 code --install-extension hverlin.mise-vscode
 code --install-extension codeandstuff.package-json-upgrade
-code --install-extension ms-azuretools.vscode-docker
+code --install-extension docker.docker
 code --install-extension yoavbls.pretty-ts-errors
 code --install-extension Fralle.copy-code-context
 code --install-extension openai.chatgpt
