@@ -29,6 +29,7 @@ brew install ack
 brew install php
 brew install pnpm
 brew install mise
+brew install uv
 brew install biome
 brew install libpq
 brew install awscli
@@ -57,6 +58,7 @@ brew install jq
 brew install bat
 brew install lsd
 brew install mas
+brew install fzf
 brew install hstr
 brew install tldr
 brew install btop
@@ -64,7 +66,6 @@ brew install infat
 brew install ffmpeg
 brew install rename
 brew install rclone
-brew install bottom
 brew install zoxide
 brew install yt-dlp
 brew install thefuck

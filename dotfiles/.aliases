@@ -27,8 +27,8 @@ alias lt='ls --tree'
 # bat (cat replacement)
 alias cat="bat --paging=never"
 
-# bottom (top replacement)
-alias top="btm"
+# btop (top replacement)
+alias top="btop"
 
 # Reload the shell
 alias reload="source ~/.zshrc"
