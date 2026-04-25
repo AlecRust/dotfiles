@@ -13,7 +13,6 @@ trash-cli
 retry-cli
 del-cli
 eas-cli
-clawhub
 neonctl
 stylelint
 wrangler
