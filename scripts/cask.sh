@@ -18,11 +18,11 @@ brew install --cask spotify
 brew install --cask claude
 brew install --cask joplin
 brew install --cask slack
+brew install --cask stats
 brew install --cask thaw
 brew install --cask warp
 brew install --cask zoom
 brew install --cask iina
-brew install --cask eul
 brew install --cask cap
 
 # Development
