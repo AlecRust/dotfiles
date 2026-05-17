@@ -10,12 +10,14 @@
   "editor.linkedEditing": true,
   "editor.minimap.showSlider": "always",
   "editor.defaultFormatter": "biomejs.biome",
+  "editor.accessibilitySupport": "off",
   // Explorer
   "explorer.autoReveal": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   // Workbench
   "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorTheme": "Dark 2026",
   // Window
   "window.newWindowDimensions": "inherit",
   "window.openFoldersInNewWindow": "on",
@@ -43,6 +45,7 @@
   "redhat.telemetry.enabled": false,
   // mise extension
   "mise.checkForNewMiseVersion": false,
+  "mise.binPath": "/opt/homebrew/bin/mise",
   // GitHub Copilot extension
   "github.copilot.enable": {
     "*": true,
