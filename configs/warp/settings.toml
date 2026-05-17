@@ -1,0 +1,53 @@
+[privacy]
+telemetry_enabled = false
+crash_reporting_enabled = false
+custom_secret_regex_list = []
+
+[appearance.text]
+font_size = 15.0
+font_name = "FiraCode Nerd Font Mono"
+
+[appearance.window]
+override_blur = 40
+override_opacity = 80
+
+[appearance.themes]
+system_theme = true
+selected_system_themes = { dark = "cyber_wave", light = "light" }
+
+[appearance.cursor]
+cursor_blink = "disabled"
+
+[appearance.panes]
+should_dim_inactive_panes = true
+
+[code.editor]
+use_warp_as_default_editor = true
+
+[code.indexing]
+agent_mode_codebase_context_auto_indexing = true
+
+[general]
+restore_session = false
+login_item = false
+
+[terminal.input]
+error_underlining_enabled = false
+show_hint_text = false
+honor_ps1 = true
+
+[notifications.preferences]
+mode = "enabled"
+
+[agents]
+cloud_conversation_storage_enabled = false
+
+[agents.warp_agent.active_ai]
+code_suggestions_enabled = false
+
+[agents.warp_agent.input]
+ai_auto_detection_enabled = false
+nld_in_terminal_enabled = false
+
+[account]
+is_settings_sync_enabled = false

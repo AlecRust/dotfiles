@@ -34,11 +34,12 @@ mkdir -p "$HOME/.config/mise"
 symlink "$REPO_PATH/configs/mise/config.toml" "$HOME/.config/mise/config.toml"
 symlink "$REPO_PATH/configs/mise/settings.toml" "$HOME/.config/mise/settings.toml"
 symlink "$REPO_PATH/configs/starship/starship.toml" "$HOME/.config/starship.toml"
+mkdir -p "$HOME/.warp"
+symlink "$REPO_PATH/configs/warp/settings.toml" "$HOME/.warp/settings.toml"
 
 # Symlink Nextcloud dirs if present
 if [ -d "$HOME/Nextcloud/Apps/" ]; then
   symlink "$HOME/Nextcloud/Apps/macbook-scripts" "$HOME/scripts"
-  mkdir -p "$HOME/.warp"
   symlink "$HOME/Nextcloud/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
 fi
 
