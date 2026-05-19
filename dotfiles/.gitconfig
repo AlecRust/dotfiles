@@ -112,13 +112,8 @@
 	changed = green
 	untracked = cyan
 
-[difftool "Kaleidoscope"]
-
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-
 [diff]
 
-	tool = Kaleidoscope
 	# Detect copies as well as renames
 	renames = copies
 	colorMoved = default
@@ -126,19 +121,6 @@
 [diff "bin"]
   # Use `hexdump` to diff binary files
   textconv = hexdump -v -C
-
-[difftool]
-
-	prompt = false
-
-[mergetool "Kaleidoscope"]
-
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-	trustExitCode = true
-
-[mergetool]
-
-	prompt = false
 
 [help]
 
@@ -149,7 +131,6 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
-	tool = Kaleidoscope
 	conflictstyle = zdiff3
 
 [pull]
@@ -203,13 +184,3 @@
 [commit]
 	# Default to unsigned commits (you can still sign per-commit with -S)
 	gpgsign = false
-
-# Sourcetree specific
-
-[difftool "sourcetree"]
-	cmd = /opt/homebrew/bin/ksdiff -w \"$LOCAL\" \"$REMOTE\"
-	path =
-
-[mergetool "sourcetree"]
-	cmd = /opt/homebrew/bin/ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-	trustExitCode = true
