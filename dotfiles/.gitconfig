@@ -202,7 +202,8 @@
 	helper = osxkeychain
 
 [credential "https://github.com"]
-	username = x-access-token
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
 
 # This is set in ~/.extra but duplicated here as gets added automatically
 # NOTE: Yes, it's OK that `signingKey` is public
