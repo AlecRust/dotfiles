@@ -150,12 +150,15 @@
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
 	tool = Kaleidoscope
-	conflictstyle = diff3
+	conflictstyle = zdiff3
 
 [pull]
 
 	# Rebase the current branch on top of the upstream branch after fetching
 	rebase = true
+
+[fetch]
+	prune = true
 
 [push]
 
