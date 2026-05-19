@@ -75,13 +75,6 @@
 	# [default] space-before-tab: looks for spaces before tabs at the beginning of a line
 	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
 
-	# Make `git rebase` safer on macOS
-	# More info: <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
-	trustctime = false
-
-	# Prevent showing files whose names contain non-ASCII symbols as unversioned.
-	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
-	precomposeunicode = false
 	editor = subl -w
 	pager = delta
 
@@ -118,12 +111,6 @@
 	added = yellow
 	changed = green
 	untracked = cyan
-
-[color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
 
 [difftool "Kaleidoscope"]
 
@@ -181,13 +168,11 @@
 
 	insteadOf = "gh:"
 	insteadOf = "github:"
-	pushInsteadOf = "git://github.com/"
 
 [url "git@gist.github.com:"]
 
 	insteadOf = "gst:"
 	insteadOf = "gist:"
-	pushInsteadOf = "git://gist.github.com/"
 
 [filter "lfs"]
 	clean = git-lfs clean %f
@@ -215,7 +200,6 @@
 [commit]
 	# Default to unsigned commits (you can still sign per-commit with -S)
 	gpgsign = false
-	template = $HOME/.stCommitMsg
 
 # Sourcetree specific
 
