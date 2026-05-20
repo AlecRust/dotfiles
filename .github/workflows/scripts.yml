@@ -3,6 +3,15 @@ name: Scripts
 on: [push]
 
 jobs:
+  brewfile:
+    name: Brewfile
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      - name: Parse Brewfile
+        run: brew bundle list --all --file Brewfile >/dev/null
+
   shell:
     name: shell.sh
     runs-on: macos-latest
