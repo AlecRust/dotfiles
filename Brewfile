@@ -37,7 +37,7 @@ brew "php"
 brew "pnpm"
 brew "ripgrep"
 brew "shellcheck"
-brew "stripe/stripe-cli/stripe"
+brew "stripe/stripe-cli/stripe", trusted: true
 brew "swift-format"
 brew "swiftlint"
 brew "uv"
