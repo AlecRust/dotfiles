@@ -59,8 +59,6 @@ My macOS setup.
     - Kaleidoscope
         - Set font to Fira Code 12pt
         - Set terminal app to Warp
-    - Install Sonos S2 app
-
 ### Backup Files
 
 Backup these files/folders from old machine and restore on new machine:
