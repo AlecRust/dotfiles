@@ -124,6 +124,7 @@ cask "discord"
 cask "ivpn"
 cask "local"
 cask "multipass"
+cask "radix"
 cask "signal"
 cask "tailscale-app"
 cask "telegram"
@@ -135,7 +136,6 @@ cask "raycast"
 
 # Mac App Store apps
 mas "Dato", id: 1470584107
-mas "Disk Map", id: 715464874
 mas "Duplicate Detective 2", id: 1442103050
 mas "Home Assistant", id: 1099568401
 mas "Shazam", id: 897118787
