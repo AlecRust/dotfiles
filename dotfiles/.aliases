@@ -124,6 +124,12 @@ alias spotoff="sudo mdutil -a -i off"
 # Enable Spotlight
 alias spoton="sudo mdutil -a -i on"
 
+# Disable sleep entirely, including on lid close (for overnight agent runs)
+alias sleepoff="sudo pmset -a disablesleep 1"
+
+# Restore normal sleep behaviour
+alias sleepon="sudo pmset -a disablesleep 0"
+
 # PlistBuddy alias, because sometimes `defaults` just doesn’t cut it
 alias plistbuddy="/usr/libexec/PlistBuddy"
 
