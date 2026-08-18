@@ -67,6 +67,7 @@ brew "starship"
 brew "subversion"
 brew "thefuck"
 brew "tlrc"
+brew "topgrade"
 brew "yt-dlp"
 brew "zoxide"
 

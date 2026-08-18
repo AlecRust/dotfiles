@@ -34,6 +34,7 @@ mkdir -p "$HOME/.config/mise"
 symlink "$REPO_PATH/configs/mise/config.toml" "$HOME/.config/mise/config.toml"
 symlink "$REPO_PATH/configs/mise/settings.toml" "$HOME/.config/mise/settings.toml"
 symlink "$REPO_PATH/configs/starship/starship.toml" "$HOME/.config/starship.toml"
+symlink "$REPO_PATH/configs/topgrade/topgrade.toml" "$HOME/.config/topgrade.toml"
 mkdir -p "$HOME/.warp"
 symlink "$REPO_PATH/configs/warp/settings.toml" "$HOME/.warp/settings.toml"
 

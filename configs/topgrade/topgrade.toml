@@ -1,0 +1,17 @@
+[misc]
+only = [
+  "brew_formula",
+  "brew_cask",
+  "mas",
+  "node",
+  "mise",
+  "shell",
+  "vscode",
+  "tldr",
+]
+
+assume_yes = true
+cleanup = true
+no_retry = true
+show_skipped = true
+no_self_update = true

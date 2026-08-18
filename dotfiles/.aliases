@@ -71,8 +71,8 @@ alias update-brew='brew update; brew upgrade; brew cleanup'
 # Update global Node packages
 alias update-node='npm update -g'
 
-# Update most packages
-alias update='update-brew; update-node; update-shell'
+# Update everything with topgrade
+alias update='topgrade'
 
 # Update global Ruby gems (rarely used)
 alias update-gems='gem update --system; gem update; gem cleanup'
