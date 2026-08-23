@@ -20,6 +20,7 @@ brew "zsh"
 # Development tools
 brew "ack"
 brew "actionlint"
+brew "agent-browser"
 brew "awscli"
 brew "biome"
 brew "composer"
