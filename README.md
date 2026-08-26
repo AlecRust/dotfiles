@@ -37,7 +37,6 @@ My macOS setup.
 
     - Set up GitHub connection with `gh auth login`
     - Import GPG keys or create with `gpg --full-generate-key` and [add to GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
-    - Set up Heroku connection with `heroku login` and `heroku keys:add`
     - Set up 1Password connection with `op account add`
     - Copy SSH keys from each machine on local network with `ssh-copy-id`
 

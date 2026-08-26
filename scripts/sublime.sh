@@ -2,7 +2,7 @@
 set -e
 
 REPO_PATH="$(cd "$(dirname "$0")/.." && pwd)"
-SUBLIME_PACKAGES_DIR="$HOME/Library/Application Support/Sublime Text 3/Packages"
+SUBLIME_PACKAGES_DIR="$HOME/Library/Application Support/Sublime Text/Packages"
 THEME_DIR="$SUBLIME_PACKAGES_DIR/Theme - Afterglow"
 
 if [ -d "$THEME_DIR/.git" ]; then
@@ -20,6 +20,6 @@ echo "==> 🔗 Symlinking Sublime Text settings and keybindings"
 
 if [ -z "$CI" ]; then
   mkdir -p "$SUBLIME_PACKAGES_DIR/User"
-  ln -sf "$REPO_PATH/configs/sublime/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
-  ln -sf "$REPO_PATH/configs/sublime/Default (OSX).sublime-keymap" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+  ln -sf "$REPO_PATH/configs/sublime/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text/Packages/User/Preferences.sublime-settings"
+  ln -sf "$REPO_PATH/configs/sublime/Default (OSX).sublime-keymap" "$HOME/Library/Application Support/Sublime Text/Packages/User/Default (OSX).sublime-keymap"
 fi
