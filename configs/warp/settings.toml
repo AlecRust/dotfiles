@@ -49,6 +49,9 @@ code_suggestions_enabled = false
 ai_auto_detection_enabled = false
 nld_in_terminal_enabled = false
 
+[agents.warp_agent.other]
+should_render_use_agent_toolbar_for_user_commands = false
+
 [agents.execution_profiles]
 
 [agents.execution_profiles.default]
