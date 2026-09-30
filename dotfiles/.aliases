@@ -95,14 +95,16 @@ alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/La
 # Get external IP address
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 
-# Get internal IP address (depends on network interface, see `ifactive`)
-alias localip="ipconfig getifaddr en5"
+# Get the IPv4 address of the interface used by the default route.
+unalias localip 2>/dev/null || true
+localip() {
+  local interface
+  interface=$(route -n get default 2>/dev/null | awk '/interface:/ {print $2; exit}')
+  [[ -n $interface ]] && ipconfig getifaddr "$interface"
+}
 
 # List all IPv4 and IPv6 addresses associated with all network interfaces on the system
 alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
-
-# Show active network interfaces
-alias ifactive="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'"
 
 # Trim new lines and copy to clipboard
 alias c="tr -d '\n' | pbcopy"
