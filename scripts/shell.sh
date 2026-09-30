@@ -37,8 +37,10 @@ symlink "$REPO_PATH/configs/topgrade/topgrade.toml" "$HOME/.config/topgrade.toml
 symlink "$REPO_PATH/configs/warp/settings.toml" "$HOME/.warp/settings.toml"
 
 # Symlink Nextcloud dirs if present
-if [ -d "$HOME/Nextcloud/Apps/" ]; then
+if [ -d "$HOME/Nextcloud/Apps/macbook-scripts" ]; then
   symlink "$HOME/Nextcloud/Apps/macbook-scripts" "$HOME/scripts"
+fi
+if [ -d "$HOME/Nextcloud/Apps/Warp/launch_configurations" ]; then
   symlink "$HOME/Nextcloud/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
 fi
 
