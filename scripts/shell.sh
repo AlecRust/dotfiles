@@ -44,19 +44,16 @@ if [ -d "$HOME/Nextcloud/Apps/Warp/launch_configurations" ]; then
   symlink "$HOME/Nextcloud/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
 fi
 
-echo "==> 📜 Setting Homebrew Zsh as default shell"
-
-# Add Homebrew Zsh to accepted shells if not present
-if ! grep -Fxq "$(which zsh)" /etc/shells >/dev/null 2>&1; then
-  sudo sh -c "echo $(which zsh) >> /etc/shells"
-fi
-
-# Set Homebrew Zsh as default shell if not already set
-if [ "$SHELL" != "$(which zsh)" ]; then
-  chsh -s "$(which zsh)"
-fi
-
 if [ -z "$CI" ]; then
+  echo "==> 📜 Setting Homebrew Zsh as default shell"
+  brew_zsh="$(brew --prefix)/bin/zsh"
+  if ! grep -Fxq "$brew_zsh" /etc/shells; then
+    printf '%s\n' "$brew_zsh" | sudo tee -a /etc/shells >/dev/null
+  fi
+  if [ "$SHELL" != "$brew_zsh" ]; then
+    chsh -s "$brew_zsh"
+  fi
+
   echo "==> 📜 Installing runtimes and CLI tools"
   mise --cd "$HOME" install
   mise --cd "$HOME" current
