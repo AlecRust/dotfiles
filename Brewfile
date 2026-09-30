@@ -96,8 +96,7 @@ cask "warp"
 cask "zoom"
 
 # Development apps
-cask "affinity-designer"
-cask "affinity-photo"
+cask "affinity"
 cask "copilot-cli"
 cask "codex"
 cask "claude"
