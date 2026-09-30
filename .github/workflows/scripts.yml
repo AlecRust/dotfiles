@@ -19,7 +19,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v7
       - name: Run shell.sh
-        run: ./scripts/shell.sh
+        run: HOME="$(mktemp -d)" ./scripts/shell.sh
 
   vscode:
     name: vscode.sh
@@ -38,16 +38,3 @@ jobs:
         uses: actions/checkout@v7
       - name: Run sublime.sh
         run: ./scripts/sublime.sh
-
-  macos:
-    name: macos.sh
-    runs-on: macos-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v7
-      - name: Run macos.sh
-        run: |
-          brew install infat
-          brew install dockutil
-          brew install dark-mode
-          ./scripts/macos.sh
