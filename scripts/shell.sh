@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 REPO_PATH="$(cd "$(dirname "$0")/.." && pwd)"
 
@@ -53,20 +54,10 @@ if [ "$SHELL" != "$(which zsh)" ]; then
   chsh -s "$(which zsh)"
 fi
 
-# Install latest language versions with mise
 if [ -z "$CI" ]; then
-  echo "==> 📜 Installing Go, Node, Python and Ruby runtimes"
-
-  mise use -g go@latest
-  mise use -g node@lts
-  mise use -g bun@latest
-  mise use -g deno@latest
-  mise use -g python@latest
-  mise use -g ruby@latest
-
-  echo "==> ℹ️ Runtimes installed via mise:"
-
-  mise current
+  echo "==> 📜 Installing runtimes and CLI tools"
+  mise --cd "$HOME" install
+  mise --cd "$HOME" current
 fi
 
 # Notify if .extra file is missing
