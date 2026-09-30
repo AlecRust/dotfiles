@@ -1,7 +1,31 @@
 [tools]
 go = "latest"
-node = "lts"
+node = { version = "lts", postinstall = "npm install -g node-gyp" }
 bun = "latest"
 deno = "latest"
 python = "latest"
-ruby = "latest"
+ruby = { version = "latest", postinstall = "gem install bundler" }
+
+# Standalone CLI tools are managed independently of runtime upgrades.
+"npm:npm-check-updates" = "latest"
+"npm:npm-check" = "latest"
+"npm:xcodebuildmcp" = "latest"
+"npm:markdownlint-cli2" = "latest"
+"npm:@google/gemini-cli" = "latest"
+"npm:@posthog/cli" = "latest"
+"npm:@sentry/cli" = "latest"
+"npm:@lhci/cli" = "latest"
+"npm:trash-cli" = "latest"
+"npm:retry-cli" = "latest"
+"npm:del-cli" = "latest"
+"npm:eas-cli" = "latest"
+"npm:neonctl" = "latest"
+"npm:stylelint" = "latest"
+"npm:wrangler" = "latest"
+"npm:renovate" = "latest"
+"npm:vercel" = "latest"
+"npm:cspell" = "latest"
+"npm:serve" = "latest"
+"npm:svgo" = "latest"
+"npm:cf" = "latest"
+"gem:rails" = "latest"
