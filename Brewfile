@@ -97,6 +97,7 @@ cask "zoom"
 
 # Development apps
 cask "affinity"
+cask "chatgpt"
 cask "copilot-cli"
 cask "codex"
 cask "claude"
