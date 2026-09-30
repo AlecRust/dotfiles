@@ -3,15 +3,11 @@ set -e
 
 echo "==> 📜 Changing macOS settings"
 
-
 # Set computer name so alecs-macbook.local is a hostname
 sudo scutil --set ComputerName "Alec's MacBook"
 sudo scutil --set HostName "alecs-macbook"
 sudo scutil --set LocalHostName "alecs-macbook"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "alecs-macbook"
-
-# Show the /Volumes folder
-sudo chflags nohidden /Volumes
 
 # Set language and text formats
 defaults write NSGlobalDomain AppleLanguages -array "en"
@@ -64,11 +60,11 @@ defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 # Disable automatic capitalization as it’s annoying when typing code
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 
-# Disable smart quotes as they’re annoying when typing code
+# Disable smart quotes and dashes as they’re annoying when typing code
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
-# Enable full keyboard access for all controls
-# (e.g. enable Tab in modal dialogs)
+# Enable Tab navigation between controls
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Finder: disable window animations and Get Info animations
@@ -120,10 +116,6 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
   OpenWith -bool true \
   Privileges -bool true
 
-# Privacy: don’t send search queries to Apple
-defaults write com.apple.Safari UniversalSearchEnabled -bool false
-defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-
 # Set the icon size of Dock items to 50 pixels
 defaults write com.apple.dock tilesize -int 50
 
@@ -165,22 +157,22 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 echo "==> 📜 Removing apps from Dock"
 
-dockutil --remove "App Store"
-dockutil --remove "Calendar"
-dockutil --remove "Contacts"
-dockutil --remove "FaceTime"
-dockutil --remove "Keynote"
-dockutil --remove "Mail"
-dockutil --remove "Maps"
-dockutil --remove "Music"
-dockutil --remove "News"
-dockutil --remove "Notes"
-dockutil --remove "Numbers"
-dockutil --remove "Pages"
-dockutil --remove "Photos"
-dockutil --remove "Podcasts"
-dockutil --remove "Safari"
-dockutil --remove "TV"
+dockutil --remove "App Store" || true
+dockutil --remove "Calendar" || true
+dockutil --remove "Contacts" || true
+dockutil --remove "FaceTime" || true
+dockutil --remove "Keynote" || true
+dockutil --remove "Mail" || true
+dockutil --remove "Maps" || true
+dockutil --remove "Music" || true
+dockutil --remove "News" || true
+dockutil --remove "Notes" || true
+dockutil --remove "Numbers" || true
+dockutil --remove "Pages" || true
+dockutil --remove "Photos" || true
+dockutil --remove "Podcasts" || true
+dockutil --remove "Safari" || true
+dockutil --remove "TV" || true
 
 echo "==> 📜 Setting default file extension associations"
 
