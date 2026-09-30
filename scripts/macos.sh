@@ -158,9 +158,11 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 echo "==> 📜 Removing apps from Dock"
 
 dockutil --remove "App Store" || true
+dockutil --remove "Apps" || true
 dockutil --remove "Calendar" || true
 dockutil --remove "Contacts" || true
 dockutil --remove "FaceTime" || true
+dockutil --remove "Freeform" || true
 dockutil --remove "Keynote" || true
 dockutil --remove "Mail" || true
 dockutil --remove "Maps" || true
