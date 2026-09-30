@@ -36,6 +36,9 @@ alias reload="source ~/.zshrc"
 # Kill all Node.js processes
 alias killnode='killall node'
 
+# Stop all Next.js dev servers owned by this user
+alias stop-next-dev="pkill -TERM -u \"\$UID\" -f '(^|[ /])next dev( |\$)'"
+
 # List all PATH entries
 alias path='echo -e ${PATH//:/\\n}'
 
