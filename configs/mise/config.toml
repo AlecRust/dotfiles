@@ -1,7 +1,7 @@
 [tools]
 go = "latest"
 node = { version = "lts", postinstall = "npm install -g node-gyp" }
-bun = "latest"
+bun = { version = "latest", minimum_release_age = "0s" }
 python = "latest"
 ruby = { version = "latest", postinstall = "gem install bundler" }
 
@@ -21,7 +21,6 @@ ruby = { version = "latest", postinstall = "gem install bundler" }
 "npm:neonctl" = "latest"
 "npm:stylelint" = "latest"
 "npm:wrangler" = "latest"
-"npm:renovate" = "latest"
 "npm:vercel" = "latest"
 "npm:cspell" = "latest"
 "npm:serve" = "latest"
