@@ -28,7 +28,6 @@ for file in "$REPO_PATH"/dotfiles/.*; do
 done
 
 # Symlink tool configs
-symlink "$REPO_PATH/configs/biome/biome.json" "$HOME/biome.json"
 symlink "$REPO_PATH/configs/infat/config.toml" "$HOME/.config/infat/config.toml"
 symlink "$REPO_PATH/configs/mise/config.toml" "$HOME/.config/mise/config.toml"
 symlink "$REPO_PATH/configs/mise/settings.toml" "$HOME/.config/mise/settings.toml"
