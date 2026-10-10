@@ -13,7 +13,7 @@ override_opacity = 80
 
 [appearance.themes]
 system_theme = true
-selected_system_themes = { dark = "cyber_wave", light = "light" }
+selected_system_themes = { dark = "solar_flare", light = "light" }
 
 [appearance.cursor]
 cursor_blink = "disabled"
@@ -21,8 +21,14 @@ cursor_blink = "disabled"
 [appearance.panes]
 should_dim_inactive_panes = true
 
+[appearance.vertical_tabs]
+enabled = false
+
 [code.editor]
 use_warp_as_default_editor = true
+show_code_review_button = true
+show_project_explorer = true
+show_global_search = true
 
 [code.indexing]
 agent_mode_codebase_context_auto_indexing = true
@@ -30,6 +36,7 @@ agent_mode_codebase_context_auto_indexing = true
 [general]
 restore_session = false
 login_item = false
+default_session_mode = "agent"
 
 [terminal.input]
 error_underlining_enabled = false
@@ -42,6 +49,9 @@ mode = "enabled"
 [agents]
 cloud_conversation_storage_enabled = false
 
+[agents.warp_agent]
+is_any_ai_enabled = false
+
 [agents.warp_agent.active_ai]
 code_suggestions_enabled = false
 
@@ -51,6 +61,8 @@ nld_in_terminal_enabled = false
 
 [agents.warp_agent.other]
 should_render_use_agent_toolbar_for_user_commands = false
+show_agent_notifications = true
+show_conversation_history = true
 
 [agents.execution_profiles]
 
@@ -91,5 +103,11 @@ run_agents = "always_ask"
 web_search_enabled = true
 write_to_pty = "always_ask"
 
+[agents.third_party]
+should_render_cli_agent_toolbar = true
+
 [account]
 is_settings_sync_enabled = false
+
+[warp_drive]
+enabled = true
