@@ -27,3 +27,10 @@ ruby = { version = "latest", postinstall = "gem install bundler" }
 "npm:svgo" = "latest"
 "npm:cf" = "latest"
 "gem:rails" = "latest"
+
+[settings]
+trusted_config_paths = ["~/projects"]
+idiomatic_version_file_enable_tools = ["node", "python", "ruby"]
+
+[bootstrap.user]
+login_shell = "/opt/homebrew/bin/zsh"

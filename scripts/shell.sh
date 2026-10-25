@@ -30,7 +30,6 @@ done
 # Symlink tool configs
 symlink "$REPO_PATH/configs/infat/config.toml" "$HOME/.config/infat/config.toml"
 symlink "$REPO_PATH/configs/mise/config.toml" "$HOME/.config/mise/config.toml"
-symlink "$REPO_PATH/configs/mise/settings.toml" "$HOME/.config/mise/settings.toml"
 symlink "$REPO_PATH/configs/starship/starship.toml" "$HOME/.config/starship.toml"
 symlink "$REPO_PATH/configs/topgrade/topgrade.toml" "$HOME/.config/topgrade.toml"
 symlink "$REPO_PATH/configs/warp/settings.toml" "$HOME/.warp/settings.toml"
@@ -45,13 +44,7 @@ fi
 
 if [ -z "$CI" ]; then
   echo "==> 📜 Setting Homebrew Zsh as default shell"
-  brew_zsh="$(brew --prefix)/bin/zsh"
-  if ! grep -Fxq "$brew_zsh" /etc/shells; then
-    printf '%s\n' "$brew_zsh" | sudo tee -a /etc/shells >/dev/null
-  fi
-  if [ "$SHELL" != "$brew_zsh" ]; then
-    chsh -s "$brew_zsh"
-  fi
+  mise --cd "$HOME" bootstrap user apply
 
   echo "==> 📜 Installing runtimes and CLI tools"
   mise --cd "$HOME" install

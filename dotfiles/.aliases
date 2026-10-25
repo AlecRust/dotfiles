@@ -65,8 +65,8 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-# Update Zsh plugins and mise runtimes
-alias update-shell="antidote update; mise upgrade; mise prune"
+# Update Zsh plugins and global mise tools
+alias update-shell="antidote update && mise upgrade --global"
 
 # Update Homebrew packages
 alias update-brew='brew update; brew upgrade; brew cleanup'
