@@ -12,6 +12,8 @@ export EDITOR="code"
 # Change lsd "overly permissive permissions" indicator to be more readable
 export LS_COLORS="$LS_COLORS:ow=30;101:"
 
+# Stop mas from triggering Spotlight re-indexing
+export MAS_NO_AUTO_INDEX=1
 
 # Extend PATH
 # 1. Add GNU versions of core utilities to start of PATH to override defaults
