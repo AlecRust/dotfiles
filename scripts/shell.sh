@@ -34,12 +34,13 @@ symlink "$REPO_PATH/configs/starship/starship.toml" "$HOME/.config/starship.toml
 symlink "$REPO_PATH/configs/topgrade/topgrade.toml" "$HOME/.config/topgrade.toml"
 symlink "$REPO_PATH/configs/warp/settings.toml" "$HOME/.warp/settings.toml"
 
-# Symlink Nextcloud dirs if present
-if [ -d "$HOME/Nextcloud/Apps/macbook-scripts" ]; then
-  symlink "$HOME/Nextcloud/Apps/macbook-scripts" "$HOME/scripts"
+# Symlink synced app settings and scripts if present
+if [ -d "$HOME/SynologyDrive/Apps/macbook-scripts" ]; then
+  find "$HOME/SynologyDrive/Apps/macbook-scripts" -type f -name '*.sh' -exec chmod u+x {} +
+  symlink "$HOME/SynologyDrive/Apps/macbook-scripts" "$HOME/scripts"
 fi
-if [ -d "$HOME/Nextcloud/Apps/Warp/launch_configurations" ]; then
-  symlink "$HOME/Nextcloud/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
+if [ -d "$HOME/SynologyDrive/Apps/Warp/launch_configurations" ]; then
+  symlink "$HOME/SynologyDrive/Apps/Warp/launch_configurations" "$HOME/.warp/launch_configurations"
 fi
 
 if [ -z "$CI" ]; then

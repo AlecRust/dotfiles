@@ -42,7 +42,7 @@ My macOS setup.
 
 3. Set up other apps
 
-    - Import Raycast settings from Nextcloud
+    - Import Raycast settings from `~/SynologyDrive/Apps/Raycast`
     - Disable "Hardware Media Key Handling" at `helium://flags`
     - Enable "Show features for web developers" at `Safari > Settings > Advanced`
     - Sourcetree
@@ -69,7 +69,7 @@ Backup these files/folders from old machine and restore on new machine:
 - `~/docker`
 - `~/Downloads`
 - `~/Desktop`
-- `~/Nextcloud`
+- `~/SynologyDrive`
 - `~/projects`
 - [Exported](https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys#backup-single-key) GPG keys
 - [Exported](https://localwp.com/help-docs/getting-started/how-to-export-a-wordpress-site-on-local/) Local sites
