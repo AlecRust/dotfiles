@@ -37,7 +37,7 @@ My macOS setup.
 
     - Set up GitHub connection with `gh auth login`
     - Import GPG keys or create with `gpg --full-generate-key` and [add to GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
-    - Set up 1Password connection with `op account add`
+    - In 1Password Developer settings, enable CLI integration, SSH Agent and MCP integration
     - Copy SSH keys from each machine on local network with `ssh-copy-id`
 
 3. Set up other apps
@@ -58,6 +58,7 @@ My macOS setup.
     - Kaleidoscope
         - Set font to Fira Code 12pt
         - Set terminal app to Warp
+
 ### Backup Files
 
 Backup these files/folders from old machine and restore on new machine:
